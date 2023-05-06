@@ -7,12 +7,13 @@ Before getting started, please read and adhere to the code of conduct. We want t
 ## Getting Started
 Here are the basic steps to contribute to Learn-Git:
 
-Fork the repository
-Create a new branch for your changes
-Make your changes and commit them to your branch
-Push your changes to your fork
-Create a pull request
-How to Contribute
++ Fork the repository
++ Create a new branch for your changes
++ Make your changes and commit them to your branch
++ Push your changes to your fork
++ Create a pull request
+
+## How to Contribute
 We welcome contributions in the following forms:
 
 ## Corrections
@@ -27,10 +28,11 @@ If you have suggestions for improving existing content, please open an issue to 
 ## Style Guide
 When contributing to Learn-Git, please adhere to the following style guide:
 
-Use clear and concise language
-Use headings and subheadings to break up sections
-Use examples and visuals to illustrate concepts
-Include links to relevant resources when appropriate
-Use American English spelling and grammar
-Conclusion
++ Use clear and concise language
++ Use headings and subheadings to break up sections
++ Use examples and visuals to illustrate concepts
++ Include links to relevant resources when appropriate
++ Use American English spelling and grammar
+
+# Conclusion
 Thank you for taking the time to contribute to Learn-Git! Your contributions can help make Git more accessible to people who are just getting started.
