@@ -49,13 +49,13 @@ If there are any issues or concerns that the repository owner should be aware of
 
 Once you're satisfied with the description, click on the "Create pull request" button.
 
-    Wait for feedback: After creating the pull request, the repository owner will review your changes and provide feedback.
+Wait for feedback: After creating the pull request, the repository owner will review your changes and provide feedback.
 
 They may ask you to make additional changes, or they may merge your changes into the original repository.
 
 Be patient and responsive during this process, and make sure to address any feedback or concerns that the repository owner raises.
 
-    Update your forked repository: If the repository owner merges your changes into the original repository, you'll need to update your forked repository to reflect those changes.
+Update your forked repository: If the repository owner merges your changes into the original repository, you'll need to update your forked repository to reflect those changes.
 
 To do this, navigate to your forked repository on GitHub and click on the "Fetch upstream" button.
 
