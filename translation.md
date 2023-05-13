@@ -6,16 +6,16 @@ We welcome contributions to help translate our documentation into additional lan
 
 + Fork this repository.
 + Create a new branch for your translation work.
-+ Duplicate the en directory in the root of the repository and rename it to the appropriate language code (e.g. fr for French).
++ Duplicate the contents in the directory in the root of the repository and rename it to the appropriate language code (e.g. fr for French).
 + Translate the contents of the files in the new directory.
 + Create a pull request with your changes.
 
-Please keep the following guidelines in mind when translating:
+### Please keep the following guidelines in mind when translating:
 
-Translate the text as faithfully as possible, while also considering the nuances of the target language.
-Use the appropriate terms and conventions for the target language.
-Keep the formatting and layout consistent with the original document.
-Language Codes
+* Translate the text as faithfully as possible, while also considering the nuances of the target language.
+* Use the appropriate terms and conventions for the target language.
+* Keep the formatting and layout consistent with the original document.
+### Language Codes
 Here are the language codes we use for translations:
 
 + en: English (default)
