@@ -62,8 +62,7 @@ To do this, navigate to your forked repository on GitHub and click on the "Fetch
 Then, run the following command in your local repository to update it:
 
 ```
-git pull main
-
+git pull
 ```
 
 That should give you a brief idea of how to use Git, of course you can look at the lessons that I have created in this repository for more in depth explainations.
