@@ -65,3 +65,5 @@ Then, run the following command in your local repository to update it:
 git pull main
 
 ```
+
+That should give you a brief idea of how to use Git, of course you can look at the lessons that I have created in this repository for more in depth explainations.
