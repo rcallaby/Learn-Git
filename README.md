@@ -34,10 +34,10 @@ Be sure to include a brief, informative message describing the changes you made.
 Push the changes to GitHub: After committing the changes to your local repository, you'll need to push them to GitHub. This will update the copy of the repository in your GitHub account with the changes you made. To push the changes, use the following command:
 
 ```
-git push origin master
+git push origin main
 
 ```
-Be sure to replace "master" with the name of the branch you want to push your changes to.
+Be sure to replace "main" with the name of the branch you want to push your changes to.
 
 Create a pull request: After pushing the changes to GitHub, you'll need to create a pull request. A pull request is a request for the repository owner to pull in the changes you made and merge them with the original repository. To create a pull request, go to the repository page in your GitHub account and click on the "New pull request" button.
 
@@ -62,5 +62,6 @@ To do this, navigate to your forked repository on GitHub and click on the "Fetch
 Then, run the following command in your local repository to update it:
 
 ```
-git pull upstream master
+git pull main
+
 ```
