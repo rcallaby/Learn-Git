@@ -1,4 +1,5 @@
 # Git Best Practices and Tips
+
 ## Managing a clean commit history
 
 Version control systems like Git and platforms like GitHub have revolutionized the way software development is managed and collaborated upon. One essential aspect of using Git and GitHub effectively is maintaining a clean and organized commit history. A well-maintained commit history not only helps developers better understand the project's evolution but also aids in debugging, code reviews, and collaboration. In this article, we will explore various practices and techniques to manage a clean commit history in Git and GitHub.
@@ -261,3 +262,5 @@ Set up status checks and CI to automatically run tests and checks when changes a
 Use labels and milestones to categorize and track pull requests. Labels can indicate the status of a PR (e.g., "needs review," "work in progress") while milestones can group related PRs for a specific release or feature.
 
 Collaborative workflows and code review etiquette are fundamental aspects of successful software development using Git and GitHub. By adopting the right workflow for your team, such as the Feature Branch Workflow, you can ensure smoother parallel development and minimize conflicts. Effective code review etiquette, including constructive feedback, understanding context, and using code review tools efficiently, fosters a positive team culture and improves code quality. Leveraging GitHub's collaborative features, such as pull requests, status checks, and milestones, further streamlines the development process and enhances team collaboration. By incorporating these best practices into your workflow, you can achieve a more organized, efficient, and collaborative software development process.
+
+
