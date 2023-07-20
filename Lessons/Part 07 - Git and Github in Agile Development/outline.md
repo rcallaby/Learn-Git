@@ -1,5 +1,12 @@
-X. Git and GitHub in Agile Development
-A. Git and GitHub's role in agile software development
-B. Branching strategies for agile teams
-C. Managing project backlogs and sprints with GitHub
-D. Integrating Git and GitHub with issue tracking tools
+# Git and GitHub in Agile Development
+
+
+## Git and GitHub's role in agile software development
+
+
+## Branching strategies for agile teams
+
+## Managing project backlogs and sprints with GitHub
+
+
+## Integrating Git and GitHub with issue tracking tools
