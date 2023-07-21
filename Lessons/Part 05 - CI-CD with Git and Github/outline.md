@@ -8,19 +8,19 @@ Continuous Integration/Continuous Deployment (CI/CD) is a vital practice in mode
 CI/CD pipelines are sets of automated workflows that allow developers to automatically build, test, and deploy code changes to production. The pipeline is triggered whenever changes are pushed to the repository, ensuring that new code is continuously integrated, tested, and delivered. The goal is to catch bugs early, reduce manual interventions, and increase development efficiency.
 
 ### Setting Up CI/CD Pipelines with Git and GitHub
-Step 1: Selecting a CI/CD Tool
+- Step 1: Selecting a CI/CD Tool
 Several CI/CD tools are available, such as Jenkins, Travis CI, CircleCI, GitLab CI/CD, and GitHub Actions. Choose the one that best suits your project's requirements and integrates seamlessly with Git and GitHub.
 
-Step 2: Repository Setup
+- Step 2: Repository Setup
 Ensure your application code is version-controlled using Git and hosted in a GitHub repository. The CI/CD tool will access the code from the repository to trigger the pipeline.
 
-Step 3: CI Configuration
+- Step 3: CI Configuration
 Create a configuration file in your repository to define the CI/CD pipeline. For GitHub Actions, the configuration file is typically .github/workflows/ci.yml.
 
-Step 4: Defining CI Workflow
+- Step 4: Defining CI Workflow
 In the CI configuration file, define the steps to be executed when the pipeline is triggered. Common steps include checking out the repository, setting up the build environment, installing dependencies, and running tests.
 
-Step 5: Example GitHub Actions CI Workflow:
+- Step 5: Example GitHub Actions CI Workflow:
 
 ```
 name: Continuous Integration
@@ -169,16 +169,16 @@ jobs:
 ```
 ### Code Quality Checks in Git and GitHub
 
-Step 1: Linting
+- Step 1: Linting
 Linters analyze the code for potential errors, stylistic issues, and adherence to coding standards. Popular linters include ESLint for JavaScript, RuboCop for Ruby, and Pylint for Python. Install and configure the relevant linters for your project.
 
-Step 2: Static Code Analysis
+- Step 2: Static Code Analysis
 Integrate static code analysis tools like SonarQube or CodeClimate to perform in-depth code quality checks. These tools identify complex code, code smells, and potential security vulnerabilities.
 
-Step 3: Code Formatting
+- Step 3: Code Formatting
 Enforce consistent code formatting using tools like Prettier or Black. Code formatting checks help maintain a clean and readable codebase.
 
-Step 4: Example GitHub Actions Workflow for Code Quality Checks:
+- Step 4: Example GitHub Actions Workflow for Code Quality Checks:
 
 ```
 name: Code Quality Checks
