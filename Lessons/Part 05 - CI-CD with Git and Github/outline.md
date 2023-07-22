@@ -235,13 +235,13 @@ In today's fast-paced development landscape, deploying applications efficiently 
 ### Setting Up Git and GitHub Repository
 To begin, you need to have a Git repository on GitHub where your application's source code is hosted. If you haven't created one yet, follow these steps:
 
-Step 1: Sign in to GitHub and click on the "+" sign at the top-right corner of the page.
+- Step 1: Sign in to GitHub and click on the "+" sign at the top-right corner of the page.
 
-Step 2: Select "New repository" from the dropdown menu.
+- Step 2: Select "New repository" from the dropdown menu.
 
-Step 3: Provide a repository name, description, and choose between a public or private repository.
+- Step 3: Provide a repository name, description, and choose between a public or private repository.
 
-Step 4: Initialize the repository with a README or create it empty. Then, click on "Create repository."
+- Step 4: Initialize the repository with a README or create it empty. Then, click on "Create repository."
 
 ### Setting up your Application
 For the purpose of this guide, let's assume you have a simple web application built with HTML, CSS, and JavaScript. Ensure that your application code is stored in the GitHub repository you created in the previous step.
@@ -286,13 +286,13 @@ jobs:
 ### Explaining the Deployment Configuration
 Let's go through the key components of the deployment configuration file:
 
-on: Specifies when the GitHub Action should be triggered. In this case, it triggers when there is a push to the main branch.
+- on: Specifies when the GitHub Action should be triggered. In this case, it triggers when there is a push to the main branch.
 
-jobs: Contains a list of jobs that will be executed when the Action is triggered. In this case, we have one job named deploy.
+- jobs: Contains a list of jobs that will be executed when the Action is triggered. In this case, we have one job named deploy.
 
-runs-on: Specifies the operating system the job will run on. We are using ubuntu-latest.
+- runs-on: Specifies the operating system the job will run on. We are using ubuntu-latest.
 
-steps: Contains a series of steps that will be executed in sequence. The steps perform tasks like checking out the repository, setting up Node.js, installing dependencies, building the application, and deploying it to the server.
+- steps: Contains a series of steps that will be executed in sequence. The steps perform tasks like checking out the repository, setting up Node.js, installing dependencies, building the application, and deploying it to the server.
 
 #### Deploying the Application
 With the deployment configuration set up, your application will be automatically deployed whenever you push changes to the main branch. This enables a continuous deployment workflow, reducing manual intervention and ensuring consistency in your deployments.
