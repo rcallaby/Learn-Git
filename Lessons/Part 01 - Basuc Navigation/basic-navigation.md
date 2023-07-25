@@ -9,28 +9,69 @@ To begin, open your preferred terminal application. On most Unix-based systems, 
 ## Navigating through Directories:
 The cd command (short for "change directory") is fundamental for navigating through the file system. Here are some common cd usage examples:
 
-To move into a directory, use cd <directory> (replace <directory> with the desired directory name).
-To go back one directory level, type cd ...
-To go to your home directory, use cd or cd ~.
-To move to the previous directory, use cd -.
+To move into a directory, use cd <directory> (replace <directory> with the desired directory name). Such as:
+```
+cd Documents
+```
+To go back one directory level, type cd .. such as:
+```
+cd ..
+```
+To go to your home directory, use cd or cd ~ Such as:
+```
+cd ~
+```
+To move to the previous directory, use cd - Such as:
+```
+cd -
+```
 
 ## Listing Directory Contents:
 The ls command is used to list the contents of a directory. By default, it displays the files and directories in the current directory. Some useful flags to enhance ls functionality:
+
 ls -l displays the contents in a detailed list format.
+```
+ls -l
+```
 ls -a shows hidden files and directories.
+```
+ls -a
+```
 ls -h provides human-readable file sizes.
+```
+ls -h
+```
 ls -R lists directories and their contents recursively.
+```
+ls -R
+```
 
 ## Creating and Removing Directories:
 You can create directories using the mkdir command followed by the desired directory name:
-To create a directory in the current location, use mkdir <directory>.
+To create a directory in the current location, use mkdir <directory>. Such as:
+```
+mkdir thisdirectory
+```
 To create nested directories, utilize mkdir -p <parent_directory>/<child_directory>.
+```
+mkdir -p thisdirectory/subdirectory
+```
 To remove directories, employ the rmdir command:
 rmdir <directory> deletes an empty directory.
+```
+rmdir thisdirectory
+```
 Moving and Renaming Files and Directories:
 The mv command allows you to move and rename files and directories:
-To move a file or directory, use mv <source> <destination>.
+To move a file or directory, use mv <source> <destination>. Such as:
+```
+mv thisdirectory newdirectoryname
+```
+
 To rename a file or directory, employ mv <old_name> <new_name>.
+```
+mv olddirectory newdirectory
+```
 
 
 # Conclusion:

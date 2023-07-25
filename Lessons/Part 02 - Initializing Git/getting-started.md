@@ -3,12 +3,35 @@
 ## Basic Git Operations:
 Git provides a vast array of commands for version control, but here are a few fundamental ones:
 
-git init initializes a new Git repository in the current directory.
-git clone <repository_url> copies a remote repository to your local machine.
+git init initializes a new Git repository in the current directory. Such as:
+```
+git init directoryname
+```
+git clone <repository_url> copies a remote repository to your local machine. Such as:
+```
+git clone directoryname
+```
 git add <file> stages changes made to a file for commit.
-git commit -m "<commit_message>" commits the staged changes to the repository.
+```
+git add . 
+```
+or
+```
+git add filename
+```
+git commit -m "<commit_message>" commits the staged changes to the repository. Such as:
+```
+git commit -m "a detailed commit message"
+```
+
 git push uploads your committed changes to a remote repository.
+```
+git push repositoryname
+```
 git pull fetches and merges changes from a remote repository to your local repository.
+```
+git pull
+```
 
 Below is a step by step tutorial on how to setup Git on Linux, Windows, and Mac.
 
