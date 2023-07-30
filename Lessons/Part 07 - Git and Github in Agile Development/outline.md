@@ -66,7 +66,7 @@ b. Ensure code quality: By using dedicated branches for testing and code reviews
 c. Minimize risk: Branching strategies help isolate experimental or potentially risky changes, reducing the chance of destabilizing the main codebase.
 
 ### Common Branching Strategies for Agile Teams:
-a. Feature Branching:
+Feature Branching:
 
 Feature branching is one of the most popular branching strategies for Agile teams. Each new feature or user story is developed in its own dedicated branch. Once the feature is complete, it is merged back into the main development branch (often named "develop" or "main").
 
@@ -75,7 +75,7 @@ Feature branching is one of the most popular branching strategies for Agile team
 Allows parallel development of features.
 Reduces the risk of conflicts during integration.
 Enables feature-specific testing and code reviews.
-b. Gitflow Workflow:
+- Gitflow Workflow:
 
 Gitflow is a branching model that builds upon feature branching. It defines specific branches for features, releases, and hotfixes. It consists of two main branches: "develop" (for ongoing development) and "master" (for stable releases).
 
@@ -84,7 +84,7 @@ Gitflow is a branching model that builds upon feature branching. It defines spec
 Clearly defined branching model.
 Ideal for projects with scheduled releases.
 Encourages regular integration of features and fixes.
-c. GitHub Flow:
+- GitHub Flow:
 
 GitHub Flow is a lightweight branching strategy used by many Agile teams. It revolves around a single main branch (usually "main" or "master") and short-lived feature branches. Once a feature is ready, it undergoes testing and review before being directly merged into the main branch.
 
@@ -100,10 +100,12 @@ a. Team Size and Collaboration:
 
 Smaller teams may find GitHub Flow more suitable due to its simplicity.
 Larger teams could benefit from Gitflow, as it provides a more structured approach.
+
 b. Release Cycle:
 
 Projects with scheduled releases and rigorous testing often prefer Gitflow for better release management.
 Projects that require frequent and continuous delivery may lean towards GitHub Flow.
+
 c. Risk Tolerance:
 
 If your team is risk-averse and cautious about changes, Gitflow's segregation of features and hotfixes may be preferable.
