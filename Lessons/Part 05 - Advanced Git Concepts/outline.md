@@ -204,7 +204,7 @@ git submodule add <repository-url> <destination-path>
 ```
 This adds the submodule repository at the specified destination path in your main project. The submodule is a pointer to a specific commit in the external repository, ensuring that your main project remains independent of changes in the submodule.
 
-II. Best Practices for Collaborating with Submodules:
+#### Best Practices for Collaborating with Submodules:
 
 Communication and Documentation:
 Collaborators must communicate effectively about the usage and purpose of submodules. It is crucial to document how to initialize, update, and work with submodules in the project's README or documentation. This ensures everyone is on the same page and avoids misunderstandings.
