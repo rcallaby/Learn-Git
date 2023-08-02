@@ -29,11 +29,11 @@ If you have suggestions for improving existing content, please open an issue to 
 ## Style Guide
 When contributing to Learn-Git, please adhere to the following style guide:
 
-+ Use clear and concise language
-+ Use headings and subheadings to break up sections
-+ Use examples and visuals to illustrate concepts
-+ Include links to relevant resources when appropriate
-+ Use American English spelling and grammar
+- Use clear and concise language
+- Use headings and subheadings to break up sections
+- Use examples and visuals to illustrate concepts
+- Include links to relevant resources when appropriate
+- Use American English spelling and grammar
 
 # Conclusion
 Thank you for taking the time to contribute to Learn-Git! Your contributions can help make Git more accessible to people who are just getting started.
