@@ -73,3 +73,108 @@ When working on shared features, use pull requests to merge changes back into th
 # Conclusion:
 
 GitHub Codespaces provides Ruby on Rails developers with a versatile and cloud-based development environment, allowing them to code efficiently without the need for local installations. By following the steps outlined in this article and leveraging the collaborative capabilities of Codespaces, teams can streamline their development process and focus on building high-quality Rails applications.
+
+## Github Actions for Ruby on Rails Using Codespaces
+
+### Continuous Integration (CI): Set up a workflow to run tests and checks whenever code is pushed to your repository.
+
+```
+name: Ruby on Rails CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7 # Choose your Ruby version
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Run tests
+      run: bundle exec rails test
+
+
+```
+
+### Automated Deployment: Automatically deploy your Rails application to a hosting platform when changes are pushed to the main branch.
+
+```
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7 # Choose your Ruby version
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Deploy to production
+      run: |
+        bundle exec cap production deploy # Use your deployment command here
+
+
+```
+### Scheduled Tasks: Run periodic tasks, such as database backups, using scheduled GitHub Actions.
+
+```
+name: Scheduled Tasks
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+
+jobs:
+  database_backup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7 # Choose your Ruby version
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Run database backup
+      run: |
+        bundle exec rake db:backup # Use your backup task here
+
+
+```
+These are just a few examples to get you started with GitHub Actions for Ruby on Rails Codespaces. Remember to customize these workflows to match your specific project structure, environment, and requirements.
