@@ -92,3 +92,70 @@ One of the significant benefits of Codespaces is its support for collaborative d
 When working collaboratively, each developer can create their own branch, make changes, and submit pull requests as usual. Reviewers can also test the changes by launching the Codespaces associated with those pull requests, making the review process more efficient.
 
 GitHub Codespaces provides an excellent platform for C# developers to work collaboratively and efficiently. With its cloud-based development environment and easy setup, you can focus on writing code without worrying about the underlying infrastructure. Whether you are working on personal projects or contributing to open-source repositories, C# Codespaces streamline your development process and foster collaboration among team members.
+
+# Using Github Actions in C# Codespaces
+
+### Create a Codespace Configuration File: 
+
+First, you'll need a .devcontainer/devcontainer.json file to configure your Codespace environment. Here's an example:
+
+```
+{
+  "name": "C# Codespace",
+  "image": "mcr.microsoft.com/dotnet/sdk:6.0",
+  "extensions": [
+    "ms-dotnettools.csharp"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [80]
+}
+
+```
+
+This configuration uses the .NET SDK 6.0 image and installs the C# extension for Visual Studio Code.
+
+Create a Workflow YAML File: Next, create a .github/workflows/build.yml file to define your GitHub Actions workflow:
+
+```
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --configuration Release
+
+    - name: Run tests
+      run: dotnet test --configuration Release --no-build
+
+```
+
+This workflow is triggered on pushes to the main branch. It sets up the .NET SDK, restores dependencies, builds the project in Release configuration, and runs tests.
+
+Commit and Push: Commit the .devcontainer and .github folders along with your C# project files to your GitHub repository.
+
+GitHub Actions Execution: When you push changes to the main branch, the GitHub Actions workflow defined in the build.yml file will automatically run. You can check the workflow's progress and results in the "Actions" tab of your GitHub repository.
+
+Remember that these examples are quite basic. Depending on your project's complexity and requirements, you can customize the workflow further by adding steps for deployment, integration tests, code analysis, and more.
+
+Please ensure you adapt these examples to match your project structure and requirements.
