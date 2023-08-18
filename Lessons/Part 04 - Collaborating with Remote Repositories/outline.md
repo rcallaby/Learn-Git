@@ -1,5 +1,11 @@
 # Collaborating with Remote Repositories
 
+- Github
+- GitLab
+- Bitbucket
+- Pushing and Pulling Changes from remote repositories
+- Handling Merge Conflicts
+- Best Practices
 
 ## Setting up remote repositories (GitHub, GitLab, Bitbucket)
 
