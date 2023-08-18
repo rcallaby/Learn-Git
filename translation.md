@@ -18,17 +18,17 @@ We welcome contributions to help translate our documentation into additional lan
 ### Language Codes
 Here are the language codes we use for translations:
 
-+ en: English (default)
-+ fr: French
-+ es: Spanish
-+ de: German
-+ it: Italian
-+ ja: Japanese
-+ ko: Korean
-+ pt: Portuguese
-+ ru: Russian
-+ zh-CN: Simplified Chinese
-+ zh-TW: Traditional Chinese
+- en: English (default)
+- fr: French
+- es: Spanish
+- de: German
+- it: Italian
+- ja: Japanese
+- ko: Korean
+- pt: Portuguese
+- ru: Russian
+- zh-CN: Simplified Chinese
+- zh-TW: Traditional Chinese
 
 ### Current Translations
 Here are the translations that are currently available in this repository:
