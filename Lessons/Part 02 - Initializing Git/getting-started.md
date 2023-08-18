@@ -1,5 +1,10 @@
 # Initialzing Git - Getting Started
 
+- Basic Git Operations
+- Setting up a Git Repository in Linux
+- Setting up a Git Repository in Windows
+- Setting up a Git Repository in Mac
+
 ## Basic Git Operations:
 Git provides a vast array of commands for version control, but here are a few fundamental ones:
 
