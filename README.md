@@ -66,3 +66,5 @@ git pull
 ```
 
 That should give you a brief idea of how to use Git, of course you can look at the lessons that I have created in this repository for more in depth explainations.
+
+You can use this project as a way to start to contribute to open source projects. This could be a **good first issue** just modify the CONTRIBUTORS.md file so that it links to your own github repository. Use markdown as shown in the file. 
