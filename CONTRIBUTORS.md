@@ -7,3 +7,4 @@ An Example of how this file will be used.
 Use markdown to link to a github repository or a website of your choice, at least within reason.
 
 - [Richard Callaby](http://richardcallaby.com)
+- [Pratham Nagpure](https://github.com/prathamnagpure)
