@@ -1,12 +1,12 @@
 # First Contributions
 
-Contributing to a GitHub repository is a great way to get involved in open-source projects. The CONTRIBUTING.md file is often used to provide guidelines for contributors. However, this repository has a contributors.md file specifically for recognizing contributors, you can follow these steps to make your first contribution:
+Contributing to a GitHub repository is a great way to get involved in open-source projects. The [CONTRIBUTING.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTING.md) file is often used to provide guidelines for contributors. However, this repository has a [contributors.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file specifically for recognizing contributors, you can follow these steps to make your first contribution:
 
 ### Fork the Repository
 
 Forking creates a copy of the repository under your GitHub account.
 
-Go to the repository you want to contribute to.
+Go to the repository you want to contribute to. In this case, you want to contribute to this repository.
 Click the "Fork" button in the top-right corner of the repository's page.
 Wait for GitHub to create a copy of the repository under your account.
 
@@ -34,7 +34,7 @@ Replace your-branch-name with a descriptive name for your branch, such as fix-ty
 
 ### Make Your Contribution
 
-Now it's time to make your contribution. This can involve editing code, documentation, or in this case, the contributors.md file. Open the file in your favorite text editor and add your name to the list of contributors following the project's guidelines.
+Now it's time to make your contribution. This can involve editing code, documentation, or in this case, the [contributors.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file. Open the file in your favorite text editor and add your name to the list of contributors following the project's guidelines.
 
 ### Commit Your Changes
 
@@ -64,6 +64,6 @@ Wait for the project maintainers to review your pull request. They may ask for c
 
 ### Your Contribution is Merged
 
-Once your contribution is approved, it will be merged into the main repository. Congratulations! You've successfully made your first contribution to a contributors.md file on a GitHub repository.
+Once your contribution is approved, it will be merged into the main repository. Congratulations! You've successfully made your first contribution to a [contributors.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file on a GitHub repository.
 
 Remember, each project may have its specific contribution guidelines, so always check the repository's CONTRIBUTING.md or other documentation for any project-specific instructions.
