@@ -75,7 +75,7 @@ That should give you a brief idea of how to use Git, of course you can look at t
 
 ## Good first issue
 
-You can use this project as a way to start to contribute to open source projects. This could be a **good first issue** just modify the CONTRIBUTORS.md file so that it links to your own github repository. Use markdown as shown in the file. 
+You can use this project as a way to start to contribute to open source projects. This could be a **good first issue** just modify the [CONTRIBUTORS.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file so that it links to your own github repository. Use markdown as shown in the file. 
 
 Please look at the First-Contributions directory for a step by step direction on how to contribute to this repository.
 
