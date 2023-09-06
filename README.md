@@ -81,21 +81,21 @@ Please look at the First-Contributions directory for a step by step direction on
 
 ### Table of Contents
 
-Part 00 - History and Foundation
-Part 01 - Basic Navigation
-Part 02 - Initalizing Git
-Part 03 - Branching and Merging
-Part 04 - Collaborating with Remote Repositories
-Part 05 - Advanced Git Concepts
-Part 06
-Part 07
-Part 08
-Part 09
-Part 10
-Part 11
-Part 12
-Part 13
-Part 14
-Part 15
-Part 16
-Part 17
+- Part 00 - History and Foundation
+- Part 01 - Basic Navigation
+- Part 02 - Initalizing Git
+- Part 03 - Branching and Merging
+- Part 04 - Collaborating with Remote Repositories
+- Part 05 - Advanced Git Concepts
+- Part 06
+- Part 07
+- Part 08
+- Part 09
+- Part 10
+- Part 11
+- Part 12
+- Part 13
+- Part 14
+- Part 15
+- Part 16
+- Part 17
