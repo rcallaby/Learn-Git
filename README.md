@@ -77,7 +77,7 @@ That should give you a brief idea of how to use Git, of course you can look at t
 
 You can use this project as a way to start to contribute to open source projects. This could be a **good first issue** just modify the [CONTRIBUTORS.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file so that it links to your own github repository. Use markdown as shown in the file. 
 
-Please look at the First-Contributions directory for a step by step direction on how to contribute to this repository.
+Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/tree/main/First-Contributions) directory for a step by step direction on how to contribute to this repository.
 
 ### Table of Contents
 
@@ -87,15 +87,15 @@ Please look at the First-Contributions directory for a step by step direction on
 - Part 03 - Branching and Merging
 - Part 04 - Collaborating with Remote Repositories
 - Part 05 - Advanced Git Concepts
-- Part 06
-- Part 07
-- Part 08
-- Part 09
-- Part 10
-- Part 11
-- Part 12
-- Part 13
-- Part 14
-- Part 15
-- Part 16
-- Part 17
+- Part 06 - CI-CD with Git and Github
+- Part 07 - Git Best Practices and Tips
+- Part 08 - Git and Github in Agile Development
+- Part 09 - Github and Codespaces
+- Part 10 - Github Actions
+- Part 11 - Advanced Github Actions
+- Part 12 - Using Jupyter Codespaces in Github
+- Part 13 - Using C# Codespaces in Github
+- Part 14 - Using React Codespaces in Github
+- Part 15 - Using Express Codespaces in Github
+- Part 16 - Using Ruby on Rails Codespaces
+- Part 17 - Using Django Codespaces in Github
