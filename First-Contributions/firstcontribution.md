@@ -67,3 +67,5 @@ Wait for the project maintainers to review your pull request. They may ask for c
 Once your contribution is approved, it will be merged into the main repository. Congratulations! You've successfully made your first contribution to a [contributors.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file on a GitHub repository.
 
 Remember, each project may have its specific contribution guidelines, so always check the repository's [CONTRIBUTING.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTING.md) or other documentation for any project-specific instructions.
+
+Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.

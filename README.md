@@ -1,5 +1,6 @@
 # Learn-Git
 This is where you will find a sample repository for my youtube tutorial series on Learning Git and Github.
+If you found this repository to be helpful, please consider giving it a star ⭐ as it will be easier for others to find it.
 
 ## Here is a step by step tutorial on how to contribute to Github
 Create a GitHub account: If you don't already have a GitHub account, you'll need to create one. Go to github.com and click the "Sign up" button in the upper right corner. Follow the instructions to create your account.
