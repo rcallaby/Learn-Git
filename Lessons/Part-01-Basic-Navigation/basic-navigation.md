@@ -4,6 +4,7 @@
 - Navigating through Directories
 - Listing Directory Contents
 - Creating and Moving Directories
+- Creating and Removing Files
 - Conclusion
 
 # Introduction:
