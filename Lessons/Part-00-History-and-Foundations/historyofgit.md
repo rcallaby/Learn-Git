@@ -8,17 +8,17 @@
 
 # Introduction
 
-Git is a distributed version control system that was created by Linus Torvalds in 20051. Git represents history in a fundamentally different way than centralized version controls systems (CVCS) such as Team Foundation Version Control, Perforce, or Subversion. Centralized systems store a separate history for each file in a repository. Git stores history as a graph of snapshots of the entire repository. These snapshots, called commits in Git, can have multiple parents, creating a history that looks like a graph instead of a straight line. This difference in history is incredibly important and is the main reason users familiar with CVCS find Git confusing.
+Git is a distributed version control system that was created by Linus Torvalds in 2005. Git represents history in a fundamentally different way than centralized version controls systems (CVCS) such as Team Foundation Version Control, Perforce, or Subversion. Centralized systems store a separate history for each file in a repository. Git stores history as a graph of snapshots of the entire repository. These snapshots, called commits in Git, can have multiple parents, creating a history that looks like a graph instead of a straight line. This difference in history is incredibly important and is the main reason users familiar with CVCS find Git confusing.
 
 Git is important to learn today because it is widely used by developers and companies around the world. It is an essential tool for managing code changes and collaborating with other developers on projects. Git allows developers to work on code independently and then merge their changes together when they are ready.
 
 ## Who created Git
 
-Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel1. Since then, other kernel developers have contributed to its initial development. Junio Hamano has been the core maintainer since 2005.
+Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel. Since then, other kernel developers have contributed to its initial development. Junio Hamano has been the core maintainer since 2005.
 
 ## The Reason Why Git was created
 
-The original team could no longer use BitKeeper, a previous version control system, after losing their free license to use it. At the time, no other Source Control Management (SCMs) met their specific requirements for a distributed system2. Some of the goals of the new system were speed, simple design, strong support for non-linear development (thousands of parallel branches), fully distributed and able to handle large projects like the Linux kernel efficiently (speed and data size).
+The original team could no longer use BitKeeper, a previous version control system, after losing their free license to use it. At the time, no other Source Control Management (SCMs) met their specific requirements for a distributed system. Some of the goals of the new system were speed, simple design, strong support for non-linear development (thousands of parallel branches), fully distributed and able to handle large projects like the Linux kernel efficiently (speed and data size).
 
 ## Alternatives to Git
 
