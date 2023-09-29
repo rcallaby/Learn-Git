@@ -1,11 +1,12 @@
 # Git - Basic Navigation
 
-- Opening the BASH Terminal
-- Navigating through Directories
-- Listing Directory Contents
-- Creating and Moving Directories
-- Creating and Removing Files
-- Conclusion
+- [Introduction](#introduction)
+- [Opening the BASH Terminal](#opening-the-bash-terminal)
+- [Navigating through Directories](#navigating-through-directories)
+- [Listing Directory Contents](#listing-directory-contents)
+- [Creating and Moving Directories](#creating-and-removing-directories)
+- [Creating and Removing Files](#creating-and-removing-files)
+- [Conclusion](#conclusion)
 
 # Introduction:
 The BASH terminal is a powerful command-line interface that allows users to navigate through their computer's file system, perform various tasks, and interact with version control systems like Git. Git is a widely-used distributed version control system that provides efficient collaboration and tracking of changes to code repositories. In this article, we will explore how to navigate and utilize basic commands in the BASH terminal to work with Git effectively.
