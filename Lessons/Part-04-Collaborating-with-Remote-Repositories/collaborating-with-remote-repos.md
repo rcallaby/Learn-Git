@@ -1,11 +1,12 @@
 # Collaborating with Remote Repositories
 
-- Github
-- GitLab
-- Bitbucket
-- Pushing and Pulling Changes from remote repositories
-- Handling Merge Conflicts
-- Best Practices
+- [Setting up remote repositories (Github, GitLab, Bitbucket)](#setting-up-remote-repositories-github-gitlab-bitbucket)
+- [Github](#github)
+- [GitLab](#gitlab)
+- [Bitbucket](#bitbucket)
+- [Pushing and Pulling Changes from remote repositories](#pushing-and-pulling-changes-from-remote-repositories)
+- [Handling Merge Conflicts](#handling-merge-conflicts)
+- [Best Practices](#best-practices)
 
 ## Setting up remote repositories (GitHub, GitLab, Bitbucket)
 
