@@ -1,10 +1,10 @@
 # Branching and Merging
 
-- Introduction
-- Creating and switching between branches
-- Managing Branch History
-- Handling Merge Conflicts
-- Conclusion
+- [Introduction to branches and their purpose](#introduction-to-branches-and-their-purpose)
+- [Creating and switching between branches](#creating-and-switching-between-branches)
+- [Managing branch history and merging changes](#managing-branch-history-and-merging-changes)
+- [Handling Merge Conflicts](#handling-merge-conflicts)
+- [Conclusion](#conclusion)
 
 # Introduction to branches and their purpose:
 
