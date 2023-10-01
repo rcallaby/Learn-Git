@@ -81,19 +81,19 @@ Before pushing changes, you need to commit your changes locally. A commit is a s
 Step 2: Verify Remote Repository
 Ensure that you have the correct remote repository URL configured in your local repository. You can use the following command to check the remote repositories associated with your local repository:
 
-```
+```bash
 git remote -v
 
 ```
 Step 3: Push Changes
 Use the following command to push your committed changes to the remote repository:
-```
+```bash
 git push <remote_name> <branch_name>
 
 ```
 For example:
 
-```
+```bash
 git push origin main
 
 ```
@@ -110,12 +110,12 @@ Before pulling changes, it's best to commit your local changes to avoid conflict
 Step 2: Fetch Changes
 Fetch the changes from the remote repository using the following command:
 
-```
+```bash
 git fetch <remote_name>
 
 ```
 For example:
-```
+```bash
 git fetch origin
 
 ```
@@ -124,12 +124,12 @@ This command retrieves all the changes from the remote repository without automa
 Step 3: Merge Changes
 After fetching the changes, you need to merge them into your local branch. Use the following command:
 
-```
+```bash
 git merge <remote_name>/<branch_name>
 
 ```
 For example:
-```
+```bash
 git merge origin/main
 
 ```
@@ -181,13 +181,13 @@ Let's explore the steps to collaborate using branches:
 Step 1: Create a New Branch
 Before starting any new work, create a new branch based on the latest code in the main branch. Use the following command:
 
-```
+```bash
 git checkout -b <branch_name>
 
 ```
 For example:
 
-```
+```bash
 git checkout -b feature/new-feature
 
 ```
@@ -199,13 +199,13 @@ Make the necessary code changes and commits on the newly created branch. Regular
 Step 3: Push the Branch to Remote Repository
 To collaborate with others, push your branch to the remote repository:
 
-```
+```bash
 git push origin <branch_name>
 
 ```
 For example:
 
-```
+```bash
 git push origin feature/new-feature
 
 ```
@@ -267,7 +267,7 @@ Conflicts occur when Git cannot automatically merge changes due to overlapping m
 
 Creating a Local Branch:
 To address conflicts, start by creating a new local branch from the remote repository's branch you wish to work on. Use the following command:
-```
+```bash
 git checkout -b my-feature-branch origin/master
 
 ```
@@ -276,7 +276,7 @@ This command creates a new branch named "my-feature-branch" from the "master" br
 Making Changes and Committing:
 Now, work on your local branch and make the necessary changes to the files. Once you're done, commit the changes:
 
-```
+```bash
 git add .
 git commit -m "Implementing my feature"
 
@@ -284,7 +284,7 @@ git commit -m "Implementing my feature"
 Pulling Remote Changes:
 Before pushing your changes, it's crucial to pull the latest changes from the remote repository. This ensures that your local branch is up-to-date and reduces the chances of conflicts during the push.
 
-```
+```bash
 git pull origin master
 
 ```
@@ -306,21 +306,21 @@ Manually edit the file to decide which changes to keep or modify. Once you've re
 Marking Resolved Files:
 After manually resolving conflicts, stage the modified files:
 
-```
+```bash
 git add <filename>
 
 ```
 Committing the Resolved Changes:
 Create a new commit to save the changes after resolving the conflicts:
 
-```
+```bash
 git commit -m "Resolved conflicts"
 
 ```
 Pushing the Changes:
 Now that you've resolved the conflicts, push your local branch to the remote repository
 
-```
+```bash
 git push origin my-feature-branch
 
 ```
