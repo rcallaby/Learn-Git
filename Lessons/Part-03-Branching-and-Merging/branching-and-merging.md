@@ -14,18 +14,18 @@ In the realm of software development, Git branches are indispensable tools for m
 
 To create a new branch in Git, developers can use the "git branch" command, followed by the desired branch name. For example, to create a branch named "feature-branch," one would execute the command: git branch feature-branch. This creates a new branch, but the repository's HEAD (the currently active branch) remains unchanged. An example is given here:
 
-```
+```bash
 git branch feature-branch
 ```
 
 To switch to the newly created branch, the "git checkout" command is employed. By typing git checkout feature-branch, the HEAD will be updated, and the developer will be working within the "feature-branch" context. An example would be:
 
-```
+```bash
 git checkout feature-branch
 ```
 
 Alternatively, Git 2.23 introduced a more convenient way to create and switch to a new branch in a single step: git checkout -b feature-branch. This command creates the branch and switches to it simultaneously. Such as:
-```
+```bash
 git checkout -b feature-branch
 ```
 
