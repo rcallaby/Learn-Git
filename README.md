@@ -1,8 +1,8 @@
 # Learn-Git
-This is where you will find a sample repository for my youtube tutorial series on Learning Git and Github.
+This is where you will find a sample repository for my YouTube tutorial series on Learning Git and Github.
 If you found this repository to be helpful, please consider giving it a star ⭐ as it will be easier for others to find it.
 
-## Here is a step by step tutorial on how to contribute to Github
+## Here is a step-by-step tutorial on how to contribute to GitHub
 Create a GitHub account: If you don't already have a GitHub account, you'll need to create one. Go to github.com and click the "Sign up" button in the upper right corner. Follow the instructions to create your account.
 
 Find a repository to contribute to: Once you have a GitHub account, you can search for repositories that you're interested in contributing to. You can use the GitHub search bar to search for repositories by name or keyword.
@@ -48,7 +48,7 @@ Be sure to replace "branch-name" with the name of the branch you want to push yo
 
 Create a pull request: After pushing the changes to GitHub, you'll need to create a pull request. A pull request is a request for the repository owner to pull in the changes you made and merge them with the original repository. To create a pull request, go to the repository page in your GitHub account and click on the "New pull request" button.
 
-This will take you to a page where you can review the changes you made and provide a description of your pull request.
+This will take you to a page where you can review your changes and provide a description of your pull request.
 
 Make sure to include a clear and concise description of the changes you made and why you made them.
 
@@ -72,25 +72,25 @@ Then, run the following command in your local repository to update it:
 git pull
 ```
 
-That should give you a brief idea of how to use Git, of course you can look at the lessons that I have created in this repository for more in depth explainations.
+That should give you a brief idea of how to use Git, of course, you can look at the lessons that I have created in this repository for more in-depth explanations.
 
 ## Good first issue
 
-You can use this project as a way to start to contribute to open source projects. This could be a **good first issue** just modify the [CONTRIBUTORS.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file so that it links to your own github repository. Use markdown as shown in the file. 
+You can use this project as a way to start contributing to open-source projects. This could be a **good first issue** just modify the [CONTRIBUTORS.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file so that it links to your own GitHub repository. Use markdown as shown in the file. 
 
-Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/tree/main/First-Contributions) directory for a step by step direction on how to contribute to this repository.
+Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/tree/main/First-Contributions) directory for step-by-step directions on how to contribute to this repository.
 
 ### Table of Contents
 
 - [Part 00 - History and Foundation](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-00-History-and-Foundations/history-of-git.md)
 - [Part 01 - Basic Navigation](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-01-Basic-Navigation/basic-navigation.md)
-- [Part 02 - Initalizing Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-02-Initializing-Git/getting-started.md)
+- [Part 02 - Initializing Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-02-Initializing-Git/getting-started.md)
 - [Part 03 - Branching and Merging](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-03-Branching-and-Merging/branching-and-merging.md)
 - [Part 04 - Collaborating with Remote Repositories](https://github.com/rcallaby/Learn-Git/tree/main/Lessons/Part-04-Collaborating-with-Remote-Repositories/collaborating-with-remote-repos.md)
 - [Part 05 - Advanced Git Concepts](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-05-Advanced-Git-Concepts/advanced-git.md)
 - [Part 06 - CI-CD with Git and Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-06-CI-CD-with-Git-and-Github/ci-cd-git-github.md)
 - [Part 07 - Git Best Practices and Tips](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-07-Git-Best-Practices-and-Tips/best-practices-tips.md)
-- [Part 08 - Git and Github in Agile Development](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-08-Git-and-Github-in-Agile-Development/git-github-agile-dev.md)
+- [Part 08 - Git and GitHub in Agile Development](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-08-Git-and-Github-in-Agile-Development/git-github-agile-dev.md)
 - [Part 09 - Github and Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-09-Github-and-Codespaces/github-codespaces.md)
 - [Part 10 - Github Actions](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-10-Github-Actions/github-actions.md)
 - [Part 11 - Advanced Github Actions](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-11-Advanced-Github-Actions/advanced-github-actions.md)
