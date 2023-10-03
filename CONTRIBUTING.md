@@ -4,7 +4,7 @@ Thank you for considering contributing to Learn-Git! This repository is intended
 If you would like to contribute to this repository by making the tutorial better or by potentially translating it into another language, please create a new issue with that idea or improvment, and if the idea is good enough I or potentially members of this repository will approve it. At that point you could create the change and then create a pull request.
 
 ## Code of Conduct
-Before getting started, please read and adhere to the code of conduct. We want to maintain a respectful and welcoming community for all participants.
+Before getting started, please read and adhere to the code of conduct. We want to maintain a respectful and welcoming community for all participants. 
 
 ## Getting Started
 Here are the basic steps to contribute to Learn-Git:
@@ -19,13 +19,13 @@ Here are the basic steps to contribute to Learn-Git:
 We welcome contributions in the following forms:
 
 ### Corrections
-If you find any mistakes or inaccuracies in the existing content, please open a pull request with your corrections.
+If you find any mistakes or inaccuracies in the existing content, please open an issue, please describe the mistakes or inaccuracies in detail. If the accuracy of these mistakes or inaccuracies are verified then you may open a pull request with these changes. Please try and be dilligent and link the issue to your pull request. Please also keep in mind that personal preferance in grammar doesn't necessarily constitute a necessary change.
 
 ### Additions
 If you have an idea for **new content** that you think would be valuable for people learning Git, **please open an issue to discuss it first.** Once it's been approved, feel free to create a pull request with your new content.
 
 ### Improvements
-If you have suggestions for improving existing content, please open an issue to discuss it first. Once it's been approved, feel free to create a pull request with your improvements.
+If you have suggestions for improving existing content, please **open an issue to discuss it first**. Once it's been approved, feel free to create a pull request with your improvements.
 
 ## Style Guide
 When contributing to Learn-Git, please adhere to the following style guide:
