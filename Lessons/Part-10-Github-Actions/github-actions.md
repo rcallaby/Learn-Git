@@ -1,11 +1,12 @@
 # Github Actions
 
-GitHub Actions is a powerful automation platform provided by GitHub that allows developers to automate various tasks within their software development workflow. It offers a flexible and customizable way to build, test, deploy, and perform other tasks, all triggered by specific events like pushes, pull requests, issue updates, etc. This article will delve into the benefits of using GitHub Actions to streamline your workflow and explore some potential drawbacks to consider.
-
 ---
 - [Advantages of Using GitHub Actions](#advantages-of-using-github-actions)
 - [Potential Drawbacks of Using GitHub Actions](#potential-drawbacks-of-using-github-actions)
 ---
+
+GitHub Actions is a powerful automation platform provided by GitHub that allows developers to automate various tasks within their software development workflow. It offers a flexible and customizable way to build, test, deploy, and perform other tasks, all triggered by specific events like pushes, pull requests, issue updates, etc. This article will delve into the benefits of using GitHub Actions to streamline your workflow and explore some potential drawbacks to consider.
+
 ### Advantages of Using GitHub Actions
 1. Automated Workflows
 GitHub Actions enables developers to define custom workflows using YAML files that outline the steps required for their continuous integration and continuous deployment (CI/CD) process. This automation saves valuable time and effort, as developers no longer need to manually perform repetitive tasks like running tests, building software, or deploying to staging/production environments.
