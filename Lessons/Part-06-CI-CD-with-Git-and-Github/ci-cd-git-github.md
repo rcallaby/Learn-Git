@@ -1,6 +1,34 @@
 # Continuous Integration and Deployment with Git and GitHub
 
-# Integrating Git and GitHub with CI/CD pipelines
+
+- [Integrating Git and GitHub with CI/CD pipelines](#integrating-git-and-github-with-cicd-pipelines)
+- [Understanding CI/CD Pipelines](#understanding-cicd-pipelines)
+  - [Setting Up CI/CD Pipelines with Git and GitHub](#setting-up-cicd-pipelines-with-git-and-github)
+  - [Implementing CD (Continuous Deployment)](#implementing-cd-continuous-deployment)
+  - [Best Practices for Git and GitHub Integration with CI/CD](#best-practices-for-git-and-github-integration-with-cicd)
+- [Automated testing and code quality checks](#automated-testing-and-code-quality-checks)
+  - [Benefits of Automated testing and code quality checks](#benefits-of-automated-testing-and-code-quality-checks)
+  - [Implementing Automated Testing in Git and GitHub](#implementing-automated-testing-in-git-and-github)
+  - [Code Quality Checks in Git and GitHub](#code-quality-checks-in-git-and-github)
+  - [Best Practices for Automated Testing and Code Quality Checks](#best-practices-for-automated-testing-and-code-quality-checks)
+- [Deploying applications using Git and GitHub Actions](#deploying-applications-using-git-and-github-actions)
+  - [Setting Up Git and GitHub Repository](#setting-up-git-and-github-repository)
+  - [Setting up your Application](#setting-up-your-application)
+  - [Defining Deployment Configuration](#defining-deployment-configuration)
+    - [Create a file named .github/workflows/deploy.yml with the following content](#create-a-file-named-githubworkflowsdeployyml-with-the-following-content)
+  - [Explaining the Deployment Configuration](#explaining-the-deployment-configuration)
+    - [Deploying the Application](#deploying-the-application)
+- [Monitoring and rolling back deployments](#monitoring-and-rolling-back-deployments)
+- [Understanding Monitoring and Rolling Back in Git](#understanding-monitoring-and-rolling-back-in-git)
+  - [Implementing Monitoring in Git](#implementing-monitoring-in-git)
+  - [Rolling Back Applications in Git](#rolling-back-applications-in-git)
+  - [Best Practices for Monitoring and Rolling Back in Git](#best-practices-for-monitoring-and-rolling-back-in-git)
+
+   
+
+
+
+## Integrating Git and GitHub with CI/CD pipelines
 
 Continuous Integration/Continuous Deployment (CI/CD) is a vital practice in modern software development, streamlining the process of delivering high-quality code to production. By integrating Git and GitHub with CI/CD pipelines, developers can automate building, testing, and deploying applications, ensuring faster development cycles, consistent releases, and improved collaboration among team members. This article will provide an in-depth guide on how to integrate Git and GitHub with CI/CD pipelines, along with practical examples to demonstrate the process.
 
@@ -239,7 +267,7 @@ To begin, you need to have a Git repository on GitHub where your application's s
 
 - Step 2: Select "New repository" from the dropdown menu.
 
-- Step 3: Provide a repository name, description, and choose between a public or private repository.
+- Step 3: Provide a repository name, and description, and choose between a public or private repository.
 
 - Step 4: Initialize the repository with a README or create it empty. Then, click on "Create repository."
 
@@ -290,7 +318,7 @@ Let's go through the key components of the deployment configuration file:
 
 - jobs: Contains a list of jobs that will be executed when the Action is triggered. In this case, we have one job named deploy.
 
-- runs-on: Specifies the operating system the job will run on. We are using ubuntu-latest.
+- runs-on: Specifies the operating system the job will run on. We are using Ubuntu-latest.
 
 - steps: Contains a series of steps that will be executed in sequence. The steps perform tasks like checking out the repository, setting up Node.js, installing dependencies, building the application, and deploying it to the server.
 
@@ -316,7 +344,7 @@ Ensure your application code is versioned using Git. This is the foundation of m
 Implement CI/CD pipelines to automate the deployment process. CI/CD helps ensure that code changes are thoroughly tested before being deployed to production. It also aids in automating versioning and tagging of releases.
 
 - Step 3: Logging and Error Tracking
-Integrate logging and error tracking tools into your application. This enables you to capture and analyze application logs and errors, helping you identify issues in real-time.
+Integrate logging and error-tracking tools into your application. This enables you to capture and analyze application logs and errors, helping you identify issues in real time.
 
 - Step 4: Monitoring Tools Integration
 Integrate monitoring tools like Prometheus, Grafana, or New Relic with your application. These tools can provide insights into the performance, resource usage, and health of your application.
@@ -328,7 +356,7 @@ Configure alerting and notification systems to inform your team of critical issu
 Rolling back applications in Git involves undoing changes introduced in a problematic release and restoring the application to a stable state. Here's how you can effectively roll back applications:
 
 - Step 1: Identify the Issue
-When a problem arises, gather information from monitoring tools, logs, and error tracking systems to identify the root cause.
+When a problem arises, gather information from monitoring tools, logs, and error-tracking systems to identify the root cause.
 
 - Step 2: Check out the Previous Release
 Use Git to check out the commit or tag corresponding to the last known stable release. This can be achieved using the following command:
