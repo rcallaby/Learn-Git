@@ -99,4 +99,6 @@ Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/t
 - [Part 14 - Using React Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-14-Using-React-Codespaces-in-Github/github-react-codespace.md)
 - [Part 15 - Using Express Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-15-Using-Express-Codespaces-in-Github/github-express-codespace.md)
 - [Part 16 - Using Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-16-Using-Ruby-on-Rails-Codespaces/github-rubyrails-codespace.md)
-- [Part 17 - Using Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-17-Using-Django-Codespaces-in-Github/github-django-codespace.md)
+- [Part 17 - Using Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-17-Using%20Django%20Codespaces-in-Github/github-django-codespace.md)
+- [Part 18 - Github Project Management Tools](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-18-Github-Project-Management-Tools/github-project-management-tools.md)
+- [Part 19 - Github Project Boards and Notes](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-19-Github-Project-Boards-and-Notes/github-project-boards-and-notes.md)
