@@ -29,6 +29,9 @@ Alternatively, Git 2.23 introduced a more convenient way to create and switch to
 git checkout -b feature-branch
 ```
 
+Here's another example of creating and switching to a new branch:
+<img title="a title" alt="Alt text" src="../../images/branching-example.png">
+
 ### Managing branch history and merging changes:
 
 Branches serve as isolated environments where developers can work on specific features or bug fixes. While on a branch, developers can make changes, commit them, and build up the branch's commit history independently of the main branch or other branches.
