@@ -6,7 +6,7 @@ An Example of how this file will be used.
 
 Use markdown to link to a github repository or a website of your choice, at least within reason.
 
-As this page gets increasingly larger, if you want to add your name on this list then please just add it to a random line so as to avoid merge conflicts.
+As this page gets increasingly larger, if you want to add your name on this list then please just **add it to a random line** so as to avoid merge conflicts.
 
 - [Richard Callaby](http://richardcallaby.com)
 - [Pratham Nagpure](https://github.com/prathamnagpure)
