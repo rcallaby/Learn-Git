@@ -1,5 +1,13 @@
 # Express Codespaces
 
+- [Introduction](#introduction)
+- [Section 1: Setting Up Express Codespaces](#section-1-setting-up-express-codespaces)
+- [Section 2: Exploring the Express Codespaces Environment](#section-2-exploring-the-express-codespaces-environment)
+- [Section 3: Developing Express Applications in Codespaces](#section-3-developing-express-applications-in-codespaces)
+- [Section 4: Collaboration and Version Control](#section-4-collaboration-and-version-control)
+- [Section 5: Advanced Features and Customizations](#section-5-advanced-features-and-customizations)
+- [Conclusion](#conclusion)
+
 # Introduction:
 
 GitHub Codespaces is a powerful cloud-based development environment that allows developers to write, test, and debug code directly within their web browser. Express Codespaces is a specific feature that focuses on providing a seamless and streamlined development experience for Node.js applications using the popular Express framework. In this article, we will delve into the world of Express Codespaces and learn how to set it up, use it effectively, and leverage its capabilities to boost productivity.
