@@ -132,7 +132,7 @@ Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/t
 - [Part 10 - Github Actions](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-10-Github-Actions/github-actions.md)
 - [Part 11 - Advanced Github Actions](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-11-Advanced-Github-Actions/advanced-github-actions.md)
 - [Part 12 - Using Jupyter Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-12-Using-Jupyter-Codespaces-in-Github/github-jupyter-codespace.md)
-- [Part 13 - Using C# Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-13-Using%20C%23-Codespaces-in-Github/github-Csharp-codespace.md)
+- [Part 13 - Using C# Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-13-Using%20Csharp-Codespaces-in-Github/github-Csharp-codespace.md)
 - [Part 14 - Using React Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-14-Using-React-Codespaces-in-Github/github-react-codespace.md)
 - [Part 15 - Using Express Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-15-Using-Express-Codespaces-in-Github/github-express-codespace.md)
 - [Part 16 - Using Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/Part-16-Using-Ruby-on-Rails-Codespaces/github-rubyrails-codespace.md)
