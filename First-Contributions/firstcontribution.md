@@ -19,6 +19,9 @@ To work on the project locally, you'll need to [clone](https://docs.github.com/e
 On your forked repository page, click the "Code" button, and copy the repository URL (e.g., `https://github.com/[yourusername]/Learn-Git.git`).
 Open your terminal or Git bash.
 Use the git clone command to clone the repository:
+
+![fork_clone](https://github.com/RileeyL/Learn-Git/assets/146129446/34f6aeab-5d10-4872-8918-1865e8db2cc9)
+
 ```
 git clone https://github.com/[yourusername]/Learn-Git.git
 
