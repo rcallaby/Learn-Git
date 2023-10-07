@@ -20,8 +20,6 @@ On your forked repository page, click the "Code" button, and copy the repository
 Open your terminal or Git bash.
 Use the git clone command to clone the repository:
 
-![fork_clone](https://github.com/RileeyL/Learn-Git/assets/146129446/cc091d3d-dac8-4505-91ef-7e78d36950c0)
-
 ```
 git clone https://github.com/[yourusername]/Learn-Git.git
 
