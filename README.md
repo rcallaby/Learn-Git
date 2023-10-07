@@ -7,7 +7,16 @@ Create a GitHub account: If you don't already have a GitHub account, you'll need
 
 Find a repository to contribute to: Once you have a GitHub account, you can search for repositories that you're interested in contributing to. You can use the GitHub search bar to search for repositories by name or keyword.
 
-Fork the repository: Once you've found a repository that you want to contribute to, you'll need to fork it. Forking creates a copy of the repository in your own GitHub account, which you can modify without affecting the original repository. To fork a repository, go to the repository's main page and click the "Fork" button in the upper right corner.
+Fork the repository: Once you've found a repository that you want to contribute to, you'll need to fork it.
+
+Forking creates a copy of the repository in your own GitHub account, which you can modify without affecting the original repository. 
+
+### Refrence Image
+Click on below button to fork repository which is lies on upper right corner.
+
+![fork_image](./Readme_images/fork.png)
+
+
 
 Clone the forked repository: After forking the repository, you'll need to clone it to your local machine. Cloning creates a copy of the repository on your computer that you can work on. To clone the repository, open a terminal window and enter the following command:
 
@@ -16,11 +25,23 @@ git clone https://github.com/your-username/repository-name.git
 ```
 Be sure to replace "your-username" and "repository-name" with your GitHub username and the name of the repository you forked.
 
-Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. You can use the following syntax:
+### Reference Image
+![Clone_repo](./Readme_images/Clone.png)
+
+Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. To make a branch use following syntax:
 
 ```
-git checkout -b "branch-name"
+git branch "branch-name"
 ```
+### Refrence Image
+![branch_making](./Readme_images/Branch_making.png)
+
+To switch on that branch use following syntax :
+```
+git checkout "branch-name"
+```
+### Refrence Image
+![branch_switch](./Readme_images/branch_switch.png)
 
 Make changes to the code: Once you have the repository cloned to your local machine, you can make changes to the code. Use your preferred text editor or IDE to modify the files.
 
@@ -29,6 +50,9 @@ Commit the changes: After making changes to the code, you'll need to commit them
 ```
 git add .
 ```
+
+### Reference Image
+![add](./Readme_images/add.png)
 This will stage all changes made to the files in the repository.
 
 Next, commit the changes using the following command:
@@ -36,6 +60,10 @@ Next, commit the changes using the following command:
 ```
 git commit -m "A brief description of the changes made"
 ```
+
+### Reference Image
+![Commit](./Readme_images/commit.png)
+
 Be sure to include a brief, informative message describing the changes you made.
 
 Push the changes to GitHub: After committing the changes to your local repository, you'll need to push them to GitHub. This will update the copy of the repository in your GitHub account with the changes you made. To push the changes, use the following command:
@@ -44,9 +72,15 @@ Push the changes to GitHub: After committing the changes to your local repositor
 git push origin branch-name
 
 ```
-Be sure to replace "branch-name" with the name of the branch you want to push your changes to.
 
-Create a pull request: After pushing the changes to GitHub, you'll need to create a pull request. A pull request is a request for the repository owner to pull in the changes you made and merge them with the original repository. To create a pull request, go to the repository page in your GitHub account and click on the "New pull request" button.
+### Reference Image
+![Push_image](./Readme_images/push.png)
+
+
+Create a pull request: After pushing the changes to GitHub, when you reload the forked repository, you will see the option to create a pull request. Click on that button to create a pull request.
+
+### Reference Image 
+![Pull_Request](./Readme_images/pull%20request.png)
 
 This will take you to a page where you can review the changes you made and provide a description of your pull request.
 
@@ -55,6 +89,9 @@ Make sure to include a clear and concise description of the changes you made and
 If there are any issues or concerns that the repository owner should be aware of, make sure to mention them in the pull request description.
 
 Once you're satisfied with the description, click on the "Create pull request" button.
+
+### Reference Image
+![Create_pull_request](./Readme_images/Create_pull_request.png)
 
 Wait for feedback: After creating the pull request, the repository owner will review your changes and provide feedback.
 
