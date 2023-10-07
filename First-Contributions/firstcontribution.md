@@ -4,6 +4,8 @@ Contributing to a GitHub repository is a great way to get involved in open-sourc
 
 ### Fork the Repository
 
+![fork](https://github.com/RileeyL/Learn-Git/First-Contrubutions/fork.png)
+
 [Forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) creates a copy of the repository under your GitHub account.
 
 Go to the repository you want to contribute to. In this case, you want to contribute to this repository.
@@ -68,4 +70,4 @@ Once your contribution is approved, it will be merged into the main repository. 
 
 Remember, each project may have its specific contribution guidelines, so always check the repository's [CONTRIBUTING.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTING.md) or other documentation for any project-specific instructions.
 
-Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.
+Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.
