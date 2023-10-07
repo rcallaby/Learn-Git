@@ -4,7 +4,7 @@ Contributing to a GitHub repository is a great way to get involved in open-sourc
 
 ### Fork the Repository
 
-![fork]([First-Contributions/fork.png](https://github.com/RileeyL/Learn-Git/blob/f12392c89debfa0e26fb8018536e00d7a635d5ac/First-Contributions/fork.png))
+![fork](https://github.com/RileeyL/Learn-Git/assets/146129446/4ad651a0-d2e8-4e4f-a6d1-885111a7de35)
 
 [Forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) creates a copy of the repository under your GitHub account.
 
