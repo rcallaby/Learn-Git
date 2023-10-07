@@ -1,0 +1,17 @@
+name: Markdown Links Check
+# runs every day at 9 am
+on:
+  schedule:
+    - cron: "0 9 * * *"
+
+jobs:
+  check-links::
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run link check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-verbose-mode: 'yes'
+          config-file: '.github/workflows/markdown.links.config.json'

@@ -14,7 +14,7 @@ Wait for GitHub to create a copy of the repository under your account.
 
 To work on the project locally, you'll need to [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) your fork to your computer.
 
-On your forked repository page, click the "Code" button, and copy the repository URL (e.g., https://github.com/[yourusername]/Learn-Git.git).
+On your forked repository page, click the "Code" button, and copy the repository URL (e.g., `https://github.com/[yourusername]/Learn-Git.git`).
 Open your terminal or Git bash.
 Use the git clone command to clone the repository:
 ```
@@ -68,4 +68,4 @@ Once your contribution is approved, it will be merged into the main repository. 
 
 Remember, each project may have its specific contribution guidelines, so always check the repository's [CONTRIBUTING.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTING.md) or other documentation for any project-specific instructions.
 
-Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.
+Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.
