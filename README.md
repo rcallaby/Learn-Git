@@ -7,7 +7,16 @@ Create a GitHub account: If you don't already have a GitHub account, you'll need
 
 Find a repository to contribute to: Once you have a GitHub account, you can search for repositories that you're interested in contributing to. You can use the GitHub search bar to search for repositories by name or keyword.
 
-Fork the repository: Once you've found a repository that you want to contribute to, you'll need to fork it. Forking creates a copy of the repository in your own GitHub account, which you can modify without affecting the original repository. To fork a repository, go to the repository's main page and click the "Fork" button in the upper right corner.
+Fork the repository: Once you've found a repository that you want to contribute to, you'll need to fork it.
+
+Forking creates a copy of the repository in your own GitHub account, which you can modify without affecting the original repository. 
+
+### Refrence Image
+Click on below button to fork repository which is lies on upper right corner.
+
+![fork_image](./Readme_images/fork.png)
+
+
 
 Clone the forked repository: After forking the repository, you'll need to clone it to your local machine. Cloning creates a copy of the repository on your computer that you can work on. To clone the repository, open a terminal window and enter the following command:
 
@@ -16,11 +25,23 @@ git clone https://github.com/your-username/repository-name.git
 ```
 Be sure to replace "your-username" and "repository-name" with your GitHub username and the name of the repository you forked.
 
-Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. You can use the following syntax:
+### Reference Image
+![Clone_repo](./Readme_images/Clone.png)
 
+Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. To make a branch use following syntax:
+
+```
+git branch "branch-name"
+```
+### Refrence Image
+![branch_making](./Readme_images/Branch_making.png)
+
+To switch on that branch use following syntax :
 ```
 git checkout -b "branch-name"
 ```
+### Refrence Image
+![branch_switch](./Readme_images/branch_switch.png)
 
 Make changes to the code: Once you have the repository cloned to your local machine, you can make changes to the code. Use your preferred text editor or IDE to modify the files.
 
@@ -29,6 +50,9 @@ Commit the changes: After making changes to the code, you'll need to commit them
 ```
 git add .
 ```
+
+### Reference Image
+
 This will stage all changes made to the files in the repository.
 
 Next, commit the changes using the following command:
