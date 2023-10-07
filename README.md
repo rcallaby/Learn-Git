@@ -38,7 +38,7 @@ git branch "branch-name"
 
 To switch on that branch use following syntax :
 ```
-git checkout -b "branch-name"
+git checkout "branch-name"
 ```
 ### Refrence Image
 ![branch_switch](./Readme_images/branch_switch.png)
@@ -52,7 +52,7 @@ git add .
 ```
 
 ### Reference Image
-
+![add](./Readme_images/add.png)
 This will stage all changes made to the files in the repository.
 
 Next, commit the changes using the following command:
@@ -60,6 +60,10 @@ Next, commit the changes using the following command:
 ```
 git commit -m "A brief description of the changes made"
 ```
+
+### Reference Image
+![Commit](./Readme_images/commit.png)
+
 Be sure to include a brief, informative message describing the changes you made.
 
 Push the changes to GitHub: After committing the changes to your local repository, you'll need to push them to GitHub. This will update the copy of the repository in your GitHub account with the changes you made. To push the changes, use the following command:
@@ -68,9 +72,15 @@ Push the changes to GitHub: After committing the changes to your local repositor
 git push origin branch-name
 
 ```
-Be sure to replace "branch-name" with the name of the branch you want to push your changes to.
 
-Create a pull request: After pushing the changes to GitHub, you'll need to create a pull request. A pull request is a request for the repository owner to pull in the changes you made and merge them with the original repository. To create a pull request, go to the repository page in your GitHub account and click on the "New pull request" button.
+### Reference Image
+![Push_image](./Readme_images/push.png)
+
+
+Create a pull request: After pushing the changes to GitHub, when you reload the forked repository, you will see the option to create a pull request. Click on that button to create a pull request.
+
+### Reference Image 
+![Pull_Request](./Readme_images/pull%20request.png)
 
 This will take you to a page where you can review the changes you made and provide a description of your pull request.
 
@@ -79,6 +89,9 @@ Make sure to include a clear and concise description of the changes you made and
 If there are any issues or concerns that the repository owner should be aware of, make sure to mention them in the pull request description.
 
 Once you're satisfied with the description, click on the "Create pull request" button.
+
+### Reference Image
+![Create_pull_request](./Readme_images/Create_pull_request.png)
 
 Wait for feedback: After creating the pull request, the repository owner will review your changes and provide feedback.
 
