@@ -35,7 +35,7 @@ Branches serve as isolated environments where developers can work on specific fe
 
 When changes on a branch are complete and ready for integration, merging comes into play. Merging is the process of combining the changes made in one branch into another. To merge the changes from a branch (e.g., "feature-branch") into the main branch, developers can execute the command git merge feature-branch while on the main branch. This action integrates the changes from "feature-branch" into the main branch, combining commit histories.
 
-<img alt="Git branching and merging infographic" src="../../images/branching-and-merging.png" />
+<img alt="Git branching and merging infographic" src="../../images/Part-03/branching-and-merging.png" />
 
 ### Handling merge conflicts:
 
