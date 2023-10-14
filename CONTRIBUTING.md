@@ -10,8 +10,39 @@ Before getting started, please read and adhere to the code of conduct. We want t
 Here are the basic steps to contribute to Learn-Git:
 
 - **Fork the repository**
+
+![fork_image](./Readme_images/fork.png)
+
 - **Create a new branch for your changes**
+
+```
+git branch "branch-name"
+```
+### Reference Image
+![branch_image](./Contributing_images/branch_making.png)
+
+Then switch on that branch use following syntax :
+
+### Syntax
+```
+git checkout "branch-name"
+```
+
+### Reference Image
+![checkout_branch](./Contributing_images/checkout_image.png)
+
+
 - **Make your changes and commit them to your branch**
+
+Use this command in terminal after making any change or addition
+```
+git add .
+```
+Syntax for Commit that change or addition
+
+```
+git commit -m "A brief description of the changes made"
+```
 - **Push your changes to your fork**
 - **Create a pull request**
 
