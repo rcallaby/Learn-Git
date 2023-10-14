@@ -28,6 +28,7 @@ Be sure to replace "your-username" and "repository-name" with your GitHub userna
 ### Reference Image
 ![Clone_repo](./images/Readme_images/Clone.png)
 
+
 Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. To make a branch use following syntax:
 
 ```
@@ -36,12 +37,15 @@ git branch "branch-name"
 ### Refrence Image
 ![branch_making](./images/Readme_images/Branch_making.png)
 
+
 To switch on that branch use following syntax :
 ```
 git checkout "branch-name"
 ```
 ### Refrence Image
+
 ![branch_switch](./images/Readme_images/branch_switch.png)
+
 
 Make changes to the code: Once you have the repository cloned to your local machine, you can make changes to the code. Use your preferred text editor or IDE to modify the files.
 
@@ -74,13 +78,14 @@ git push origin branch-name
 ```
 
 ### Reference Image
-![Push_image](./images/Readme_images/push.png)
+![Push_image](./Readme_images/push.png)
 
 
 Create a pull request: After pushing the changes to GitHub, when you reload the forked repository, you will see the option to create a pull request. Click on that button to create a pull request.
 
 ### Reference Image 
 ![Pull_Request](./images/Readme_images/pull%20request.png)
+
 
 This will take you to a page where you can review the changes you made and provide a description of your pull request.
 

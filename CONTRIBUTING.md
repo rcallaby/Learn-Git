@@ -10,10 +10,72 @@ Before getting started, please read and adhere to the code of conduct. We want t
 Here are the basic steps to contribute to Learn-Git:
 
 - **Fork the repository**
+
+![fork_image](./Readme_images/fork.png)
+
 - **Create a new branch for your changes**
+
+```
+git branch "branch-name"
+```
+### Reference Image
+![branch_image](./Contributing_images/branch_making.png)
+
+Then switch on that branch use following syntax :
+
+### Syntax
+```
+git checkout "branch-name"
+```
+
+### Reference Image
+![checkout_branch](./Contributing_images/checkout_image.png)
+
+
 - **Make your changes and commit them to your branch**
+
+Use this command in terminal after making any change or addition
+```
+git add .
+```
+Syntax for Commit that change or addition
+
+```
+git commit -m "A brief description of the changes made"
+```
+
+### Reference Image
+![commiting_images](./Contributing_images/add_commit.png)
+
 - **Push your changes to your fork**
+Push the changes to GitHub: After committing the changes to your local repository, you'll need to push them to GitHub. This will update the copy of the repository in your GitHub account with the changes you made. To push the changes, use the following command:
+
+```
+git push origin branch-name
+
+```
+### Reference Image
+![Push](./Contributing_images/push_origin.png)
+
 - **Create a pull request**
+
+After pushing the changes to GitHub, when you reload the forked repository, you will see the option to create a pull request. Click on that button to create a pull request.
+
+### Reference Image 
+
+![Pull Request](./Contributing_images/pull_request.png)
+
+This will take you to a page where you can review the changes you made and provide a description of your pull request.
+
+Make sure to include a clear and concise description of the changes you made and why you made them.
+
+If there are any issues or concerns that the repository owner should be aware of, make sure to mention them in the pull request description.
+
+Once you're satisfied with the description, click on the "Create pull request" button.
+
+![Last Image](./Contributing_images/last.png)
+
+Wait for feedback: After creating the pull request, the repository owner will review your changes and provide feedback.
 
 ## How to Contribute
 We welcome contributions in the following forms:

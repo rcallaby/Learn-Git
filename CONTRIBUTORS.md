@@ -14,6 +14,7 @@ As this page gets increasingly larger, if you want to add your name on this list
 - [Sara Rutherfurd](https://github.com/sarafurd)
 - [Cooker](https://github.com/ashblend17)
 - [Rahul](https://github.com/rahul13agrawal)
+- [Nikhil K](https://github.com/nikhil18440)
 - [Harshil Junakiya](https://github.com/harshil-junakiya)
 - [Nikhil K](https://github.com/nikhil18440)
 - [Harshil Junakiya](https://github.com/harshil-junakiya)
