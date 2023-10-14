@@ -34,7 +34,7 @@ Make sure you create a uniquely named branch to reflect the changes you wish to 
 ```
 git branch "branch-name"
 ```
-### Refrence Image
+### Reference Image
 ![branch_making](./images/Readme_images/Branch_making.png)
 
 

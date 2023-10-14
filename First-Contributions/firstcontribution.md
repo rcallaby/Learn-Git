@@ -10,6 +10,9 @@ Go to the repository you want to contribute to. In this case, you want to contri
 Click the "Fork" button in the top-right corner of the repository's page.
 Wait for GitHub to create a copy of the repository under your account.
 
+#### Reference Image
+![fork_image](../images/Readme_images/fork.png)
+
 ### Clone Your Fork
 
 To work on the project locally, you'll need to [clone](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository) your fork to your computer.
@@ -17,7 +20,7 @@ To work on the project locally, you'll need to [clone](https://docs.github.com/e
 On your forked repository page, click the "Code" button, and copy the repository URL (e.g., `https://github.com/[yourusername]/Learn-Git.git`).
 Open your terminal or Git bash.
 Use the git clone command to clone the repository:
-```
+```bash
 git clone https://github.com/[yourusername]/Learn-Git.git
 
 ```
@@ -25,12 +28,15 @@ git clone https://github.com/[yourusername]/Learn-Git.git
 
 Before making changes, create a [new branch](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-a-branch-for-an-issue) to work in. This helps keep your contributions organized and separate from the main code.
 
-```
+```bash
 cd repository
 git checkout -b your-branch-name
 
 ```
 Replace your-branch-name with a descriptive name for your branch, such as fix-typo or add-feature.
+
+#### Reference Image
+![branch_image](../images/Contributing_images/branch_making.png)
 
 ### Make Your Contribution
 
@@ -45,18 +51,28 @@ git add contributors.md
 git commit -m "Add [Your Name] to contributors.md"
 
 ```
+#### Reference Image
+![commiting_images](../images/Contributing_images/add_commit.png)
+
 ### Push Your Changes
 
 [Push your branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/pushing-changes-to-github) with the changes to your GitHub repository.
 
-```
+```bash
 git push origin your-branch-name
 ```
+#### Reference Image
+![Push_image](../images/Readme_images/push.png)
+
 ### Create a Pull Request
 
 Now, go to your forked repository on GitHub. You should see a notification suggesting you create a [pull request](https://docs.github.com/en/pull-requests). Click on it or navigate to the "Pull Requests" tab and create a new [pull request](https://docs.github.com/en/pull-requests).
 
 Ensure that you're comparing your branch with the original repository's main branch. Write a clear and descriptive title and comment explaining your changes. Then, submit the [pull request](https://docs.github.com/en/pull-requests).
+
+
+#### Reference Image
+![Pull_Request](../images/Readme_images/pull%20request.png)
 
 ### Review and Collaboration
 
@@ -68,4 +84,4 @@ Once your contribution is approved, it will be merged into the main repository. 
 
 Remember, each project may have its specific contribution guidelines, so always check the repository's [CONTRIBUTING.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTING.md) or other documentation for any project-specific instructions.
 
-Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.
+Please be kind and give this repository a star ⭐ if you found it to be helpful or useful. Doing so will help others find it and contribute to it.
