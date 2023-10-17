@@ -78,7 +78,7 @@ git push origin branch-name
 ```
 
 ### Reference Image
-![Push_image](.images/Readme_images/push.png)
+![Push_image](./images/Readme_images/push.png)
 
 
 Create a pull request: After pushing the changes to GitHub, when you reload the forked repository, you will see the option to create a pull request. Click on that button to create a pull request.
