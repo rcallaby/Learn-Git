@@ -73,7 +73,7 @@ If there are any issues or concerns that the repository owner should be aware of
 
 Once you're satisfied with the description, click on the "Create pull request" button.
 
-![Last Image](.images/Contributing_images/last.png)
+![Last Image](./images/Contributing_images/last.png)
 
 Wait for feedback: After creating the pull request, the repository owner will review your changes and provide feedback.
 
