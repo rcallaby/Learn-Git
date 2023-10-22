@@ -24,3 +24,4 @@ As this page gets increasingly larger, if you want to add your name on this list
 - [Victoria Dang](https://github.com/victoriavdang)
 - [Vislavath Pavani](https://github.com/12pavani)
 - [Abhinav Pratap Singh](https://github.com/Mr-Unforgettable)
+- [wuyu](https://github.com/wuyu-wy)
