@@ -121,6 +121,8 @@ git fetch origin
 ```
 This command retrieves all the changes from the remote repository without automatically merging them into your local branch.
 
+<img alt="Git branching and merging infographic" src="../../images/Part-04/fetch.png" />
+
 Step 3: Merge Changes
 After fetching the changes, you need to merge them into your local branch. Use the following command:
 
