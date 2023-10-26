@@ -99,6 +99,8 @@ git push origin main
 ```
 This command pushes the changes from the local branch "main" to the remote repository named "origin."
 
+<img alt="Git branching and merging infographic" src="../../images/Part-04/push.png" />
+
 Pulling Changes from the Remote Repository
 Pulling changes refers to the process of retrieving and integrating the latest changes from the remote repository into your local repository. This ensures that your local code is up-to-date with the most recent developments in the project.
 
@@ -216,6 +218,8 @@ This command pushes your local branch "feature/new-feature" to the remote reposi
 Step 4: Collaborate with Others
 Once your branch is on the remote repository, other developers can review your changes, provide feedback, or even collaborate with you on the same branch.
 
+<img alt="Git branching and merging infographic" src="../../images/Part-04/push_branch.png" />
+
 ## Understanding Pull Requests
 A pull request (PR) is a feature commonly found in Git hosting platforms like GitHub and Bitbucket. It is a formal request to merge changes from one branch into another, typically from a feature branch into the main branch.
 
@@ -328,6 +332,8 @@ git push origin my-feature-branch
 ```
 Creating a Pull Request:
 Once the changes are pushed, visit the repository on GitHub and create a pull request from your "my-feature-branch" to the main branch (e.g., master). This allows your teammates to review your changes before merging them into the main codebase.
+
+<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.png" />
 
 Review and Merge:
 The pull request will show the changes you made, and your team members can review the modifications. If everything looks good, a team lead or maintainer can merge the pull request into the main branch.
