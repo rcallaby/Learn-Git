@@ -137,6 +137,8 @@ For example:
 git merge origin/main
 
 ```
+<img alt="Git branching and merging infographic" src="../../images/Part-04/fetch.jpeg" />
+
 This command merges the changes from the remote branch "main" into your local branch.
 
 #### Handling Merge Conflicts
@@ -218,7 +220,7 @@ This command pushes your local branch "feature/new-feature" to the remote reposi
 Step 4: Collaborate with Others
 Once your branch is on the remote repository, other developers can review your changes, provide feedback, or even collaborate with you on the same branch.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push_branch.png" />
+<img alt="Git branching and merging infographic" src="../../images/Part-04/push_branch.jpeg" />
 
 ## Understanding Pull Requests
 A pull request (PR) is a feature commonly found in Git hosting platforms like GitHub and Bitbucket. It is a formal request to merge changes from one branch into another, typically from a feature branch into the main branch.
@@ -295,17 +297,7 @@ git pull origin master
 
 ```
 Resolving Conflicts:
-Upon pulling changes from the remote, Git may notify you about conflicts. Open the conflicting files in your code editor, and you'll see sections like:
-
-```
-<<<<<<< HEAD
-Your local changes
-=======
-Incoming changes from remote
->>>>>>> 29a9b23... Latest changes from master
-
-
-```
+Upon pulling changes from the remote, Git may notify you about conflicts. Open the conflicting files in your code editor, and you'll see sections like
 
 Manually edit the file to decide which changes to keep or modify. Once you've resolved all conflicts, save the file.
 
