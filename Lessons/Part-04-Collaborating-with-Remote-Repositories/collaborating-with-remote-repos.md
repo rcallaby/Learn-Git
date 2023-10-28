@@ -99,7 +99,7 @@ git push origin main
 ```
 This command pushes the changes from the local branch "main" to the remote repository named "origin."
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push.jpeg" />
+<img alt="Git branching and merging infographic" src="../../images/Part-04/push.png" />
 
 Pulling Changes from the Remote Repository
 Pulling changes refers to the process of retrieving and integrating the latest changes from the remote repository into your local repository. This ensures that your local code is up-to-date with the most recent developments in the project.
@@ -122,6 +122,8 @@ git fetch origin
 
 ```
 This command retrieves all the changes from the remote repository without automatically merging them into your local branch.
+
+<img alt="Git branching and merging infographic" src="../../images/Part-04/fetch.png" />
 
 Step 3: Merge Changes
 After fetching the changes, you need to merge them into your local branch. Use the following command:
@@ -295,17 +297,7 @@ git pull origin master
 
 ```
 Resolving Conflicts:
-Upon pulling changes from the remote, Git may notify you about conflicts. Open the conflicting files in your code editor, and you'll see sections like:
-
-```
-<<<<<<< HEAD
-Your local changes
-=======
-Incoming changes from remote
->>>>>>> 29a9b23... Latest changes from master
-
-
-```
+Upon pulling changes from the remote, Git may notify you about conflicts. Open the conflicting files in your code editor, and you'll see sections like
 
 Manually edit the file to decide which changes to keep or modify. Once you've resolved all conflicts, save the file.
 
