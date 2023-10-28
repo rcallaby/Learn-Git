@@ -99,7 +99,9 @@ git push origin main
 ```
 This command pushes the changes from the local branch "main" to the remote repository named "origin."
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push.png" />
+
+<img alt="Git branching and merging infographic" src="../../images/Part-04/push.jpeg" />
+
 
 Pulling Changes from the Remote Repository
 Pulling changes refers to the process of retrieving and integrating the latest changes from the remote repository into your local repository. This ensures that your local code is up-to-date with the most recent developments in the project.
@@ -123,7 +125,6 @@ git fetch origin
 ```
 This command retrieves all the changes from the remote repository without automatically merging them into your local branch.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/fetch.png" />
 
 Step 3: Merge Changes
 After fetching the changes, you need to merge them into your local branch. Use the following command:
@@ -325,7 +326,9 @@ git push origin my-feature-branch
 Creating a Pull Request:
 Once the changes are pushed, visit the repository on GitHub and create a pull request from your "my-feature-branch" to the main branch (e.g., master). This allows your teammates to review your changes before merging them into the main codebase.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.png" />
+
+<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.jpeg" />
+
 
 Review and Merge:
 The pull request will show the changes you made, and your team members can review the modifications. If everything looks good, a team lead or maintainer can merge the pull request into the main branch.
