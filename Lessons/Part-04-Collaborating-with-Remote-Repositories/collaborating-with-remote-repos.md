@@ -333,7 +333,7 @@ git push origin my-feature-branch
 Creating a Pull Request:
 Once the changes are pushed, visit the repository on GitHub and create a pull request from your "my-feature-branch" to the main branch (e.g., master). This allows your teammates to review your changes before merging them into the main codebase.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.png" />
+<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.jpeg" />
 
 Review and Merge:
 The pull request will show the changes you made, and your team members can review the modifications. If everything looks good, a team lead or maintainer can merge the pull request into the main branch.
