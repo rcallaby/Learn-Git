@@ -1,6 +1,6 @@
 # 与远程存储库协作
 
-- [设置远程存储库（Github，GitLab，Bitbucket）](#设置远程存储库（Github，GitLab，Bitbucket）)
+- [设置远程存储库(Github，GitLab，Bitbucket)](#设置远程存储库(Github，GitLab，Bitbucket))
 - [Github](#github)
 - [GitLab](#gitlab)
 - [Bitbucket](#bitbucket)
@@ -8,7 +8,7 @@
 - [处理合并冲突](#处理合并冲突)
 - [最佳实践](#最佳实践)
 
-## 设置远程存储库（Github，GitLab，Bitbucket）
+## 设置远程存储库(Github，GitLab，Bitbucket)
 
 在软件开发领域，版本控制系统在管理代码存储库、促进协作和确保团队成员之间顺畅的工作流程方面发挥着至关重要的作用。托管在GitHub，GitLab和Bitbucket等平台上的远程存储库为开发人员提供了一个集中的位置来存储，管理和共享他们的代码。在本文中，我们将深入研究在每个平台上设置远程存储库的分步过程。
 
