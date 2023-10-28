@@ -1,9 +1,11 @@
 # Translations
-This repository contains translations of the Learn-Git documentation. At this time, translations is a proposed update that has yet to begin, there are no currently translations of any part of this repository but it is something that is intended for the future.
+This repository contains translations of the Learn-Git documentation. IF you would like to contribute to translate this tutorial or in anyway make it easier for someone that speaks your language please follow these guidelines. While every effort is made to cater to as many languages and cultures as possible please understand that currently there is only one maintainer of this repository so no offense is intended if you don't see your native language listed.
 
 ## Contributing Translations
 We welcome contributions to help translate our documentation into additional languages. To get started, please follow these steps:
 
+
++ First see if there is an open issue that caters to your language. If there is not create one so that the maintainer can keep track of the progress of translating the repository.
 + Fork this repository.
 + Create a new branch for your translation work.
 + Duplicate the contents in the directory in the root of the repository and rename it to the appropriate language code (e.g. fr for French).
@@ -15,6 +17,7 @@ We welcome contributions to help translate our documentation into additional lan
 * Translate the text as faithfully as possible, while also considering the nuances of the target language.
 * Use the appropriate terms and conventions for the target language.
 * Keep the formatting and layout consistent with the original document.
+
 ### Language Codes
 Here are the language codes we use for translations:
 
