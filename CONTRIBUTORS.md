@@ -23,6 +23,7 @@ As this page gets increasingly larger, if you want to add your name on this list
 - [Shubham](https://github.com/Shubham23011)
 - [Victoria Dang](https://github.com/victoriavdang)
 - [Vislavath Pavani](https://github.com/12pavani)
+- [Jeroldine Akuye Oakley](https://github.com/JayOaks)
 - [Abhinav Pratap Singh](https://github.com/Mr-Unforgettable)
 - [wuyu](https://github.com/wuyu-wy)
 - [Rajiv Paul](https://github.com/Rajiv-paul)
