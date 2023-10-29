@@ -1,8 +1,8 @@
 # Learn-Git
-This is where you will find a sample repository for my youtube tutorial series on Learning Git and Github.
+This is where you will find a sample repository for my YouTube tutorial series on Learning Git and Github.
 If you found this repository to be helpful, please consider giving it a star ⭐ as it will be easier for others to find it.
 
-## Here is a step by step tutorial on how to contribute to Github
+## Here is a step by step tutorial on how to contribute to GitHub
 Create a GitHub account: If you don't already have a GitHub account, you'll need to create one. Go to github.com and click the "Sign up" button in the upper right corner. Follow the instructions to create your account.
 
 Find a repository to contribute to: Once you have a GitHub account, you can search for repositories that you're interested in contributing to. You can use the GitHub search bar to search for repositories by name or keyword.
@@ -11,8 +11,8 @@ Fork the repository: Once you've found a repository that you want to contribute 
 
 Forking creates a copy of the repository in your own GitHub account, which you can modify without affecting the original repository. 
 
-### Refrence Image
-Click on below button to fork repository which is lies on upper right corner.
+### Reference Image
+Click on the below button to fork the repository which lies on the upper right corner.
 
 ![fork_image](./images/Readme_images/fork.png)
 
@@ -29,7 +29,7 @@ Be sure to replace "your-username" and "repository-name" with your GitHub userna
 ![Clone_repo](./images/Readme_images/Clone.png)
 
 
-Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. To make a branch use following syntax:
+Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. To make a branch use the following syntax:
 
 ```
 git branch "branch-name"
@@ -38,11 +38,11 @@ git branch "branch-name"
 ![branch_making](./images/Readme_images/Branch_making.png)
 
 
-To switch on that branch use following syntax :
+To switch on that branch use the following syntax :
 ```
 git checkout "branch-name"
 ```
-### Refrence Image
+### Reference Image
 
 ![branch_switch](./images/Readme_images/branch_switch.png)
 
@@ -57,6 +57,7 @@ git add .
 
 ### Reference Image
 ![add](./images/Readme_images/add.png)
+
 This will stage all changes made to the files in the repository.
 
 Next, commit the changes using the following command:
@@ -74,7 +75,6 @@ Push the changes to GitHub: After committing the changes to your local repositor
 
 ```
 git push origin branch-name
-
 ```
 
 ### Reference Image
@@ -114,13 +114,13 @@ Then, run the following command in your local repository to update it:
 git pull
 ```
 
-That should give you a brief idea of how to use Git, of course you can look at the lessons that I have created in this repository for more in depth explainations.
+That should give you a brief idea of how to use Git, of course, you can look at the lessons that I have created in this repository for more in depth explanations.
 
 ## Good first issue
 
-You can use this project as a way to start to contribute to open source projects. This could be a **good first issue** just modify the [CONTRIBUTORS.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file so that it links to your own github repository. Use markdown as shown in the file. 
+You can use this project as a way to start contributing to open source projects. This could be a **good first issue** just modify the [CONTRIBUTORS.md](https://github.com/rcallaby/Learn-Git/blob/main/CONTRIBUTORS.md) file so that it links to your own GitHub repository. Use markdown as shown in the file. 
 
-Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/tree/main/First-Contributions) directory for a step by step direction on how to contribute to this repository.
+Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/tree/main/First-Contributions) directory for a step by step directions on how to contribute to this repository.
 
 ### Table of Contents
 
