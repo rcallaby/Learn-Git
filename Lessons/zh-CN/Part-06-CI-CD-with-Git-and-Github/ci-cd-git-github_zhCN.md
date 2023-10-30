@@ -11,7 +11,7 @@
   - [在 Git 和 GitHub 中实现自动化测试](#在Git和GitHub中实现自动化测试)
   - [Git 和 GitHub 中的代码质量检查](#Git和GitHub中的代码质量检查)
   - [自动化测试和代码质量检查的最佳实践](#自动化测试和代码质量检查的最佳实践)
-- [使用 Git 和 GitHub Actions 部署应用程序](#使用Git和GitHubActions部署应用程序)
+- [使用 Git 和 GitHub Actions 部署应用程序](#使用Git和GitHub Actions部署应用程序)
   - [设置 Git 和 GitHub 存储库](#设置Git和GitHub存储库)
   - [设置应用程序](#设置应用程序)
   - [定义部署配置](#定义部署配置)
