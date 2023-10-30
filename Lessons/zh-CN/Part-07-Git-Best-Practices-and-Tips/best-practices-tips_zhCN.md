@@ -16,7 +16,7 @@
   - [使用Git别名](#使用Git别名)
   - [共享Git 别名](#共享Git别名)
   - [在 GitHub 中使用 Git 别名](#在GitHub中使用Git别名)
-- [使用 .gitignore 忽略文件和目录](#使用.gitignore忽略文件和目录)
+- [使用.gitignore忽略文件和目录](#使用.gitignore忽略文件和目录)
   - [什么是.gitignore？](#什么是.gitignore？)
   - [创建 .gitignore](#创建.gitignore)
   - [.gitignore的语法](#.gitignore的语法)
