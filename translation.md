@@ -37,5 +37,7 @@ Here are the language codes we use for translations:
 Here are the translations that are currently available in this repository:
 
 en: English (default)
+hi: Hindi (in progress)
+zh-CN: Simplified Chinese (in progress)
 
 We appreciate any contributions to help us make our documentation more accessible to a wider audience. Thank you for your help!
