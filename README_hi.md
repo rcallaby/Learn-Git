@@ -135,9 +135,7 @@ git pull
 - [भाग 13 - Github में C# कोडस्पेस का उपयोग](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-13-Using%20Csharp-Codespaces-in-Github/github-Csharp-codespace.md)
 - [भाग 14 - Github में React कोडस्पेस का उपयोग](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-14-Using-React-Codespaces-in-Github/github-react-codespace.md)
 - [भाग 15 - Github में Express कोडस्पेस का उपयोग](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-15-Using-Express-Codespaces-in-Github/github-express-codespace.md)
-- [भाग 16 - Github में Ruby on Rails कोडस्पेस का उपयोग](https://github.com/rcallaby/Learn-Git/blob/main/Lessons
-
-/en/Part-16-Using-Ruby-on-Rails-Codespaces/github-rubyrails-codespace.md)
+- [भाग 16 - Github में Ruby on Rails कोडस्पेस का उपयोग](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-16-Using-Ruby-on-Rails-Codespaces/github-rubyrails-codespace.md)
 - [भाग 17 - Github में Django कोडस्पेस का उपयोग](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-17-Using%20Django%20Codespaces-in-Github/github-django-codespace.md)
 - [भाग 18 - Github प्रोजेक्ट प्रबंधन उपकरण](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-18-Github-Project-Management-Tools/github-project-management-tools.md)
 - [भाग 19 - Github प्रोजेक्ट बोर्ड और नोट्स](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-19-Github-Project-Boards-and-Notes/github-project-boards-and-notes.md)
