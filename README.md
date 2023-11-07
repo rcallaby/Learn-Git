@@ -2,6 +2,8 @@
 This is where you will find a sample repository for my YouTube tutorial series on Learning Git and Github.
 If you found this repository to be helpful, please consider giving it a star ⭐ as it will be easier for others to find it.
 
+As well, it would greatly help me if you would subscribe to my [YouTube channel](https://www.youtube.com/@richardcallaby) as that is the place where I post free tutorials and other free educational resources.
+
 ## Here is a step by step tutorial on how to contribute to GitHub
 Create a GitHub account: If you don't already have a GitHub account, you'll need to create one. Go to github.com and click the "Sign up" button in the upper right corner. Follow the instructions to create your account.
 
