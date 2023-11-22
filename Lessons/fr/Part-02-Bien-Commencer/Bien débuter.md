@@ -3,7 +3,7 @@
 - [Commandes Git de base](#commandes-git-de-base)
 - [Mettre en place un repository sur Linux](#mettre-en-place-un-repository-sur-Linux)
 - [Mettre en place un repository sur Windows](#mettre-en-place-un-repository-sur-Windows)
-- [Setting up a Git Repository in Mac](#setting-up-a-git-repository-on-macos)
+- [Mettre en place un repository sur macOS](#mettre-en-place-un-repository-sur-macOS)
 
 ## Commandes Git de base:
 Git fournit une large gamme de commandes pour le contrôle de version. Voici quelques commandes fondamentales :
@@ -78,7 +78,7 @@ git init
 Votre repository est maintenant fonctionnel. Vous pouvez commencer à y ajouter des fichiers, commit des
 changements et utilisez les autres commandes de Git.
 
-## Setting up a Git Repository on macOS:
+## Mettre en place un repository sur macOS:
 
 Ouvrez le Terminal sur votre Mac.
 
