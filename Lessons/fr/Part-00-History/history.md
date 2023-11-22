@@ -8,7 +8,8 @@
 
 # Introduction
 
-Git est un système de contrôle de version distribué créé par Linus Torvalds en 2005. Git représente l'histoire d'une manière fondamentalement différente des systèmes de contrôle de version centralisés (CVCS) tels que Team Foundation Version Control, Perforce ou Subversion. Les systèmes centralisés stockent une histoire distincte pour chaque fichier dans un référentiel. Git stocke l'histoire comme un graphe de clichés de l'ensemble du référentiel. Ces clichés, appelés commits dans Git, peuvent avoir plusieurs parents, créant ainsi une histoire qui ressemble à un graphe plutôt qu'à une ligne droite. Cette différence dans l'histoire est extrêmement importante et est la principale raison pour laquelle les utilisateurs familiarisés avec les CVCS trouvent Git déroutant.
+Git est un système de contrôle de version distribué créé par Linus Torvalds en 2005. Git représente l'histoirique des
+changements d'une manière fondamentalement différente des systèmes de contrôle de version centralisés (CVCS) tels que Team Foundation Version Control, Perforce ou Subversion. Les systèmes centralisés stockent un historique distinct pour chaque fichier dans un référentiel. Git stocke l'histoirique comme un graphe de clichés de l'ensemble du référentiel. Ces clichés, appelés commits dans Git, peuvent avoir plusieurs parents, créant ainsi une histoire qui ressemble à un graphe plutôt qu'à une ligne droite. Cette différence dans l'histoire est extrêmement importante et est la principale raison pour laquelle les utilisateurs familiarisés avec les CVCS trouvent Git déroutant.
 
 Il est important d'apprendre Git aujourd'hui car il est largement utilisé par les développeurs et les entreprises du monde entier. C'est un outil essentiel pour gérer les changements de code et collaborer avec d'autres développeurs sur des projets. Git permet aux développeurs de travailler indépendamment sur du code, puis de fusionner leurs modifications lorsqu'ils sont prêts.
 
