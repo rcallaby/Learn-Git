@@ -12,7 +12,7 @@
 Le terminal BASH est une interface de ligne de commande puissante qui permet aux utilisateurs de naviguer à travers le système de fichiers de leur ordinateur, d'effectuer diverses tâches et d'interagir avec des systèmes de contrôle de version tels que Git. Git est un système de contrôle de version distribué largement utilisé qui offre une collaboration efficace et le suivi des changements apportés aux dépôts de code. Dans cet article, nous explorerons comment naviguer et utiliser des commandes de base dans le terminal BASH pour travailler efficacement avec Git.
 
 ## Ouverture du Terminal BASH:
-Pour commencer, ouvrez votre application de terminal préférée. Sur la plupart des systèmes basés sur Unix, vous pouvez trouver le terminal dans le dossier "Applications" ou "Utilitaires". Une fois lancé, une invite de commande apparaîtra, prête à accepter vos commandes.
+Pour commencer, ouvrez votre terminal préférée. Sur la plupart des systèmes basés sur Unix, vous pouvez trouver le terminal dans le dossier "Applications" ou "Utilitaires". Une fois lancé, une invite de commande apparaîtra, prête à accepter vos commandes.
 
 ## Navigation à travers les Répertoires:
 
