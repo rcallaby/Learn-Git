@@ -6,11 +6,11 @@
 -[Gérer les merge conflicts (problème de fusion)](#gérer-les-merge-conflicts-problème-de-fusion)
 - [Conclusion](#conclusion)
 
-# Introduction aux branches et leur utilité:
+## Introduction aux branches et leur utilité:
 
 Dans le monde du dévellopement logiciel, les branches sont des outils indispensables pour contrôler l'évolution du code et la collaboration. Une branche git, en bref, c'est un pointeur vers un commit (un point de l'historique) d'un dépot. En utilisant les branches, les dévellopeurs peuvent travailler sur différents aspects d'un projet de manière simultanée. Ils peuvent également expérimenter sur de nouvelles fonctionnalités ou sur des moyens de régler des bugs, isoler les changements les uns des autres sans affecter le code de base. Cet article plonge en profondeur dans les entrailles des branches Git, en couvrant leur création, le changement de l'uneà l'autre, la gestion de l'historique, et comment régler les problèmes de merge (la remise en commun de différentes branches).
 
-### Créer et sélectionner une branche:
+## Créer et sélectionner une branche:
 
 Pour créer une nouvelle branche en Git, les dévellopeurs peuvent utiliser la commande "git branch", suivi du nom de branche désiré. Par exemple, pour créer une branche nommée "feature-branch", on utilise la commande: git branch feature branch. Cela créera une nouvelle branche, mais la HEAD du dépo (la branche active pour le moment) reste inchangée. Ci-dessous, un exemple:
 
@@ -30,7 +30,7 @@ Une autre manière de faire (disponible à partir de Git 2.23), rends plus prati
 git checkout -b feature-branch
 ```
 
-### Gérer l'historique de branche et fusionner les changements:
+## Gérer l'historique de branche et fusionner les changements:
 
 Les branches sont des environnements isolés où vous pouvez travailler sur des fonctionnalités spécifiques ou du débogage. Tant qu'un développeur se trouve sur une branche, il peut apporter des modifications, les valider (commit) et construire l'historique indépendamment de la branche principale ou des autres branches.
 
@@ -38,7 +38,7 @@ Lorsque la fonctionnalité est opérationnelle ou que les bogues ont été corri
 
 ![Git Branching and Merging](/./images/Part-03/branching-and-merging.png)
 
-### Gérer les merge conflicts (problème de fusion):
+## Gérer les merge conflicts (problème de fusion):
 
 Les conflits de fusion (merge conflicts) surviennent lorsque Git rencontre des changements conflictuels entre les branches source et cible pendant la fusion. Ces conflits sont généralement dus à des lignes de code modifiées de manière différente dans les deux branches.
 
@@ -46,7 +46,7 @@ Pour gérer ces conflits, il est nécessaire de les résoudre manuellement. Git 
 
 Dans le cas où les conflits sont difficiles à résoudre, un développeur peut chercher de l'aide avec l'outil de fusion Git ou collaborer avec d'autres membres de l'équipe pour trouver des solutions.
 
-# Conclusion:
+## Conclusion:
 
 Les branches Git sont essentielles pour gérer l'évolution du code et faciliter la collaboration dans le développement de logiciels. Grâce aux branches, les développeurs peuvent travailler simultanément sur différentes parties du code, sans affecter le code principal. Les branches permettent un développement indépendant et l'encapsulation des modifications, qui peuvent ensuite être fusionnées dans la branche principale une fois finalisées.
 
