@@ -110,11 +110,11 @@ Pour ignorer les fichiers et les arguments qui n'existent pas, sans jamais deman
 ```commandline
 rm -f nom_de_fichier
 ```
-Pour vérifier ce qui se fait
+Pour montrer en mode verbeux tous les fichiers supprimés
 ```commandline
 rm -v nom_de_fichier
 ```
-Pour supprimer tout à l'intérieur d'un répertoire.
+Pour supprimer tous les fichiers à l'intérieur d'un répertoire.
 ```commandline
 rm *
 ```
