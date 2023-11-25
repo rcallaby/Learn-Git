@@ -4,9 +4,9 @@
 - [Github](#github)
 - [GitLab](#gitlab)
 - [Bitbucket](#bitbucket)
-- [Pushing and Pulling Changes from remote repositories](#pushing-and-pulling-changes-from-remote-repositories)
-- [Handling Merge Conflicts](#handling-merge-conflicts)
-- [Best Practices](#best-practices)
+- [Push et pull des changements sur des dépots distants](#Push-et-pull-des-changements-sur-des-dépots-distants)
+- [Gérer les merges conflicts](#Gérer-les-merges-conflicts)
+- [Bonnes habitudes](#Bonnes-habitudes)
 
 ## Mise en place de dépôts à distance (Github, GitLab, Bitbucket)
 
