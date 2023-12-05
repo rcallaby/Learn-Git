@@ -39,6 +39,7 @@ Here are the translations that are currently available in this repository:
 - en: English (default)
 - es: Spanish (in progress)
 - de: German (in progress)
+- it: Italian (in progress)
 - fr: French (in progress)
 - hi: Hindi (in progress)
 - zh-CN: Simplified Chinese (in progress)
