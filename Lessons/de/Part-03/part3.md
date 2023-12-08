@@ -36,7 +36,7 @@ Branches dienen als isolierte Umgebungen, in denen Entwickler an bestimmten Funk
 
 Wenn Änderungen auf einem Branch abgeschlossen und zur Integration bereit sind, kommt das Zusammenführen ins Spiel. Zusammenführen ist der Prozess, die in einem Branch vorgenommenen Änderungen in einen anderen Branch zu übernehmen. Um die Änderungen eines Branches (z.B. "feature-branch") in den Hauptbranch zu übernehmen, können Entwickler den Befehl `git merge feature-branch` ausführen, während sie sich im Hauptbranch befinden. Diese Aktion integriert die Änderungen von "feature-branch" in den Hauptbranch und kombiniert die Commit-Historien.
 
-![Git Branching und Merging](/./images/Part-03/branching-and-merging.png)
+<img alt="Git branching and merging infographic" src="../../images/Part-03/branching-and-merging.png" />
 
 ### Umgang mit Merge-Konflikten:
 
