@@ -36,7 +36,8 @@ Las ramas sirven como entornos aislados donde los desarrolladores pueden trabaja
 
 Cuando los cambios en una rama están completos y listos para integrarse, entra en juego la fusión. La fusión es el proceso de combinar los cambios realizados en una rama en otra. Para fusionar los cambios de una rama (por ejemplo, "feature-branch") en la rama principal, los desarrolladores pueden ejecutar el comando git merge feature-branch estando en la rama principal. Esta acción integra los cambios de "feature-branch" en la rama principal, combinando los historiales de commits.
 
-![Ramificación y Fusión de Git](/./images/Part-03/branching-and-merging.png)
+<img alt="Git branching and merging infographic" src="../../images/Part-03/branching-and-merging.png" />
+
 
 ### Manejo de conflictos de fusión:
 
