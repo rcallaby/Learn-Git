@@ -83,7 +83,7 @@ git push origin main
 ```
 此命令将更改从本地分支“main”推送到名为“origin”的远程存储库。
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push.jpeg" />
 
 从远程存储库中提取更改 拉取更改是指从远程存储库检索最新更改并将其集成到本地存储库的过程。这可确保您的本地代码与项目的最新发展保持同步。
 
@@ -105,7 +105,7 @@ git fetch origin
 ```
 此命令从远程存储库检索所有更改，而不会自动将它们合并到本地分支中。
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/fetch.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/fetch.jpeg" />
 
 步骤 3：合并更改 获取更改后，需要将它们合并到本地分支中。使用以下命令：
 
@@ -195,7 +195,7 @@ git push origin feature/new-feature
 
 第 4 步：与他人协作 一旦您的分支位于远程存储库中，其他开发人员就可以查看您的更改、提供反馈，甚至在同一分支上与您协作。
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push-branch.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push-branch.jpeg" />
 
 ## 了解拉取请求
 拉取请求 （PR） 是 GitHub 和 Bitbucket 等 Git 托管平台中常见的功能。它是将更改从一个分支合并到另一个分支的正式请求，通常是从功能分支合并到主分支。
@@ -297,7 +297,7 @@ git push origin my-feature-branch
 ```
 推动更改： 解决冲突后，将本地分支推送到远程存储库
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/PR.jpeg" />
 查看和合并： 拉取请求将显示您所做的更改，您的团队成员可以查看这些修改。如果一切正常，团队领导或维护者可以将拉取请求合并到主分支中。
 
 使用 Git 和 GitHub 解决远程存储库中的冲突是协作开发不可或缺的一部分。通过了解该过程并遵循本文中概述的步骤，您可以有效地解决冲突并维护干净且功能正常的代码库。采用协作方法和团队成员之间的清晰沟通可以进一步简化冲突解决过程并确保顺利的开发工作流程。

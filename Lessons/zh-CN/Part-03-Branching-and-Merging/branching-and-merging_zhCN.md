@@ -34,7 +34,7 @@ git checkout -b feature-branch
 
 当分支上的更改完成并准备好进行集成时，合并就会发挥作用。合并是将一个分支中所做的更改合并到另一个分支中的过程。要将分支（例如“feature-branch”）中的更改合并到主分支中，开发人员可以在主分支上执行命令 git merge feature-branch。此操作将“feature-branch”中的更改集成到主分支中，从而合并提交历史记录。
 
-<img alt="Git branching and merging infographic" src="../../images/Part-03/branching-and-merging.png" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-03/branching-and-merging.png" />
 
 ### 处理合并冲突:
 
