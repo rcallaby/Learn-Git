@@ -327,7 +327,7 @@ git push origin mein-feature-branch
 Erstellen eines Pull Requests:
 Nachdem die Änderungen gepusht wurden, besuchen Sie das Repository auf GitHub und erstellen Sie einen Pull Request von Ihrem "mein-feature-branch" zum Haupt-Branch (z. B. master). Dies ermöglicht es Ihren Teammitgliedern, Ihre Änderungen zu überprüfen, bevor sie in die Haupt-Codebasis fusioniert werden.
 
-![PR](/./images/Part-04/PR.jpeg)
+<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.jpeg" />
 
 Überprüfen und Fusionieren:
 Der Pull Request zeigt die von Ihnen vorgenommenen Änderungen, und Ihre Teammitglieder können die Modifikationen überprüfen. Wenn alles gut aussieht, kann ein Teamleiter oder Betreuer den Pull Request in den Haupt-Branch fusionieren.
