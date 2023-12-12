@@ -138,7 +138,7 @@ git merge origin/main
 
 ```
 
-![Git Branching und Merging](/./images/Part-04/fetch.jpeg)
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/fetch.jpeg" />
 
 Dieser Befehl integriert die Änderungen aus dem Remote-Branch "main" in Ihren lokalen Branch.
 
@@ -222,7 +222,7 @@ Dieser Befehl pusht Ihren lokalen Branch "feature/neues-feature" zum Remote-Repo
 Schritt 4: Zusammenarbeit mit Anderen
 Sobald Ihr Branch im Remote-Repository ist, können andere Entwickler Ihre Änderungen überprüfen, Feedback geben oder sogar mit Ihnen am selben Branch zusammenarbeiten.
 
-![Branch pushen](/./images/Part-04/push-branch.jpeg)
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push-branch.jpeg" />
 
 ## Verständnis von Pull Requests
 Ein Pull Request (PR) ist eine Funktion, die häufig in Git-Hosting-Plattformen wie GitHub und Bitbucket zu finden ist. Es handelt sich um eine formelle Anfrage, Änderungen von einem Branch in einen anderen zu fusionieren, normalerweise von einem Feature-Branch in den Haupt-Branch.
@@ -327,7 +327,7 @@ git push origin mein-feature-branch
 Erstellen eines Pull Requests:
 Nachdem die Änderungen gepusht wurden, besuchen Sie das Repository auf GitHub und erstellen Sie einen Pull Request von Ihrem "mein-feature-branch" zum Haupt-Branch (z. B. master). Dies ermöglicht es Ihren Teammitgliedern, Ihre Änderungen zu überprüfen, bevor sie in die Haupt-Codebasis fusioniert werden.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/PR.jpeg" />
 
 Überprüfen und Fusionieren:
 Der Pull Request zeigt die von Ihnen vorgenommenen Änderungen, und Ihre Teammitglieder können die Modifikationen überprüfen. Wenn alles gut aussieht, kann ein Teamleiter oder Betreuer den Pull Request in den Haupt-Branch fusionieren.
