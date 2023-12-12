@@ -99,7 +99,7 @@ git push origin main
 ```
 Dieser Befehl lädt die Änderungen vom lokalen Branch "main" in das Remote-Repository mit dem Namen "origin" hoch.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push.jpeg" />
 
 
 Pullen von Änderungen aus dem Remote-Repository
