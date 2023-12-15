@@ -101,7 +101,7 @@ git push origin main
 
 Questo comando effettua push delle modifiche dal branch locale "main" al repository remoto denominato "origin".
 
-![Infografica su Git branching e merging](../../images/Part-04/push.jpeg)
+![Infografica su Git branching e merging](../../../images/Part-04/push.jpeg)
 
 Estrazione delle Modifiche dal Repository Remoto
 Estrarre le modifiche è il processo di recupero e integrazione delle ultime modifiche dal repository remoto nel repository locale. Ciò assicura che il codice locale sia aggiornato con gli sviluppi più recenti del progetto.
