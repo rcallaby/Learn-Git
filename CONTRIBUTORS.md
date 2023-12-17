@@ -8,7 +8,7 @@ Use markdown to link to a github repository or a website of your choice, at leas
 
 As this page gets increasingly larger, if you want to add your name on this list then please just **add it to a random line** so as to avoid merge conflicts.
 
-- [Richard Callaby](http://richardcallaby.com)
+- [Richard Callaby](https://richardcallaby.dev)
 - [Pratham Nagpure](https://github.com/prathamnagpure)
 - [Harsh Tripathi](https://github.com/harshtripathi3)
 - [Sara Rutherfurd](https://github.com/sarafurd)
