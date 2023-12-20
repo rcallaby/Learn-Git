@@ -102,7 +102,7 @@ git push origin main
 
 Este comando envía los cambios de la rama local "main" al repositorio remoto llamado "origin."
 
-![Infografía de ramificación y fusión de Git](../../images/Part-04/push.jpeg)
+![Infografía de ramificación y fusión de Git](../../../images/Part-04/push.jpeg)
 
 Traer Cambios desde el Repositorio Remoto
 Traer cambios se refiere al proceso de recuperar e integrar los últimos cambios del repositorio remoto en tu repositorio local. Esto asegura que tu código local esté actualizado con los desarrollos más recientes en el proyecto.
