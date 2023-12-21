@@ -1,7 +1,3 @@
-Certainly! Here is the translation of the provided text into Spanish:
-
----
-
 # Integración y Despliegue Continuo con Git y GitHub
 
 - [Integración de Git y GitHub con pipelines de CI/CD](#integrando-git-y-github-con-pipelines-de-cicd)
