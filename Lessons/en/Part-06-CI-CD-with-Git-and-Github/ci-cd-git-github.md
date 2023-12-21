@@ -24,9 +24,6 @@
   - [Rolling Back Applications in Git](#rolling-back-applications-in-git)
   - [Best Practices for Monitoring and Rolling Back in Git](#best-practices-for-monitoring-and-rolling-back-in-git)
 
-   
-
-
 
 ## Integrating Git and GitHub with CI/CD pipelines
 
