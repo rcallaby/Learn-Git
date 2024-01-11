@@ -1,5 +1,3 @@
-Certainly! Here's the translation into German:
-
 - [Erweiterte GitHub Actions](#erweiterte-github-actions)
 - [Was ist GitHub Actions](#was-ist-github-actions)
 - [Erweiterte Funktionen von GitHub Actions](#erweiterte-funktionen-von-github-actions)
