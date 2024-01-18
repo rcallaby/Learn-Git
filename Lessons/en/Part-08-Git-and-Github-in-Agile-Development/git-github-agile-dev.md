@@ -1,6 +1,5 @@
 # Git and GitHub in Agile Development
 
-
 ## Table of Contents
 
 - [Git and Github's role in agile software development](#git-and-githubs-role-in-agile-software-development)
