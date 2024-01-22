@@ -96,7 +96,10 @@ When contributing to Learn-Git, please adhere to the following style guide:
 - Use headings and subheadings to break up sections
 - Use examples and visuals to illustrate concepts
 - Include links to relevant resources when appropriate
-- Use American English spelling and grammar
+- Use the appropriate spelling and grammar used throughout for your given translation.
+
+## Collaborators
+The most important role in this repository is that of a collaborator on this project. To be considered for the role of collaborator you must first prove your willingness to work on this project to maintain it and keep it up to date. While we are always looking for future collaborators please keep in mind that your role could be terminated from this repository if you choose to no longer participate in maintaining it. Failure to add to this repository in any meaningful way can result in your collaborator role being terminated without warning.
 
 # Conclusion
 Thank you for taking the time to contribute to Learn-Git! Your contributions can help make Git more accessible to people who are just getting started.
