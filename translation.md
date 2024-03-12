@@ -27,6 +27,7 @@ Here are the language codes we use for translations:
 - de: German
 - it: Italian
 - ja: Japanese
+- mn: Mongolian
 - ko: Korean
 - pt: Portuguese
 - ru: Russian
@@ -42,6 +43,7 @@ Here are the translations that are currently available in this repository:
 - it: Italian (in progress)
 - fr: French (in progress)
 - hi: Hindi (in progress)
+- mn: Mongolian(in progress)
 - ja: Japanese (in progress)
 - zh-CN: Simplified Chinese (in progress)
 
