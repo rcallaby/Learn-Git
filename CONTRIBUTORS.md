@@ -16,6 +16,7 @@ As this page gets increasingly larger, if you want to add your name on this list
 - [Rahul](https://github.com/rahul13agrawal)
 - [Nikhil K](https://github.com/nikhil18440)
 - [Harshil Junakiya](https://github.com/harshil-junakiya)
+- [Paul Danso Asare](https://github.com/colorwhite-git)
 - [Alex Curtis-Slep](https://github.com/AlexVCS)
 - [Raj Kumar](https://github.com/RAJKUMAR1301)
 - [Shubham Paliwal](https://github.com/shubhampaliwal3011)
