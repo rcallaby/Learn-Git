@@ -272,69 +272,69 @@ git config --global core.excludesfile ~/.gitignore_global
 
 ## Хамтран ажиллах ажлын урсгал болон код хянах ёс зүй
 
-Collaboration is at the heart of modern software development, and version control systems like Git, coupled with platforms like GitHub, have revolutionized how developers work together. Effective collaborative workflows and code review etiquette are essential for maintaining high-quality codebases, fostering a positive team culture, and ensuring seamless integration of new features and bug fixes. In this article, we will explore the key elements of collaborative workflows and code review etiquette in Git and GitHub.
+Орчин үеийн программ хангамж хөгжүүлэлтийн гол цөм нь хамтын ажиллагаа байдаг бөгөөд Git зэрэг хувилбар хяналтын системүүд болон GitHub зэрэг платформууд хөгжүүлэгчдийн хамтын ажиллагааг эрс шинэчилсэн. Хамтын ажиллагааны үр дүнтэй урсгалууд болон код хянах ёс зүй нь өндөр чанартай кодын санг хадгалах, багийн эерэг соёлыг бий болгох, шинэ функц болон алдаа засваруудыг тасралтгүй нэгтгэхэд маш чухал ач холбогдолтой. Энэхүү нийтлэлд бид Git болон GitHub дээрх хамтын ажиллагааны урсгалууд болон код хянах ёс зүйн гол элементүүдийг судлах болно.
 
 ### Git дэх хамтын ажлын урсгал
 
-Git offers several collaborative workflows, with two of the most popular being the Centralized Workflow and the Feature Branch Workflow.
+Git нь хэд хэдэн хамтын ажиллагааны урсгалыг санал болгодог бөгөөд хамгийн түгээмэл хоёр нь Төвлөрсөн урсгал (Centralized Workflow) болон Функцийн branch урсгал (Feature Branch Workflow) юм.
 
-Centralized Workflow:
-In the Centralized Workflow, all team members work directly on a single branch, typically the main or master branch. Developers clone the repository, make changes locally, and then push those changes to the central repository. This approach is simple and suitable for smaller teams or projects with less frequent code changes.
+Төвлөрсөн урсгал:
+Төвлөрсөн урсгалд багийн бүх гишүүд нэг салбар дээр, ихэвчлэн main эсвэл master салбар дээр шууд ажилладаг. Хөгжүүлэгчид repository-г clone хийгээд өөрийн компьютер дээр өөрчлөлтүүдийг хийж, хийсэн ажлаа төв repository руу push хийдэг. Энэ арга барил нь маш энгийн бөгөөд жижиг төслүүд эсвэл бага өөрчлөлт оруулдаг төслүүдэд тохиромжтой.
 
-However, the Centralized Workflow lacks isolation for feature development, which can lead to conflicts and hinder parallel development.
+Гэвч энэ төвлөрсөн урсгал нь шинэ функцийн хөгжүүлэлтийг тусгаарлаж чаддаггүй тул зөрчилдөөн үүсгэж, параллель хөгжүүлэлтийг хязгаарладаг.
 
-Feature Branch Workflow:
-The Feature Branch Workflow is more scalable and suitable for larger teams and projects. In this workflow, each new feature or bug fix is developed on a dedicated branch. Developers create a new branch for a specific task, work on the changes, and then merge the branch back into the main branch upon completion.
+Функцийн branch урсгал:
+Функцийн branch урсгал нь том төсөл болон багт тохиромжтой. Энэ ажлын урсгалд шинэ функц эсвэл алдаа засвар бүрийг өөрийн гэсэн branch дээр хөгжүүлэлдэг. Хөгжүүлэгчид тодорхой ажилд зориулж шинэ branch үүсгэн, засварууд дээр ажиллаж, дууссаны дараа branch-г үндсэн branch-д нэгтгэдэг.
 
-The Feature Branch Workflow provides isolation for feature development, reduces conflicts, and enables better code review practices. It encourages developers to work independently and facilitates better integration of new code into the main branch.
+Функцийн branch урсгал нь шинэ функцийн хөгжүүлэлтийг тусгаарлаж, зөрчилдөөнийг багасгаж код хяналтыг хялбаршуулдаг. Энэ нь хөгжүүлэгчдэд бие даан ажиллах боломжийг олгож шинэ кодыг main branch-тай нэгтгэх үйл явцыг хялбаршуулна.
 
 ### Код хянах ёс зүй
 
-Code review is a crucial part of the collaborative development process. It helps identify bugs, improve code quality, and ensures that best practices are followed. Here are some essential code review etiquette tips:
+Код хяналт бол хамтын хөгжүүлэлтийн салшгүй хэсэг юм. Энэ нь алдааг эрт олох, кодын чанарыг сайжруулах болон зөв хэвшлийг мөрдөхөд хэрэгтэй. Код хяналтын ёс зүйн зарим чухал зөвлөмжүүдийг хүргэж байна:
 
-Be Respectful and Constructive:
-Remember that code review is about improving the code, not criticizing the developer. Provide feedback in a respectful and constructive manner. Focus on the code's quality, adherence to standards, and overall design rather than personal preferences.
+Хүндлэлтэй байж, үр дүнг чухалчил:
+Код хяналт нь тухайн хөгжүүлэгчийг шүүмжлэхэд бус, кодыг сайжруулахад чиглэсэн гэдгийг санаарай. Санаа бодлоо хүндэтгэлтэй, бүтээлч байдлаар илэрхийл. Хувийн сонирхлоос илүү кодын чанар, стандарт болон ерөнхий дизайнд анхаарлаа хандуул.
 
-Understand the Context:
-Try to understand the context of the changes before providing feedback. Familiarize yourself with the goals of the feature or bug fix, as well as any relevant design decisions or constraints.
+Агуулгыг ойлгох:
+Санал бодлоо өгөхөөсөө өмнө өөрчлөлтийн агуулгыг ойлгохыг хичээгээрэй. Тухайн функц эсвэл засварын зорилго, мөн холбогдох дизайны шийдэл, хязгаарлалттай танилцаарай.
 
 ### Код хянах хэрэгслийг үр дүнтэй ашиглах:
 
-Leverage code review tools provided by GitHub or other platforms. Utilize inline comments to pinpoint specific issues and suggest improvements. Avoid large and overwhelming comments; instead, break them down into smaller, actionable points.
+Github болон бусад платформууд дээрх код хяналтын хэрэгслүүдийг ашигла. Мөр хоорондын "comment" ашиглаж тодорхой асуудлыг тэмдэглэх болон сайжруулалт санал болгоорой. Хэт том, дарамттай comment-оос зайлсхийж, харин тэдгээрийг жижиг, хэрэгжүүлэхэд хялбар болгон хувааж өгөөрэй.
 
-Address Both High-Level and Low-Level Aspects:
-Provide feedback on both high-level aspects like overall architecture, design patterns, and code organization, as well as low-level details like variable names, code formatting, and error handling. Attention to both aspects contributes to a more comprehensive code review.
+Дээд болон доод түвшний асуудлын аль алиныг авч үз:
+Ерөнхий архитектур, дизайн загварууд, кодын зохион байгуулалт зэрэг өндөр түвшний асуудал болон хувьсагчийн нэрс, кодын формат, алдааны боловсруулалт зэрэг доод түвшний дэлгэрэнгүй мэдээллүүдэд аль алинд нь санал бодлоо илэрхийлээрэй. Эдгээр талуудад анхаарал хандуулах нь илүү цогц кодын шалгалт хийхэд хувь нэмэр оруулдаг.
 
-Avoid Nitpicking:
-While attention to detail is essential, avoid nitpicking or focusing too heavily on minor issues that do not significantly impact the code's functionality or maintainability.
+Жижиг зүйлс дээр хэт төвлөрөхөөс зайлсхий:
+Нарийвчлалтай хандах нь чухал боловч кодын үйл ажиллагаа, засвар хөгжүүлэлт зэрэгт нөлөөлөхгүй жижиг асуудлууд дээр хэт төвлөрөхөөс зайлсхийх хэрэгтэй.
 
-Set Realistic Expectations for Timing:
-Consider the urgency of the changes and set realistic expectations for the review timing. Smaller and less critical changes may require a quicker turnaround, while larger changes or feature implementations might need more time.
+Хугацааны талаар бодитой хүлээлт тогтоо:
+Өөрчлөлтийн яаралтай байдлыг харгалзан үзэж, код хяналтдаа бодитой цаг хугацаа хуваарил. Жижиг, чухал бус өөрчлөлтүүд хурдан эргэлттэй байдаг бол томоохон өөрчлөлт эсвэл шинэ функционалийн нэвтрүүлэлт илүү цаг хугацаа шаарддаг.
 
-Be Open to Feedback:
-As a code author, be open to receiving feedback. Embrace feedback as an opportunity for growth and improvement, and be prepared to address concerns raised by the reviewers.
+Санал бодол хүлээж авахад бэлэн бай:
+Кодын зохиогчийн хувьд санал гомдол хүлээн авахад бэлэн байгаарай. Санал гомдлыг өсөж дэвших боломж гэж үзэж хянагчаас ирсэн асуудлыг шийдвэрлэхэд бэлэн бай.
 
-Use Automated Checks and Tests:
-Before initiating a code review, run automated checks and tests to catch common issues such as coding style violations and basic errors. This ensures that reviewers can focus on higher-level aspects during the review.
+Автоматжуулсан хяналт шалгалтыг ашигла:
+Код хяналт хийж эхлэхээс өмнө автоматжуулсан хяналт шалгалт явуулж кодын загварын зөрчил анхан шатны алдаа зэрэг нийтлэг асуудлыг илрүүлэх хэрэгтэй. Ингэснээр хянагчид өндөр түвшний асуудал дээр төвлөрөх боломжийг хангана.
 
 ### GitHub дээр хамтран ажиллах
 
-GitHub offers numerous collaboration features that complement Git workflows. Some of the key features for collaborative development include:
+GitHub нь Git-н ажлын урсгалыг дэмжих олон хамтын ажиллагааны функцүүдийг санал болгодог. Хамтын хөгжүүлэлтэд зориулсан зарим функцүүдэд:
 
 #### Pull Requests:
 
-Pull Requests (PRs) are the cornerstone of the Feature Branch Workflow. Developers create a pull request when they are ready to merge their feature branch into the main branch. PRs provide a clear overview of the changes and facilitate code reviews by allowing team members to comment, suggest changes, and discuss the code before merging.
+Pull Request (PR) нь функцийн branch урсгалын гол тулгуур юм. Хөгжүүлэгчид өөрийн функцийн branch-ыг main branch-д нэгтгэхэд бэлэн болсон үедээ pull request үүсгэдэг. PR-ууд нь өөрчлөлтийн тодорхой тоймыг өгч, багийн гишүүдэд кодыг merge хийхээс өмнө сэтгэгдэл үлдээх, санал болгох, кодыг хэлэлцэх боломжийг олгосноор кодын шалгалтыг хөнгөвчилдөг.
 
-#### Code Review Requests:
+#### Код хянах хүсэлт:
 
-When creating a pull request, request specific team members to review the changes. This ensures that the right people are notified and the review process is efficient.
+Pull request үүсгэх үедээ тодорхой багийн гишүүдээс өөрчлөлтийг шалгахыг хүсээрэй. Ингэснээр зөв хүн нь мэдэгдэл авч, хяналтын явц үр дүнтэй болно.
 
-#### Status Checks and Continuous Integration (CI):
+#### Статус шалгалт болон Continuous Integration (CI):
 
-Set up status checks and CI to automatically run tests and checks when changes are proposed in a pull request. This provides an extra layer of confidence before merging code into the main branch.
+Шинэ pull request үүсэхэд автомат туршилтууд болон шалгалтуудыг ажиллуулахын тулд статус шалгалт болон CI-г тохируулаарай. Энэ нь кодыг main branch-д нэгтгэхээс өмнө нэмэлт итгэл олгодог.
 
-#### Labels and Milestones:
+#### Label болон Milestone(Чухал Үе Шат):
 
-Use labels and milestones to categorize and track pull requests. Labels can indicate the status of a PR (e.g., "needs review," "work in progress") while milestones can group related PRs for a specific release or feature.
+Pull request-уудыг ангилах, хянахын тулд label болон milestone-г ашиглаарай. Label нь PR-ийн төлөвийг (жишээ нь, "шалгах шаардлагатай," "ажил үргэлжилж байна") илтгэж, milestone нь тодорхой хувилбар эсвэл функцэд хамаарах PR-уудыг нэгтгэн зохион байгуулж болно.
 
-Collaborative workflows and code review etiquette are fundamental aspects of successful software development using Git and GitHub. By adopting the right workflow for your team, such as the Feature Branch Workflow, you can ensure smoother parallel development and minimize conflicts. Effective code review etiquette, including constructive feedback, understanding context, and using code review tools efficiently, fosters a positive team culture and improves code quality. Leveraging GitHub's collaborative features, such as pull requests, status checks, and milestones, further streamlines the development process and enhances team collaboration. By incorporating these best practices into your workflow, you can achieve a more organized, efficient, and collaborative software development process.
+Хамтын ажлын урсгалууд болон кодын шалгалтын ёс зүй нь Git болон GitHub-ийг ашиглах амжилттай программ хангамжийн хөгжүүлэлтийн үндсэн элементүүд юм. Таны багт тохирсон ажлын урсгалыг, жишээлбэл Функцийн Branch Ажлын Урсгалыг нэвтрүүлснээр зэрэгцээ хөгжүүлэлтийг илүү жигд явуулах, мөргөлдөөнийг багасгах боломжтой. Баримжаатай санал шүүмж, агуулгыг ойлгох, кодын шалгалтын хэрэгслүүдийг үр дүнтэй ашиглах зэрэг кодын шалгалтын ёс зүй нь багийн эерэг соёл төлөвшүүлж, кодын чанарыг сайжруулдаг. GitHub-ийн хамтын ажиллагааны функцүүдийг, тухайлбал pull request, статус шалгалт, milestone зэргийг ашигласнаар хөгжүүлэлтийн үйл явц жигдэрч, багийн хамтын ажиллагаа нэмэгдэнэ. Эдгээр туршлагуудыг ажлын урсгалдаа нэгтгэснээр илүү зохион байгуулалттай, үр дүнтэй, хамтын ажиллагаатай программ хангамжийн хөгжүүлэлтийн үйл явцад хүрэх боломжтой.
