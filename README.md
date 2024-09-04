@@ -146,3 +146,16 @@ Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/t
 - [Part 17 - Using Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-17-Using%20Django%20Codespaces-in-Github/github-django-codespace.md)
 - [Part 18 - Github Project Management Tools](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-18-Github-Project-Management-Tools/github-project-management-tools.md)
 - [Part 19 - Github Project Boards and Notes](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-19-Github-Project-Boards-and-Notes/github-project-boards-and-notes.md)
+
+#### Translations of this tutorial
+You can find translations of this tutorial in many different languages below. Please keep in mind that some of these translations are a work in progress and haven't been fully completed yet.
+
+Chinese (Simplified)
+French
+German
+Russian
+Spanish
+Hindi
+Italian
+Mongolian
+Japanese
