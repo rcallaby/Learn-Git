@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff44043e-6753-4322-b63e-4c1b51026b72" name="Changes" comment="" />
+    <list default="true" id="55182278-7349-408d-a3e6-8b1bc122ff76" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +10,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2lcIkcm7lpb52Z2nBU7Du5KPyxl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2lw5rF7m8JUYZsBMjGwCB8Mi63Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,22 +20,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ruhityagi/Desktop/Open Source Contributions/fcc/Learn-Git&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff44043e-6753-4322-b63e-4c1b51026b72" name="Changes" comment="" />
-      <created>1725473082437</created>
+      <changelist id="55182278-7349-408d-a3e6-8b1bc122ff76" name="Changes" comment="" />
+      <created>1726078494470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725473082437</updated>
-      <workItem from="1725473085092" duration="10401000" />
-      <workItem from="1725647581697" duration="3874000" />
-      <workItem from="1725909029371" duration="5378000" />
-      <workItem from="1726076631495" duration="420000" />
+      <updated>1726078494470</updated>
+      <workItem from="1726078495720" duration="349000" />
+      <workItem from="1726079496532" duration="79000" />
+      <workItem from="1726080332374" duration="535000" />
+      <workItem from="1726166551541" duration="2251000" />
     </task>
     <servers />
   </component>
