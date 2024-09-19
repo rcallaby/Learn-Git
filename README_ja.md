@@ -124,9 +124,9 @@ git pull
 
 ### 目次
 
-- [Part 00 - 履歴と基盤](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-00/Part-00.md)
-- [Part 01 - 基本的なナビゲーション](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-01/Part-01.md)
-- [Part 02 - Gitの初期化](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-02/Part-02.md)
+- [Part 00 - 履歴と基盤](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-00/part-00.md)
+- [Part 01 - 基本的なナビゲーション](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-01/part-01.md)
+- [Part 02 - Gitの初期化](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-02/part-02.md)
 - [Part 03 - ブランチとマージ](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-03/Part-03.md)
 - [Part 04 - リモートリポジトリとの協力](https://github.com/rcallaby/Learn-Git/tree/main/Lessons/ja/Part-04/Part-04.md)
 - [Part 05 - Gitの高度なコンセプト](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-05/Part-05.md)
