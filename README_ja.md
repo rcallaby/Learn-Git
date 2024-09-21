@@ -142,5 +142,5 @@ git pull
 - [Part 15 - GithubでのExpress Codespacesの使用](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-15/Part-15.md)
 - [Part 16 - GithubでのRuby on Rails Codespacesの使用](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-16/Part-16.md)
 - [Part 17 - GithubでのDjango Codespacesの使用](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-17/Part-17.md)
-- [Part 18 - Github Project Management Tools](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-18/Part-18.md)
-- [Part 19 - Github Project Boards and Notes](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-19/Part-19.md)
+- [Part 18 - Githubプロジェクト管理ツール](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-18/Part-18.md)
+- [Part 19 - Githubプロジェクトボードとノート](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ja/Part-19/Part-19.md)
