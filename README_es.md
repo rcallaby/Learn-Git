@@ -133,9 +133,7 @@ Por favor revisa el directorio [First-Contributions](https://github.com/rcallaby
 - [Parte 10 - Acciones de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-10-Github-Actions/github-actions.md)
 - [Parte 11 - Acciones Avanzadas de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-11-Advanced-Github-Actions/advanced-github-actions.md)
 - [Parte 12 - Usando Jupyter Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-12-Using-Jupyter-Codespaces-in-Github/github-jupyter-codespace.md)
--
-
- [Parte 13 - Usando C# Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-13-Using%20Csharp-Codespaces-in-Github/github-Csharp-codespace.md)
+- [Parte 13 - Usando C# Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-13-Using%20Csharp-Codespaces-in-Github/github-Csharp-codespace.md)
 - [Parte 14 - Usando React Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-14-Using-React-Codespaces-in-Github/github-react-codespace.md)
 - [Parte 15 - Usando Express Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-15-Using-Express-Codespaces-in-Github/github-express-codespace.md)
 - [Parte 16 - Usando Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-16-Using-Ruby-on-Rails-Codespaces/github-rubyrails-codespace.md)
