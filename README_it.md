@@ -119,10 +119,10 @@ Per favore, guarda la directory [First-Contributions](https://github.com/rcallab
 
 ### Tabella dei contenuti
 
-- [Parte 00 - Storia e Fondamenti di Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-00/part-00.md)
+- [Parte 00 - Storia e Fondamenti](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-00/part-00.md)
 - [Parte 01 - Navigazione di Base](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-01/part01.md)
 - [Parte 02 - Inizializzazione di Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/part-02/part2.md)
-- [Parte 03 - Branching e Merge](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-03/part3.md)
+- [Parte 03 - Ramificazione e Fusione](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-03/part3.md)
 - [Parte 04 - Collaborare con Repository Remoti](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-04/part4.md)
 - [Parte 05 - Concetti Avanzati di Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-05/Part05.md)
 - [Parte 06 - CI-CD con Git e Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-06/Part6.md)
@@ -133,10 +133,10 @@ Per favore, guarda la directory [First-Contributions](https://github.com/rcallab
 - [Parte 11 - Azioni Avanzate di Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-11/Part11.md)
 - [Parte 12 - Utilizzo di Jupyter Codespaces in GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-12/Part12.md)
 - [Parte 13 - Utilizzo di C# Codespaces in GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-13/Part13.md)
-- [Parte 14 - Uso di React Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-14/Part14.md)
-- [Parte 15 - Uso di Express Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-15/Part15.md)
-- [Parte 16 - Uso di Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-16/Part16.md)
-- [Parte 17 - Uso di Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-17/Part17.md)
+- [Parte 14 - Utilizzo di React Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-14/Part14.md)
+- [Parte 15 - Utilizzo di Express Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-15/Part15.md)
+- [Parte 16 - Utilizzo di Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-16/Part16.md)
+- [Parte 17 - Utilizzo di Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-17/Part17.md)
 - [Parte 18 - Strumenti di Gestione Progetti Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-18/Part-18.md)
 - [Parte 19 - Schede e Note di Progetto Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/it/Part-19/part19.md)
 
