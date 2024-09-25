@@ -1,4 +1,4 @@
-# Git - Navigazione di Base
+# Navigazione di Base
 
 - [Introduzione](#introduzione)
 - [Apertura del Terminale BASH](#apertura-del-terminale-bash)
