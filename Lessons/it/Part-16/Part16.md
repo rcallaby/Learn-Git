@@ -11,7 +11,7 @@
     - [Distribuzione Automatica: Distribuisci automaticamente la tua applicazione Rails su una piattaforma di hosting quando vengono apportate modifiche al branch principale.](#distribuzione-automatica-distribuisci-automaticamente-la-tua-applicazione-rails-su-una-piattaforma-di-hosting-quando-vengono-apportate-modifiche-al-branch-principale)
     - [Attività Pianificate: Esegui attività periodiche, come i backup del database, utilizzando GitHub Actions programmate.](#attivita-pianificate-esegui-attivita-periodiche-come-i-backup-del-database-utilizzando-github-actions-programmate)
 
-# Ruby on Rails Codespaces
+# Utilizzo di Ruby on Rails Codespaces
 
 GitHub Codespaces è un potente ambiente di sviluppo basato su cloud che consente agli sviluppatori di scrivere codice, costruire e testare i loro progetti direttamente all'interno dell'interfaccia web di GitHub. Gli sviluppatori Ruby on Rails possono sfruttare Codespaces per ottimizzare il loro flusso di lavoro di sviluppo, eliminando la necessità di installazioni locali e garantendo un ambiente di sviluppo coerente per la collaborazione in team. In questo articolo, esploreremo come configurare e utilizzare Ruby on Rails Codespaces su GitHub, insieme ad alcuni esempi per iniziare.
 
