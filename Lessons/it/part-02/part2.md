@@ -1,4 +1,4 @@
-# Inizializzazione di Git - Iniziare
+# Inizializzazione di Git
 
 - [Operazioni di base di Git](#operazioni-di-base-di-git)
 - [Configurazione di un repository Git in Linux](#configurazione-di-un-repository-git-su-linux)
