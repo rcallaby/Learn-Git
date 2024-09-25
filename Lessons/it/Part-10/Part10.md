@@ -1,4 +1,4 @@
-# GitHub Actions
+# Azioni di Github
 
 ---
 - [Vantaggi dell'utilizzo di GitHub Actions](#vantaggi-dellutilizzo-di-github-actions)
