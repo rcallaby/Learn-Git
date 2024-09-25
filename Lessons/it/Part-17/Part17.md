@@ -11,7 +11,7 @@
   - [Deploy in Staging o Produzione](#deploy-in-staging-o-produzione)
   - [Attività Pianificate](#attività-pianificate)
 
-# Django Codespaces in GitHub
+# Utilizzo di Django Codespaces in Github
 
 GitHub Codespaces è un potente ambiente di sviluppo basato su cloud che consente agli sviluppatori di codificare, costruire e testare applicazioni direttamente nel loro browser. Offre un'esperienza di codifica efficiente e senza interruzioni eliminando la necessità di configurazioni di sviluppo locali. Questo articolo ti guiderà attraverso il processo di configurazione e utilizzo di Django Codespaces in GitHub, permettendoti di sviluppare applicazioni Django con facilità e convenienza.
 
