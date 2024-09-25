@@ -1,4 +1,4 @@
-# Branching e Merge
+# Ramificazione e Fusione
 
 - [Introduzione a branch e il loro scopo](#introduzione-a-branch-e-il-loro-scopo)
 - [Creazione e cambio tra branch](#creazione-e-cambio-tra-branch)
