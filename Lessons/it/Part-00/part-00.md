@@ -1,4 +1,4 @@
-# Storia e Fondamenti di Git
+# Storia e Fondamenti
 
 - [Introduzione](#introduzione)
 - [Chi ha creato Git](#chi-ha-creato-git)
