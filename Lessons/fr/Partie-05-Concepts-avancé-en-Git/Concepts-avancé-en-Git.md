@@ -112,7 +112,6 @@ git rebase main
 ```
 b. Résoudre les conflits : Si des conflits surviennent pendant le rebasement, Git mettra le processus en pause pour vous permettre de les résoudre. Après avoir effectué les modifications nécessaires, ajoutez les fichiers et exécutez git rebase --continue pour continuer.
 
-c. Squashing Commits: To combine multiple commits into one, use interactive rebase:
 c. Ecraser des commits: Pour combiner plusieurs commits en un, utilisez le rebase intéractif.
 ```
 git rebase -i HEAD~N
