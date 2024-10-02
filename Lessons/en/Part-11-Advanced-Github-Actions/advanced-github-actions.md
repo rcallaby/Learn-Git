@@ -1,3 +1,5 @@
+# Table of Contents
+
 - [Advanced Github Actions](#advanced-github-actions)
 - [What is Github Actions](#what-is-github-actions)
 - [Advanced Features of Github Actions](#advanced-features-of-github-actions)
