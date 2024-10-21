@@ -1,7 +1,3 @@
-Here is the translation of the provided content into Spanish:
-
----
-
 # Tabla de Contenidos
 - [Django Codespaces en Github](#django-codespaces-en-github)
   - [Sección 1: ¿Qué son los GitHub Codespaces?](#section-1-what-are-github-codespaces)
