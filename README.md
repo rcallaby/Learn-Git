@@ -150,12 +150,12 @@ Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/t
 #### Translations of this tutorial
 You can find translations of this tutorial in many different languages below. Please keep in mind that some of these translations are a work in progress and haven't been fully completed yet.
 
-Chinese (Simplified)
-French
-German
-Russian
-Spanish
-Hindi
-Italian
-Mongolian
-Japanese
+- Chinese (Simplified)
+- French
+- German
+- Russian
+- Spanish
+- Hindi
+- Italian
+- Mongolian
+- Japanese
