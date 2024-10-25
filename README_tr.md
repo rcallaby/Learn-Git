@@ -153,4 +153,3 @@ Aşağıda bu eğitimin birçok farklı dildeki çevirilerini bulabilirsiniz. L�
 - Japonca
 - Malayalam
 - fransız
-- malayalam
