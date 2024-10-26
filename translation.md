@@ -31,6 +31,8 @@ Here are the language codes we use for translations:
 - ko: Korean
 - pt: Portuguese
 - ru: Russian
+- tr: Turkish
+- ur: Urdu
 - zh-CN: Simplified Chinese
 - zh-TW: Traditional Chinese
 
@@ -42,9 +44,11 @@ Here are the translations that are currently available in this repository:
 - de: German (in progress)
 - it: Italian (in progress)
 - fr: French (in progress)
+- tr: Turkish (in progress)
 - hi: Hindi (in progress)
 - mn: Mongolian(in progress)
-- ja: Japanese (in progress)
+- ja: Japanese
+- ur: Urdu (in progress)
 - zh-CN: Simplified Chinese (in progress)
 
 We appreciate any contributions to help us make our documentation more accessible to a wider audience. Thank you for your help!
