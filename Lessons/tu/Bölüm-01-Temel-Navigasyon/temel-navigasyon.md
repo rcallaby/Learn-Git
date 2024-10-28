@@ -3,7 +3,7 @@
 - [Giriiş](#giriiş)
 - [BASH Terminalini Açma](#bash-terminalini-açma)
 - [Dizinlerde Gezinme](#dizinlerde-gezinme)
-- [Dizin İçeriğini Listeleme](#dizin-icerigini-listeleme)
+- [Dizin Icerigini Listeleme](#dizin-icerigini-listeleme)
 - [Dizin Oluşturma ve Taşıma](#dizin-oluşturma-ve-kaldırma)
 - [Dosya Oluşturma ve Kaldırma](#dosya-oluşturma-ve-kaldırma)
 - [Sonuç](#sonuç)
@@ -41,7 +41,8 @@ cd ~
 cd ~
 ```
 
-## Dizin İçeriğini Listeleme:
+
+## Dizin Icerigini Listeleme:
 ls komutu bir dizinin içeriklerini listelemek için kullanılır. Varsayılan olarak, geçerli dizindeki dosyaları ve dizinleri görüntüler. ls işlevselliğini geliştirmek için bazı yararlı işaretler:
 
 ls -l içerikleri ayrıntılı liste biçiminde görüntüler.
