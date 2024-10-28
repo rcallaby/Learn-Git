@@ -41,6 +41,7 @@ cd ~
 cd ~
 ```
 
+
 ## Dizin Icerigini Listeleme:
 ls komutu bir dizinin içeriklerini listelemek için kullanılır. Varsayılan olarak, geçerli dizindeki dosyaları ve dizinleri görüntüler. ls işlevselliğini geliştirmek için bazı yararlı işaretler:
 
