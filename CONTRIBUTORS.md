@@ -33,3 +33,4 @@ As this page gets increasingly larger, if you want to add your name on this list
 - [zukizukizuki](https://github.com/zukizukizuki)
 - [Adil Iqbal](https://github.com/adilnvm)
 - [Luiz Rebelatto](https://github.com/Luizrebelatto)
+- [Du Hoac](https://github.com/duhk1980)
