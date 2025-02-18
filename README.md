@@ -153,9 +153,12 @@ You can find translations of this tutorial in many different languages below. Pl
 - Chinese (Simplified)
 - French
 - German
-- Russian
-- Spanish
 - Hindi
 - Italian
-- Mongolian
 - Japanese
+- Malayalam
+- Mongolian
+- Russian
+- Spanish
+- Turkish
+- Urdu
