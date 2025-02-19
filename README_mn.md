@@ -120,9 +120,7 @@ git pull
 - [Хэсэг 01 - Үндсэн чиглүүлэлт](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-01-Basic-Navigation/basic-navigation.md)
 - [Хэсэг 02 - Git эхлүүлэх](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-02-Initializing-Git/getting-started.md)
 - [Хэсэг 03 - Салбар үүсгэх ба нийлүүлэх](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-03-Branching-and-Merging/branching-and-merging.md)
-- [Хэсэг 04
-
- - Алсын репозиторитой хамтран ажиллах](https://github.com/rcallaby/Learn-Git/tree/main/Lessons/en/Part-04-Collaborating-with-Remote-Repositories/collaborating-with-remote-repos.md)
+- [Хэсэг 04 - Алсын репозиторитой хамтран ажиллах](https://github.com/rcallaby/Learn-Git/tree/main/Lessons/en/Part-04-Collaborating-with-Remote-Repositories/collaborating-with-remote-repos.md)
 - [Хэсэг 05 - Нарийвчилсан Git ойлголтууд](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-05-Advanced-Git-Concepts/advanced-git.md)
 - [Хэсэг 06 - Git ба GitHub ашиглан CI-CD](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-06-CI-CD-with-Git-and-Github/ci-cd-git-github.md)
 - [Хэсэг 07 - Git-ийн шилдэг туршлагууд ба зөвлөмжүүд](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-07-Git-Best-Practices-and-Tips/best-practices-tips.md)
