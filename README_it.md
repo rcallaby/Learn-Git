@@ -139,3 +139,19 @@ Per favore, guarda la directory [First-Contributions](https://github.com/rcallab
 - [Parte 17 - Uso di Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-17-Using%20Django%20Codespaces-in-Github/github-django-codespace.md)
 - [Parte 18 - Strumenti di Gestione Progetti Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-18-Github-Project-Management-Tools/github-project-management-tools.md)
 - [Parte 19 - Schede e Note di Progetto Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-19-Github-Project-Boards-and-Notes/github-project-boards-and-notes.md)
+
+### Traduzioni di questo tutorial  
+Puoi trovare le traduzioni di questo tutorial in molte lingue diverse qui sotto. Tieni presente che alcune di queste traduzioni sono ancora in fase di sviluppo e non sono state completamente completate.  
+
+- Cinese (Semplificato)  
+- Francese  
+- Tedesco  
+- Hindi  
+- Italiano  
+- Giapponese  
+- Malayalam  
+- Mongolo  
+- Russo  
+- Spagnolo  
+- Turco  
+- Urdu
