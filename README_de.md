@@ -106,9 +106,7 @@ Führen Sie dann den folgenden Befehl in Ihrem lokalen Repository aus, um es zu 
 
 ```
 git pull
-``
-
-`
+```
 
 Das sollte Ihnen eine kurze Vorstellung davon geben, wie Sie Git verwenden können. Natürlich können Sie sich die Lektionen in diesem Repository für ausführlichere Erklärungen ansehen.
 
@@ -140,3 +138,19 @@ Schauen Sie sich bitte das [First-Contributions](https://github.com/rcallaby/Lea
 - [Teil 17 - Verwendung von Django Codespaces in Github](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-17-Using%20Django%20Codespaces-in-Github/github-django-codespace.md)
 - [Teil 18 - Github Projektmanagement-Tools](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-18-Github-Project-Management-Tools/github-project-management-tools.md)
 - [Teil 19 - Github Projektboards und Notizen](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-19-Github-Project-Boards-and-Notes/github-project-boards-and-notes.md)
+
+### Übersetzungen dieses Tutorials  
+Unten findest du Übersetzungen dieses Tutorials in vielen verschiedenen Sprachen. Bitte beachte, dass einige dieser Übersetzungen noch in Arbeit sind und noch nicht vollständig abgeschlossen wurden.  
+
+- Chinesisch (Vereinfacht)  
+- Französisch  
+- Deutsch  
+- Hindi  
+- Italienisch  
+- Japanisch  
+- Malayalam  
+- Mongolisch  
+- Russisch  
+- Spanisch  
+- Türkisch  
+- Urdu
