@@ -1,7 +1,3 @@
-Here is the Turkish translation of your text:  
-
----
-
 # İçindekiler  
 
 - [GitHub'da Jupyter Codespaces Kullanımı](#githubda-jupyter-codespaces-kullanimi)<br>  
