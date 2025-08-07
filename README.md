@@ -4,6 +4,9 @@ If you found this repository to be helpful, please consider giving it a star ⭐
 
 As well, it would greatly help me if you would subscribe to my [YouTube channel](https://www.youtube.com/@richardcallaby) as that is the place where I post free tutorials and other free educational resources.
 
+#### Hacktoberfest 2025
+This repository will participate in **Hacktoberfest 2025** as this will hopefully help finish this translation effort. Absolutely no new languages will be accepted and only open issues will be considered as part of the next Hacktoberfest. If you want to help by finishing off the open issues then feel free.
+
 ## Here is a step by step tutorial on how to contribute to GitHub
 Create a GitHub account: If you don't already have a GitHub account, you'll need to create one. Go to github.com and click the "Sign up" button in the upper right corner. Follow the instructions to create your account.
 
