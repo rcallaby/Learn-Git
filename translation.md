@@ -1,6 +1,11 @@
 # Translations
 This repository contains translations of the Learn-Git documentation. IF you would like to contribute to translate this tutorial or in anyway make it easier for someone that speaks your language please follow these guidelines. While every effort is made to cater to as many languages and cultures as possible please understand that currently there is only one maintainer of this repository so no offense is intended if you don't see your native language listed.
 
+#### Hacktoberfest 2025
+This repository will participate in **Hacktoberfest 2025** as this will hopefully help finish this translation effort. Absolutely no new languages will be accepted and only open issues will be considered as part of the next Hacktoberfest. If you want to help by finishing off the open issues then feel free.
+
+Please only focus on currently open issues, please do not create new translations and only focus on the issues currently open. Failure to abide by this simple requirement could result in your submissions being labeled as spam and your account getting banned from future contributions.
+
 ## Contributing Translations
 We welcome contributions to help translate our documentation into additional languages. To get started, please follow these steps:
 
