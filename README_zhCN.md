@@ -123,7 +123,7 @@ git pull
 
 ### 目录
 
-- [第 00 部分 - 历史与基础](<https://github.com/rcallaby/Learn-Git/blob/main/Lessons/zh-CN/第 00 部分 - 历史与基础/历史与基础.md>)
+- [第 00 部分 - 历史与基础](<https://github.com/rcallaby/Learn-Git/blob/main/Lessons/zh-CN/第 00 部分-历史与基础/历史与基础.md>)
 - [第 01 部分 - 基本导航](<https://github.com/rcallaby/Learn-Git/blob/main/Lessons/zh-CN/第 01 部分 - 基本导航/基本导航.md>)
 - [第 02 部分 - 初始化 Git](<https://github.com/rcallaby/Learn-Git/blob/main/Lessons/zh-CN/第 02 部分 - 初始化 Git/初始化 Git.md>)
 - [第 03 部分 - 分支与合并](<https://github.com/rcallaby/Learn-Git/blob/main/Lessons/zh-CN/第 03 部分 z- 分支与合并/分支与合并.md>)
