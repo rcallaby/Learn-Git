@@ -1,43 +1,43 @@
 # Git'i Başlatma - Başlangıç  
 
-- [Temel Git İşlemleri](#temel-git-islemleri)  
-- [Linux'ta Bir Git Deposu Kurma](#linux-ta-bir-git-deposu-kurma)  
-- [Windows'ta Bir Git Deposu Kurma](#windows-ta-bir-git-deposu-kurma)  
-- [Mac'te Bir Git Deposu Kurma](#mac-te-bir-git-deposu-kurma)  
+- [Temel Git İşlemleri](#temel-git-işlemleri-)
+- [Linux'ta Bir Git Deposu Kurma](#linuxta-bir-git-deposu-kurma-)  
+- [Windows'ta Bir Git Deposu Kurma](#windowsta-bir-git-deposu-kurma-)  
+- [Mac'te Bir Git Deposu Kurma](#macte-bir-git-deposu-kurma-)  
 
 ## Temel Git İşlemleri:  
 Git, sürüm kontrolü için geniş bir komut yelpazesi sunar, ancak işte en temel olanlardan bazıları:  
 
 **`git init`**, mevcut dizinde yeni bir Git deposu başlatır. Örneğin:  
 ```
-git init dizin_adi
+git init directoryname
 ```  
 **`git clone <repository_url>`**, uzak bir depoyu yerel makinenize kopyalar. Örneğin:  
 ```
-git clone dizin_adi
+git clone directoryname
 ```  
-**`git add <dosya>`**, bir dosyada yapılan değişiklikleri commit için hazırlar.  
+**`git add`**, bir dosyada yapılan değişiklikleri commit için hazırlar.  
 ```
 git add . 
 ```  
 veya  
 ```
-git add dosya_adi
+git add filename
 ```  
-**`git commit -m "<commit_mesajı>"`**, hazırlanan değişiklikleri depoya kaydeder. Örneğin:  
+**`git commit -m "<commit_message>"`** hazırlanan değişiklikleri depoya kaydeder. Örneğin:  
 ```
-git commit -m "ayrıntılı bir commit mesajı"
+git commit -m "a detailed commit message"
 ```  
 **`git push`**, commit edilmiş değişiklikleri uzak bir depoya yükler.  
 ```
-git push depo_adi
+git push repositoryname
 ```  
 **`git pull`**, uzak bir depodan değişiklikleri indirir ve yerel depo ile birleştirir.  
 ```
 git pull
 ```  
 
-Aşağıda Linux, Windows ve Mac’te Git kurulumu için adım adım bir eğitim bulunmaktadır.  
+Aşağıda Linux, Windows ve Mac’te Git kurulumu için adım adım bir rehber bulunmaktadır.  
 
 ---
 
@@ -88,6 +88,6 @@ Aşağıda Linux, Windows ve Mac’te Git kurulumu için adım adım bir eğitim
 
 ---
 
-Git deposunu başarıyla kurduğunuza göre, dosya ekleme, commit yapma ve diğer Git işlemlerini gerçekleştirmek için **git add**, **git commit**, **git push** gibi komutları kullanabilirsiniz. Daha fazla ayrıntı için Git dokümantasyonuna veya Git eğitimlerine göz atmayı unutmayın.  
+Git deposunu başarıyla kurduğunuza göre, dosya ekleme, commit yapma ve diğer Git işlemlerini gerçekleştirmek için **git add**, **git commit**, **git push** gibi komutları kullanabilirsiniz. Bu işlemlerle ilgili daha fazla ayrıntı için Git belgelerine veya diğer Git eğitimlerine başvurmayı unutmayın.  
 
 **Not:** Burada verilen adımlar, temel bir yerel Git deposu kurulumunu içermektedir. Eğer bir uzak depo oluşturmak veya GitHub, GitLab gibi platformlardaki mevcut depolarla çalışmak istiyorsanız, ek adımlara ihtiyacınız olacaktır.
