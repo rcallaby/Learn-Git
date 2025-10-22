@@ -1,4 +1,4 @@
-# Dallanma ve Birleştirme
+# Branşlama ve Birleştirme
 
 - [Branşlara ve amaçlarına giriş](#branşlara-ve-amaçlarına-giriş)
 - [Branşlar oluşturma ve bunlar arasında geçiş yapma](#branşlar-oluşturma-ve-bunlar-arasında-geçiş-yapma)
