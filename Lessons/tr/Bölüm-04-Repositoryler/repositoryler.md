@@ -6,7 +6,7 @@
 - [Bitbucket](#bitbucket)
 - [Uzak repository'lerden değişiklikleri push ve pull etme](#uzak-repositorylerden-değişiklikleri-push-ve-pull-etme)
 - [Birleştirme çakışmalarını yönetme](#birleştirme-çakışmalarını-yönetme)
-- [En İyi Uygulamalar](#en-iyi-uygulamalar-)
+- [En İyi Uygulamalar](#en-iyi-uygulamalar)
 
 ## Uzak repository'leri kurma (GitHub, GitLab, Bitbucket)
 
