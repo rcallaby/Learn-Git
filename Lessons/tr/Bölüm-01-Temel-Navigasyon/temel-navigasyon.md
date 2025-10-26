@@ -1,6 +1,6 @@
 # Git - Temel Gezinme
 
-- [Giriiş](#giriiş)
+- [Tanıtım](#tanıtım)
 - [BASH Terminalini Açma](#bash-terminalini-açma)
 - [Dizinlerde Gezinme](#dizinlerde-gezinme)
 - [Dizin Icerigini Listeleme](#dizin-icerigini-listeleme)
@@ -8,7 +8,7 @@
 - [Dosya Oluşturma ve Kaldırma](#dosya-oluşturma-ve-kaldırma)
 - [Sonuç](#sonuç)
 
-# Giriiş:
+# Tanıtım:
 BASH terminali, kullanıcıların bilgisayarlarının dosya sisteminde gezinmelerine, çeşitli görevleri gerçekleştirmelerine ve Git gibi sürüm kontrol sistemleriyle etkileşim kurmalarına olanak tanıyan güçlü bir komut satırı arayüzüdür. Git, kod depolarındaki değişikliklerin verimli bir şekilde işbirliği ve izlenmesini sağlayan yaygın olarak kullanılan bir dağıtılmış sürüm kontrol sistemidir. Bu makalede, Git ile etkili bir şekilde çalışmak için BASH terminalindeki temel komutlarda nasıl gezinileceğini ve kullanılacağını inceleyeceğiz.
 
 ## BASH Terminalini Açma:
@@ -44,7 +44,7 @@ cd ~
 ## Dizin Icerigini Listeleme:
 ls komutu bir dizinin içeriklerini listelemek için kullanılır. Varsayılan olarak, geçerli dizindeki dosyaları ve dizinleri görüntüler. ls işlevselliğini geliştirmek için bazı yararlı işaretler:
 
-ls -l içerikleri ayrıntılı liste biçiminde görüntüler.
+ls -l, içeriği ayrıntılı bir liste halinde görüntüler.
 ```
 ls -l
 ```
@@ -56,7 +56,7 @@ ls -h, insan tarafından okunabilir dosya boyutları sağlar.
 ```
 ls -h
 ```
-ls -R dizinleri ve içeriklerini özyinelemeli olarak listeler.
+ls -R, dizinleri ve içeriklerini yinelemeli olarak listeler.
 ```
 ls -R
 ```
@@ -91,27 +91,27 @@ mv olddirectory newdirectory
 ## Dosya Oluşturma ve Kaldırma:
 Touch komutunu kullanarak yeni bir dosya oluşturabilirsiniz.
 ```commandline
-touch yeni_dosya_adı
+touch new_file_name
 ```
 Veya bir dizinde, şöyle:
 ```commandline
-touch dizini/yeni_dosya_adı
+touch directory/new_file_name
 ```
 Şimdi rm komutunu kullanarak bir dosyayı kaldıralım.
 ```commandline
-rm dosya_adı
+rm file_name
 ```
 Dizinleri ve içeriklerini yinelemeli olarak kaldırmak için
 ```commandline
-rm -r dosya_adı
+rm -r file_name
 ```
 Varolmayan dosyaları ve argümanları yok saymak için asla komut isteminde bulunmayın.
 ```commandline
-rm -f dosya_adı
+rm -f file_name
 ```
 Ne yapıldığını kontrol etmek için
 ```commandline
-rm -v dosya_adı
+rm -v file_name
 ```
 Bir dizinin içindeki her şeyi kaldırmak için.
 ```commandline
