@@ -1,5 +1,4 @@
-# Exploring Advanced Git Concepts for Streamlined Development Workflows
-
+# Gelişmiş Git Kavramlarını Keşfederek Geliştirme İş Akışlarını Kolaylaştırma
 - [Tanıtım](#tanıtım)
 - [Git rebase ve uygulamaları](#git-rebase-ve-uygulamaları)
     - [Git rebase'i kullanabileceğiniz çeşitli senaryoları inceleyelim](#git-rebasei-kullanabileceğiniz-çeşitli-senaryoları-inceleyelim)
@@ -9,7 +8,7 @@
         - [Merge Çakışmalarını Çözme](#merge-çakışmalarını-çözme)
         - [Temiz bir commit geçmişi sürdürmek](#temiz-bir-commit-geçmişi-sürdürmek)
         - [Özellik Branşının Yeniden Sıralanması](#özellik-branşının-yeniden-sıralanması)
-    - [Temiz bir commit geçmişi için dalları yeniden temel alma](#temiz-bir-commit-geçmişi-için-dalları-yeniden-temel-alma)
+    - [Temiz bir commit geçmişi için branşları yeniden temel alma](#temiz-bir-commit-geçmişi-için-branşları-yeniden-temel-alma)
         - [Git Rebase ile Birleştirme Çakışmalarını Yönetme](#git-rebase-ile-birleştirme-çakışmalarını-yönetme)
         - [Dikkatli Rebasing'in Önemi](#dikkatli-rebasingin-önemi)
     - [Birden fazla branştaki değişiklikleri entegre etmek için işbirliğine dayalı rebasing](#birden-fazla-branştaki-değişiklikleri-entegre-etmek-için-işbirliğine-dayalı-rebasing)
@@ -36,23 +35,23 @@
         - [Etiket Adlandırma Kuralları](#etiket-adlandırma-kuralları)
     - [Git Etiketleriyle Çalışma](#git-etiketleriyle-çalışma)
         - [Etiket Oluşturma](#etiket-oluşturma)
-    - [Creating and managing lightweight and annotated tags](#creating-and-managing-lightweight-and-annotated-tags)
-    - [Using tags to mark significant milestones and versions](#using-tags-to-mark-significant-milestones-and-versions)
-        - [Understanding the Importance of Tags in Software Development](#understanding-the-importance-of-tags-in-software-development)
-        - [Release Candidates Tags](#release-candidates-tags)
-        - [Semantic Versioning](#semantic-versioning)
-        - [Pull Requests and Code Reviews](#pull-requests-and-code-reviews)
-        - [Changelogs](#changelogs)
-    - [Sharing Releases with Users](#sharing-releases-with-users)
-        - [Release Notes](#release-notes)
-        - [Distribution Channels](#distribution-channels)
-- [Conclusion](#conclusion)
+    - [Hafif ve açıklamalı etiketler oluşturma ve yönetme](#hafif-ve-açıklamalı-etiketler-oluşturma-ve-yönetme)
+    - [Önemli kilometre taşlarını ve sürümleri işaretlemek için etiketleri kullanma](#önemli-kilometre-taşlarını-ve-sürümleri-işaretlemek-için-etiketleri-kullanma)
+        - [Yazılım Geliştirmede Etiketlerin Önemi](#yazılım-geliştirmede-etiketlerin-önemi)
+        - [Sürüm Adayları Etiketleri](#sürüm-adayları-etiketleri)
+        - [Anlamsal Sürüm Numaralandırma](#anlamsal-sürüm-numaralandırma)
+        - [Çekme İstekleri ve Kod İncelemeleri](#çekme-istekleri-ve-kod-incelemeleri)
+        - [Değişiklik Günlükleri](#değişiklik-günlükleri)
+    - [Kullanıcılarla Sürümleri Paylaşma](#kullanıcılarla-sürümleri-paylaşma)
+        - [Sürüm Notları](#sürüm-notları)
+        - [Dağıtım Kanalları](#dağıtım-kanalları)
+- [Sonuç](#sonuç)
 
 # Tanıtım:
 Dağıtılmış bir sürüm kontrol sistemi olan Git, yazılım geliştirme ekiplerinin işbirliği yapma ve projelerini yönetme biçiminde devrim yaratmıştır. Git, temelinde bir dizi güçlü özellik sunarken, üretkenliği artırabilecek ve iş akışlarını daha da kolaylaştırabilecek birkaç gelişmiş kavram da bulunmaktadır. Bu makalede, dört temel gelişmiş Git kavramını ele alacağız: Git rebase, alt modüllerle çalışma, Git hook'ları ve iş akışlarını özelleştirme, ayrıca Git etiketleri ve sürümleri.
 
 ## Git rebase ve uygulamaları
-Git, yazılım geliştirmede koddaki değişiklikleri yönetmek ve izlemek için yaygın olarak kullanılan güçlü bir sürüm kontrol sistemidir. Git'in temel özelliklerinden biri, geliştiricilerin bir dalın commit geçmişini değiştirmelerine olanak tanıyan, çok yönlü ve bazen tartışmalı bir işlem olan “rebase”dir. Rebase güçlü bir araç olsa da, olası tuzaklardan kaçınmak için dikkatli ve bilgili bir şekilde kullanılmalıdır.
+Git, yazılım geliştirmede koddaki değişiklikleri yönetmek ve izlemek için yaygın olarak kullanılan güçlü bir sürüm kontrol sistemidir. Git'in temel özelliklerinden biri, geliştiricilerin bir branşın commit geçmişini değiştirmelerine olanak tanıyan, çok yönlü ve bazen tartışmalı bir işlem olan “rebase”dir. Rebase güçlü bir araç olsa da, olası tuzaklardan kaçınmak için dikkatli ve bilgili bir şekilde kullanılmalıdır.
 
 Git Rebase nedir?
 
@@ -75,7 +74,7 @@ Geliştirme sırasında, birkaç küçük, artımlı commit yapabilirsiniz. Değ
 Bazen, branşın geçmişine dahil edilmemesi gereken değişiklikleri yanlışlıkla commit edebilirsiniz. Rebase ile commit'leri seçerek kaldırabilir veya düzenleyebilir, böylece yalnızca gerekli ve ilgili değişikliklerin korunmasını sağlayabilirsiniz.
 
 #### Merge Çakışmalarını Çözme:
-Git merge işlemi gerçekleştirilirken, her iki branşdaki değişiklikler çakışırsa çakışmalar ortaya çıkabilir. Rebase, bu çakışmaları daha zarif bir şekilde ele almak için kullanılabilir. Dalınızı güncellenmiş ana dala rebase ederek, her commit uygulandıkça çakışmaları daha küçük, yönetilebilir parçalar halinde ele alırsınız.
+Git merge işlemi gerçekleştirilirken, her iki branşdaki değişiklikler çakışırsa çakışmalar ortaya çıkabilir. Rebase, bu çakışmaları daha zarif bir şekilde ele almak için kullanılabilir. Branşınızı güncellenmiş ana branşa rebase ederek, her commit uygulandıkça çakışmaları daha küçük, yönetilebilir parçalar halinde ele alırsınız.
 
 #### Temiz bir commit geçmişi sürdürmek:
 Temiz bir commit geçmişi, projenin sürdürülebilirliği ve işbirliği için çok önemlidir. Rebase kullanarak branşlarınızı ana branşa birleştirmeden önce düzenleyerek, projenizin geçmişinin özlü ve anlamlı kalmasını sağlarsınız. Böylece diğer ekip üyeleri değişiklikleri daha kolay anlayabilir ve inceleyebilir.
@@ -95,7 +94,7 @@ Ancak, Git rebase'i kullanırken dikkatli olmak önemlidir, çünkü geçmişi y
 
 Git rebase, commit geçmişini yönetmek ve geliştirme sürecini basitleştirmek için faydalı olabilecek güçlü ve esnek bir araçtır. Ancak, bu araç, sonuçlarını iyi anlayarak ve dikkatli bir şekilde kullanılmalıdır. Kişisel branşlarda veya hala geliştirme aşamasında olan özellik branşlarında, rebase kod tabanını temiz ve düzenli tutmak için değerli bir varlık olabilir. Ancak, halka açık veya paylaşılan branşlarda, ekip üyeleri arasında çatışmaları ve karışıklıkları önlemek için birleştirme genellikle daha güvenli bir seçimdir. Git rebase'i akıllıca ve uygun şekilde kullanarak, geliştiriciler projelerinin geçmişini yapılandırılmış ve anlaşılır bir şekilde tutabilir, böylece işbirliğini ve bakım kolaylığını artırabilirler.
 
-### Temiz bir commit geçmişi için dalları yeniden temel alma.
+### Temiz bir commit geçmişi için branşları yeniden temel alma.
 Yazılım geliştirmede, temiz ve düzenli bir commit geçmişi, projenin netliği, işbirliği ve gelecekteki bakım kolaylığı açısından çok önemlidir. Git rebase, geliştiricilerin commit'leri birleştirerek, düzenleyerek ve yeniden düzenleyerek daha temiz bir commit geçmişi elde etmelerini sağlayan güçlü bir araçtır. Ayrıca, merge çatışmalarını çözme sürecini basitleştirerek geliştirme iş akışını kolaylaştırır. Bu makalede, Git rebase'i kullanarak daha temiz bir commit geçmişi oluşturmayı ve merge çakışmalarını etkili bir şekilde yönetmeyi inceleyeceğiz.
 
 Git Rebase'i Anlamak:
@@ -119,7 +118,7 @@ N'yi birleştirmek istediğiniz commit sayısıyla değiştirin. Ardından, birl
 Commit'leri Yeniden Sıralama: Commit'leri yeniden düzenlemek için etkileşimli rebase kullanın ve gerektiği gibi yeniden sıralayın. Düzenleyicide commit'lerin sırasını değiştirin ve dosyayı kaydedin.
 
 #### Git Rebase ile Birleştirme Çakışmalarını Yönetme:
-Birleştirme çakışmaları, Git bir daldaki değişiklikleri başka bir dala otomatik olarak birleştiremediğinde ortaya çıkar. Rebase, dikkatli kullanıldığında çakışma çözümünü basitleştirebilir. İşte nasıl:
+Birleştirme çakışmaları, Git bir branşdaki değişiklikleri başka bir branşa otomatik olarak birleştiremediğinde ortaya çıkar. Rebase, dikkatli kullanıldığında çakışma çözümünü basitleştirebilir. İşte nasıl:
 
 Rebase'i başlatın: Rebase sırasında çakışmalarla karşılaşırsanız, Git işlemi duraklatır ve sorunlu dosyaları gösterir. Çakışan her dosyayı açın ve çakışmaları manuel olarak çözün, çakışma işaretlerini (<<<<<<<, =======, >>>>>>>) kaldırın.
 
@@ -127,7 +126,7 @@ Değişiklikleri hazırlayın: Çakışmaları çözdükten sonra, git add <reso
 
 Rebase'i devam ettirin: Rebase'e devam etmek için git rebase --continue komutunu çalıştırın. Ek çatışmalar varsa, rebase tamamlanana kadar çözüm sürecini tekrarlayın.
 
-Rebase'i iptal etme: Karmaşık veya beklenmedik çakışmalarla karşılaşırsanız, git rebase --abort komutuyla rebase'i iptal edebilirsiniz. Bu, dalınızı rebase öncesindeki orijinal durumuna geri döndürür.
+Rebase'i iptal etme: Karmaşık veya beklenmedik çakışmalarla karşılaşırsanız, git rebase --abort komutuyla rebase'i iptal edebilirsiniz. Bu, branşınızı rebase öncesindeki orijinal durumuna geri döndürür.
 
 #### Dikkatli Rebasing'in Önemi:
 Rebase yararlı bir araç olsa da, dikkatli kullanılması çok önemlidir. Geçmişi yeniden yazmak, ekip üyeleri arasında karışıklığa yol açabilir ve doğru şekilde kullanılmadığında veri kaybına neden olabilir. Bu nedenle, genel branşları rebasing'den kaçınmak ve yalnızca doğrudan kontrolünüz altındaki branşlarda kullanmak çok önemlidir.
@@ -179,7 +178,7 @@ d. Test ve CI/CD Entegrasyonu: Ana proje ve alt modüller için test ve sürekli
 
 e. Doğrudan Düzenlemelerden Kaçınma: Geliştiriciler, ana projeden alt modüllerdeki dosyaları doğrudan düzenlemekten kaçınmalıdır. Bunun yerine, alt modül deposunda değişiklikler yapın, bunları bağımsız olarak test edin ve ardından ana projenin yeni commite olan referansını güncelleyin.
 
-f. Branş Yönetimi: Yeni özellikleri veya hata düzeltmelerini yönetmek için alt modüllerdeki dalları kullanın. Değişiklikler kararlı ve test edildiğinde ana dal ile birleştirin.
+f. Branş Yönetimi: Yeni özellikleri veya hata düzeltmelerini yönetmek için alt modüllerdeki branşları kullanın. Değişiklikler kararlı ve test edildiğinde ana branş ile birleştirin.
 
 g. Sürümleri Etiketleme: Sürüm tutarlılığını ve kararlılığını sağlamak için alt modüllerdeki önemli sürümleri etiketleyin.
 
@@ -213,7 +212,7 @@ Alt modülleri uzak depolarıyla güncel tutmak için şu adımları izleyin:
 
 a. Alt Modül Dizinine Gidin: cd komutunu kullanarak alt modülün dizinine gidin.
 
-b. Değişiklikleri Al ve Birleştir: git fetch komutunu çalıştırarak alt modül deposundan en son değişiklikleri alın. Ardından, git merge origin/master komutunu kullanarak (origin/master yerine uygun dalı girin) en son değişiklikleri alt modüle dahil edin.
+b. Değişiklikleri Al ve Birleştir: git fetch komutunu çalıştırarak alt modül deposundan en son değişiklikleri alın. Ardından, git merge origin/master komutunu kullanarak (origin/master yerine uygun branşı girin) en son değişiklikleri alt modüle dahil edin.
 
 c. Ana Projeyi Güncelle: Alt modül güncellendikten sonra, ana projeye geri dönün ve daha önce açıklandığı gibi güncellenen alt modül referansını kaydedin.
 
@@ -250,7 +249,7 @@ Bu, ana projenizin belirtilen hedef yoluna alt modül deposunu ekler. Alt modül
 İşbirliği yapanlar, alt modüllerin kullanımı ve amacı hakkında etkili bir şekilde iletişim kurmalıdır. Projenin README dosyasında veya belgelerinde alt modüllerin nasıl başlatılacağı, güncelleneceği ve kullanılacağı konusunda bilgi verilmesi çok önemlidir. Bu, herkesin aynı sayfada olmasını sağlar ve yanlış anlaşılmaları önler.
 
 Branşlama Stratejileri:
-Alt modülleri dikkate alan bir branşlama stratejisi belirleyin. Ana projede ve alt modüllerde farklı dalların olması yaygındır. Olası çakışmaları önlemek için işbirliği yapanların her iki düzeyde de dallanmanın etkilerini anladığından emin olun.
+Alt modülleri dikkate alan bir branşlama stratejisi belirleyin. Ana projede ve alt modüllerde farklı branşların olması yaygındır. Olası çakışmaları önlemek için işbirliği yapanların her iki düzeyde de branşlanmanın etkilerini anladığından emin olun.
 
 Alt Modülleri Klonlama ve Başlatma:
 Bir işbirlikçi ana depoyu klonladığında, alt modüller varsayılan olarak başlatılmaz. Tüm alt modüllerin doğru şekilde başlatıldığından ve güncellendiğinden emin olmak için, aşağıdaki komutu kullanmalıdırlar:
@@ -361,169 +360,167 @@ Etiketleri Listeleme
 git tag komutunu kullanarak mevcut etiketlerin listesini görüntüleyin veya git show <tagname> komutunu kullanarak belirli bir etiketin ayrıntılarını görüntüleyin.
 Etiketleri Kontrol Etme
 
-Belirli bir etikete geçmek için git checkout <tagname> komutunu kullanın veya git checkout -b <branchname> <tagname> komutunu kullanarak etiketten yeni bir dal oluşturun.
+Belirli bir etikete geçmek için git checkout <tagname> komutunu kullanın veya git checkout -b <branchname> <tagname> komutunu kullanarak etiketten yeni bir branş oluşturun.
 Sonuç
 
 Git etiketleri, bir deponun geçmişindeki önemli noktaları işaretlemek ve sürümler için bağlam sağlamak için gereklidir. Hafif ve açıklamalı etiketler arasındaki farkları, etiketleme kuralları ve kullanımı için en iyi uygulamaları anlamak, sorunsuz ve düzenli bir sürüm kontrol iş akışı sağlamaya yardımcı olur. Düzgün yönetilen Git etiketleri, daha iyi işbirliği, net belgeler ve gelişmiş yazılım geliştirme süreçlerine katkıda bulunur.
 
-[//]: # (ToDo: taahadüt = commit, dal = brans)
-### Creating and managing lightweight and annotated tags.
-Listing and Searching for Tags
+### Hafif ve açıklamalı etiketler oluşturma ve yönetme.
+Etiketleri Listeleme ve Arama
 
-Lightweight Tags
+Hafif Etiketler
 
-Lightweight tags in Git are simply pointers to specific commits, with no additional metadata or information associated with them. Listing all the tags in a repository is a straightforward process. To do this, you can use the following command:
-
+Git'teki hafif etiketler, ek meta veri veya bilgi içermeyen, belirli commit'lere işaret eden basit işaretçilerdir. Bir repository'deki tüm etiketleri listelemek oldukça basittir. Bunu yapmak için aşağıdaki komutu kullanabilirsiniz:
 ```
 git tag
 
 ```
-This will display a list of all the lightweight tags in your repository, ordered alphabetically. If you want to search for a specific tag or filter the tags based on a pattern, you can use the --list or -l option followed by the pattern. For example:
+Bu, repository'nizdeki tüm hafif etiketlerin alfabetik sırayla listesini görüntüler. Belirli bir etiketi aramak veya etiketleri bir desene göre filtrelemek istiyorsanız, --list veya -l seçeneğini deseni takiben kullanabilirsiniz. Örneğin:
 ```
 git tag -l "v1.*"
 
 ```
-This command will list all tags starting with "v1." in their name, which is a common convention for version tags.
-Annotated Tags
+Bu komut, adlarında “v1.” ile başlayan tüm etiketleri listeler. Bu, sürüm etiketleri için yaygın bir kuraldır.
+Açıklamalı Etiketler
 
-Annotated tags, unlike lightweight tags, contain additional metadata, such as the tagger's name, email, date, and an optional tag message. Listing annotated tags is similar to listing lightweight tags:
+Açıklamalı etiketler, hafif etiketlerin aksine, etiketleyicinin adı, e-postası, tarihi ve isteğe bağlı etiket mesajı gibi ek meta veriler içerir. Açıklamalı etiketleri listelemek, hafif etiketleri listelemekle benzerdir:
 
 ```
 git tag -l --format='%(refname) %(taggerdate) %(taggername) %(contents:subject)'
 
 ```
-This command will display a more detailed list of annotated tags, including the tagger's name, date, and the tag message.
+Bu komut, etiketleyicinin adı, tarihi ve etiket mesajı dahil olmak üzere, açıklamalı etiketlerin daha ayrıntılı bir listesini görüntüler.
 
-Tagging Specific Commits and Navigating Through Tagged Versions
+Belirli Commit'leri Etiketleme ve Etiketlenmiş Sürümler Arasında Gezinme
 
-Creating Lightweight Tags
+Hafif Etiketler Oluşturma
 
-To create a lightweight tag, you can use the git tag command followed by the tag name. For example, to create a tag called "v1.0" for the current commit, run:
+Hafif bir etiket oluşturmak için, git tag komutunu ve ardından etiket adını kullanabilirsiniz. Örneğin, mevcut commit için “v1.0” adlı bir etiket oluşturmak için şunu çalıştırın:
 
 ```
 git tag v1.0
 
 ```
-If you want to tag a specific commit, you can provide the commit hash or a unique identifier instead of using the current commit:
+Belirli bir commit'i etiketlemek istiyorsanız, mevcut commit'i kullanmak yerine commit hash'ini veya benzersiz bir tanımlayıcıyı sağlayabilirsiniz:
 
 ```
 git tag v1.0 3a4b7ef
 
 ```
-Creating Annotated Tags
+Açıklamalı Etiket Oluşturma
 
-To create an annotated tag, use the -a option followed by the tag name. Git will open your default text editor to allow you to enter the tag message:
+Açıklamalı bir etiket oluşturmak için, -a seçeneğini ve ardından etiket adını kullanın. Git, etiket mesajını girmenizi sağlamak için varsayılan metin düzenleyicinizi açacaktır:
 
 ```
 git tag -a v1.0
 
 ```
-You can also add the -m option to provide the tag message directly from the command line:
+Komut satırından doğrudan etiket mesajı sağlamak için -m seçeneğini de ekleyebilirsiniz:
 
 ```
 git tag -a v1.0 -m "Initial release"
 
 ```
-Navigating Through Tagged Versions
+Etiketli Sürümlerde Gezinme
 
-Once you have created tags, you can switch to a specific tagged version to view or work with the code as it was at that point in time. To do this, use the git checkout command followed by the tag name:
+Etiketler oluşturduktan sonra, belirli bir etiketli sürüme geçerek o anda kodun nasıl olduğunu görüntüleyebilir veya üzerinde çalışabilirsiniz. Bunu yapmak için, git checkout komutunu ve ardından etiket adını kullanın:
 
 ```
 git checkout -b v1.0_branch
 
 ```
-This will create a new branch named v1.0_branch that starts from the commit associated with the "v1.0" tag.
+Bu, “v1.0” etiketiyle ilişkili commit'ten başlayan v1.0_branch adlı yeni bir branş oluşturacaktır.
 
-Leveraging Git Tags for Releases
+Sürümler için Git Etiketlerinden Yararlanma
 
-Using Git tags for releases can simplify the process of managing and deploying software versions. When you have a stable and tested version of your project, you can create a tagged release to mark it as a milestone. This enables you and your team to easily refer back to that specific version whenever needed.
-Creating a Release Tag
+Sürümler için Git etiketlerini kullanmak, yazılım sürümlerini yönetme ve dağıtma sürecini basitleştirebilir. Projenizin kararlı ve test edilmiş bir sürümüne sahip olduğunuzda, onu bir kilometre taşı olarak işaretlemek için etiketli bir sürüm oluşturabilirsiniz. Bu, sizin ve ekibinizin gerektiğinde bu belirli sürüme kolayca geri dönmenizi sağlar.
+Sürüm Etiketi Oluşturma
 
-To create a release tag, you can follow the steps we discussed earlier for creating annotated tags. Annotated tags are preferred for releases as they allow you to add a descriptive message and capture essential information about the release.
-Release Branches
+Sürüm etiketi oluşturmak için, daha önce açıklamalı etiketler oluşturmak için tartıştığımız adımları takip edebilirsiniz. Açıklamalı etiketler, açıklayıcı bir mesaj eklemenize ve sürümle ilgili önemli bilgileri yakalamanıza olanak tanıdığından, sürümler için tercih edilir.
+Sürüm Branşları
 
-Another useful practice for releases is to create a dedicated release branch. This branch serves as a stable and isolated version that can be used for bug fixes and maintenance. After creating the annotated tag for the release, create a new branch based on the tag:
+Sürümler için bir başka yararlı uygulama, özel bir sürüm branşı oluşturmaktır. Bu branş, hata düzeltmeleri ve bakım için kullanılabilecek kararlı ve izole bir sürüm görevi görür. Sürüm için açıklamalı etiketi oluşturduktan sonra, etikete dayalı yeni bir branş oluşturun:
 
 ```
 git checkout -b release-v1.0 v1.0
 
 ```
-Developers can work on this release branch to fix any critical issues reported in the release, ensuring that the main development branch remains unaffected.
+Geliştiriciler, bu sürüm branşı üzerinde çalışarak sürümde bildirilen kritik sorunları düzeltebilir ve ana geliştirme branşının etkilenmemesini sağlayabilir.
 
-Publishing Releases
+Sürümleri Yayınlama
 
-Publishing your releases to a central repository or hosting service can make them easily accessible to other developers and users. Many platforms, such as GitHub and GitLab, provide a way to create and manage releases directly from the repository interface. By associating the annotated tag with a release description and changelog, users can understand the changes included in that specific release.
+Sürümlerinizi merkezi bir repository veya barındırma hizmetine yayınlamak, diğer geliştiriciler ve kullanıcılar için kolay erişilebilir hale getirebilir. GitHub ve GitLab gibi birçok platform, repository arayüzünden doğrudan sürümler oluşturma ve yönetme olanağı sağlar. Annotated tag'i bir sürüm açıklaması ve değişiklik günlüğü ile ilişkilendirerek, kullanıcılar o belirli sürümde yer alan değişiklikleri anlayabilirler.
 
-Tags are a powerful feature in Git that allow developers to mark important points in the project's history, making it easier to manage and navigate through different versions. Lightweight tags are simple pointers to commits, while annotated tags provide more detailed information, making them ideal for releases and milestones.
+Tag'ler, geliştiricilerin proje geçmişindeki önemli noktaları işaretlemelerine olanak tanıyan ve farklı sürümleri yönetmeyi ve arasında gezinmeyi kolaylaştıran Git'in güçlü bir özelliğidir. Lightweight tag'ler, commit'lere basit işaretçilerken, annotated tag'ler daha ayrıntılı bilgi sağlar ve bu da onları sürümler ve kilometre taşları için ideal hale getirir.
 
-By understanding how to create and manage tags, you can better organize your Git repository and streamline the process of making releases. This, in turn, leads to more efficient collaboration, easier debugging, and increased confidence in deploying your software to production environments.
+Etiketlerin nasıl oluşturulacağını ve yönetileceğini anlayarak, Git repository'nizi daha iyi organize edebilir ve sürüm oluşturma sürecini kolaylaştırabilirsiniz. Bu da daha verimli işbirliği, daha kolay hata ayıklama ve yazılımınızı üretim ortamlarına dağıtma konusunda daha fazla güven sağlar.
 
-### Using tags to mark significant milestones and versions.
-One crucial aspect of this process is effectively managing release candidates and stable releases to ensure smooth collaboration with team members and provide users with reliable software updates. In this article, we will explore the significance of tagging release candidates and stable releases, as well as the methods of communicating and sharing these releases with collaborators and users.
+### Önemli kilometre taşlarını ve sürümleri işaretlemek için etiketleri kullanma.
+Bu sürecin önemli bir yönü, ekip üyeleriyle sorunsuz bir işbirliği sağlamak ve kullanıcılara güvenilir yazılım güncellemeleri sunmak için sürüm adaylarını ve kararlı sürümleri etkili bir şekilde yönetmektir. Bu makalede, sürüm adaylarını ve kararlı sürümleri etiketlemenin önemini ve bu sürümleri işbirliği yaptığınız kişilerle ve kullanıcılarla iletme ve paylaşma yöntemlerini inceleyeceğiz.
 
-#### Understanding the Importance of Tags in Software Development:
+#### Yazılım Geliştirmede Etiketlerin Önemi:
 
-Tags are a fundamental component of version control systems like Git and Mercurial. They represent specific points in a project's history, commonly used to mark significant milestones such as release candidates and stable releases. Tags provide a snapshot of the project's codebase at a given time, allowing developers to refer back to specific points with ease.
+Etiketler, Git ve Mercurial gibi sürüm kontrol sistemlerinin temel bileşenleridir. Bir projenin geçmişindeki belirli noktaları temsil ederler ve genellikle sürüm adayları ve kararlı sürümler gibi önemli kilometre taşlarını işaretlemek için kullanılırlar. Etiketler, belirli bir zamanda projenin kod tabanının anlık görüntüsünü sağlar ve geliştiricilerin belirli noktalara kolaylıkla geri dönmelerini sağlar.
 
-#### Release Candidates Tags:
+#### Sürüm Adayları Etiketleri:
 
-Definition: Release candidates (RCs) are versions of the software that are considered stable for testing but are not yet final releases. They undergo rigorous testing and bug fixing before being approved for deployment to a wider audience.
+Tanım: Sürüm adayları (RC'ler), test için kararlı kabul edilen ancak henüz nihai sürümler olmayan yazılım sürümleridir. Daha geniş bir kitleye dağıtılmak üzere onaylanmadan önce sıkı testlerden ve hata düzeltmelerinden geçerler.
 
-Tagging RCs: When a release candidate is ready for testing, developers tag the commit associated with the RC in the version control system. This tag acts as a unique identifier for that particular RC.
+RC'leri Etiketleme: Bir sürüm adayı test için hazır olduğunda, geliştiriciler sürüm kontrol sisteminde RC ile ilişkili taahhüdü etiketler. Bu etiket, söz konusu RC için benzersiz bir tanımlayıcı görevi görür.
 
-Stable Releases Tags:
+Kararlı Sürümler Etiketleri:
 
-Definition: Stable releases are the final, production-ready versions of the software that have passed all necessary tests and quality checks.
+Tanım: Kararlı sürümler, gerekli tüm testleri ve kalite kontrollerini geçmiş, üretime hazır yazılım sürümleridir.
 
-Tagging Stable Releases: Once the development team confirms that a release candidate is stable and ready for public use, it is tagged as a stable release. This tag signifies a well-tested and reliable version that users can confidently use.
+Kararlı Sürümleri Etiketleme: Geliştirme ekibi, bir sürüm adayının kararlı ve genel kullanıma hazır olduğunu onayladıktan sonra, bu sürüm kararlı sürüm olarak etiketlenir. Bu etiket, kullanıcıların güvenle kullanabileceği, iyi test edilmiş ve güvenilir bir sürümü ifade eder.
 
-Using Tags Effectively:
+Etiketleri Etkili Kullanma:
 
-#### Semantic Versioning:
+#### Anlamsal Sürüm Numaralandırma:
 
-Semantic versioning (SemVer) is a widely-used versioning system that assigns three numbers to each release: MAJOR.MINOR.PATCH.
+Anlamsal sürüm numaralandırma (SemVer), her sürüme üç sayı atayan yaygın olarak kullanılan bir sürüm numaralandırma sistemidir: MAJOR.MINOR.PATCH.
 
-MAJOR version indicates backward-incompatible changes.
+MAJOR sürümü, geriye dönük uyumsuz değişiklikleri gösterir.
 
-MINOR version denotes backward-compatible new features.
+MINOR sürümü, geriye dönük uyumlu yeni özellikleri gösterir.
 
-PATCH version signifies backward-compatible bug fixes.
+PATCH sürümü, geriye dönük uyumlu hata düzeltmelerini gösterir.
 
-Tagging Conventions:
+Etiketleme Kuralları:
 
-Consistent tagging conventions simplify tracking and organizing releases.
+Tutarlı etiketleme kuralları, sürümlerin izlenmesini ve düzenlenmesini kolaylaştırır.
 
-Example Tag Format: vX.Y.Z-RCx (for release candidates) and vX.Y.Z (for stable releases).
+Etiket Formatı Örneği: vX.Y.Z-RCx (sürüm adayları için) ve vX.Y.Z (kararlı sürümler için).
 
-III. Communicating with Collaborators:
+III. İşbirlikçilerle İletişim Kurma:
 
-#### Pull Requests and Code Reviews:
+#### Çekme İstekleri ve Kod İncelemeleri:
 
-For release candidates, create pull requests to review and discuss changes with collaborators before merging into the main branch.
+Sürüm adayları için, ana branşla birleştirmeden önce değişiklikleri incelemek ve işbirlikçilerle tartışmak üzere çekme istekleri oluşturun.
 
-Collaborators can perform thorough code reviews, catch potential issues, and suggest improvements.
+İşbirlikçiler kapsamlı kod incelemeleri yapabilir, olası sorunları tespit edebilir ve iyileştirmeler önerebilir.
 
-#### Changelogs:
+#### Değişiklik Günlükleri:
 
-Maintaining detailed changelogs allows collaborators to understand the changes between versions.
+Ayrıntılı değişiklik günlükleri tutmak, işbirlikçilerin sürümler arasındaki değişiklikleri anlamalarını sağlar.
 
-Include bug fixes, new features, improvements, and any backward-incompatible changes.
+Hata düzeltmelerini, yeni özellikleri, iyileştirmeleri ve geriye dönük uyumsuz değişiklikleri dahil edin.
 
-### Sharing Releases with Users:
+### Kullanıcılarla Sürümleri Paylaşma:
 
-#### Release Notes:
+#### Sürüm Notları:
 
-Release notes accompany stable releases, summarizing the key changes and improvements.
+Sürüm notları, kararlı sürümlerle birlikte gelir ve önemli değişiklikleri ve iyileştirmeleri özetler.
 
-Users can refer to release notes to understand what's new and any potential impacts on their usage.
+Kullanıcılar, sürüm notlarına bakarak yenilikleri ve bunların kullanımlarına olası etkilerini anlayabilirler.
 
-#### Distribution Channels:
+#### Dağıtım Kanalları:
 
-Use reliable distribution channels like package managers, app stores, or official websites to make releases accessible to users.
+Sürümleri kullanıcıların erişimine açmak için paket yöneticileri, uygulama storeları veya resmi web siteleri gibi güvenilir dağıtım kanallarını kullanın.
 
-Communicate the update availability through email newsletters, blog posts, or social media announcements.
+Güncellemenin kullanılabilirliğini e-posta bültenleri, blog gönderileri veya sosyal medya duyuruları aracılığıyla bildirin.
 
-Effective use of tags is essential for managing release candidates and stable releases in software development. By appropriately tagging RCs and stable versions, developers can streamline collaboration, improve communication, and provide users with reliable updates. Adopting versioning systems like SemVer and following consistent tagging conventions will contribute to a more organized and seamless software development process. Through clear communication and thoughtful distribution, software teams can ensure that their releases are well-received and contribute to the success of their projects.
+Yazılım geliştirmede sürüm adaylarını ve kararlı sürümleri yönetmek için etiketlerin etkili kullanımı çok önemlidir. RC'leri ve kararlı sürümleri uygun şekilde etiketleyerek, geliştiriciler işbirliğini kolaylaştırabilir, iletişimi iyileştirebilir ve kullanıcılara güvenilir güncellemeler sağlayabilir. SemVer gibi sürüm sistemlerini benimsemek ve tutarlı etiketleme kurallarına uymak, daha organize ve sorunsuz bir yazılım geliştirme sürecine katkıda bulunacaktır. Net iletişim ve özenli dağıtım sayesinde, yazılım ekipleri sürümlerinin iyi karşılanmasını sağlayabilir ve projelerinin başarısına katkıda bulunabilir.
 
-# Conclusion:
-Git's advanced concepts, such as Git rebase, working with submodules, Git hooks, and managing Git tags and releases, provide developers with powerful tools to enhance their productivity and streamline their development workflows. By understanding and incorporating these concepts into their daily practices, teams can collaborate more effectively, manage complex projects more efficiently, and ensure the seamless delivery of high-quality software.
+# Sonuç:
+Git rebase, alt modüllerle çalışma, Git hook'ları ve Git etiketleri ile sürümleri yönetme gibi Git'in gelişmiş kavramları, geliştiricilere üretkenliklerini artırmak ve geliştirme iş akışlarını kolaylaştırmak için güçlü araçlar sağlar. Bu kavramları anlayarak ve günlük uygulamalarına dahil ederek, ekipler daha etkili bir şekilde işbirliği yapabilir, karmaşık projeleri daha verimli bir şekilde yönetebilir ve yüksek kaliteli yazılımların sorunsuz bir şekilde teslim edilmesini sağlayabilir.
