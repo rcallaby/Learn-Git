@@ -99,7 +99,7 @@ git push origin main
 ```
 This command pushes the changes from the local branch "main" to the remote repository named "origin."
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push.jpeg" />
 
 
 Pulling Changes from the Remote Repository

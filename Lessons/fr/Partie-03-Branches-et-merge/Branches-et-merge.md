@@ -36,7 +36,7 @@ Les branches sont des environnements isolés où vous pouvez travailler sur des 
 
 Lorsque la fonctionnalité est opérationnelle ou que les bogues ont été corrigés, c'est le moment de la fusion (merge). La fusion permet de combiner les changements effectués dans une branche avec ceux effectués dans une autre branche. Pour fusionner les changements réalisés dans une branche (par exemple notre branche de fonctionnalité) dans la branche principale, un développeur peut exécuter la commande git merge feature-branch une fois sur la branche principale. Cette action intègre les changements effectués dans "feature-branch" dans la branche principale, combinant ainsi leurs historiques.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-03/branching-and-merging.png" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-03/branching-and-merging.png" />
 
 ## Gérer les merge conflicts (problème de fusion):
 
