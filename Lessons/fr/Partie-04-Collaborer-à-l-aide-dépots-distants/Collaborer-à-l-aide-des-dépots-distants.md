@@ -102,7 +102,7 @@ git push origin main
 ```
 Cette commande pushles changements de la branche locale "main" vers le dépot nommé "origin".
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push.jpeg" />
 
 
 ### Extraire(Pull) des modifications du dépot distant
@@ -141,7 +141,7 @@ git merge origin/main
 
 ```
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/fetch.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/fetch.jpeg" />
 
 Cette commande fusionne les modifications de la branche distante "main" dans votre branche locale.
 
@@ -225,7 +225,7 @@ Cette commande push votre branche locale "fonctionnalité/nouvelle-fonctionnalit
 Étape 4 : Collaborer avec d'autres
 Une fois que votre branche est sur le référentiel distant, d'autres développeurs peuvent examiner vos modifications, fournir des commentaires ou même collaborer avec vous sur la même branche.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/push-branch.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/push-branch.jpeg" />
 
 ## Comprendre les pull requests
 Une pull request (PR) est une fonctionnalité que l'on trouve couramment sur les plateformes d'hébergement Git telles que GitHub et Bitbucket. Il s'agit d'une demande formelle de fusionner des modifications d'une branche dans une autre, généralement d'une branche de fonctionnalités dans la branche principale.
@@ -330,7 +330,7 @@ git push origin my-feature-branch
 Créer une pull request :
 Une fois que les changements sont push, consultez le dépôt sur GitHub et créez une pull request de votre branche "ma-fonctionnalité" vers la branche principale (par exemple, master). Cela permet à vos coéquipiers d'examiner vos modifications avant de les fusionner dans la base de code principale.
 
-<img alt="Git branching and merging infographic" src="../../images/Part-04/PR.jpeg" />
+<img alt="Git branching and merging infographic" src="../../../images/Part-04/PR.jpeg" />
 
 Review et Merge :
 La pull request montrera les changements que vous avez faits, et les membres de votre équipe pourront examiner vos modifications. Si tout semble correct, un chef d'équipe ou un mainteneur peut fusionner la demande dans la branche principale.
