@@ -211,4 +211,4 @@ Para colaborar con otros, envía tu rama al repositorio remoto:
 
 ```bash
 git push origin <nombre_rama>
-``
+```
