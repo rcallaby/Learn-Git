@@ -32,15 +32,10 @@ Here are the language codes we use for translations:
 - de: German
 - it: Italian
 - ja: Japanese
-- ml: Mayalam
 - mn: Mongolian
-- ko: Korean
-- pt: Portuguese
 - ru: Russian
 - tr: Turkish
-- ur: Urdu
 - zh-CN: Simplified Chinese
-- zh-TW: Traditional Chinese
 
 ### Current Translations
 Here are the translations that are currently available in this repository:
@@ -52,10 +47,8 @@ Here are the translations that are currently available in this repository:
 - fr: French (in progress)
 - tr: Turkish (in progress)
 - hi: Hindi (in progress)
-- ml: Mayalam (in progress)
 - mn: Mongolian(in progress)
 - ja: Japanese
-- ur: Urdu (in progress)
 - zh-CN: Simplified Chinese (in progress)
 
 We appreciate any contributions to help us make our documentation more accessible to a wider audience. Thank you for your help!

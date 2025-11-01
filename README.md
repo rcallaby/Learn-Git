@@ -159,9 +159,8 @@ You can find translations of this tutorial in many different languages below. Pl
 - Hindi
 - Italian
 - Japanese
-- Malayalam
 - Mongolian
 - Russian
 - Spanish
 - Turkish
-- Urdu
+
