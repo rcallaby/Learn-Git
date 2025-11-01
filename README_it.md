@@ -149,9 +149,7 @@ Puoi trovare le traduzioni di questo tutorial in molte lingue diverse qui sotto.
 - Hindi  
 - Italiano  
 - Giapponese  
-- Malayalam  
 - Mongolo  
 - Russo  
 - Spagnolo  
 - Turco  
-- Urdu

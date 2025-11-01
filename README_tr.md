@@ -151,5 +151,4 @@ Aşağıda bu eğitimin birçok farklı dildeki çevirilerini bulabilirsiniz. L�
 - İtalyanca
 - Moğolca
 - Japonca
-- Malayalam
-- fransız
+- Fransız
