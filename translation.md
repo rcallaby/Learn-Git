@@ -42,11 +42,11 @@ Here are the translations that are currently available in this repository:
 
 - en: English (default)
 - es: Spanish (in progress)
-- de: German (in progress)
+- de: German
 - it: Italian (in progress)
-- fr: French (in progress)
+- fr: French
 - tr: Turkish (in progress)
-- hi: Hindi (in progress)
+- hi: Hindi 
 - mn: Mongolian(in progress)
 - ja: Japanese
 - zh-CN: Simplified Chinese (in progress)

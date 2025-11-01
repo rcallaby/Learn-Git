@@ -150,5 +150,4 @@ Vous trouverez ci-dessous des traductions de ce tutoriel dans de nombreuses lang
 - Italien
 - Mongol
 - Japonais
-- Malayalam
-- turc 
+- Turc 

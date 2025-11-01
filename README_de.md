@@ -147,11 +147,8 @@ Unten findest du Übersetzungen dieses Tutorials in vielen verschiedenen Sprache
 - Deutsch  
 - Hindi  
 - Italienisch  
-- Japanisch  
-- Malayalam  
+- Japanisch   
 - Mongolisch  
 - Russisch  
 - Spanisch  
 - Türkisch  
-
-- Urdu

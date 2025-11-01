@@ -151,9 +151,7 @@ git pull
 - Hindi
 - Italian
 - Japanese
-- Malayalam
 - Mongolian
 - Russian
 - Spanish
 - Turkish
-- Urdu
