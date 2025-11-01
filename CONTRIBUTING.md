@@ -3,9 +3,6 @@ Thank you for considering contributing to Learn-Git! This repository is intended
 
 If you would like to contribute to this repository by making the tutorial better or by potentially translating it into another language, please create a new issue with that idea or improvment, and if the idea is good enough I or potentially members of this repository will approve it. At that point you could create the change and then create a pull request.
 
-#### Hacktoberfest 2025
-This repository will participate in **Hacktoberfest 2025** as this will hopefully help finish this translation effort. Absolutely no new languages will be accepted and only open issues will be considered as part of the next Hacktoberfest. If you want to help by finishing off the open issues then feel free.
-
 ## Code of Conduct
 Before getting started, please read and adhere to the code of conduct. We want to maintain a respectful and welcoming community for all participants. 
 
