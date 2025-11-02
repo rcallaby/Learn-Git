@@ -1,52 +1,45 @@
-name: Markdown Links Check
+name: New Markdown Links Check
 
-# Runs every day at 9 AM
+# Runs every day at 9 AM on:
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run Markdown Link Check
-        id: linkcheck
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          use-verbose-mode: 'yes'
-          config-file: '.github/workflows/markdown.links.config.json'
-        continue-on-error: true
+          node-version: '20'
 
-      # Capture output for processing
-      - name: Save link check report
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+
+      - name: Run Markdown Link Check
         run: |
           mkdir -p reports
-          echo "${{ steps.linkcheck.outputs.result }}" > reports/raw_link_check.txt || true
+          find . -name '*.md' -print0 | xargs -0 -n1 markdown-link-check --verbose --config .github/workflows/markdown.links.config.json > reports/raw_link_check.txt 2>&1 || true
 
       # Summarize broken links and sections
       - name: Summarize broken links by file and section
         run: |
-          echo "### 🔗 Markdown Broken Links Summary" >> $GITHUB_STEP_SUMMARY
+          echo "###  Markdown Broken Links Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-
-          if grep -q "✖" reports/raw_link_check.txt; then
+          if [ -s reports/raw_link_check.txt ]; then
             echo "The following broken links were detected:" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-
-            # Extract file, line, and broken link details
-            grep -A 3 "✖" reports/raw_link_check.txt | \
-              awk '/FILE:/{file=$0} /✖/{print file "\n" $0 "\n"}' | \
-              sed 's/FILE:/📄 **File:**/; s/✖/❌ **Broken Link:**/' >> $GITHUB_STEP_SUMMARY
-
+            # Append the raw report (indented) so the summary contains the details
+            sed 's/^/    /' reports/raw_link_check.txt >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "#### 🧭 Tip: Review headers around the reported lines to quickly find affected sections." >> $GITHUB_STEP_SUMMARY
+            echo "####  Tip: Review headers around the reported lines to quickly find affected sections." >> $GITHUB_STEP_SUMMARY
           else
-            echo "✅ No broken links found across your markdown files!" >> $GITHUB_STEP_SUMMARY
+            echo " No broken links found across your markdown files!" >> $GITHUB_STEP_SUMMARY
           fi
 
       # Optionally upload full report for reference
@@ -56,3 +49,4 @@ jobs:
         with:
           name: markdown-link-check-report
           path: reports/raw_link_check.txt
+
