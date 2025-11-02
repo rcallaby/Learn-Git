@@ -1,0 +1,58 @@
+name: Markdown Links Check
+
+# Runs every day at 9 AM
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Markdown Link Check
+        id: linkcheck
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-verbose-mode: 'yes'
+          config-file: '.github/workflows/markdown.links.config.json'
+        continue-on-error: true
+
+      # Capture output for processing
+      - name: Save link check report
+        run: |
+          mkdir -p reports
+          echo "${{ steps.linkcheck.outputs.result }}" > reports/raw_link_check.txt || true
+
+      # Summarize broken links and sections
+      - name: Summarize broken links by file and section
+        run: |
+          echo "### 🔗 Markdown Broken Links Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if grep -q "✖" reports/raw_link_check.txt; then
+            echo "The following broken links were detected:" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Extract file, line, and broken link details
+            grep -A 3 "✖" reports/raw_link_check.txt | \
+              awk '/FILE:/{file=$0} /✖/{print file "\n" $0 "\n"}' | \
+              sed 's/FILE:/📄 **File:**/; s/✖/❌ **Broken Link:**/' >> $GITHUB_STEP_SUMMARY
+
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "#### 🧭 Tip: Review headers around the reported lines to quickly find affected sections." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "✅ No broken links found across your markdown files!" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      # Optionally upload full report for reference
+      - name: Upload link check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: markdown-link-check-report
+          path: reports/raw_link_check.txt
