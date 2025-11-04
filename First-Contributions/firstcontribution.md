@@ -46,7 +46,7 @@ Now it's time to make your contribution. This can involve editing code, document
 
 After making your changes, save the file and commit it to your branch.
 
-```
+```bash
 git add contributors.md
 git commit -m "Add [Your Name] to contributors.md"
 

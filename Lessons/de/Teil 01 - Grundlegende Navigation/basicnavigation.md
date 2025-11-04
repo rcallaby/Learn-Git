@@ -1,6 +1,3 @@
-Certainly! Here's the translation of the provided text from English to German:
-
-```markdown
 # Git - Grundlegende Navigation
 
 - [Einführung](#einführung)

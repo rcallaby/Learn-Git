@@ -14,7 +14,8 @@
   - [6. Pull Requests: Codeüberprüfung und Zusammenführen von Code](#6-pull-requests-codeüberprüfung-und-zusammenführen-von-code)
     - [Erstellen eines Pull Requests](#erstellen-eines-pull-requests)
 - [Fazit](#fazit)
-# GitHub-Projektmanagementtools effizient nutzen
+
+## GitHub-Projektmanagementtools effizient nutzen
 
 GitHub, weithin bekannt für seine Versionskontrollfunktionen, bietet auch eine Suite von Projektmanagementtools, die darauf abzielen, die Zusammenarbeit zu verbessern, Workflows zu optimieren und den Fortschritt bei Softwareentwicklungsprojekten zu verfolgen. Diese Tools können für Teams, die Aufgaben organisieren, Prioritäten setzen und einen klaren Überblick über ihre Projekte behalten möchten, enorm nützlich sein. In diesem Artikel werden wir auf die verschiedenen Funktionen und Möglichkeiten der GitHub-Projektmanagementtools eingehen, zusammen mit detaillierten Beispielen, wie man sie optimal nutzen kann.
 
