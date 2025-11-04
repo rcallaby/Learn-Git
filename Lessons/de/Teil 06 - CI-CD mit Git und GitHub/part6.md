@@ -1,28 +1,5 @@
 # Kontinuierliche Integration und Bereitstellung mit Git und GitHub
 
-- [Integration von Git und GitHub mit CI/CD-Pipelines](#integration-von-git-und-github-mit-cicd-pipelines)
-- [Verständnis von CI/CD-Pipelines](#verständnis-von-cicd-pipelines)
-  - [Einrichtung von CI/CD-Pipelines mit Git und GitHub](#einrichtung-von-cicd-pipelines-mit-git-und-github)
-  - [Implementierung von CD (Continuous Deployment)](#implementierung-von-cd-continuous-deployment)
-  - [Best Practices für die Integration von Git und GitHub mit CI/CD](#best-practices-für-die-integration-von-git-und-github-mit-cicd)
-- [Automatisierte Tests und Code-Qualitätsprüfungen](#automatisierte-tests-und-code-qualitätsprüfungen)
-  - [Vorteile von automatisierten Tests und Code-Qualitätsprüfungen](#vorteile-von-automatisierten-tests-und-code-qualitätsprüfungen)
-  - [Implementierung von automatisierten Tests in Git und GitHub](#implementierung-von-automatisierten-tests-in-git-und-github)
-  - [Code-Qualitätsprüfungen in Git und GitHub](#code-qualitätsprüfungen-in-git-und-github)
-  - [Best Practices für automatisierte Tests und Code-Qualitätsprüfungen](#best-practices-für-automatisierte-tests-und-code-qualitätsprüfungen)
-- [Bereitstellung von Anwendungen mit Git und GitHub Actions](#bereitstellung-von-anwendungen-mit-git-und-github-actions)
-  - [Einrichtung des Git und GitHub Repositorys](#einrichtung-des-git-und-github-repositorys)
-  - [Einrichtung Ihrer Anwendung](#einrichtung-ihrer-anwendung)
-  - [Definition der Bereitstellungskonfiguration](#definition-der-bereitstellungskonfiguration)
-    - [Erstellen Sie eine Datei namens .github/workflows/deploy.yml mit folgendem Inhalt](#erstellen-sie-eine-datei-namens-githubworkflowsdeployyml-mit-folgendem-inhalt)
-  - [Erläuterung der Bereitstellungskonfiguration](#erläuterung-der-bereitstellungskonfiguration)
-    - [Bereitstellung der Anwendung](#bereitstellung-der-anwendung)
-- [Überwachung und Zurücksetzen von Bereitstellungen](#überwachung-und-zurücksetzen-von-bereitstellungen)
-- [Verständnis von Überwachung und Zurücksetzen in Git](#verständnis-von-überwachung-und-zurücksetzen-in-git)
-  - [Implementierung der Überwachung in Git](#implementierung-der-überwachung-in-git)
-  - [Zurücksetzen von Anwendungen in Git](#zurücksetzen-von-anwendungen-in-git)
-  - [Best Practices für Überwachung und Zurücksetzen in Git](#best-practices-für-überwachung-und-zurücksetzen-in-git)
-
 ## Integration von Git und GitHub mit CI/CD-Pipelines
 
 Continuous Integration/Continuous Deployment (CI/CD) ist eine wichtige Praxis in der modernen Softwareentwicklung und optimiert den Prozess der Bereitstellung von hochwertigem Code in die Produktion. Durch die Integration von Git und GitHub mit CI/CD-Pipelines können Entwickler den Bau, das Testen und die Bereitstellung von Anwendungen automatisieren, was schnellere Entwicklungszyklen, konsistente Releases und eine verbesserte Zusammenarbeit im Team gewährleistet. Dieser Artikel bietet eine umfassende Anleitung zur Integration von Git und GitHub mit CI/CD-Pipelines sowie praktische Beispiele zur Veranschaulichung des Prozesses.

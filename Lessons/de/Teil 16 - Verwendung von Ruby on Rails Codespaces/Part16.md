@@ -1,16 +1,3 @@
-## Inhaltsverzeichnis
-- [Ruby on Rails Codespaces](#ruby-on-rails-codespaces)
-  - [Voraussetzungen](#voraussetzungen)
-    - [Einstieg in Ruby on Rails Codespaces](#einstieg-in-ruby-on-rails-codespaces)
-    - [Beispiel: Erstellen einer einfachen Rails-App in Codespaces](#beispiel-erstellen-einer-einfachen-rails-app-in-codespaces)
-    - [Zusammenarbeit mit Teammitgliedern](#zusammenarbeit-mit-teammitgliedern)
-    - [Um effektiv zusammenzuarbeiten, befolgen Sie diese Schritte](#um-effektiv-zusammenzuarbeiten-befolgen-sie-diese-schritte)
-- [Fazit](#fazit)
-  - [GitHub Actions für Ruby on Rails mit Codespaces](#github-actions-für-ruby-on-rails-mit-codespaces)
-    - [Continuous Integration (CI): Ein Workflow zum Ausführen von Tests und Checks, wenn Code in Ihr Repository gepusht wird.](#continuous-integration-ci-einrichten-eines-workflows-zum-ausführen-von-tests-und-checks-wenn-code-in-ihr-repository-gepusht-wird)
-    - [Automatisierte Bereitstellung: Automatisches Bereitstellen Ihrer Rails-Anwendung auf einer Hosting-Plattform, wenn Änderungen in den Hauptzweig gepusht werden.](#automatisierte-bereitstellung-automatisches-bereitstellen-ihrer-rails-anwendung-auf-einer-hosting-plattform-wenn-änderungen-im-hauptzweig-gepusht-werden)
-    - [Geplante Aufgaben: Ausführen periodischer Aufgaben wie Datenbanksicherungen mit geplanten GitHub Actions.](#geplante-aufgaben-ausführen-periodischer-aufgaben-wie-datenbanksicherungen-mit-geplanten-github-actions)
-
 # Ruby on Rails Codespaces
 
 GitHub Codespaces ist eine leistungsstarke, cloudbasierte Entwicklungsumgebung, die es Entwicklern ermöglicht, ihre Projekte direkt innerhalb der GitHub-Weboberfläche zu codieren, zu erstellen und zu testen. Ruby on Rails-Entwickler können Codespaces nutzen, um ihren Entwicklungsworkflow zu optimieren, lokale Installationen zu vermeiden und eine konsistente Entwicklungsumgebung für die Teamzusammenarbeit sicherzustellen. In diesem Artikel werden wir erkunden, wie man Ruby on Rails Codespaces in GitHub einrichtet und verwendet, zusammen mit einigen Beispielen, um Ihnen den Einstieg zu erleichtern.

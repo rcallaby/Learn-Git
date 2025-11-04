@@ -1,12 +1,6 @@
 # Branching und Merging
 
-- [Einführung in Branches und ihren Zweck](#einführung-in-branches-und-ihren-zweck)
-- [Erstellen und Wechseln zwischen Branches](#erstellen-und-wechseln-zwischen-branches)
-- [Verwaltung von Branch-Historie und Zusammenführen von Änderungen](#verwaltung-von-branch-historie-und-zusammenführen-von-änderungen)
-- [Umgang mit Merge-Konflikten](#umgang-mit-merge-konflikten)
-- [Fazit](#fazit)
-
-# Einführung in Branches und ihren Zweck:
+## Einführung in Branches und ihren Zweck:
 
 Im Bereich der Softwareentwicklung sind Git-Branches unverzichtbare Werkzeuge zur Verwaltung der Codeentwicklung und Zusammenarbeit. Ein Branch in Git ist im Wesentlichen ein leichtgewichtiger, verschiebbarer Zeiger auf einen bestimmten Commit in der Commit-Historie eines Repositories. Durch die Verwendung von Branches können Entwickler gleichzeitig an verschiedenen Aspekten eines Projekts arbeiten, neue Funktionen oder Fixes ausprobieren und Änderungen isolieren, ohne den Hauptcodebestand zu beeinträchtigen. Dieser Artikel wird in die Details von Git-Branches eintauchen und deren Erstellung, Wechsel, Verwaltung der Historie und Umgang mit Merge-Konflikten abdecken.
 

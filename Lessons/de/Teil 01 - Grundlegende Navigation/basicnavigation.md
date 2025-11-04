@@ -1,13 +1,5 @@
 # Git - Grundlegende Navigation
 
-- [Einführung](#einführung)
-- [Öffnen des BASH-Terminals](#bash-terminal-öffnen)
-- [Navigieren durch Verzeichnisse](#durch-verzeichnisse-navigieren)
-- [Auflisten von Verzeichnisinhalten](#verzeichnisinhalte-auflisten)
-- [Erstellen und Löschen von Verzeichnissen](#verzeichnisse-erstellen-und-löschen)
-- [Erstellen und Löschen von Dateien](#dateien-erstellen-und-löschen)
-- [Fazit](#fazit)
-
 # Einführung:
 Das BASH-Terminal ist eine leistungsstarke Befehlszeilenschnittstelle, die es Benutzern ermöglicht, durch das Dateisystem ihres Computers zu navigieren, verschiedene Aufgaben auszuführen und mit Versionskontrollsystemen wie Git zu interagieren. Git ist ein weit verbreitetes verteiltes Versionskontrollsystem, das effiziente Zusammenarbeit und Nachverfolgung von Änderungen an Code-Repositories ermöglicht. In diesem Artikel werden wir erkunden, wie man sich durch die grundlegenden Befehle im BASH-Terminal bewegt und sie effektiv für die Arbeit mit Git nutzt.
 

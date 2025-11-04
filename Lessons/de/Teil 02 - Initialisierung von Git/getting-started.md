@@ -1,27 +1,22 @@
 # Git initialisieren - Erste Schritte
 
-- [Grundlegende Git-Operationen](#grundlegende-git-operationen)
-- [Einrichten eines Git-Repositorys unter Linux](#einrichten-eines-git-repositorys-unter-linux)
-- [Einrichten eines Git-Repositorys unter Windows](#einrichten-eines-git-repositorys-unter-windows)
-- [Einrichten eines Git-Repositorys unter macOS](#einrichten-eines-git-repositorys-unter-macos)
-
 ## Grundlegende Git-Operationen:
 Git bietet eine Vielzahl von Befehlen für die Versionskontrolle, hier sind jedoch einige grundlegende:
 
 `git init` initialisiert ein neues Git-Repository im aktuellen Verzeichnis. Zum Beispiel:
-```
+```bash
 git init Verzeichnisname
 ```
 `git clone <Repository-URL>` kopiert ein Remote-Repository auf Ihren lokalen Rechner. Zum Beispiel:
-```
+```bash
 git clone Verzeichnisname
 ```
 `git add <Datei>` staged Änderungen an einer Datei für den Commit.
-```
+```bash
 git add . 
 ```
 oder
-```
+```bash
 git add Dateiname
 ```
 `git commit -m "<Commit-Nachricht>"` committet die gestagten Änderungen im Repository. Zum Beispiel:

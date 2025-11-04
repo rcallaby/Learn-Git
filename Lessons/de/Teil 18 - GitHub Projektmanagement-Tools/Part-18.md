@@ -1,21 +1,4 @@
-# Inhaltsverzeichnis
-
-- [GitHub-Projektmanagementtools effizient nutzen](#github-projektmanagementtools-effizient-nutzen)
-  - [1. GitHub Issues: Die Grundlage des Projektmanagements](#1-github-issues-die-grundlage-des-projektmanagements)
-    - [Erstellen eines Issues](#erstellen-eines-issues)
-  - [2. Labels: Kategorisierung und Priorisierung von Aufgaben](#2-labels-kategorisierung-und-priorisierung-von-aufgaben)
-    - [Erstellen eines Labels](#erstellen-eines-labels)
-  - [3. Meilensteine: Fortschritt im Laufe der Zeit verfolgen](#3-meilensteine-fortschritt-im-laufe-der-zeit-verfolgen)
-    - [Erstellen eines Meilensteins](#erstellen-eines-meilensteins)
-  - [4. Projekte: Arbeit mit Boards und Notizen organisieren](#4-projekte-arbeit-mit-boards-und-notizen-organisieren)
-    - [Erstellen eines Projekts](#erstellen-eines-projekts)
-  - [5. Automatisierung mit Aktionen und Workflows](#5-automatisierung-mit-aktionen-und-workflows)
-    - [Erstellen einer Aktion](#erstellen-einer-aktion)
-  - [6. Pull Requests: Codeüberprüfung und Zusammenführen von Code](#6-pull-requests-codeüberprüfung-und-zusammenführen-von-code)
-    - [Erstellen eines Pull Requests](#erstellen-eines-pull-requests)
-- [Fazit](#fazit)
-
-## GitHub-Projektmanagementtools effizient nutzen
+# GitHub-Projektmanagementtools effizient nutzen
 
 GitHub, weithin bekannt für seine Versionskontrollfunktionen, bietet auch eine Suite von Projektmanagementtools, die darauf abzielen, die Zusammenarbeit zu verbessern, Workflows zu optimieren und den Fortschritt bei Softwareentwicklungsprojekten zu verfolgen. Diese Tools können für Teams, die Aufgaben organisieren, Prioritäten setzen und einen klaren Überblick über ihre Projekte behalten möchten, enorm nützlich sein. In diesem Artikel werden wir auf die verschiedenen Funktionen und Möglichkeiten der GitHub-Projektmanagementtools eingehen, zusammen mit detaillierten Beispielen, wie man sie optimal nutzen kann.
 

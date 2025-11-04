@@ -1,8 +1,3 @@
-## Inhaltsverzeichnis
-- [GitHub und Codespaces](#github-und-codespaces)
-- [Erste Schritte mit GitHub](#erste-schritte-mit-github)
-- [Vorstellung von GitHub Codespaces](#vorstellung-von-github-codespaces)
-
 # GitHub und Codespaces
 
 In der Welt der Softwareentwicklung sind Zusammenarbeit und Versionskontrolle entscheidende Aspekte, die eine reibungslose Projektverwaltung und Codeorganisation gewährleisten. GitHub, ein beliebter webbasierter Hosting-Service, hat die Art und Weise, wie Entwickler gemeinsam an Projekten arbeiten, revolutioniert. Neben GitHub bietet Microsofts Codespaces eine praktische und leistungsstarke Cloud-basierte Entwicklungsumgebung. Dieser Artikel wird Anfänger darin anleiten, wie man GitHub und Codespaces effektiv für Versionskontrolle und kollaboratives Codieren verwendet.

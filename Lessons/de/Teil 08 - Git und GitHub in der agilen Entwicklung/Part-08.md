@@ -1,32 +1,5 @@
 # Git und GitHub in der agilen Entwicklung
 
-## Inhaltsverzeichnis
-
-- [Die Rolle von Git und GitHub in agiler Softwareentwicklung](#git-und-githubs-rolle-in-agiler-softwareentwicklung)
-- [Git: Die Grundlage der agilen Versionskontrolle](#git-die-grundlage-der-agilen-versionskontrolle)
-    - [Branching und Merging](#branching-und-merging)
-    - [Versionierung und Historienverfolgung](#versionierung-und-historienverfolgung)
-    - [Kollaborative Entwicklung](#kollaborative-entwicklung)
-    - [Code Review](#code-review)
-    - [GitHub: Verbesserung der Zusammenarbeit und agiler Workflows](#github-verbesserung-der-zusammenarbeit-und-agiler-workflows)
-        - [Zentralisiertes Code-Repository](#zentralisiertes-code-repository)
-        - [Issue-Tracking und Projektmanagement](#issue-tracking-und-projektmanagement)
-        - [Pull Requests und Code Review](#pull-requests-und-code-review)
-        - [Automatisiertes Testen und Kontinuierliche Integration](#automatisiertes-testen-und-kontinuierliche-integration)
-        - [Der Agile-GitHub-Workflow](#der-agile-github-workflow)
-- [Branching-Strategien für agile Teams](#branching-strategien-fuer-agile-teams)
-- [Warum Branching-Strategien in der agilen Entwicklung wichtig sind](#warum-branching-strategien-in-der-agilen-entwicklung-wichtig-sind)
-    - [Gängige Branching-Strategien für agile Teams](#gaengige-branching-strategien-fuer-agile-teams)
-    - [Best Practices für Branching-Strategien](#best-practices-fuer-branching-strategien)
-- [Projektbacklogs und Sprints mit GitHub verwalten](#projektbacklogs-und-sprints-mit-github-verwalten)
-    - [Organisation von Projektbacklogs mit GitHub Issues](#organisation-von-projektbacklogs-mit-github-issues)
-- [Integration von Git und GitHub mit Issue-Tracking-Tools](#integration-von-git-und-github-mit-issue-tracking-tools)
-- [Die Bedeutung von Issue-Tracking in der Softwareentwicklung](#die-bedeutung-von-issue-tracking-in-der-softwareentwicklung)
-    - [Die Vorteile der Integration von Git und GitHub mit Issue-Tracking-Tools](#die-vorteile-der-integration-von-git-und-github-mit-issue-tracking-tools)
-    - [Schritt-für-Schritt-Anleitung zur Integration von Git und GitHub mit Issue-Tracking-Tools](#schritt-fuer-schritt-anleitung-zur-integration-von-git-und-github-mit-issue-tracking-tools)
-    - [Best Practices für die Aufrechterhaltung der Integration](#best-practices-fuer-die-aufrechterhaltung-der-integration)
-
-
 ## Die Rolle von Git und GitHub in agiler Softwareentwicklung
 
 Agile Softwareentwicklung ist eine weit verbreitete Methodik, die iterative und kollaborative Ansätze beim Bau von Software fördert. Zentral für ihren Erfolg ist das effiziente Management von Quellcode, Versionskontrolle und nahtlose Zusammenarbeit zwischen Entwicklungsteams. Git und GitHub, ein Versionskontrollsystem und ein webbasiertes Hosting-Service, haben sich als unverzichtbare Werkzeuge in der agilen Entwicklung etabliert. Dieser Artikel erkundet ihre wesentlichen Rollen und Beiträge zur Förderung von Agilität in Softwareentwicklungsteams.

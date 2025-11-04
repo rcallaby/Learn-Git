@@ -1,16 +1,3 @@
-# Inhaltsverzeichnis
-- [Django Codespaces in Github](#django-codespaces-in-github)
-  - [Abschnitt 1: Was sind GitHub Codespaces?](#abschnitt-1-was-sind-github-codespaces)
-  - [Abschnitt 2: Voraussetzungen](#abschnitt-2-voraussetzungen)
-  - [Abschnitt 3: Erstellen eines Codespaces für Django](#abschnitt-3-erstellen-eines-codespaces-für-django)
-  - [Abschnitt 4: Entwicklung in Django Codespaces](#abschnitt-4-entwicklung-in-django-codespaces)
-  - [Abschnitt 5: Offline arbeiten](#abschnitt-5-offline-arbeiten)
-- [Fazit](#fazit)
-- [Github Actions in Django Codespaces](#github-actions-in-django-codespaces)
-  - [Kontinuierliche Integration (CI)](#kontinuierliche-integration-ci)
-  - [Bereitstellung in Staging oder Production](#bereitstellung-in-staging-oder-production)
-  - [Geplante Aufgaben](#geplante-aufgaben)
-
 # Django Codespaces in Github
 
 GitHub Codespaces ist eine leistungsstarke Cloud-basierte Entwicklungsumgebung, die es Entwicklern ermöglicht, Anwendungen direkt in ihrem Browser zu codieren, zu erstellen und zu testen. Es bietet eine effiziente und nahtlose Codierungserfahrung, indem es die Notwendigkeit für lokale Entwicklungsumgebungen beseitigt. Dieser Artikel führt Sie durch den Prozess der Einrichtung und Verwendung von Django Codespaces in GitHub, um die Entwicklung von Django-Anwendungen einfach und bequem zu gestalten.
