@@ -20,7 +20,7 @@ Cliquez sur le bouton ci-dessous pour dupliquer le référentiel qui se trouve d
 
 Cloner le référentiel dupliqué : après avoir dupliqué le référentiel, vous devez le cloner sur votre machine locale. Le clonage crée une copie du référentiel sur votre ordinateur sur laquelle vous pouvez travailler. Pour cloner le référentiel, ouvrez une fenêtre de terminal et saisissez la commande suivante :
 
-```
+```bash
 git clone https://github.com/your-username/repository-name.git
 ```
 Assurez-vous de remplacer « your-username » et « repository-name » par votre nom d'utilisateur GitHub et le nom du référentiel que vous avez créé.
@@ -30,14 +30,14 @@ Assurez-vous de remplacer « your-username » et « repository-name » par v
 
 Assurez-vous de créer une branche au nom unique pour refléter les modifications que vous souhaitez apporter au code source. Pour créer une branche, utilisez la syntaxe suivante :
 
-```
+```bash
 git branch "branch-name"
 ```
 ### Image de référence
 ![branch_making](./images/Readme_images/Branch_making.png)
 
 Pour activer cette branche, utilisez la syntaxe suivante :
-```
+```bash
 git checkout "branch-name"
 ```
 ### Image de référence
@@ -48,7 +48,7 @@ Apportez des modifications au code : une fois le référentiel cloné sur votre
 
 Validez les modifications : après avoir apporté des modifications au code, vous devrez les valider dans votre référentiel local. Pour ce faire, ouvrez une fenêtre de terminal et accédez à la racine du référentiel cloné. Utilisez la commande suivante pour mettre en scène les modifications :
 
-```
+```bash
 git add .
 ```
 
@@ -59,7 +59,7 @@ Cela mettra en scène toutes les modifications apportées aux fichiers dans le r
 
 Ensuite, validez les modifications à l'aide de la commande suivante :
 
-```
+```bash
 git commit -m "A brief description of the changes made"
 ```
 
@@ -104,7 +104,7 @@ Pour ce faire, accédez à votre référentiel dupliqué sur GitHub et cliquez s
 
 Ensuite, exécutez la commande suivante dans votre référentiel local pour le mettre à jour :
 
-```
+```bash
 git pull
 ```
 

@@ -34,12 +34,12 @@ git checkout "branch-name"
 - **Apportez vos modifications et validez-les dans votre branche**
 
 Utilisez cette commande dans le terminal après avoir effectué une modification ou un ajout
-```
+```bash
 git add .
 ```
 Syntaxe pour valider cette modification ou cet ajout
 
-```
+```bash
 git commit -m "Une brève description des modifications apportées"
 ```
 
@@ -49,7 +49,7 @@ git commit -m "Une brève description des modifications apportées"
 - **Envoyez vos modifications à votre fork**
 Envoyez les modifications à GitHub : après avoir validé les modifications dans votre référentiel local, vous devrez les envoyer à GitHub. Cela mettra à jour la copie du référentiel dans votre compte GitHub avec les modifications que vous avez apportées. Pour envoyer les modifications, utilisez la commande suivante :
 
-```
+```bash
 git push origin branch-name
 
 ```
