@@ -1,30 +1,6 @@
 # Continuous Integration and Deployment with Git and GitHub
 
 
-- [Integrating Git and GitHub with CI/CD pipelines](#integrating-git-and-github-with-cicd-pipelines)
-- [Understanding CI/CD Pipelines](#understanding-cicd-pipelines)
-  - [Setting Up CI/CD Pipelines with Git and GitHub](#setting-up-cicd-pipelines-with-git-and-github)
-  - [Implementing CD (Continuous Deployment)](#implementing-cd-continuous-deployment)
-  - [Best Practices for Git and GitHub Integration with CI/CD](#best-practices-for-git-and-github-integration-with-cicd)
-- [Automated testing and code quality checks](#automated-testing-and-code-quality-checks)
-  - [Benefits of Automated testing and code quality checks](#benefits-of-automated-testing-and-code-quality-checks)
-  - [Implementing Automated Testing in Git and GitHub](#implementing-automated-testing-in-git-and-github)
-  - [Code Quality Checks in Git and GitHub](#code-quality-checks-in-git-and-github)
-  - [Best Practices for Automated Testing and Code Quality Checks](#best-practices-for-automated-testing-and-code-quality-checks)
-- [Deploying applications using Git and GitHub Actions](#deploying-applications-using-git-and-github-actions)
-  - [Setting Up Git and GitHub Repository](#setting-up-git-and-github-repository)
-  - [Setting up your Application](#setting-up-your-application)
-  - [Defining Deployment Configuration](#defining-deployment-configuration)
-    - [Create a file named .github/workflows/deploy.yml with the following content](#create-a-file-named-githubworkflowsdeployyml-with-the-following-content)
-  - [Explaining the Deployment Configuration](#explaining-the-deployment-configuration)
-    - [Deploying the Application](#deploying-the-application)
-- [Monitoring and rolling back deployments](#monitoring-and-rolling-back-deployments)
-- [Understanding Monitoring and Rolling Back in Git](#understanding-monitoring-and-rolling-back-in-git)
-  - [Implementing Monitoring in Git](#implementing-monitoring-in-git)
-  - [Rolling Back Applications in Git](#rolling-back-applications-in-git)
-  - [Best Practices for Monitoring and Rolling Back in Git](#best-practices-for-monitoring-and-rolling-back-in-git)
-
-
 ## Integrating Git and GitHub with CI/CD pipelines
 
 Continuous Integration/Continuous Deployment (CI/CD) is a vital practice in modern software development, streamlining the process of delivering high-quality code to production. By integrating Git and GitHub with CI/CD pipelines, developers can automate building, testing, and deploying applications, ensuring faster development cycles, consistent releases, and improved collaboration among team members. This article will provide an in-depth guide on how to integrate Git and GitHub with CI/CD pipelines, along with practical examples to demonstrate the process.

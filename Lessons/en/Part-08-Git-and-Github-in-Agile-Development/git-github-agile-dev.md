@@ -1,32 +1,5 @@
 # Git and GitHub in Agile Development
 
-## Table of Contents
-
-- [Git and Github's role in agile software development](#git-and-githubs-role-in-agile-software-development)
-- [Git: The Foundation of Agile Version Control](#git-the-foundation-of-agile-version-control)
-    - [Branching and Merging](#branching-and-merging)
-    - [Versioning and History Tracking](#versioning-and-history-tracking)
-    - [Collaborative Development](#collaborative-development)
-    - [Code Review](#code-review)
-    - [Github: Enhancing Collaboration and Agile Workflows](#github-enhancing-collaboration-and-agile-workflows)
-        - [Centralized Code Repository](#centralized-code-repository)
-        - [Issue Tracking and Project Management](#issue-tracking-and-project-management)
-        - [Pull Requests and Code Review](#pull-requests-and-code-review)
-        - [Automated Testing and Continous Integration](#automated-testing-and-continuous-integration)
-        - [The Agile-Github Workflow](#the-agile-github-workflow)
-- [Branching Strategies for Agile Teams](#branching-strategies-for-agile-teams)
-- [Why Branching Strategies Matter in Agile Development](#why-branching-strategies-matter-in-agile-development)
-    - [Common Branching Strategies for Agile Teams](#common-branching-strategies-for-agile-teams)
-    - [Best Practices for Branching Strategies](#best-practices-for-branching-strategies)
-- [Managing project backlogs and sprints with GitHub](#managing-project-backlogs-and-sprints-with-github)
-    - [Organizing Project Backlogs with Github Issues](#organizing-project-backlogs-with-github-issues)
-- [Integrating Git and GitHub with issue tracking tools](#integrating-git-and-github-with-issue-tracking-tools)
-- [The importance of issue tracking in software development](#the-importance-of-issue-tracking-in-software-development)
-    - [The Advantages of Integrating Git and GitHub with Issue Tracking Tools](#the-advantages-of-integrating-git-and-github-with-issue-tracking-tools)
-    - [Step-by-Step Guide to Integrating Git and GitHub with Issue Tracking Tools](#step-by-step-guide-to-integrating-git-and-github-with-issue-tracking-tools)
-    - [Best Practices for Maintaining the Integration](#best-practices-for-maintaining-the-integration)
-
-
 ## Git and GitHub's role in agile software development
 
 Agile software development is a widely adopted methodology that promotes iterative and collaborative approaches to building software. Central to its success is the efficient management of source code, version control, and seamless collaboration among development teams. Git and GitHub, a version control system and a web-based hosting service, respectively, have emerged as indispensable tools in agile development. This article explores their essential roles and contributions in fostering agility within software development teams.

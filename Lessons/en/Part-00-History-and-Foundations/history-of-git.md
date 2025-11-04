@@ -1,11 +1,5 @@
 # History and Foundations of Git
 
-- [Introduction](#introduction)
-- [Who created Git](#who-created-git)
-- [The Reason why Git was created](#the-reason-why-git-was-created)
-- [Alternatives to Git](#alternatives-to-git)
-- [Where to store your repositories for free](#where-to-store-your-repositories-for-free)
-
 # Introduction
 
 Git is a distributed version control system that was created by Linus Torvalds in 2005. Git represents history in a fundamentally different way than centralized version controls systems (CVCS) such as Team Foundation Version Control, Perforce, or Subversion. Centralized systems store a separate history for each file in a repository. Git stores history as a graph of snapshots of the entire repository. These snapshots, called commits in Git, can have multiple parents, creating a history that looks like a graph instead of a straight line. This difference in history is incredibly important and is the main reason users familiar with CVCS find Git confusing.

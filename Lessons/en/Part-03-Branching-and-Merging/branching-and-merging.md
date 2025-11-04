@@ -1,11 +1,5 @@
 # Branching and Merging
 
-- [Introduction to branches and their purpose](#introduction-to-branches-and-their-purpose)
-- [Creating and switching between branches](#creating-and-switching-between-branches)
-- [Managing branch history and merging changes](#managing-branch-history-and-merging-changes)
-- [Handling Merge Conflicts](#handling-merge-conflicts)
-- [Conclusion](#conclusion)
-
 # Introduction to branches and their purpose:
 
 In the realm of software development, Git branches are indispensable tools for managing code evolution and collaboration. A branch in Git is essentially a lightweight, movable pointer to a specific commit in a repository's commit history. By utilizing branches, developers can work on different aspects of a project simultaneously, experiment with new features or fixes, and isolate changes without affecting the main codebase. This article will delve into the intricacies of Git branches, covering their creation, switching, history management, and handling of merge conflicts.

@@ -1,10 +1,5 @@
 # Table of Contents
 
-- [Advanced Github Actions](#advanced-github-actions)
-- [What is Github Actions](#what-is-github-actions)
-- [Advanced Features of Github Actions](#advanced-features-of-github-actions)
-- [Why Consider Adding GitHub Actions to Your Workflow?](#why-consider-adding-github-actions-to-your-workflow)
-
 # Advanced Github Actions
 
 GitHub Actions is a powerful automation platform that enables developers to streamline their development workflows by automating various tasks and processes. Whether you are an individual developer or part of a team, GitHub Actions can significantly enhance your productivity and improve the quality of your codebase. In this article, we will explore the advanced features of GitHub Actions, what you can achieve with them, and why you should consider integrating them into your development workflow.
