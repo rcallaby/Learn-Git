@@ -1,10 +1,5 @@
 # Inizializzazione di Git - Iniziare
 
-- [Operazioni di base di Git](#operazioni-di-base-di-git)
-- [Configurazione di un repository Git in Linux](#configurazione-di-un-repository-git-su-linux)
-- [Configurazione di un repository Git in Windows](#configurazione-di-un-repository-git-su-windows)
-- [Configurazione di un repository Git su Mac](#configurazione-di-un-repository-git-su-macos)
-
 ## Operazioni di base di Git:
 Git fornisce una vasta gamma di comandi per il controllo delle versioni, ma ecco alcuni fondamentali:
 

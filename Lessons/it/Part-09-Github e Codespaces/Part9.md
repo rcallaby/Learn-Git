@@ -1,8 +1,3 @@
-## Indice
-- [Github e Codespaces](#github-e-codespaces)
-- [Introduzione a GitHub](#introduzione-a-github)
-- [Introduzione a GitHub Codespaces](#introduzione-a-github-codespaces)
-
 # GitHub e Codespaces
 
 Nel mondo dello sviluppo software, la collaborazione e il controllo delle versioni sono aspetti cruciali per garantire una gestione fluida dei progetti e un'organizzazione efficiente del codice. GitHub, un popolare servizio di hosting basato sul web, ha rivoluzionato il modo in cui gli sviluppatori collaborano sui progetti. Insieme a GitHub, Codespaces di Microsoft offre un ambiente di sviluppo basato sul cloud, comodo e potente. Questo articolo guiderà i principianti su come utilizzare GitHub e Codespaces in modo efficace per il controllo delle versioni e la codifica collaborativa.

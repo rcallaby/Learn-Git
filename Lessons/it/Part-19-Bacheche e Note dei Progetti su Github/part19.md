@@ -1,16 +1,3 @@
-# Indice
-- [Massimizzare la Collaborazione con le Bacheche e le Note di GitHub](#massimizzare-la-collaborazione-con-le-bacheche-e-le-note-di-github)
-- [Comprendere le Bacheche di GitHub](#comprendere-le-bacheche-di-github)
-  - [Creare una Bacheca GitHub](#creare-una-bacheca-github)
-- [Personalizzare le Colonne](#personalizzare-le-colonne)
-- [Aggiungere e Gestire le Schede](#aggiungere-e-gestire-le-schede)
-  - [Creare una Scheda](#creare-una-scheda)
-  - [Spostare le Schede](#spostare-le-schede)
-- [Utilizzare le Note](#utilizzare-le-note)
-- [Funzionalità Collaborative](#funzionalità-collaborative)
-- [Conclusione](#conclusione)
-
-
 # Massimizzare la Collaborazione con le Bacheche e le Note di GitHub
 
 Gli strumenti di gestione dei progetti di GitHub offrono una potente suite di funzionalità, tra cui una delle più versatili è la capacità di organizzare il lavoro con bacheche e note. Questa funzione, simile alla gestione dei progetti in stile Kanban, consente ai team di monitorare visivamente i progressi, gestire le priorità e mantenere una visione chiara dei loro progetti. In questo articolo, esploreremo in dettaglio come sfruttare al massimo le bacheche e le note di GitHub.

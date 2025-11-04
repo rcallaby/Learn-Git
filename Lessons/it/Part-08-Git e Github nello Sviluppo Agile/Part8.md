@@ -1,32 +1,5 @@
 # Git e GitHub nello sviluppo Agile
 
-## Indice
-
-- [Ruolo di Git e GitHub nello sviluppo software agile](#ruolo-di-git-e-github-nello-sviluppo-software-agile)
-- [Git: La Fondazione del Controllo Versione Agile](#git-la-fondazione-del-controllo-versione-agile)
-    - [Ramificazione e Fusione](#ramificazione-e-fusione)
-    - [Versionamento e Tracciamento della Storia](#versionamento-e-tracciamento-della-storia)
-    - [Sviluppo Collaborativo](#sviluppo-collaborativo)
-    - [Revisione del Codice](#revisione-del-codice)
-    - [GitHub: Potenziare la Collaborazione e i Flussi di Lavoro Agile](#github-potenziare-la-collaborazione-e-i-flussi-di-lavoro-agile)
-        - [Repository Centrale del Codice](#repository-centrale-del-codice)
-        - [Tracciamento delle Issue e Gestione dei Progetti](#tracciamento-delle-issue-e-gestione-dei-progetti)
-        - [Pull Request e Revisione del Codice](#pull-request-e-revisione-del-codice)
-        - [Testing Automatizzato e Integrazione Continua](#testing-automatizzato-e-integrazione-continua)
-        - [Il Flusso di Lavoro Agile-GitHub](#il-flusso-di-lavoro-agile-github)
-- [Strategie di Ramificazione per i Team Agile](#strategie-di-ramificazione-per-i-team-agile)
-- [Perché le Strategie di Ramificazione sono Importanti nello Sviluppo Agile](#perch%C3%A9-le-strategie-di-ramificazione-sono-importanti-nello-sviluppo-agile)
-    - [Strategie di Ramificazione Comuni per i Team Agile](#strategie-di-ramificazione-comuni-per-i-team-agile)
-    - [Best Practices per le Strategie di Ramificazione](#best-practices-per-le-strategie-di-ramificazione)
-- [Gestire i backlog dei progetti e gli sprint con GitHub](#gestire-i-backlog-dei-progetti-e-gli-sprint-con-github)
-    - [Organizzare i backlog dei progetti con le Issue di GitHub](#organizzare-i-backlog-dei-progetti-con-le-issue-di-github)
-- [Integrare Git e GitHub con gli strumenti di tracciamento delle issue](#integrare-git-e-github-con-gli-strumenti-di-tracciamento-delle-issue)
-- [L'importanza del tracciamento delle issue nello sviluppo software](#limportanza-del-tracciamento-delle-issue-nello-sviluppo-software)
-    - [I Vantaggi dell'Integrazione di Git e GitHub con gli Strumenti di Tracciamento delle Issue](#i-vantaggi-dellintegrazione-di-git-e-github-con-gli-strumenti-di-tracciamento-delle-issue)
-    - [Guida Passo-Passo per Integrare Git e GitHub con gli Strumenti di Tracciamento delle Issue](#guida-passo-passo-per-integrare-git-e-github-con-gli-strumenti-di-tracciamento-delle-issue)
-    - [Best Practices per Mantenere l'Integrazione](#best-practices-per-mantenere-lintegrazione)
-
-
 ## Il Ruolo di Git e GitHub nello sviluppo software agile
 
 Lo sviluppo software agile è una metodologia ampiamente adottata che promuove approcci iterativi e collaborativi per la costruzione di software. Al centro del suo successo c'è la gestione efficiente del codice sorgente, il controllo delle versioni e una collaborazione senza interruzioni tra i team di sviluppo. Git e GitHub, rispettivamente un sistema di controllo delle versioni e un servizio di hosting basato sul web, sono emersi come strumenti indispensabili nello sviluppo agile. Questo articolo esplora i loro ruoli essenziali e i contributi nel favorire l'agilità all'interno dei team di sviluppo software.

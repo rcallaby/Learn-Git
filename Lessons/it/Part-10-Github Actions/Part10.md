@@ -1,10 +1,5 @@
 # GitHub Actions
 
----
-- [Vantaggi dell'utilizzo di GitHub Actions](#vantaggi-dellutilizzo-di-github-actions)
-- [Potenziali Svantaggi dell'utilizzo di GitHub Actions](#potenziali-svantaggi-dellutilizzo-di-github-actions)
----
-
 GitHub Actions è una potente piattaforma di automazione fornita da GitHub che consente agli sviluppatori di automatizzare varie attività all'interno del loro flusso di lavoro di sviluppo software. Offre un modo flessibile e personalizzabile per costruire, testare, distribuire e svolgere altre attività, tutte attivate da eventi specifici come push, pull request, aggiornamenti delle issue, ecc. Questo articolo esaminerà i vantaggi dell'utilizzo di GitHub Actions per ottimizzare il tuo flusso di lavoro e esplorerà alcuni potenziali svantaggi da considerare.
 
 ### Vantaggi dell'utilizzo di GitHub Actions

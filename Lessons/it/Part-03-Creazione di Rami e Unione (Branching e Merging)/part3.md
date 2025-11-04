@@ -1,12 +1,6 @@
 # Branching e Merge
 
-- [Introduzione a branch e il loro scopo](#introduzione-a-branch-e-il-loro-scopo)
-- [Creazione e cambio tra branch](#creazione-e-cambio-tra-branch)
-- [Gestione della storia dei branch e unione delle modifiche](#gestione-della-storia-dei-branch-e-unione-delle-modifiche)
-- [Gestione dei conflitti di merge](#gestione-dei-conflitti-di-merge)
-- [Conclusione](#conclusione)
-
-# Introduzione a branch e il loro scopo:
+## Introduzione a branch e il loro scopo:
 
 Nel campo dello sviluppo software, i branch di Git sono strumenti indispensabili per gestire l'evoluzione del codice e la collaborazione. Un branch in Git è essenzialmente un puntatore leggero e mobile a uno specifico commit nella storia dei commit di un repository. Utilizzando i branch, gli sviluppatori possono lavorare su diverse aspetti di un progetto contemporaneamente, sperimentare nuove funzionalità o correzioni e isolare le modifiche senza influire sulla base del codice principale. Questo articolo approfondirà le complessità dei branch di Git, coprendo la loro creazione, il cambio, la gestione della storia e la gestione dei conflitti di merge.
 

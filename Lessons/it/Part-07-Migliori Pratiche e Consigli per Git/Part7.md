@@ -1,36 +1,5 @@
 # Migliori Pratiche e Consigli per Git  
 
-## Indice  
-- [Gestire una cronologia dei commit pulita](#gestire-una-cronologia-dei-commit-pulita)  
-  - [Eseguire commit frequentemente e in modo intuitivo](#eseguire-commit-frequentemente-e-in-modo-intuitivo)  
-  - [Scrivere messaggi di commit descrittivi](#scrivere-messaggi-di-commit-descrittivi)  
-  - [Utilizzare i branch in modo strategico](#utilizzare-i-branch-in-modo-strategico)  
-  - [Usare il rebase per mantenere la cronologia pulita](#usare-il-rebase-per-mantenere-la-cronologia-pulita)  
-  - [Squashare e modificare i commit prima di eseguire il push](#squashare-e-modificare-i-commit-prima-di-eseguire-il-push)  
-  - [Evitare di eseguire il push direttamente sul branch principale](#evitare-di-eseguire-il-push-direttamente-sul-branch-principale)  
-  - [Utilizzare i Git Hook](#utilizzare-i-git-hook)  
-  - [Documentare le modifiche e gli aggiornamenti](#documentare-le-modifiche-e-gli-aggiornamenti)  
-  - [Manutenzione e pulizia periodica](#manutenzione-e-pulizia-periodica)  
-- [Utilizzare alias e scorciatoie di Git](#utilizzare-alias-e-scorciatoie-di-git)  
-  - [Comprendere gli alias di Git](#comprendere-gli-alias-di-git)  
-  - [Utilizzare gli alias di Git](#utilizzare-gli-alias-di-git)  
-  - [Condividere gli alias di Git](#condividere-gli-alias-di-git)  
-  - [Utilizzare gli alias di Git su GitHub](#utilizzare-gli-alias-di-git-su-github)  
-- [Ignorare file e directory con .gitignore](#ignorare-file-e-directory-con-gitignore)  
-  - [Cos'è .gitignore?](#cos-e-gitignore)  
-  - [Creare un file .gitignore](#creare-un-file-gitignore)  
-  - [Sintassi di .gitignore](#sintassi-di-gitignore)  
-  - [Utilizzare pattern in .gitignore](#utilizzare-pattern-in-gitignore)  
-  - [Esempi di .gitignore](#esempi-di-gitignore)  
-  - [Utilizzare un file .gitignore globale](#utilizzare-un-file-gitignore-globale)  
-- [Workflow collaborativi ed etichetta per la revisione del codice](#workflow-collaborativi-ed-etichetta-per-la-revisione-del-codice)  
-  - [Workflow collaborativi in Git](#workflow-collaborativi-in-git)  
-  - [Etichetta per la revisione del codice](#etichetta-per-la-revisione-del-codice)  
-  - [Utilizzare gli strumenti di revisione del codice in modo efficace](#utilizzare-gli-strumenti-di-revisione-del-codice-in-modo-efficace)  
-  - [Collaborare su GitHub](#collaborare-su-github)  
-
----
-
 ## Gestire una cronologia dei commit pulita  
 
 I sistemi di controllo di versione come Git e le piattaforme come GitHub hanno rivoluzionato il modo in cui lo sviluppo software viene gestito e collaborato. Uno degli aspetti essenziali per un utilizzo efficace di Git e GitHub è mantenere una cronologia dei commit chiara e organizzata. Una cronologia ben mantenuta aiuta non solo gli sviluppatori a comprendere meglio l’evoluzione del progetto, ma facilita anche il debugging, la revisione del codice e la collaborazione. In questo articolo, esploreremo diverse pratiche e tecniche per gestire una cronologia dei commit pulita in Git e GitHub.  
