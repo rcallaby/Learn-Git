@@ -1,16 +1,3 @@
-## Table of Contents
-- [Ruby on Rails Codespaces](#ruby-on-rails-codespaces)
-  - [Prerequisites](#prerequisites)
-    - [Getting Started with Ruby on Rails Codespaces](#getting-started-with-ruby-on-rails-codespaces)
-    - [Example: Creating a simple Rails app in Codespaces](#example-creating-a-simple-rails-app-in-codespaces)
-    - [Collaborating with Team Members](#collaborating-with-team-members)
-    - [To collaborate effectively, follow these steps](#to-collaborate-effectively-follow-these-steps)
-- [Conclusion](#conclusion)
-  - [Github Actions for Ruby on Rails Using Codespaces](#github-actions-for-ruby-on-rails-using-codespaces)
-    - [Continuous Integration (CI): Set up a workflow to run tests and checks whenever code is pushed to your repository.](#continuous-integration-ci-set-up-a-workflow-to-run-tests-and-checks-whenever-code-is-pushed-to-your-repository)
-    - [Automated Deployment: Automatically deploy your Rails application to a hosting platform when changes are pushed to the main branch.](#automated-deployment-automatically-deploy-your-rails-application-to-a-hosting-platform-when-changes-are-pushed-to-the-main-branch)
-    - [Scheduled Tasks: Run periodic tasks, such as database backups, using scheduled GitHub Actions.](#scheduled-tasks-run-periodic-tasks-such-as-database-backups-using-scheduled-github-actions)
-
 # Ruby on Rails Codespaces
 
 GitHub Codespaces is a powerful cloud-based development environment that allows developers to code, build, and test their projects directly within the GitHub web interface. Ruby on Rails developers can leverage Codespaces to streamline their development workflow, eliminating the need for local installations and ensuring a consistent development environment for team collaboration. In this article, we will explore how to set up and use Ruby on Rails Codespaces in GitHub, along with some examples to get you started.

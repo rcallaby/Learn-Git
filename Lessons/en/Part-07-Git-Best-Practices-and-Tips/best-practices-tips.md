@@ -1,33 +1,4 @@
 # Git Best Practices and Tips
---
-## Table of Contents
-- [Managing a clean commit history](#managing-a-clean-commit-history)
-  - [Commit Frequently and Intuitively](#commit-frequently-and-intuitively)
-  - [Write Descriptive Commit Messages](#write-descriptive-commit-messages)
-  - [Use Branches Wisely](#use-branches-wisely)
-  - [Rebase to Keep History Clean](#rebase-to-keep-history-clean)
-  - [Squash and Edit Commits Before Pushing](#squash-and-edit-commits-before-pushing)
-  - [Avoid Pushing Directly to Main Branch](#avoid-pushing-directly-to-main-branch)
-  - [Use Git Hooks](#use-git-hooks)
-  - [Document Changes and Updates](#document-changes-and-updates)
-  - [Regular Maintenance and Cleanup](#regular-maintenance-and-cleanup)
-- [Using Git aliases and shortcuts](#using-git-aliases-and-shortcuts)
-  - [Understanding Git Aliases](#understanding-git-aliases)
-  - [Using Git Aliases](#using-git-aliases)
-  - [Sharing Git Aliases](#sharing-git-aliases)
-  - [Using Git Aliases in GitHub](#using-git-aliases-in-github)
-- [Ignoring files and directories with .gitignore](#ignoring-files-and-directories-with-gitignore)
-  - [What is .gitignore?](#what-is-gitignore)
-  - [Creating .gitignore](#creating-gitignore)
-  - [Syntax of .gitignore](#syntax-of-gitignore)
-  - [Using Patterns in .gitignore](#using-patterns-in-gitignore)
-  - [Examples of .gitignore](#examples-of-gitignore)
-  - [Global .gitignore](#global-gitignore)
-- [Collaborative workflows and code review etiquette](#collaborative-workflows-and-code-review-etiquette)
-  - [Collaborative Workflows in Git](#collaborative-workflows-in-git)
-  - [Code Review Etiquette](#code-review-etiquette)
-  - [Use Code Review Tools Effectively](#use-code-review-tools-effectively)
-  - [Collaborating on GitHub](#collaborating-on-github)
 
 ---
 ## Managing a clean commit history

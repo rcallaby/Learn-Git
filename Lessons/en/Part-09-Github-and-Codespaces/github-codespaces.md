@@ -1,7 +1,4 @@
 ## Table of Contents
-- [Github and Codespaces](#github-and-codespaces)
-- [Getting Started with GitHub](#getting-started-with-github)
-- [Introducing GitHub Codespaces](#introducing-github-codespaces)
 
 # Github and Codespaces
 
