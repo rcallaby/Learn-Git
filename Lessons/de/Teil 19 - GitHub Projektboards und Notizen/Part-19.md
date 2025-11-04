@@ -1,15 +1,3 @@
-# Inhaltsverzeichnis
-- [Maximale Zusammenarbeit mit GitHub Projekt Boards und Notizen](#maximale-zusammenarbeit-mit-github-projekt-boards-und-notizen)
-- [Verständnis für GitHub Projekt Boards](#verständnis-für-github-projekt-boards)
-  - [Erstellen eines GitHub Projekt Boards](#erstellen-eines-github-projekt-boards)
-- [Anpassen von Spalten](#anpassen-von-spalten)
-- [Hinzufügen und Verwalten von Karten](#hinzufügen-und-verwalten-von-karten)
-  - [Erstellen einer Karte](#erstellen-einer-karte)
-  - [Verschieben von Karten](#verschieben-von-karten)
-- [Verwendung von Notizen](#verwendung-von-notizen)
-- [Kollaborative Funktionen](#kollaborative-funktionen)
-- [Fazit](#fazit)
-
 # Maximale Zusammenarbeit mit GitHub Projekt Boards und Notizen
 
 Die GitHub Projektmanagement-Tools bieten eine leistungsstarke Suite von Funktionen, und eine der vielseitigsten unter ihnen ist die Möglichkeit, Arbeit mit Boards und Notizen zu organisieren. Diese Funktion, ähnlich der beliebten Kanban-Projektmanagementmethode, ermöglicht es Teams, den Fortschritt visuell zu verfolgen, Prioritäten zu setzen und einen klaren Überblick über ihre Projekte zu behalten. In diesem Artikel werden wir im Detail erkunden, wie man das Beste aus GitHub Projekt Boards und Notizen macht.

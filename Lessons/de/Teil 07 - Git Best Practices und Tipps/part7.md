@@ -1,35 +1,5 @@
 # Git Best Practices und Tipps
---
-## Inhaltsverzeichnis
-- [Saubere Commit-Historie verwalten](#eine-saubere-commit-historie-verwalten)
-  - [Häufig und intuitiv committen](#häufig-und-intuitiv-committen)
-  - [Aussagekräftige Commit-Nachrichten schreiben](#aussagekräftige-commit-nachrichten-schreiben)
-  - [Branches klug nutzen](#branches-klug-nutzen)
-  - [Rebase für eine saubere Historie](#rebase-für-eine-saubere-historie)
-  - [Commits vor dem Pushen zusammenfassen und bearbeiten](#commits-vor-dem-pushen-zusammenfassen-und-bearbeiten)
-  - [Direktes Pushen zum Hauptzweig vermeiden](#direktes-pushen-zum-hauptzweig-vermeiden)
-  - [Git Hooks verwenden](#git-hooks-verwenden)
-  - [Änderungen und Updates dokumentieren](#änderungen-und-updates-dokumentieren)
-  - [Regelmäßige Wartung und Bereinigung](#regelmäßige-wartung-und-bereinigung)
-- [Verwendung von Git-Aliasen und Abkürzungen](#verwendung-von-git-aliasen-und-abkürzungen)
-  - [Git-Alias verstehen](#git-alias-verstehen)
-  - [Git-Alias verwenden](#git-alias-verwenden)
-  - [Git-Alias teilen](#git-alias-teilen)
-  - [Verwendung von Git-Aliasen in GitHub](#verwendung-von-git-aliasen-in-github)
-- [Ignorieren von Dateien und Verzeichnissen mit .gitignore](#ignorieren-von-dateien-und-verzeichnissen-mit-gitignore)
-  - [Was ist .gitignore?](#was-ist-gitignore)
-  - [Erstellen von .gitignore](#erstellen-von-gitignore)
-  - [Syntax von .gitignore](#syntax-von-gitignore)
-  - [Verwendung von Mustern in .gitignore](#verwendung-von-mustern-in-gitignore)
-  - [Beispiele für .gitignore](#beispiele-für-gitignore)
-  - [Globale .gitignore](#globale-gitignore)
-- [Kollaborative Workflows und Code-Review-Etikette](#kollaborative-workflows-und-code-review-etikette)
-  - [Kollaborative Workflows in Git](#kollaborative-workflows-in-git)
-  - [Code-Review-Etikette](#code-review-etikette)
-  - [Effektive Nutzung von Code-Review-Tools](#effektive-nutzung-von-code-review-tools)
-  - [Zusammenarbeit auf GitHub](#zusammenarbeit-auf-github)
 
----
 ## Eine saubere Commit-Historie verwalten
 
 Versionskontrollsysteme wie Git und Plattformen wie GitHub haben die Art und Weise, wie Software entwickelt und kollaboriert wird, revolutioniert. Ein wesentlicher Aspekt für die effektive Nutzung von Git und GitHub besteht darin, eine saubere und organisierte Commit-Historie zu pflegen. Eine gut gepflegte Commit-Historie hilft nicht nur Entwicklern, die Evolution des Projekts besser zu verstehen, sondern erleichtert auch das Debuggen, Code-Reviews und die Zusammenarbeit. In diesem Artikel werden verschiedene Praktiken und Techniken erkundet, um eine saubere Commit-Historie in Git und GitHub zu verwalten.

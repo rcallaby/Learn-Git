@@ -1,13 +1,5 @@
 # Zusammenarbeit mit Remote-Repositories
 
-- [Einrichten von Remote-Repositories (GitHub, GitLab, Bitbucket)](#einrichten-von-remote-repositories-github-gitlab-bitbucket)
-- [GitHub](#github)
-- [GitLab](#gitlab)
-- [Bitbucket](#bitbucket)
-- [Änderungen von Remote-Repositories pushen und pullen](#änderungen-von-remote-repositories-pushen-und-pullen)
-- [Umgang mit Merge-Konflikten](#umgang-mit-merge-konflikten)
-- [Best Practices](#best-practices)
-
 ## Einrichten von Remote-Repositories (GitHub, GitLab, Bitbucket)
 
 In der Welt der Softwareentwicklung spielen Versionskontrollsysteme eine entscheidende Rolle bei der Verwaltung von Code-Repositories, der Förderung der Zusammenarbeit und der Sicherstellung eines reibungslosen Workflows zwischen Teammitgliedern. Remote-Repositories, die auf Plattformen wie GitHub, GitLab und Bitbucket gehostet werden, bieten Entwicklern einen zentralen Ort zum Speichern, Verwalten und Teilen ihres Codes. In diesem Artikel werden wir uns mit dem schrittweisen Prozess der Einrichtung von Remote-Repositories auf jeder dieser Plattformen befassen.

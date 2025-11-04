@@ -1,17 +1,5 @@
 # React Codespaces
 
-## Inhaltsverzeichnis
-- [Einführung](#einführung)
-- [Was sind React Codespaces?](#was-sind-react-codespaces)
-  - [Einrichten von React Codespaces](#einrichten-von-react-codespaces)
-  - [Verwendung von React Codespaces](#verwendung-von-react-codespaces)
-- [Fazit](#fazit)
-- [Verwendung von React Codespaces mit GitHub Actions](#verwendung-von-react-codespaces-mit-github-actions)
-  - [Kontinuierliche Integration (CI) mit Tests](#kontinuierliche-integration-ci-mit-tests)
-  - [Code-Review mit Pull Requests](#code-review-mit-pull-requests)
-  - [Code-Verwaltung mit automatischer Versionskontrolle](#code-verwaltung-mit-automatischer-versionskontrolle)
-  - [Debugging](#debugging)
-
 # Einführung
 
 Mit der fortschreitenden Entwicklung der Softwareentwicklung ist das Erstellen und Pflegen von Entwicklungsumgebungen zu einem entscheidenden Aspekt moderner Workflows geworden. GitHub, als eine der führenden Plattformen für Versionskontrolle und Zusammenarbeit, hat eine leistungsstarke Funktion namens "Codespaces" eingeführt. Codespaces ermöglichen es Entwicklern, vollständig konfigurierte Entwicklungsumgebungen direkt in ihren GitHub-Repositories einzurichten und zu verwenden. In diesem Artikel werden wir erkunden, wie man React Codespaces in GitHub verwendet, um Entwicklern das Schreiben, Bauen, Testen und Debuggen von React-Anwendungen effizienter zu ermöglichen.

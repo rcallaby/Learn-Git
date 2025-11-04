@@ -1,8 +1,3 @@
-- [Erweiterte GitHub Actions](#erweiterte-github-actions)
-- [Was ist GitHub Actions](#was-ist-github-actions)
-- [Erweiterte Funktionen von GitHub Actions](#erweiterte-funktionen-von-github-actions)
-- [Warum sollten Sie GitHub Actions in Ihren Workflow integrieren?](#warum-sollten-sie-github-actions-in-ihren-workflow-integrieren)
-
 # Erweiterte GitHub Actions
 
 GitHub Actions ist eine leistungsstarke Automatisierungsplattform, die Entwicklern ermöglicht, ihre Entwicklungsworkflows zu optimieren, indem sie verschiedene Aufgaben und Prozesse automatisieren. Egal, ob Sie ein einzelner Entwickler sind oder Teil eines Teams, GitHub Actions kann Ihre Produktivität erheblich steigern und die Qualität Ihrer Codebasis verbessern. In diesem Artikel werden wir die erweiterten Funktionen von GitHub Actions erkunden, was Sie damit erreichen können und warum Sie in Betracht ziehen sollten, sie in Ihren Entwicklungsworkflow zu integrieren.
