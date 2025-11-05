@@ -1,28 +1,5 @@
 # Integrazione e Distribuzione Continua con Git e GitHub
 
-- [Integrazione di Git e GitHub con pipeline CI/CD](#integrazione-di-git-e-github-con-pipeline-cicd)
-- [Comprendere le pipeline CI/CD](#comprendere-le-pipeline-cicd)
-  - [Configurare le pipeline CI/CD con Git e GitHub](#configurare-le-pipeline-cicd-con-git-e-github)
-  - [Implementazione del CD (Continuous Deployment)](#implementazione-del-cd-continuous-deployment)
-  - [Best practice per l'integrazione di Git e GitHub con CI/CD](#best-practice-per-lintegrazione-di-git-e-github-con-cicd)
-- [Test automatizzati e controlli di qualità del codice](#test-automatizzati-e-controlli-di-qualità-del-codice)
-  - [Vantaggi dei test automatizzati e dei controlli di qualità del codice](#vantaggi-dei-test-automatizzati-e-dei-controlli-di-qualità-del-codice)
-  - [Implementare test automatizzati in Git e GitHub](#implementare-test-automatizzati-in-git-e-github)
-  - [Controlli di qualità del codice in Git e GitHub](#controlli-di-qualità-del-codice-in-git-e-github)
-  - [Best practice per i test automatizzati e i controlli di qualità del codice](#best-practice-per-i-test-automatizzati-e-i-controlli-di-qualità-del-codice)
-- [Distribuire applicazioni usando Git e GitHub Actions](#distribuire-applicazioni-usando-git-e-github-actions)
-  - [Configurare il repository Git e GitHub](#configurare-il-repository-git-e-github)
-  - [Configurare l'applicazione](#configurare-lapplicazione)
-  - [Definire la configurazione della distribuzione](#definire-la-configurazione-della-distribuzione)
-    - [Creare un file denominato .github/workflows/deploy.yml con il seguente contenuto](#creare-un-file-denominato-githubworkflowsdeployyml-con-il-seguente-contenuto)
-  - [Spiegare la configurazione della distribuzione](#spiegare-la-configurazione-della-distribuzione)
-    - [Distribuire l'applicazione](#distribuire-lapplicazione)
-- [Monitorare e ripristinare le distribuzioni](#monitorare-e-ripristinare-le-distribuzioni)
-- [Comprendere il monitoraggio e il ripristino in Git](#comprendere-il-monitoraggio-e-il-ripristino-in-git)
-  - [Implementare il monitoraggio in Git](#implementare-il-monitoraggio-in-git)
-  - [Ripristinare le applicazioni in Git](#ripristinare-le-applicazioni-in-git)
-  - [Best practice per il monitoraggio e il ripristino in Git](#best-practice-per-il-monitoraggio-e-il-ripristino-in-git)
-
 ## Integrazione di Git e GitHub con pipeline CI/CD
 
 L'Integrazione Continua/Distribuzione Continua (CI/CD) è una pratica fondamentale nello sviluppo software moderno, che semplifica il processo di rilascio di codice di alta qualità in produzione. Integrando Git e GitHub con le pipeline CI/CD, gli sviluppatori possono automatizzare la compilazione, i test e la distribuzione delle applicazioni, garantendo cicli di sviluppo più rapidi, rilasci coerenti e una collaborazione migliorata tra i membri del team. Questo articolo fornisce una guida dettagliata su come integrare Git e GitHub con le pipeline CI/CD, includendo esempi pratici per dimostrare il processo.

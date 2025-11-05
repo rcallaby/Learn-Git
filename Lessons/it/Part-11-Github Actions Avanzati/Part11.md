@@ -1,12 +1,3 @@
-Sure! Here's the translation into Italian:
-
-# Indice
-
-- [GitHub Actions Avanzati](#github-actions-avanzati)
-- [Cosa sono i GitHub Actions](#cosa-sono-i-github-actions)
-- [Funzionalità Avanzate di GitHub Actions](#funzionalità-avanzate-di-github-actions)
-- [Perché Considerare l'Aggiunta di GitHub Actions al Tuo Workflow?](#perché-considerare-l-aggiunta-di-github-actions-al-tuo-workflow)
-
 # GitHub Actions Avanzati
 
 GitHub Actions è una potente piattaforma di automazione che consente agli sviluppatori di ottimizzare i loro flussi di lavoro di sviluppo automatizzando varie attività e processi. Che tu sia uno sviluppatore individuale o parte di un team, GitHub Actions può migliorare significativamente la tua produttività e la qualità del tuo codice. In questo articolo, esploreremo le funzionalità avanzate di GitHub Actions, cosa puoi ottenere con esse e perché dovresti considerare di integrarle nel tuo workflow di sviluppo.
