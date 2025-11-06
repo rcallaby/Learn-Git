@@ -1,18 +1,6 @@
 # React Codespaces
 
-## 目录
-- [简介](#简介)
-- [什么是 React Codespaces？](#什么是-react-codespaces)
-  - [设置 React Codespaces](#设置-react-codespaces)
-  - [使用 React Codespaces](#使用-react-codespaces)
-- [总结](#总结)
-- [与 GitHub Actions 一起使用 React Codespaces](#与-github-actions-一起使用-react-codespaces)
-  - [测试的持续集成 (CI)](#测试的持续集成-ci)
-  - [通过拉取请求进行代码审查](#通过拉取请求进行代码审查)
-  - [使用自动版本控制进行代码管理](#使用自动版本控制进行代码管理)
-  - [调试](#调试)
-
-# 简介
+## 简介
 
 随着软件开发的不断发展，创建和维护开发环境已成为现代工作流程中的关键方面。GitHub 作为领先的版本控制和协作平台之一，推出了一个强大的功能 "Codespaces"。Codespaces 允许开发人员直接在他们的 GitHub 仓库中设置和使用完全配置好的开发环境。在本文中，我们将探讨如何在 GitHub 中使用 React Codespaces，使开发人员能够更高效地编写、构建、测试和调试 React 应用程序。
 

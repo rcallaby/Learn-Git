@@ -1,10 +1,3 @@
-Here is the translation of your provided text into Simplified Chinese:
-
-- [高级 GitHub Actions](#advanced-github-actions)
-- [什么是 GitHub Actions](#what-is-github-actions)
-- [GitHub Actions 的高级功能](#advanced-features-of-github-actions)
-- [为什么考虑将 GitHub Actions 添加到您的工作流中？](#why-consider-adding-github-actions-to-your-workflow)
-
 # 高级 GitHub Actions
 
 GitHub Actions 是一个强大的自动化平台，可以通过自动化各种任务和流程来简化开发者的开发工作流。无论您是个人开发者还是团队的一员，GitHub Actions 都可以显著提高您的生产力并改善代码库的质量。在本文中，我们将探讨 GitHub Actions 的高级功能，您可以通过它们实现什么，以及为什么应该考虑将其集成到您的开发工作流中。

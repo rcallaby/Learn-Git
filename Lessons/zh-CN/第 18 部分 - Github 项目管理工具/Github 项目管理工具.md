@@ -1,20 +1,3 @@
-# 目录
-
-- [利用 GitHub 的项目管理工具进行高效协作](#utilizing-githubs-project-management-tools-for-efficient-collaboration)
-  - [1. GitHub Issues：项目管理的基础](#1-github-issues-the-foundation-of-project-management)
-    - [创建 Issue](#creating-an-issue)
-  - [2. 标签：分类和优先排序 Issue](#2-labels-categorizing-and-prioritizing-issues)
-    - [创建标签](#creating-a-label)
-  - [3. 里程碑：跟踪进展](#3-milestones-tracking-progress-over-time)
-    - [创建里程碑](#creating-a-milestone)
-  - [4. 项目：用看板和笔记组织工作](#4-projects-organizing-work-with-boards-and-notes)
-    - [创建项目](#creating-a-project)
-  - [5. 使用 Actions 和 Workflows 自动化](#5-automation-with-actions-and-workflows)
-    - [创建 Action](#creating-an-action)
-  - [6. Pull Requests：代码审查和合并](#6-pull-reqests-reviewing-and-merging-code)
-    - [创建 Pull Request](#creating-a-pull-request)
-- [结论](#conclusion)
-
 # 利用 GitHub 的项目管理工具进行高效协作
 
 GitHub 广为人知的版本控制功能之外，还提供了一套项目管理工具，旨在增强协作、简化工作流程并跟踪软件开发项目的进展。这些工具对希望组织任务、管理优先级并保持项目清晰概览的团队非常有益。在本文中，我们将深入探讨 GitHub 项目管理工具的各种功能及其最佳使用方法。

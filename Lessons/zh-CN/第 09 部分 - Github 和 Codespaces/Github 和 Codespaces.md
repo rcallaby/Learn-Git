@@ -1,8 +1,3 @@
-## 目录
-- [GitHub和Codespaces](#github和codespaces)
-- [GitHub入门](#github入门)
-- [介绍GitHub Codespaces](#介绍github-codespaces)
-
 # GitHub和Codespaces
 
 在软件开发的世界里，协作和版本控制是确保项目管理和代码组织顺利进行的关键方面。GitHub是一种流行的基于网页的托管服务，它彻底改变了开发者协作项目的方式。与GitHub一起，微软的Codespaces提供了一个便捷且强大的云端开发环境。本文将指导初学者如何有效地使用GitHub和Codespaces进行版本控制和协作编码。

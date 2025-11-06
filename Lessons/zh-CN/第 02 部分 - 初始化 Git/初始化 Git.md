@@ -1,10 +1,5 @@
 # 初始化 Git - 入门
 
-- [基本Git操作](#基本Git操作)
-- [在Linux中设置Git存储库](#在Linux中设置Git存储库)
-- [在Windows中设置Git存储库](#在Windows中设置Git存储库)
-- [在Mac中设置Git存储库](#在Mac中设置Git存储库)
-
 ## 基本Git操作:
 Git 提供了大量用于版本控制的命令，以下是一些基本命令：
 

@@ -1,12 +1,3 @@
-## 目录
-
-- [在 GitHub 中使用 C# Codespaces](#在-github-中使用-c-codespaces)
-    - [前提条件](#前提条件)
-    - [使用 C# Codespaces](#使用-c-codespaces)
-    - [使用 Codespaces 进行协作开发](#使用-codespaces-进行协作开发)
-- [在 C# Codespaces 中使用 GitHub Actions](#在-c-codespaces-中使用-github-actions)
-    - [创建一个 Codespace 配置文件](#创建一个-codespace-配置文件)
-
 # 在 GitHub 中使用 C# Codespaces
 
 GitHub Codespaces 是一个基于云的开发环境，允许开发者直接在 GitHub 仓库中编写、构建、测试和调试代码。它提供了一种强大且便捷的方式，与团队成员协作并在项目上工作，无需复杂的设置或配置。通过 Codespaces，你可以从浏览器直接访问一个完全配置好的开发环境，使你能够随时随地处理代码。

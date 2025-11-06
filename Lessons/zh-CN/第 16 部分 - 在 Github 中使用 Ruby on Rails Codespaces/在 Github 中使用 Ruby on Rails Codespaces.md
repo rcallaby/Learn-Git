@@ -1,16 +1,3 @@
-## 目录
-- [Ruby on Rails Codespaces](#ruby-on-rails-codespaces)
-  - [前提条件](#前提条件)
-    - [开始使用 Ruby on Rails Codespaces](#开始使用-ruby-on-rails-codespaces)
-    - [示例：在 Codespaces 中创建一个简单的 Rails 应用](#示例在-codespaces-中创建一个简单的-rails-应用)
-    - [与团队成员协作](#与团队成员协作)
-    - [为了有效协作，请遵循以下步骤](#为了有效协作请遵循以下步骤)
-- [结论](#结论)
-  - [在 Codespaces 中使用 GitHub Actions 进行 Ruby on Rails 开发](#在-codespaces-中使用-github-actions-进行-ruby-on-rails-开发)
-    - [持续集成 (CI)：设置一个工作流，在代码推送到仓库时运行测试和检查。](#持续集成-ci设置一个工作流在代码推送到仓库时运行测试和检查)
-    - [自动部署：在代码推送到主分支时自动部署你的 Rails 应用到托管平台。](#自动部署在代码推送到主分支时自动部署你的-rails-应用到托管平台)
-    - [计划任务：使用计划的 GitHub Actions 运行周期性任务，例如数据库备份。](#计划任务使用计划的-github-actions-运行周期性任务例如数据库备份)
-
 # Ruby on Rails Codespaces
 
 GitHub Codespaces 是一个强大的基于云的开发环境，允许开发者在 GitHub 网页界面中直接编码、构建和测试他们的项目。Ruby on Rails 开发者可以利用 Codespaces 来简化他们的开发流程，消除本地安装的需要，并确保团队协作中的一致开发环境。在本文中，我们将探讨如何在 GitHub 中设置和使用 Ruby on Rails Codespaces，并提供一些入门示例。

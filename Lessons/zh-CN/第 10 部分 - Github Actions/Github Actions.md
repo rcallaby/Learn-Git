@@ -1,10 +1,5 @@
 # GitHub Actions
 
----
-- [使用 GitHub Actions 的优点](#使用-github-actions-的优点)
-- [使用 GitHub Actions 的潜在缺点](#使用-github-actions-的潜在缺点)
----
-
 GitHub Actions 是由 GitHub 提供的一个强大的自动化平台，允许开发者在软件开发工作流程中自动化各种任务。它提供了一种灵活且可定制的方式来构建、测试、部署和执行其他任务，所有这些都由特定事件触发，如推送、拉取请求、问题更新等。本文将深入探讨使用 GitHub Actions 简化工作流程的好处，并探讨一些需要考虑的潜在缺点。
 
 ### 使用 GitHub Actions 的优点
