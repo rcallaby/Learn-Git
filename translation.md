@@ -1,14 +1,9 @@
 # Translations
+
 This repository contains translations of the Learn-Git documentation. IF you would like to contribute to translate this tutorial or in anyway make it easier for someone that speaks your language please follow these guidelines. While every effort is made to cater to as many languages and cultures as possible please understand that currently there is only one maintainer of this repository so no offense is intended if you don't see your native language listed.
-
-#### Hacktoberfest 2025
-This repository will participate in **Hacktoberfest 2025** as this will hopefully help finish this translation effort. Absolutely no new languages will be accepted and only open issues will be considered as part of the next Hacktoberfest. If you want to help by finishing off the open issues then feel free.
-
-Please only focus on currently open issues, please do not create new translations and only focus on the issues currently open. Failure to abide by this simple requirement could result in your submissions being labeled as spam and your account getting banned from future contributions.
 
 ## Contributing Translations
 We welcome contributions to help translate our documentation into additional languages. To get started, please follow these steps:
-
 
 + First see if there is an open issue that caters to your language. If there is not create one so that the maintainer can keep track of the progress of translating the repository.
 + Fork this repository.
@@ -51,4 +46,10 @@ Here are the translations that are currently available in this repository:
 - ja: Japanese
 - zh-CN: Simplified Chinese (in progress)
 
-We appreciate any contributions to help us make our documentation more accessible to a wider audience. Thank you for your help!
+#### Adding additional languages going forward
+Due to certain difficulties with getting the lessons translated into different languages in a timely manner the only way to add your desired language to this repository it will need to be submitted in its complete state in a single pull request. While this may not be ideal it is the only way to ensure that this repository doesn't have open issues for months to years on end.
+
+#### Future Hacktoberfest Events
+This repository **will not** participate in any future Hacktoberfest events going forward. I want to thank each and every contributor who helped make this guide better by participating in open source both in and outside of Hacktoberfest. Those that participated in open source outside of an event like Hacktoberfest demonstrated their actual true interest in open source.
+
+**We appreciate any contributions to help us make our documentation more accessible to a wider audience. Thank you for your help!**

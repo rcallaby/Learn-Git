@@ -1,16 +1,3 @@
-# 目录
-- [Django Codespaces 在 GitHub](#django-codespaces-在-github)
-  - [第一部分：什么是 GitHub Codespaces？](#第一部分-什么是-github-codespaces)
-  - [第二部分：前提条件](#第二部分-前提条件)
-  - [第三部分：为 Django 创建 Codespace](#第三部分-为-django-创建-codespace)
-  - [第四部分：在 Django Codespaces 中开发](#第四部分-在-django-codespaces-中开发)
-  - [第五部分：离线工作](#第五部分-离线工作)
-- [结论](#结论)
-- [GitHub Actions 在 Django Codespaces](#github-actions-在-django-codespaces)
-  - [持续集成 (CI)](#持续集成-ci)
-  - [部署到预发布或生产环境](#部署到预发布或生产环境)
-  - [定时任务](#定时任务)
-    
 # Django Codespaces 在 GitHub
 
 GitHub Codespaces 是一个功能强大的基于云的开发环境，允许开发者直接在浏览器中编写、构建和测试应用程序。它通过消除本地开发设置的需求，提供了高效且无缝的编码体验。本文将带您了解如何在 GitHub 中设置和使用 Django Codespaces，使您能够轻松便捷地开发 Django 应用程序。

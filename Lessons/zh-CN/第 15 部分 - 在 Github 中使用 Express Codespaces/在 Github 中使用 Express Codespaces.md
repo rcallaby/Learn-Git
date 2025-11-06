@@ -1,14 +1,6 @@
 # Express Codespaces
 
-- [介绍](#介绍)
-- [第一节：设置 Express Codespaces](#第一节：设置-express-codespaces)
-- [第二节：探索 Express Codespaces 环境](#第二节：探索-express-codespaces-环境)
-- [第三节：在 Codespaces 中开发 Express 应用](#第三节：在-codespaces-中开发-express-应用)
-- [第四节：协作与版本控制](#第四节：协作与版本控制)
-- [第五节：高级功能和定制](#第五节：高级功能和定制)
-- [结论](#结论)
-
-# 介绍：
+## 介绍：
 
 GitHub Codespaces 是一个功能强大的基于云的开发环境，允许开发人员在其网络浏览器中直接编写、测试和调试代码。Express Codespaces 是一个专注于使用流行的 Express 框架为 Node.js 应用提供无缝和流畅开发体验的特定功能。在本文中，我们将深入探讨 Express Codespaces 的世界，学习如何设置、有效使用它，并利用其功能提升生产力。
 

@@ -1,13 +1,3 @@
-# 目录
-
-  - [在GitHub中使用Jupyter Codespaces](#在github中使用jupyter-codespaces)<br>
-  - [Jupyter Codespaces入门](#jupyter-codespaces入门)<br>
-  - [了解Codespaces环境](#了解codespaces环境)<br>
-  - [使用Jupyter Codespaces进行交互式数据分析](#使用jupyter-codespaces进行交互式数据分析)<br>
-  - [使用Jupyter Codespaces进行协作](#使用jupyter-codespaces进行协作)<br>
-  - [调试和故障排除](#调试和故障排除)<br>
-  - [清理](#清理)
-
 # 在GitHub中使用Jupyter Codespaces
 
 GitHub是一个广泛使用的平台，用于版本控制和协同软件开发。近年来，GitHub引入了一项强大的功能，称为“Codespaces”，允许开发人员和数据科学家直接在浏览器中创建全功能的开发环境。Jupyter Codespaces建立在这一功能之上，提供了一个用于交互式数据分析、机器学习和代码开发的出色环境。本文将引导您设置和使用GitHub中的Jupyter Codespaces，同时突出其优点并提供示例说明。
