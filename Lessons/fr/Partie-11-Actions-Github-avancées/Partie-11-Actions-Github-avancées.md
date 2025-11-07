@@ -1,8 +1,3 @@
-- [Actions GitHub Avancées](#actions-github-avancées)
-- [Qu'est-ce que GitHub Actions](#qu'est-ce-que-github-actions)
-- [Fonctionnalités Avancées de GitHub Actions](#fonctionnalités-avancées-de-github-actions)
-- [Pourquoi envisager d'ajouter GitHub Actions à votre flux de travail ?](#pourquoi-envisager-d'ajouter-github-actions-à-votre-flux-de-travail)
-
 # Actions GitHub Avancées
 
 GitHub Actions est une plateforme d'automatisation puissante qui permet aux développeurs d'optimiser leurs flux de travail de développement en automatisant diverses tâches et processus. Que vous soyez un développeur individuel ou membre d'une équipe, GitHub Actions peut améliorer significativement votre productivité et la qualité de votre code. Dans cet article, nous explorerons les fonctionnalités avancées de GitHub Actions, ce que vous pouvez réaliser avec elles, et pourquoi vous devriez envisager de les intégrer à votre flux de travail de développement.

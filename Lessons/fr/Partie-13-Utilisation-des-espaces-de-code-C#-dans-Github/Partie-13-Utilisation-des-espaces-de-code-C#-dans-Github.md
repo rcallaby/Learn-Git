@@ -1,12 +1,3 @@
-## Table des matières
-
-- [Utilisation de C# Codespaces dans Github](#utilisation-de-c-codespaces-dans-github)
-    - [Prérequis](#prérequis)
-    - [Travailler avec C# Codespaces](#travailler-avec-c-codespaces)
-    - [Développement collaboratif avec Codespaces](#développement-collaboratif-avec-codespaces)
-- [Utilisation de Github Actions dans C# Codespaces](#utilisation-de-github-actions-dans-c-codespaces)
-    - [Créer un fichier de configuration Codespace :](#créer-un-fichier-de-configuration-codespace)
-
 # Utilisation de C# Codespaces dans Github
 
 GitHub Codespaces est un environnement de développement basé sur le cloud qui permet aux développeurs d'écrire, de construire, de tester et de déboguer du code directement dans le référentiel GitHub. Il offre un moyen puissant et pratique de collaborer avec les membres de l'équipe et de travailler sur des projets sans avoir besoin d'une configuration complexe. Avec Codespaces, vous pouvez accéder à un environnement de développement entièrement configuré directement depuis votre navigateur, facilitant ainsi le travail sur votre code de n'importe où.

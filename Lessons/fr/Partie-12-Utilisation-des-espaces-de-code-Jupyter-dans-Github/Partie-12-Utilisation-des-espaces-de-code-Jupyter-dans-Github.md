@@ -1,13 +1,3 @@
-# Table des matières
-
-  - [Utilisation de Jupyter Codespaces dans Github](#utilisation-de-juypter-codespaces-dans-github)<br>
-  -  [Démarrage avec Jupyter Codespaces](#démarrage-avec-jupyter-codespaces)<br>
-  -  [Compréhension de l'environnement Codespaces](#compréhension-de-lenvironnement-codespaces)<br>
-  - [Analyse interactive des données avec Jupyter Codespaces](#analyse-interactive-des-données-avec-jupyter-codespaces)<br>
-  -  [Collaboration avec Jupyter Codespaces](#collaboration-avec-jupyter-codespaces)<br>
-  - [Débogage et résolution de problèmes](#débogage-et-résolution-de-problèmes)<br>
-  - [Nettoyage](#nettoyage)
-
 # Utilisation de Jupyter Codespaces dans Github
 
 GitHub est une plateforme largement utilisée pour le contrôle de version et le développement logiciel collaboratif. Ces dernières années, GitHub a introduit une fonctionnalité puissante appelée "Codespaces" qui permet aux développeurs et aux data scientists de créer des environnements de développement entièrement fonctionnels directement dans leur navigateur. Jupyter Codespaces, construit sur cette fonctionnalité, offre un excellent environnement pour l'analyse interactive des données, l'apprentissage automatique et le développement de code. Cet article vous guidera à travers le processus de configuration et d'utilisation de Jupyter Codespaces dans GitHub, tout en mettant en avant ses avantages et en fournissant des exemples illustratifs.

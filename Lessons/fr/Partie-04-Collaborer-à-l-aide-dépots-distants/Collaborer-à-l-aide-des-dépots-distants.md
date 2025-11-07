@@ -1,13 +1,5 @@
 # Collaborer à l'aide de dépots distants
 
-- [Mise en place de dépôts à distance (Github, GitLab, Bitbucket)](#Mise-en-place-de-dépôts-à-distance-Github-GitLab-Bitbucket)
-- [Github](#github)
-- [GitLab](#gitlab)
-- [Bitbucket](#bitbucket)
-- [Push et pull des changements sur des dépots distants](#Push-et-pull-des-changements-sur-des-dépots-distants)
-- [Gérer les merges conflicts](#Gérer-les-merges-conflicts)
-- [Bonnes habitudes](#Bonnes-habitudes)
-
 ## Mise en place de dépôts à distance (Github, GitLab, Bitbucket)
 
 Dans le monde du développement logiciel, les systèmes de contrôle de version jouent un rôle crucial dans la gestion des repositorys, la facilitation de la collaboration et la garantie d'un workflow fluide entre les membres de l'équipe. Les dépôts distants, hébergés sur des plateformes telles que GitHub, GitLab et Bitbucket, offrent aux développeurs un emplacement centralisé pour stocker, gérer et partager leur code. Dans cet article, nous allons nous pencher sur le processus étape par étape de mise en place de référentiels distants sur chacune de ces plateformes.

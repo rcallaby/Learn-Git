@@ -1,11 +1,5 @@
 # Histoire et Fondements de Git
 
-- [Introduction](#introduction)
-- [Qui a créé Git](#qui-a-créé-git)
-- [La raison pour laquelle Git a été créé](#la-raison-pour-laquelle-git-a-été-créé)
-- [Alternatives à Git](#alternatives-à-git)
-- [Où stocker vos dépôts gratuitement](#où-stocker-vos-dépôts-gratuitement)
-
 # Introduction
 
 Git est un système de contrôle de version distribué créé par Linus Torvalds en 2005. Git représente l'histoirique des

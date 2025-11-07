@@ -1,19 +1,3 @@
-# Table des matières
-
-- [Utilisation des outils de gestion de projet de GitHub pour une collaboration efficace](#utilisation-des-outils-de-gestion-de-projet-de-github-pour-une-collaboration-efficace)
-  - [1. Problèmes GitHub : La base de la gestion de projet](#1-problèmes-github-la-base-de-la-gestion-de-projet)
-    - [Création d'un Problème](#création-dun-problème)
-  - [2. Étiquettes : Catégorisation et Priorisation des Problèmes](#2-étiquettes-catégorisation-et-priorisation-des-problèmes)
-    - [Création d'une Étiquette](#création-dune-étiquette)
-  - [3. Jalon : Suivi de la progression dans le temps](#3-jalon-suivi-de-la-progressin-dans-le-temps)
-    - [Création d'un Jalon](#création-dun-jalon)
-  - [4. Projets : Organisation du travail avec des tableaux et des notes](#4-projets-organisation-du-travail-avec-des-tableaux-et-des-notes)
-    - [Création d'un Projet](#création-dun-projet)
-  - [5. Automatisation avec Actions et Workflows](#5-automatisation-avec-actions-et-workflows)
-    - [Création d'une Action](#création-dune-action)
-  - [6. Demandes de tirage : Révision et Fusion du Code](#6-demandes-de-tirage-révision-et-fusion-du-code)
-    - [Création d'une Demande de Tirage](#création-dune-demande-de-tirage)
-- [Conclusion](#conclusion)
 # Utilisation des outils de gestion de projet de GitHub pour une collaboration efficace
 
 GitHub, largement connu pour ses capacités de contrôle de version, propose également une suite d'outils de gestion de projet conçus pour améliorer la collaboration, rationaliser les flux de travail et suivre la progression des projets de développement logiciel. Ces outils peuvent être extrêmement bénéfiques pour les équipes cherchant à organiser les tâches, gérer les priorités et maintenir une vue d'ensemble claire de leurs projets. Dans cet article, nous explorerons les différentes fonctionnalités des outils de gestion de projet de GitHub, ainsi que des exemples détaillés de la manière de les exploiter au mieux.
