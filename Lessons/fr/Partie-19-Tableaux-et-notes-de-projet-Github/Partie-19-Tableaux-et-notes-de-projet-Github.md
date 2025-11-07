@@ -1,15 +1,3 @@
-# Table des matières
-- [Maximiser la collaboration avec les tableaux de projet et les notes GitHub](#maximiser-la-collaboration-avec-les-tableaux-de-projet-et-les-notes-github)
-- [Comprendre les tableaux de projet GitHub](#comprendre-les-tableaux-de-projet-github)
-  - [Création d'un tableau de projet GitHub](#création-dun-tableau-de-projet-github)
-- [Personnaliser les colonnes](#personnaliser-les-colonnes)
-- [Ajouter et gérer des cartes](#ajouter-et-gérer-des-cartes)
-  - [Création d'une carte](#création-dune-carte)
-  - [Déplacement des cartes](#déplacement-des-cartes)
-- [Utilisation des notes](#utilisation-des-notes)
-- [Fonctionnalités collaboratives](#fonctionnalités-collaboratives)
-- [Conclusion](#conclusion)
-
 # Maximiser la collaboration avec les tableaux de projet et les notes GitHub
 
 Les outils de gestion de projet GitHub offrent une suite puissante de fonctionnalités, parmi lesquelles l'une des plus polyvalentes est la possibilité d'organiser le travail avec des tableaux et des notes. Cette fonctionnalité, similaire à la gestion de projet populaire de style Kanban, permet aux équipes de suivre visuellement les progrès, de gérer les priorités et de maintenir une vue d'ensemble claire de leurs projets. Dans cet article, nous explorerons en détail comment tirer le meilleur parti des tableaux de projet et des notes GitHub.

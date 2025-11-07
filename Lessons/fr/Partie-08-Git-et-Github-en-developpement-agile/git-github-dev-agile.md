@@ -1,32 +1,5 @@
 # Git et GitHub en développement agile
 
-## Index
-
-- [Rôle de Git et GitHub dans le développement logiciel agile](#rôle-de-git-et-github-dans-le-développement-logiciel-agile)
-- [Git : la fondation du contrôle de version agile](#git--la-fondation-du-contrôle-de-version-agile)
-    - [Branching et fusion](#branching-et-fusion)
-    - [Versionnage et suivi de l'historique](#versionnage-et-suivi-de-lhistorique)
-    - [Développement collaboratif](#développement-collaboratif)
-    - [Revue de code](#revue-de-code)
-    - [GitHub : Amélioration de la collaboration et des workflows agiles](#github--amélioration-de-la-collaboration-et-des-workflows-agiles)
-        - [Dépôt de code centralisé](#dépôt-de-code-centralisé)
-        - [Suivi des problèmes et gestion de projet](#suivi-des-problèmes-et-gestion-de-projet)
-        - [Pull requests et revue de code](#pull-requests-et-revue-de-code)
-        - [Tests automatisés et intégration continue](#tests-automatisés-et-intégration-continue)
-        - [Le workflow Agile-GitHub](#le-workflow-agile-github)
-- [Stratégies de branches pour les équipes Agile](#stratégies-de-branches-pour-les-équipes-agile)
-- [Pourquoi les stratégies de branches sont importantes dans le développement Agile](#pourquoi-les-stratégies-de-branches-sont-importantes-dans-le-développement-agile)
-    - [Stratégies de branches courantes pour les équipes Agile](#stratégies-de-branches-courantes-pour-les-équipes-agile)
-    - [Meilleures pratiques pour les stratégies de branches](#meilleures-pratiques-pour-les-stratégies-de-branches)
-- [Gestion des backlogs de projet et des sprints avec GitHub](#gestion-des-backlogs-de-projet-et-des-sprints-avec-github)
-    - [Organisation des backlogs de projet avec les issues GitHub](#organisation-des-backlogs-de-projet-avec-les-issues-github)
-- [Intégration de Git et GitHub avec des outils de suivi des problèmes](#intégration-de-git-et-github-avec-des-outils-de-suivi-des-problèmes)
-- [L'importance du suivi des problèmes dans le développement logiciel](#limportance-du-suivi-des-problèmes-dans-le-développement-logiciel)
-    - [Les avantages de l'intégration de Git et GitHub avec des outils de suivi des problèmes](#les-avantages-de-lintégration-de-git-et-github-avec-des-outils-de-suivi-des-problèmes)
-    - [Guide étape par étape pour intégrer Git et GitHub avec des outils de suivi des problèmes](#guide-étape-par-étape-pour-intégrer-git-et-github-avec-des-outils-de-suivi-des-problèmes)
-    - [Meilleures pratiques pour maintenir l'intégration](#meilleures-pratiques-pour-maintenir-lintégration)
-
-
 ## Rôle de Git et GitHub dans le développement logiciel agile
 
 Le développement logiciel agile est une méthodologie largement adoptée qui favorise des approches itératives et collaboratives pour la création de logiciels. Au cœur de son succès se trouvent la gestion efficace du code source, le contrôle de version et la collaboration transparente entre les équipes de développement. Git et GitHub, un système de contrôle de version et un service d'hébergement web respectivement, sont devenus des outils indispensables dans le développement agile. Cet article explore leur rôle essentiel et leur contribution à l'agilité des équipes de développement logiciel.

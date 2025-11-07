@@ -1,29 +1,5 @@
 # Continuous Integration and Deployment with Git and GitHub
 
-- [Intégration de Git et GitHub avec les pipelines CI/CD](#intégration-de-git-et-github-avec-des-pipelines-cicd)
-- [Comprendre les pipelines CI/CD](#comprendre-les-pipelines-cicd)
-  - [Configurer les pipelines CI/CD avec Git et GitHub](#configuration-des-pipelines-cicd-avec-git-et-github)
-  - [Mettre en œuvre le CD (déploiement continu)](#mise-en-œuvre-du-cd-continuous-deployment)
-  - [Meilleures pratiques pour l'intégration de Git et GitHub avec CI/CD](#bonnes-pratiques-pour-lintégration-de-git-et-github-avec-des-pipelines-cicd)
-- [Tests automatisés et vérification de la qualité du code](#tests-automatisés-et-vérifications-de-la-qualité-du-code)
-  - [Avantages des tests automatisés et de la vérification de la qualité du code](#avantages-des-tests-automatisés-et-des-vérifications-de-la-qualité-du-code)
-  - [Mettre en œuvre des tests automatisés dans Git et GitHub](#mise-en-œuvre-des-tests-automatisés-avec-git-et-github)
-  - [Vérification de la qualité du code dans Git et GitHub](#vérifications-de-la-qualité-du-code-avec-git-et-github)
-  - [Meilleures pratiques pour les tests automatisés et la vérification de la qualité du code](#bonnes-pratiques-pour-les-tests-automatisés-et-les-vérifications-de-la-qualité-du-code)
-- [Déployer des applications avec Git et GitHub Actions](#déployer-des-applications-avec-git-et-github-actions)
-  - [Configurer le dépôt Git et GitHub](#configuration-dun-dépôt-git-et-github)
-  - [Configurer votre application](#configuration-de-votre-application)
-  - [Définir la configuration de déploiement](#définition-de-la-configuration-de-déploiement)
-    - [Créer un fichier nommé `.github/workflows/deploy.yml` avec le contenu suivant](#créez-un-fichier-nommé-githubworkflowsdeployyml-avec-le-contenu-suivant-)
-  - [Expliquer la configuration de déploiement](#explication-de-la-configuration-de-déploiement)
-    - [Déployer l'application](#déploiement-de-lapplication)
-- [Surveiller et revenir en arrière sur les déploiements](#surveillance-et-rétablissement-des-déploiements)
-- [Comprendre la surveillance et le retour en arrière dans Git](#comprendre-la-surveillance-et-revenir-en-arrière-dans-git)
-  - [Mettre en œuvre la surveillance dans Git](#mettre-en-œuvre-la-surveillance-dans-git)
-  - [Revenir en arrière sur les applications dans Git](#rétablir-les-applications-dans-git)
-  - [Meilleures pratiques pour la surveillance et le retour en arrière dans Git](#bonnes-pratiques-pour-la-surveillance-et-le-rétablissement-dans-git)
-
-
 ## Intégration de Git et GitHub avec des pipelines CI/CD
 L’intégration continue et le déploiement continu (Continuous Integration/Continuous Deployment, ou CI/CD) sont des pratiques essentielles dans le développement logiciel moderne, permettant de rationaliser le processus de livraison de code de haute qualité en production. En intégrant Git et GitHub aux pipelines CI/CD, les développeurs peuvent automatiser la création, les tests et le déploiement des applications, garantissant ainsi des cycles de développement plus rapides, des versions cohérentes et une meilleure collaboration entre les membres de l’équipe. Cet article propose un guide détaillé sur la manière d’intégrer Git et GitHub aux pipelines CI/CD, accompagné d’exemples pratiques pour illustrer le processus.
 

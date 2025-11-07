@@ -1,11 +1,5 @@
 # Branches et merges
 
-- [Introduction aux branches et leur utilité](#introduction-aux-branches-et-leur-utilité)
-- [Créer et sélectionner une branche](#Créer-et-sélectionner-une-branche)
-- [Gérer l'historique de branche et fusionner les changements](#gérer-lhistorique-de-branche-et-fusionner-les-changements)
--[Gérer les merge conflicts (problème de fusion)](#gérer-les-merge-conflicts-problème-de-fusion)
-- [Conclusion](#conclusion)
-
 ## Introduction aux branches et leur utilité:
 
 Dans le monde du dévellopement logiciel, les branches sont des outils indispensables pour contrôler l'évolution du code et la collaboration. Une branche git, en bref, c'est un pointeur vers un commit (un point de l'historique) d'un dépot. En utilisant les branches, les dévellopeurs peuvent travailler sur différents aspects d'un projet de manière simultanée. Ils peuvent également expérimenter sur de nouvelles fonctionnalités ou sur des moyens de régler des bugs, isoler les changements les uns des autres sans affecter le code de base. Cet article plonge en profondeur dans les entrailles des branches Git, en couvrant leur création, le changement de l'uneà l'autre, la gestion de l'historique, et comment régler les problèmes de merge (la remise en commun de différentes branches).

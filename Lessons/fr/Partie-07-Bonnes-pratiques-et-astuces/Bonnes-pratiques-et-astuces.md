@@ -1,35 +1,5 @@
 # Bonnes pratiques et astuces pour Git
---
-## Index
-- [Gérer un historique de commits propre](#gérer-un-historique-de-commits-propre)
-  - [Des commits fréquents et intuitifs](#des-commits-fréquents-et-intuitifs)
-  - [Rédiger des messages de commits descriptifs](#rédiger-des-messages-de-commits-descriptifs)
-  - [Utilisez les branches à bon escient](#utilisez-les-branches-à-bon-escient)
-  - [Utilisez Rebase pour garder un historique propre](#utilisez-rebase-pour-garder-un-historique-propre)
-  - [Combinez et éditez les commits avant un push](#combinez-et-éditez-les-commits-avant-un-push)
-  - [Évitez de faire des push directement sur la branche principale](#évitez-de-faire-des-push-directement-sur-la-branche-principale)
-  - [Utilisez les Git Hooks](#utilisez-les-git-hooks)
-  - [Documentez les modifications et mises à jour](#documentez-les-modifications-et-mises-à-jour)
-  - [Maintenance et nettoyage régulier](#maintenance-et-nettoyage-régulier)
-- [Utilisez des alias et raccourcis Git](#utilisez-des-alias-et-raccourcis-git)
-  - [Comprendre les alias Git](#comprendre-les-alias-git)
-  - [Utiliser des alias Git](#utiliser-des-alias-git)
-  - [Partager des alias Git](#partager-des-alias-git)
-  - [Utiliser des alias Git avec GitHub](#utiliser-des-alias-git-avec-github)
-- [Ignorer des fichiers et dossiers avec .gitignore](#ignorer-des-fichiers-et-dossiers-avec-gitignore)
-  - [Qu'est-ce que .gitignore?](#quest-ce-que-gitignore)
-  - [Créer un fichier .gitignore](#créer-un-fichier-gitignore)
-  - [Syntaxe de .gitignore](#syntaxe-de-gitignore)
-  - [Utiliser des motifs dans .gitignore](#utiliser-des-motifs-dans-gitignore)
-  - [Exemples de .gitignore](#exemples-de-gitignore)
-  - [Fichier .gitignore global](#fichier-gitignore-global)
-- [Flux de travail collaboratif et étiquette de revue de code](#flux-de-travail-collaboratif-et-étiquette-de-revue-de-code)
-  - [Flux de travail collaboratif avec Git](#flux-de-travail-collaboratif-avec-git)
-  - [Étiquette de revue de code](#étiquette-de-revue-de-code)
-  - [Utilisez les outils de revue de code de manière efficace:](#utilisez-les-outils-de-revue-de-code-de-manière-efficace)
-  - [Collaborer sur GitHub](#collaborating-on-github)
 
----
 ## Gérer un historique de commits propre
 
 Les systèmes de contrôle de version comme Git et les plateformes comme GitHub ont révolutionné la manière dont on gère le développement de logiciels et collabore. Pour utiliser Git et GitHub de manière efficace, un aspect essentiel est de conserver un historique de commits propre et organisé. Un historique de commits bien tenu aide non seulement les développeurs à mieux comprendre l'évolution du projet, mais aide aussi pour le débogage, la revue de code et la collaboration. Dans cet article, nous examinerons les différentes pratiques et techniques pour gérer un historique de commits propre avec Git et GitHub.
