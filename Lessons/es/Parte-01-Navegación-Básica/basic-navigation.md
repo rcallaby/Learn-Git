@@ -1,13 +1,5 @@
 # Git - Navegación Básica
 
-- [Introducción](#introducción)
-- [Abrir la Terminal BASH](#abrir-la-terminal-bash)
-- [Navegar a través de Directorios](#navegar-a-través-de-directorios)
-- [Listar Contenidos de Directorios](#listar-contenidos-de-directorios)
-- [Crear y Mover Directorios](#crear-y-mover-directorios)
-- [Crear y Eliminar Archivos](#crear-y-eliminar-archivos)
-- [Conclusión](#conclusión)
-
 # Introducción:
 La terminal BASH es una interfaz de línea de comandos poderosa que permite a los usuarios navegar por el sistema de archivos de su computadora, realizar diversas tareas e interactuar con sistemas de control de versiones como Git. Git es un sistema de control de versiones distribuido ampliamente utilizado que proporciona colaboración eficiente y seguimiento de cambios en repositorios de código. En este artículo, exploraremos cómo navegar y utilizar comandos básicos en la terminal BASH para trabajar eficazmente con Git.
 

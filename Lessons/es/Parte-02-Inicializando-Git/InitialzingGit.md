@@ -1,10 +1,5 @@
 # Inicializando Git - Primeros Pasos
 
-- [Operaciones Básicas de Git](#operaciones-básicas-de-git)
-- [Configuración de un Repositorio Git en Linux](#configuración-de-un-repositorio-git-en-linux)
-- [Configuración de un Repositorio Git en Windows](#configuración-de-un-repositorio-git-en-windows)
-- [Configuración de un Repositorio Git en macOS](#configuración-de-un-repositorio-git-en-macos)
-
 ## Operaciones Básicas de Git:
 Git proporciona una amplia variedad de comandos para el control de versiones, pero aquí hay algunos fundamentales:
 

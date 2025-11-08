@@ -1,13 +1,5 @@
 # Colaborando con Repositorios Remotos
 
-- [Configuración de repositorios remotos (GitHub, GitLab, Bitbucket)](#configuración-de-repositorios-remotos-github-gitlab-bitbucket)
-- [GitHub](#github)
-- [GitLab](#gitlab)
-- [Bitbucket](#bitbucket)
-- [Enviar y Traer Cambios desde Repositorios Remotos](#enviar-y-traer-cambios-desde-repositorios-remotos)
-- [Manejo de Conflictos en Merges](#manejo-de-conflictos-en-merges)
-- [Mejores Prácticas](#mejores-prácticas)
-
 ## Configuración de repositorios remotos (GitHub, GitLab, Bitbucket)
 
 En el mundo del desarrollo de software, los sistemas de control de versiones desempeñan un papel crucial en la gestión de repositorios de código, facilitando la colaboración y asegurando un flujo de trabajo fluido entre los miembros del equipo. Los repositorios remotos, alojados en plataformas como GitHub, GitLab y Bitbucket, ofrecen a los desarrolladores un lugar centralizado para almacenar, gestionar y compartir su código. En este artículo, profundizaremos en el proceso paso a paso de configurar repositorios remotos en cada una de estas plataformas.

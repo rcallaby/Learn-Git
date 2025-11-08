@@ -1,15 +1,3 @@
-# Tabla de Contenidos
-- [Maximizando la Colaboración con Tableros y Notas de Proyectos en GitHub](#maximizando-la-colaboración-con-tableros-y-notas-de-proyectos-en-github)
-- [Entendiendo los Tableros de Proyectos de GitHub](#entendiendo-los-tableros-de-proyectos-de-github)
-  - [Creando un Tablero de Proyecto en GitHub](#creando-un-tablero-de-proyecto-en-github)
-- [Personalizando las Columnas](#personalizando-las-columnas)
-- [Agregando y Gestionando Tarjetas](#agregando-y-gestionando-tarjetas)
-  - [Creando una Tarjeta](#creando-una-tarjeta)
-  - [Moviendo Tarjetas](#moviendo-tarjetas)
-- [Utilizando Notas](#utilizando-notas)
-- [Características Colaborativas](#características-colaborativas)
-- [Conclusión](#conclusión)
-
 # Maximizando la Colaboración con Tableros y Notas de Proyectos en GitHub
 
 Las herramientas de gestión de proyectos de GitHub ofrecen una poderosa suite de funciones, y una de las más versátiles es la capacidad de organizar el trabajo con tableros y notas. Esta función, similar a la gestión de proyectos estilo Kanban, permite a los equipos visualizar el progreso, gestionar prioridades y mantener una visión clara de sus proyectos. En este artículo, exploraremos en detalle cómo aprovechar al máximo los Tableros de Proyectos y las Notas de GitHub.

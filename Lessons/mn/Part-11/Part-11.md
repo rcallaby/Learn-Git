@@ -1,10 +1,3 @@
-Here is the translated text into Mongolian:
-
-- [Нарийвчилсан Github Actions](#advanced-github-actions)
-- [Github Actions гэж юу вэ?](#what-is-github-actions)
-- [Github Actions-ийн нарийвчилсан боломжууд](#advanced-features-of-github-actions)
-- [Github Actions-ийг ажлын урсгалдаа нэмэхийн ач холбогдол юу вэ?](#why-consider-adding-github-actions-to-your-workflow)
-
 # Нарийвчилсан Github Actions
 
 GitHub Actions бол хөгжүүлэгчдэд янз бүрийн даалгавар, процессийг автоматжуулах замаар хөгжүүлэлтийн ажлын урсгалаа сайжруулах боломжийг олгодог хүчирхэг автоматжуулалтын платформ юм. Та ганцаараа хөгжүүлэгч эсвэл багийн нэг хэсэг байсан ч GitHub Actions нь таны бүтээмжийг ихээхэн нэмэгдүүлж, кодын чанарыг сайжруулж чадна. Энэ нийтлэлд бид GitHub Actions-ийн нарийвчилсан боломжууд, тэдгээрээр юу хийж болох, мөн яагаад тэдгээрийг хөгжүүлэлтийн ажлын урсгалдаа нэгтгэх талаар судлах болно.

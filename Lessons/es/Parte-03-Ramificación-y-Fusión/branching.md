@@ -1,11 +1,5 @@
 # Ramificación y Fusión
 
-- [Introducción a las ramas y su propósito](#introduction-to-branches-and-their-purpose)
-- [Creación y cambio entre ramas](#creating-and-switching-between-branches)
-- [Gestión de historial de ramas y fusión de cambios](#managing-branch-history-and-merging-changes)
-- [Manejo de conflictos de fusión](#handling-merge-conflicts)
-- [Conclusión](#conclusion)
-
 # Introducción a las ramas y su propósito:
 
 En el ámbito del desarrollo de software, las ramas de Git son herramientas indispensables para gestionar la evolución del código y la colaboración. Una rama en Git es esencialmente un puntero ligero y móvil a un commit específico en el historial de commits de un repositorio. Al utilizar ramas, los desarrolladores pueden trabajar en diferentes aspectos de un proyecto simultáneamente, experimentar con nuevas funciones o correcciones, y aislar cambios sin afectar el código base principal. Este artículo profundizará en las complejidades de las ramas de Git, cubriendo su creación, cambio, gestión del historial y manejo de conflictos de fusión.

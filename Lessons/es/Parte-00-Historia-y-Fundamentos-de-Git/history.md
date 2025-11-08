@@ -1,11 +1,5 @@
 # Historia y Fundamentos de Git
 
-- [Introducción](#introducción)
-- [¿Quién creó Git?](#quién-creó-git)
-- [La razón por la cual se creó Git](#la-razón-por-la-cual-se-creó-git)
-- [Alternativas a Git](#alternativas-a-git)
-- [Dónde almacenar tus repositorios de forma gratuita](#dónde-almacenar-tus-repositorios-de-forma-gratuita)
-
 # Introducción
 
 Git es un sistema de control de versiones distribuido creado por Linus Torvalds en 2005. Git representa la historia de una manera fundamentalmente diferente a los sistemas de control de versiones centralizados (CVCS) como Team Foundation Version Control, Perforce o Subversion. Los sistemas centralizados almacenan una historia separada para cada archivo en un repositorio. Git almacena la historia como un gráfico de instantáneas de todo el repositorio. Estas instantáneas, llamadas commits en Git, pueden tener múltiples padres, creando una historia que parece un gráfico en lugar de una línea recta. Esta diferencia en la historia es extremadamente importante y es la razón principal por la cual los usuarios familiarizados con CVCS encuentran confuso a Git.

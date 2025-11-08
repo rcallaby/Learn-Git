@@ -1,29 +1,5 @@
 # Integración y Despliegue Continuo con Git y GitHub
 
-- [Integración de Git y GitHub con pipelines de CI/CD](#integrando-git-y-github-con-pipelines-de-cicd)
-- [Comprensión de Pipelines de CI/CD](#comprension-de-pipelines-de-cicd)
-  - [Configuración de Pipelines de CI/CD con Git y GitHub](#configuracion-de-pipelines-de-cicd-con-git-y-github)
-  - [Implementación de CD (Despliegue Continuo)](#implementacion-de-cd-despliegue-continuo)
-  - [Mejores Prácticas para la Integración de Git y GitHub con CI/CD](#mejores-practicas-para-la-integracion-de-git-y-github-con-cicd)
-- [Pruebas automatizadas y verificación de calidad del código](#pruebas-automatizadas-y-verificacion-de-calidad-del-codigo)
-  - [Beneficios de las pruebas automatizadas y verificación de calidad del código](#beneficios-de-las-pruebas-automatizadas-y-verificacion-de-calidad-del-codigo)
-  - [Implementación de Pruebas Automatizadas en Git y GitHub](#implementacion-de-pruebas-automatizadas-en-git-y-github)
-  - [Verificación de Calidad del Código en Git y GitHub](#verificacion-de-calidad-del-codigo-en-git-y-github)
-  - [Mejores Prácticas para Pruebas Automatizadas y Verificación de Calidad del Código](#mejores-practicas-para-pruebas-automatizadas-y-verificacion-de-calidad-del-codigo)
-- [Despliegue de aplicaciones utilizando Git y GitHub Actions](#despliegue-de-aplicaciones-utilizando-git-y-github-actions)
-  - [Configuración del Repositorio de Git y GitHub](#configuracion-del-repositorio-de-git-y-github)
-  - [Configuración de tu Aplicación](#configuracion-de-tu-aplicacion)
-  - [Definición de la Configuración de Despliegue](#definicion-de-la-configuracion-de-despliegue)
-    - [Crea un archivo llamado .github/workflows/deploy.yml con el siguiente contenido](#crea-un-archivo-llamado-githubworkflowsdeployyml-con-el-siguiente-contenido)
-  - [Explicación de la Configuración de Despliegue](#explicacion-de-la-configuracion-de-despliegue)
-    - [Despliegue de la Aplicación](#despliegue-de-la-aplicacion)
-- [Monitoreo y reversión de despliegues](#monitoreo-y-reversion-de-despliegues)
-- [Comprensión del Monitoreo y la Reversión en Git](#comprension-del-monitoreo-y-la-reversion-en-git)
-  - [Implementación de Monitoreo en Git](#implementacion-de-monitoreo-en-git)
-  - [Reversión de Aplicaciones en Git](#reversion-de-aplicaciones-en-git)
-  - [Mejores Prácticas para el Monitoreo y la Reversión en Git](#mejores-practicas-para-el-monitoreo-y-la-reversion-en-git)
-
-
 ## Integración de Git y GitHub con pipelines de CI/CD
 
 La Integración Continua/Despliegue Continuo (CI/CD) es una práctica vital en el desarrollo moderno de software, simplificando el proceso de entrega de código de alta calidad a producción. Al integrar Git y GitHub con pipelines de CI/CD, los desarrolladores pueden automatizar la construcción, prueba y despliegue de aplicaciones, asegurando ciclos de desarrollo más rápidos, lanzamientos consistentes y una colaboración mejorada entre los miembros del equipo. Este artículo proporcionará una guía detallada sobre cómo integrar Git y GitHub con pipelines de CI/CD, junto con ejemplos prácticos para demostrar el proceso.

@@ -1,22 +1,3 @@
-### Tabla de Contenidos
-
-- [Uso de las herramientas de gestión de proyectos de GitHub para una colaboración eficiente](#uso-de-las-herramientas-de-gestión-de-proyectos-de-github-para-una-colaboración-eficiente)  
-  - [1. GitHub Issues: La base de la gestión de proyectos](#1-github-issues-la-base-de-la-gestión-de-proyectos)  
-    - [Crear un Issue](#crear-un-issue)  
-  - [2. Etiquetas: Clasificación y priorización de issues](#2-etiquetas-clasificación-y-priorización-de-issues)  
-    - [Crear una etiqueta](#crear-una-etiqueta)  
-  - [3. Milestones: Seguimiento del progreso a lo largo del tiempo](#3-milestones-seguimiento-del-progreso-a-lo-largo-del-tiempo)  
-    - [Crear un milestone](#crear-un-milestone)  
-  - [4. Proyectos: Organización del trabajo con tableros y notas](#4-proyectos-organización-del-trabajo-con-tableros-y-notas)  
-    - [Crear un proyecto](#crear-un-proyecto)  
-  - [5. Automatización con Actions y Workflows](#5-automatización-con-actions-y-workflows)  
-    - [Crear una acción](#crear-una-acción)  
-  - [6. Pull Requests: Revisión y fusión de código](#6-pull-requests-revisión-y-fusión-de-código)  
-    - [Crear un pull request](#crear-un-pull-request)  
-- [Conclusión](#conclusión)  
-
----
-
 # Uso de las herramientas de gestión de proyectos de GitHub para una colaboración eficiente  
 
 GitHub, conocido principalmente por sus capacidades de control de versiones, también ofrece un conjunto de herramientas de gestión de proyectos diseñadas para mejorar la colaboración, optimizar los flujos de trabajo y hacer seguimiento del progreso en los proyectos de desarrollo de software. Estas herramientas pueden ser de gran ayuda para los equipos que buscan organizar tareas, gestionar prioridades y mantener una visión clara de sus proyectos. En este artículo, exploraremos las diversas funciones de estas herramientas y cómo sacarles el máximo provecho con ejemplos detallados.
