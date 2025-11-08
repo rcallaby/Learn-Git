@@ -1,35 +1,5 @@
 # Prácticas y Consejos Óptimos de Git
----
-## Tabla de Contenidos
-- [Gestión de un historial de commits limpio](#gestión-de-un-historial-de-commits-limpio)
-  - [Hacer Commits Frecuentes e Intuitivos](#hacer-commits-frecuentes-e-intuitivos)
-  - [Escribir Mensajes de Commit Descriptivos](#escribir-mensajes-de-commit-descriptivos)
-  - [Usar Ramas de Forma Sensata](#usar-ramas-de-forma-sensata)
-  - [Rebase para Mantener un Historial Limpio](#rebase-para-mantener-un-historial-limpio)
-  - [Aplastar y Editar Commits Antes de Hacer Push](#aplastar-y-editar-commits-antes-de-hacer-push)
-  - [Evitar Hacer Push Directamente a la Rama Principal](#evitar-hacer-push-directamente-a-la-rama-principal)
-  - [Utilizar Hooks de Git](#utilizar-hooks-de-git)
-  - [Documentar Cambios y Actualizaciones](#documentar-cambios-y-actualizaciones)
-  - [Mantenimiento Regular y Limpieza](#mantenimiento-regular-y-limpieza)
-- [Uso de Alias y Atajos en Git](#uso-de-alias-y-atajos-en-git)
-  - [Entender los Alias de Git](#entender-los-alias-de-git)
-  - [Utilizar Alias de Git](#utilizar-alias-de-git)
-  - [Compartir Alias de Git](#compartir-alias-de-git)
-  - [Usar Alias de Git en GitHub](#usar-alias-de-git-en-github)
-- [Ignorar Archivos y Directorios con .gitignore](#ignorar-archivos-y-directorios-con-gitignore)
-  - [¿Qué es .gitignore?](#qué-es-gitignore)
-  - [Crear .gitignore](#crear-gitignore)
-  - [Sintaxis de .gitignore](#sintaxis-de-gitignore)
-  - [Usar Patrones en .gitignore](#usar-patrones-en-gitignore)
-  - [Ejemplos de .gitignore](#ejemplos-de-gitignore)
-  - [Global .gitignore](#global-gitignore)
-- [Flujos de Trabajo Colaborativos y Etiqueta en Revisiones de Código](#flujos-de-trabajo-colaborativos-y-etiqueta-en-revisiones-de-código)
-  - [Flujos de Trabajo Colaborativos en Git](#flujos-de-trabajo-colaborativos-en-git)
-  - [Etiqueta en Revisiones de Código](#etiqueta-en-revisiones-de-código)
-  - [Utilizar Herramientas de Revisión de Código de Forma Efectiva](#utilizar-herramientas-de-revisión-de-código-de-forma-efectiva)
-  - [Colaborar en GitHub](#colaborar-en-github)
 
----
 ## Gestión de un historial de commits limpio
 
 Los sistemas de control de versiones como Git y plataformas como GitHub han revolucionado la forma en que se gestiona y colabora en el desarrollo de software. Un aspecto esencial para utilizar Git y GitHub de manera efectiva es mantener un historial de commits limpio y organizado. Un historial de commits bien mantenido no solo ayuda a los desarrolladores a comprender mejor la evolución del proyecto, sino que también facilita la depuración, las revisiones de código y la colaboración. En este artículo, exploraremos diversas prácticas y técnicas para gestionar un historial de commits limpio en Git y GitHub.

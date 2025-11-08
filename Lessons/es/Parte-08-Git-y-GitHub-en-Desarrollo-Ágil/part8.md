@@ -1,33 +1,5 @@
 # Git y GitHub en Desarrollo Ágil
 
-
-## Tabla de Contenidos
-
-- [Papel de Git y GitHub en el desarrollo ágil de software](#papel-de-git-y-github-en-el-desarrollo-ágil-de-software)
-- [Git: La Base del Control de Versiones Ágil](#git-la-base-del-control-de-versiones-ágil)
-    - [Ramificación y Fusión](#ramificación-y-fusión)
-    - [Versionado y Seguimiento de Historia](#versionado-y-seguimiento-de-historia)
-    - [Desarrollo Colaborativo](#desarrollo-colaborativo)
-    - [Revisión de Código](#revisión-de-código)
-    - [GitHub: Mejorando la Colaboración y Flujos de Trabajo Ágiles](#github-mejorando-la-colaboración-y-flujos-de-trabajo-ágiles)
-        - [Repositorio de Código Centralizado](#repositorio-de-código-centralizado)
-        - [Seguimiento de Problemas y Gestión de Proyectos](#seguimiento-de-problemas-y-gestión-de-proyectos)
-        - [Solicitudes de Extracción y Revisión de Código](#solicitudes-de-extracción-y-revisión-de-código)
-        - [Pruebas Automatizadas e Integración Continua](#pruebas-automatizadas-e-integración-continua)
-        - [El Flujo de Trabajo Ágil en GitHub](#el-flujo-de-trabajo-ágil-en-github)
-- [Estrategias de Ramificación para Equipos Ágiles](#estrategias-de-ramificación-para-equipos-ágiles)
-- [Importancia de las Estrategias de Ramificación en el Desarrollo Ágil](#importancia-de-las-estrategias-de-ramificación-en-el-desarrollo-ágil)
-    - [Estrategias Comunes de Ramificación para Equipos Ágiles](#estrategias-comunes-de-ramificación-para-equipos-ágiles)
-    - [Mejores Prácticas para Estrategias de Ramificación](#mejores-prácticas-para-estrategias-de-ramificación)
-- [Gestión de Backlogs de Proyectos y Sprints con GitHub](#gestión-de-backlogs-de-proyectos-y-sprints-con-github)
-    - [Organización de Backlogs de Proyectos con Problemas de GitHub](#organización-de-backlogs-de-proyectos-con-problemas-de-github)
-- [Integración de Git y GitHub con Herramientas de Seguimiento de Problemas](#integración-de-git-y-github-con-herramientas-de-seguimiento-de-problemas)
-- [Importancia del Seguimiento de Problemas en el Desarrollo de Software](#importancia-del-seguimiento-de-problemas-en-el-desarrollo-de-software)
-    - [Ventajas de Integrar Git y GitHub con Herramientas de Seguimiento de Problemas](#ventajas-de-integrar-git-y-github-con-herramientas-de-seguimiento-de-problemas)
-    - [Guía Paso a Paso para Integrar Git y GitHub con Herramientas de Seguimiento de Problemas](#guía-paso-a-paso-para-integrar-git-y-github-con-herramientas-de-seguimiento-de-problemas)
-    - [Mejores Prácticas para Mantener la Integración](#mejores-prácticas-para-mantener-la-integración)
-
-
 ## Papel de Git y GitHub en el Desarrollo Ágil de Software
 
 El desarrollo ágil de software es una metodología ampliamente adoptada que promueve enfoques iterativos y colaborativos para construir software. Fundamental para su éxito es la gestión eficiente de código fuente, control de versiones y colaboración fluida entre equipos de desarrollo. Git y GitHub, un sistema de control de versiones y un servicio de alojamiento web, respectivamente, han surgido como herramientas indispensables en el desarrollo ágil. Este artículo explora sus roles esenciales y contribuciones para fomentar la agilidad dentro de los equipos de desarrollo de software.

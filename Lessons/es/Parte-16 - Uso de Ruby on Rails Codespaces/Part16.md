@@ -1,16 +1,3 @@
-### Tabla de Contenidos
-- [Codespaces para Ruby on Rails](#codespaces-para-ruby-on-rails)
-  - [Requisitos Previos](#requisitos-previos)
-    - [Comenzando con Codespaces para Ruby on Rails](#comenzando-con-codespaces-para-ruby-on-rails)
-    - [Ejemplo: Crear una aplicación simple de Rails en Codespaces](#ejemplo-crear-una-aplicacion-simple-de-rails-en-codespaces)
-    - [Colaboración con Miembros del Equipo](#colaboracion-con-miembros-del-equipo)
-    - [Para colaborar de manera efectiva, sigue estos pasos](#para-colaborar-de-manera-efectiva-sigue-estos-pasos)
-- [Conclusión](#conclusion)
-  - [GitHub Actions para Ruby on Rails Usando Codespaces](#github-actions-para-ruby-on-rails-usando-codespaces)
-    - [Integración Continua (CI): Configurar un flujo de trabajo para ejecutar pruebas y verificaciones cada vez que se realicen cambios en tu repositorio.](#integracion-continua-ci-configurar-un-flujo-de-trabajo-para-ejecutar-pruebas-y-verificaciones-cada-vez-que-se-realicen-cambios-en-tu-repositorio)
-    - [Despliegue Automatizado: Desplegar automáticamente tu aplicación de Rails a una plataforma de alojamiento cuando se realicen cambios en la rama principal.](#despliegue-automatizado-desplegar-automaticamente-tu-aplicacion-de-rails-a-una-plataforma-de-alojamiento-cuando-se-realicen-cambios-en-la-rama-principal)
-    - [Tareas Programadas: Ejecutar tareas periódicas, como copias de seguridad de la base de datos, utilizando GitHub Actions programadas.](#tareas-programadas-ejecutar-tareas-periodicas-como-copias-de-seguridad-de-la-base-de-datos-utilizando-github-actions-programadas)
-
 # Codespaces para Ruby on Rails
 
 GitHub Codespaces es un potente entorno de desarrollo basado en la nube que permite a los desarrolladores programar, construir y probar sus proyectos directamente en la interfaz web de GitHub. Los desarrolladores de Ruby on Rails pueden aprovechar Codespaces para optimizar su flujo de trabajo de desarrollo, eliminando la necesidad de instalaciones locales y asegurando un entorno de desarrollo consistente para la colaboración en equipo. En este artículo, exploraremos cómo configurar y usar Codespaces para Ruby on Rails en GitHub, junto con algunos ejemplos para empezar.
