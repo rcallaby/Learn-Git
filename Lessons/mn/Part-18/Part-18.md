@@ -1,21 +1,4 @@
-### Агуулгын хүснэгт
-
-- [GitHub-ийн төслийн удирдлагын хэрэгслүүдийг ашиглан үр ашигтай хамтран ажиллах нь](#utilizing-githubs-project-management-tools-for-efficient-collaboration)
-  - [1. GitHub Issues: Төслийн удирдлагын үндэс](#1-github-issues-the-foundation-of-project-management)
-    - [Issue үүсгэх нь](#creating-an-issue)
-  - [2. Labels: Issue-ийг ангилах ба эрэмбэлэх нь](#2-labels-categorizing-and-prioritizing-issues)
-    - [Label үүсгэх нь](#creating-a-label)
-  - [3. Milestones: Хугацааны явцад ахиц дэвшлийг хянах](#3-milestones-tracking-progress-over-time)
-    - [Milestone үүсгэх нь](#creating-a-milestone)
-  - [4. Projects: Самбар болон тэмдэглэлийн тусламжтайгаар ажлыг зохион байгуулах](#4-projects-organizing-work-with-boards-and-notes)
-    - [Project үүсгэх нь](#creating-a-project)
-  - [5. Үйлдлүүд ба ажлын урсгалыг автоматжуулах](#5-automation-with-actions-and-workflows)
-    - [Үйлдэл үүсгэх нь](#creating-an-action)
-  - [6. Pull Requests: Кодыг хянах болон нэгтгэх](#6-pull-reqests-reviewing-and-merging-code)
-    - [Pull Request үүсгэх нь](#creating-a-pull-request)
-- [Дүгнэлт](#conclusion)
-
-### GitHub-ийн төслийн удирдлагын хэрэгслүүдийг ашиглан үр ашигтай хамтран ажиллах нь
+# GitHub-ийн төслийн удирдлагын хэрэгслүүдийг ашиглан үр ашигтай хамтран ажиллах нь
 
 GitHub нь хувилбар удирдлагын чадвараараа алдартай боловч програм хангамж хөгжүүлэх төслүүдэд хамтын ажиллагааг сайжруулах, ажлын урсгалыг хялбарчлах, ахиц дэвшлийг хянах төслийн удирдлагын хэрэгслүүдийн цогц шийдлийг мөн санал болгодог. Эдгээр хэрэгслүүд нь багуудыг даалгавруудыг зохион байгуулах, эрэмбэлэх, төслүүдийн ерөнхий байдалд тодорхой ойлголттой байхад маш их ашиг тустай байж болно. Энэ нийтлэлд бид GitHub-ийн төслийн удирдлагын хэрэгслүүдийн янз бүрийн функцууд болон тэдгээрийг хэрхэн үр дүнтэй ашиглах талаар дэлгэрэнгүй авч үзэх болно.
 

@@ -1,13 +1,5 @@
 # Агуулгын жагсаалт
 
-  - [Github дээр Jupyter Codespaces ашиглах нь](#using-juypter-codespaces-in-github)<br>
-  - [Jupyter Codespaces ашиглаж эхлэх](#getting-started-with-jupyter-codespaces)<br>
-  - [Codespaces орчныг ойлгох нь](#understanding-the-codespaces-environment)<br>
-  - [Jupyter Codespaces ашиглан интерактив өгөгдлийн шинжилгээ хийх нь](#interactive-data-analysis-with-jupyter-codespaces)<br>
-  - [Jupyter Codespaces ашиглан хамтран ажиллах нь](#collaborating-with-jupyter-codespaces)<br>
-  - [Дибаг хийх ба алдааг олж засварлах нь](#debugging-and-troubleshooting)<br>
-  - [Цэвэрлэгээ хийх нь](#cleaning-up)
-
 # Github дээр Jupyter Codespaces ашиглах нь
 
 GitHub нь хувилбар хяналт, хамтын програм хөгжүүлэлтийн өргөн хэрэглэгддэг платформ юм. Сүүлийн жилүүдэд GitHub нь "Codespaces" гэх хүчирхэг функцыг нэвтрүүлсэн бөгөөд энэ нь хөгжүүлэгчид болон өгөгдөл судлаачдад браузер дотроосоо бүрэн ажиллагаатай хөгжүүлэлтийн орчин үүсгэх боломжийг олгодог. Jupyter Codespaces нь энэхүү функц дээр суурилсан бөгөөд интерактив өгөгдлийн шинжилгээ, машин сургалт, код хөгжүүлэлтэд тохиромжтой орчинг бий болгодог. Энэ нийтлэлд бид Jupyter Codespaces-ийг GitHub дээр хэрхэн тохируулах болон ашиглах талаар зааж, түүний давуу талуудыг онцлон, жишээний хамт танилцуулах болно.

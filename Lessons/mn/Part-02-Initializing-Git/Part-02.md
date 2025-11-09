@@ -1,10 +1,5 @@
 # Git эхлүүлэх - Анхны алхмууд
 
-- [Git анхан шатны үйлдлүүд](#git-анхан-шатны-үйлдлүүд)
-- [Linux-д Git Repository тохируулах](#linux-д-git-repository-тохируулах)
-- [Windows-д Git Repository тохируулах](#windows-д-git-repository-тохируулах)
-- [Mac-д Git Repository тохируулах](#macos-д-git-repository-тохируулах)
-
 ## Git анхан шатны үйлдлүүд:
 
 Git хувилбар хянах иж бүрдэл командуудыг олгодог. Цөөн үндсэн хэдийн жишээнд:
