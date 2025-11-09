@@ -1,13 +1,5 @@
 # Remote(зайны) Repository-тэй Хамтран Ажиллах
 
-- [Remote repository тохируулах (Github, GitLab, Bitbucket)](#remote-repository-тохируулах-github-gitlab-bitbucket)
-- [Github](#github)
-- [GitLab](#gitlab)
-- [Bitbucket](#bitbucket)
-- [Өөрчлөлтийг remote repository руу Push(түлхэх) and Pull(татах)](<#өөрчлөлтийг-remote-repository-руу-push(түлхэх)-and-pull(татах)>)
-- [Merge Conflict Зохицуулах](#merge-conflict-зохицуулах)
-- [Зөв хэвшил](#зөв-хэвшил)
-
 ## Remote repository тохируулах (Github, GitLab, Bitbucket)
 
 Программ хөгжүүлэлтийн ертөнцөд хувилбар хяналтын систем маш чухал үүрэгтэй. Жишээ нь: Кодын repository удирдах, хамтын ажиллагааг дэмжих, багт төвөггүй ажлын урсгал бий болгох гэх мэт. GitHub, GitLab, Bitbucket гэх мэт платформууд дээр байрлуулсан remote repository хөгжүүлэгчдэд кодоо хадгалах, удирдах болон хуваалцах төвлөрсөн байршил бий болгодог. Энэ нийтлэлд бид эдгээр платформууд дээр хэрхэн remote repository тохируулах алхам бүрийг судална.
