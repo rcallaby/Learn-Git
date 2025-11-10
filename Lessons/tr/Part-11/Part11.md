@@ -1,10 +1,3 @@
-# İçindekiler  
-
-- [Gelişmiş GitHub Actions](#gelismis-github-actions)  
-- [GitHub Actions Nedir?](#github-actions-nedir)  
-- [GitHub Actions’ın Gelişmiş Özellikleri](#github-actionsin-gelismis-ozellikleri)  
-- [GitHub Actions’ı Çalışma Akışınıza Eklemeyi Neden Düşünmelisiniz?](#github-actions-calısma-akisiniza-eklemeyi-neden-dusunmelisiniz)  
-
 # Gelişmiş GitHub Actions  
 
 GitHub Actions, geliştiricilerin geliştirme süreçlerini otomatikleştirerek iş akışlarını kolaylaştırmalarına olanak tanıyan güçlü bir otomasyon platformudur. Bireysel bir geliştirici veya bir ekibin parçası olun, GitHub Actions üretkenliğinizi önemli ölçüde artırabilir ve kod tabanınızın kalitesini iyileştirebilir. Bu makalede, GitHub Actions’ın gelişmiş özelliklerini, bunlarla neler başarabileceğinizi ve neden geliştirme sürecinize entegre etmeniz gerektiğini inceleyeceğiz.  

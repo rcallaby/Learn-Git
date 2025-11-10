@@ -1,16 +1,3 @@
-## İçindekiler
-- [Ruby on Rails Codespaces](#ruby-on-rails-codespaces)
-  - [Gereksinimler](#gereksinimler)
-    - [Ruby on Rails Codespaces'e Başlangıç](#ruby-on-rails-codespaces-e-baslangic)
-    - [Örnek: Codespaces'te basit bir Rails uygulaması oluşturma](#ornek-codespaces-te-basit-bir-rails-uygulamasi-olusturma)
-    - [Ekip Üyeleriyle İşbirliği](#ekip-uyeleriyle-isbirligi)
-    - [Etkili işbirliği için şu adımları izleyin](#etkili-isbirligi-icin-su-adimlari-izleyin)
-- [Sonuç](#sonuc)
-  - [Ruby on Rails İçin Codespaces Kullanarak Github Actions](#ruby-on-rails-icin-codespaces-kullanarak-github-actions)
-    - [Sürekli Entegrasyon (CI): Kod deposuna kod itildiğinde testleri ve kontrolleri çalıştıran bir iş akışı ayarlayın.](#surekli-entegrasyon-ci-kod-deposuna-kod-itildiginde-testleri-ve-kontrolleri-calistiran-bir-is-akisi-ayarlayin)
-    - [Otomatik Dağıtım: Ana dal (main) şubesine değişiklikler itildiğinde Rails uygulamanızı otomatik olarak bir barındırma platformuna dağıtın.](#otomatik-dagitim-ana-dal-main-subesine-degisiklikler-itildiginde-rails-uygulamanizi-otomatik-olarak-bir-barindirma-platformuna-dagitin)
-    - [Zamanlanmış Görevler: GitHub Actions kullanarak belirli aralıklarla veri tabanı yedekleme gibi görevleri çalıştırın.](#zamanlanmis-gorevler-github-actions-kullanarak-belirli-araliklarla-veri-tabani-yedekleme-gibi-gorevleri-calistirin)
-
 # Ruby on Rails Codespaces
 
 GitHub Codespaces, geliştiricilerin projelerini doğrudan GitHub web arayüzünde kodlamalarına, derlemelerine ve test etmelerine olanak tanıyan güçlü bir bulut tabanlı geliştirme ortamıdır. Ruby on Rails geliştiricileri, Codespaces'i kullanarak geliştirme iş akışlarını kolaylaştırabilir, yerel kurulum ihtiyacını ortadan kaldırabilir ve ekip işbirliği için tutarlı bir geliştirme ortamı sağlayabilir. Bu makalede, GitHub'da Ruby on Rails Codespaces'i nasıl kuracağınızı ve kullanacağınızı keşfedeceğiz ve başlamanıza yardımcı olacak bazı örnekler sunacağız.

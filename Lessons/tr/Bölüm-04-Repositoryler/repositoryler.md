@@ -1,13 +1,5 @@
 # Uzak Repository'lerle İşbirliği
 
-- [Uzak repository'leri kurma (Github, GitLab, Bitbucket)](#uzak-repositoryleri-kurma-github-gitlab-bitbucket)
-- [Github](#github)
-- [GitLab](#gitlab)
-- [Bitbucket](#bitbucket)
-- [Uzak repository'lerden değişiklikleri push ve pull etme](#uzak-repositorylerden-değişiklikleri-push-ve-pull-etme)
-- [Birleştirme çakışmalarını yönetme](#birleştirme-çakışmalarını-yönetme)
-- [En İyi Uygulamalar](#en-iyi-uygulamalar)
-
 ## Uzak repository'leri kurma (GitHub, GitLab, Bitbucket)
 
 Yazılım geliştirme dünyasında, sürüm kontrol sistemleri kod repository'lerini yönetmek, işbirliğini kolaylaştırmak ve ekip üyeleri arasında sorunsuz bir iş akışı sağlamak için çok önemli bir rol oynar. GitHub, GitLab ve Bitbucket gibi platformlarda barındırılan uzak repository'ler, geliştiricilere kodlarını depolamak, yönetmek ve paylaşmak için merkezi bir konum sunar. Bu makalede, bu platformların her birinde uzak repository kurmanın adım adım sürecini inceleyeceğiz.

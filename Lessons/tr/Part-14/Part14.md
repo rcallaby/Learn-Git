@@ -1,18 +1,6 @@
 # React Codespaces  
 
-## İçindekiler  
-- [Giriş](#giriş)  
-- [React Codespaces Nedir?](#react-codespaces-nedir)  
-  - [React Codespaces Kurulumu](#react-codespaces-kurulumu)  
-  - [React Codespaces Kullanımı](#react-codespaces-kullanımı)  
-- [Sonuç](#sonuç)  
-- [React Codespaces ve GitHub Actions Kullanımı](#react-codespaces-ve-github-actions-kullanımı)  
-  - [Test İçeren Sürekli Entegrasyon (CI)](#test-içeren-sürekli-entegrasyon-ci)  
-  - [Pull Request ile Kod İncelemesi](#pull-request-ile-kod-incelemesi)  
-  - [Otomatik Versiyonlama ile Kod Yönetimi](#otomatik-versiyonlama-ile-kod-yönetimi)  
-  - [Hata Ayıklama](#hata-ayıklama)  
-
-# Giriş  
+## Giriş  
 
 Yazılım geliştirme sürekli olarak evrim geçirirken, geliştirme ortamlarının oluşturulması ve yönetilmesi modern iş akışlarının kritik bir parçası haline gelmiştir. GitHub, sürüm kontrolü ve iş birliği için en önde gelen platformlardan biri olarak, "Codespaces" adlı güçlü bir özellik sunmuştur. Codespaces, geliştiricilerin GitHub depolarında doğrudan tamamen yapılandırılmış geliştirme ortamları oluşturmasına ve kullanmasına olanak tanır. Bu makalede, GitHub'da React Codespaces'in nasıl kullanılacağını inceleyeceğiz ve geliştiricilerin React uygulamalarını daha verimli bir şekilde yazmalarına, oluşturmalarına, test etmelerine ve hata ayıklamalarına nasıl yardımcı olacağını göstereceğiz.  
 

@@ -1,15 +1,3 @@
-# İçindekiler  
-
-- [GitHub'da Jupyter Codespaces Kullanımı](#githubda-jupyter-codespaces-kullanimi)<br>  
-- [Jupyter Codespaces ile Başlarken](#jupyter-codespaces-ile-baslarken)<br>  
-- [Codespaces Ortamını Anlamak](#codespaces-ortamini-anlamak)<br>  
-- [Jupyter Codespaces ile Etkileşimli Veri Analizi](#jupyter-codespaces-ile-etkilesimli-veri-analizi)<br>  
-- [Jupyter Codespaces ile İş Birliği Yapmak](#jupyter-codespaces-ile-is-birligi-yapmak)<br>  
-- [Hata Ayıklama ve Sorun Giderme](#hata-ayiklama-ve-sorun-giderme)<br>  
-- [Temizlik](#temizlik)  
-
----
-
 # GitHub'da Jupyter Codespaces Kullanımı  
 
 GitHub, sürüm kontrolü ve iş birliğine dayalı yazılım geliştirme için yaygın olarak kullanılan bir platformdur. Son yıllarda GitHub, geliştiricilerin ve veri bilimcilerin tarayıcılarından doğrudan tam işlevli geliştirme ortamları oluşturmasına olanak tanıyan güçlü bir özellik olan "Codespaces"ı tanıttı. Jupyter Codespaces, bu işlevselliğin üzerine inşa edilerek, etkileşimli veri analizi, makine öğrenimi ve kod geliştirme için mükemmel bir ortam sağlar. Bu makalede, GitHub'da Jupyter Codespaces kurma ve kullanma sürecini adım adım inceleyeceğiz, avantajlarını vurgulayacak ve örneklerle açıklayacağız.  

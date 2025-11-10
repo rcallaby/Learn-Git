@@ -1,22 +1,8 @@
-### İçindekiler
-- [GitHub Proje Panoları ve Notlarla İş Birliğini Maksimuma Çıkarmak](#github-proje-panolari-ve-notlarla-is-birligini-maksimuma-cikarmak)
-- [GitHub Proje Panolarını Anlamak](#github-proje-panolari-anlamak)
-  - [Bir GitHub Proje Panosu Oluşturma](#bir-github-proje-panosu-olusturma)
-- [Sütunları Özelleştirme](#sutunlari-ozellestirme)
-- [Kartları Ekleme ve Yönetme](#kartlari-ekleme-ve-yonetme)
-  - [Bir Kart Oluşturma](#bir-kart-olusturma)
-  - [Kartları Taşıma](#kartlari-tasima)
-- [Notları Kullanma](#notlari-kullanma)
-- [İş Birliği Özellikleri](#is-birligi-ozellikleri)
-- [Sonuç](#sonuc)
-
----
-
-### GitHub Proje Panoları ve Notlarla İş Birliğini Maksimuma Çıkarmak
+# GitHub Proje Panoları ve Notlarla İş Birliğini Maksimuma Çıkarmak
 
 GitHub Proje Yönetim Araçları, güçlü bir özellik seti sunar ve bunlar arasında en çok yönlü olanlardan biri de projelerinizi panolar ve notlarla organize etme yeteneğidir. Popüler Kanban tarzı proje yönetimine benzer bu özellik, ekiplerin ilerlemeyi görsel olarak takip etmesini, öncelikleri yönetmesini ve projeleri genel olarak net bir şekilde gözden geçirmesini sağlar. Bu makalede, GitHub Proje Panoları ve Notlarından en iyi şekilde nasıl faydalanacağınızı ayrıntılı olarak inceleyeceğiz.
 
----
+
 
 ### GitHub Proje Panolarını Anlamak
 

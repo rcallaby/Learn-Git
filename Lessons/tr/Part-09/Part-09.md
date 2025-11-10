@@ -1,8 +1,3 @@
-## İçindekiler  
-- [Github ve Codespaces](#github-ve-codespaces)  
-- [GitHub ile Çalışmaya Başlama](#github-ile-calismaya-baslama)  
-- [GitHub Codespaces'a Giriş](#github-codespacesa-giris)  
-
 # Github ve Codespaces  
 
 Yazılım geliştirme dünyasında, iş birliği ve sürüm kontrolü, projelerin düzenli bir şekilde yönetilmesini ve kod organizasyonunun sağlanmasını mümkün kılan temel unsurlardır. Popüler bir web tabanlı barındırma hizmeti olan GitHub, geliştiricilerin projeler üzerinde birlikte çalışma biçimini dönüştürmüştür. GitHub ile birlikte, Microsoft’un Codespaces hizmeti, güçlü ve kullanışlı bir bulut tabanlı geliştirme ortamı sunmaktadır. Bu makale, yeni başlayanlar için GitHub ve Codespaces’ı etkili bir şekilde kullanarak sürüm kontrolü ve iş birliği içinde kod yazmayı öğrenmelerine rehberlik edecektir.  

@@ -1,22 +1,3 @@
-# İçindekiler
-
-- [GitHub'un Proje Yönetim Araçlarını Etkili İşbirliği İçin Kullanma](#githubun-proje-yonetim-araclarini-etkili-isbirligi-icin-kullanma)  
-  - [1. GitHub Issues: Proje Yönetiminin Temeli](#1-github-issues-proje-yonetiminin-temeli)  
-    - [Issue Oluşturma](#issue-olusturma)  
-  - [2. Etiketler: Sorunları Kategorize Etme ve Önceliklendirme](#2-etiketler-sorunlari-kategorize-etme-ve-onceliklendirme)  
-    - [Etiket Oluşturma](#etiket-olusturma)  
-  - [3. Kilometre Taşları: Zaman İçinde İlerlemeyi Takip Etme](#3-kilometre-taslari-zaman-icinde-ilerlemeyi-takip-etme)  
-    - [Kilometre Taşı Oluşturma](#kilometre-tasi-olusturma)  
-  - [4. Projeler: Panolar ve Notlarla Çalışmaları Düzenleme](#4-projeler-panolar-ve-notlarla-calismalari-duzenleme)  
-    - [Proje Oluşturma](#proje-olusturma)  
-  - [5. Eylemler ve İş Akışları ile Otomasyon](#5-eylemler-ve-is-akislari-ile-otomasyon)  
-    - [Eylem (Action) Oluşturma](#eylem-action-olusturma)  
-  - [6. Pull Request'ler: Kod İnceleme ve Birleştirme](#6-pull-requestler-kod-inceleme-ve-birlestirme)  
-    - [Pull Request Oluşturma](#pull-request-olusturma)  
-- [Sonuç](#sonuc)  
-
----
-
 # GitHub'un Proje Yönetim Araçlarını Etkili İşbirliği İçin Kullanma  
 
 GitHub, sürüm kontrol yetenekleriyle tanınsa da, aynı zamanda yazılım geliştirme projelerinde işbirliğini artırmak, iş akışlarını düzenlemek ve ilerlemeyi takip etmek için tasarlanmış bir dizi proje yönetim aracı sunar. Bu araçlar, ekiplerin görevleri organize etmesine, öncelikleri yönetmesine ve projelerine net bir genel bakış sağlamasına yardımcı olabilir. Bu makalede, GitHub'un proje yönetim araçlarının çeşitli özelliklerini ve bunları en verimli şekilde nasıl kullanabileceğinizi ayrıntılı örneklerle inceleyeceğiz.  
