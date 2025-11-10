@@ -1,14 +1,6 @@
 # Git - Temel Gezinme
 
-- [Tanıtım](#tanıtım)
-- [BASH Terminalini Açma](#bash-terminalini-açma)
-- [Dizinlerde Gezinme](#dizinlerde-gezinme)
-- [Dizin Icerigini Listeleme](#dizin-icerigini-listeleme)
-- [Dizin Oluşturma ve Taşıma](#dizin-oluşturma-ve-kaldırma)
-- [Dosya Oluşturma ve Kaldırma](#dosya-oluşturma-ve-kaldırma)
-- [Sonuç](#sonuç)
-
-# Tanıtım:
+## Tanıtım:
 BASH terminali, kullanıcıların bilgisayarlarının dosya sisteminde gezinmelerine, çeşitli görevleri gerçekleştirmelerine ve Git gibi sürüm kontrol sistemleriyle etkileşim kurmalarına olanak tanıyan güçlü bir komut satırı arayüzüdür. Git, kod depolarındaki değişikliklerin verimli bir şekilde işbirliği ve izlenmesini sağlayan yaygın olarak kullanılan bir dağıtılmış sürüm kontrol sistemidir. Bu makalede, Git ile etkili bir şekilde çalışmak için BASH terminalindeki temel komutlarda nasıl gezinileceğini ve kullanılacağını inceleyeceğiz.
 
 ## BASH Terminalini Açma:

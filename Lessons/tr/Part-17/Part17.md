@@ -1,18 +1,3 @@
-# İçindekiler  
-- [GitHub'da Django Codespaces](#githubda-django-codespaces)  
-  - [Bölüm 1: GitHub Codespaces Nedir?](#bolum-1-github-codespaces-nedir)  
-  - [Bölüm 2: Ön Koşullar](#bolum-2-on-kosullar)  
-  - [Bölüm 3: Django için Bir Codespace Oluşturma](#bolum-3-django-icin-bir-codespace-olusturma)  
-  - [Bölüm 4: Django Codespaces ile Geliştirme](#bolum-4-django-codespaces-ile-gelistirme)  
-  - [Bölüm 5: Çevrimdışı Çalışma](#bolum-5-cevrimdisi-calisma)  
-- [Sonuç](#sonuc)  
-- [GitHub Actions ile Django Codespaces](#github-actions-ile-django-codespaces)  
-  - [Sürekli Entegrasyon (CI)](#surekli-entegrasyon-ci)  
-  - [Staging veya Production'a Dağıtım](#staging-veya-productiona-dagitim)  
-  - [Zamanlanmış Görevler](#zamanlanmis-gorevler)  
-
----
-
 # GitHub'da Django Codespaces  
 
 GitHub Codespaces, geliştiricilerin doğrudan tarayıcılarında kod yazmalarına, oluşturmalarına ve test etmelerine olanak tanıyan güçlü bir bulut tabanlı geliştirme ortamıdır. Yerel geliştirme kurulumuna olan ihtiyacı ortadan kaldırarak verimli ve sorunsuz bir kodlama deneyimi sunar. Bu makalede, GitHub'da Django Codespaces kurma ve kullanma sürecini adım adım öğrenecek, Django uygulamalarını kolay ve verimli bir şekilde geliştirebileceksiniz.  

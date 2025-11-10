@@ -1,14 +1,6 @@
 # Express Codespaces
 
-- [Giriş](#giriş)  
-- [Bölüm 1: Express Codespaces Kurulumu](#bölüm-1-express-codespaces-kurulumu)  
-- [Bölüm 2: Express Codespaces Ortamını Keşfetme](#bölüm-2-express-codespaces-ortamını-keşfetme)  
-- [Bölüm 3: Express Uygulamalarını Codespaces'te Geliştirme](#bölüm-3-express-uygulamalarını-codespaces'te-geliştirme)  
-- [Bölüm 4: İş Birliği ve Sürüm Kontrolü](#bölüm-4-iş-birliği-ve-sürüm-kontrolü)  
-- [Bölüm 5: Gelişmiş Özellikler ve Özelleştirmeler](#bölüm-5-gelişmiş-özellikler-ve-özelleştirmeler)  
-- [Sonuç](#sonuç)  
-
-# Giriş  
+## Giriş  
 
 GitHub Codespaces, geliştiricilerin doğrudan web tarayıcıları üzerinden kod yazmalarına, test etmelerine ve hata ayıklamalarına olanak tanıyan güçlü bir bulut tabanlı geliştirme ortamıdır. Express Codespaces, popüler Express framework'ünü kullanarak Node.js uygulamalarını sorunsuz ve verimli bir şekilde geliştirmek için tasarlanmış özel bir özelliktir. Bu makalede, Express Codespaces dünyasına dalarak nasıl kurulacağını, etkili bir şekilde nasıl kullanılacağını ve verimliliği artırmak için nasıl faydalanılacağını öğreneceğiz.  
 

@@ -1,12 +1,5 @@
 # Github Actions
 
----
-- [GitHub Eylemlerini Kullanmanın Avantajları](#github-eylemlerini-kullanmanın-avantajları)
-
-- [GitHub Eylemlerini Kullanmanın Potansiyel Dezavantajları](#github-eylemlerini-kullanmanın-potansiyel-dezavantajları)
-
----
-
 GitHub Actions, GitHub tarafından sağlanan ve geliştiricilerin yazılım geliştirme iş akışlarındaki çeşitli görevleri otomatikleştirmelerine olanak tanıyan güçlü bir otomasyon platformudur. Derleme, test, dağıtım ve diğer görevleri gerçekleştirmek için esnek ve özelleştirilebilir bir yol sunar ve bunların tümü push'lar, çekme istekleri, sorun güncellemeleri vb. gibi belirli olaylar tarafından tetiklenir. Bu makale, iş akışınızı kolaylaştırmak için GitHub Actions kullanmanın faydalarını ve dikkate alınması gereken bazı potansiyel dezavantajları inceleyecektir.
 
 ### GitHub Eylemlerini Kullanmanın Avantajları

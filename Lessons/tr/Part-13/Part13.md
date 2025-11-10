@@ -1,12 +1,3 @@
-## İçindekiler
-
-- [GitHub'da C# Codespaces Kullanımı](#githubda-c-codespaces-kullanımı)  
-    - [Ön Koşullar](#ön-koşullar)  
-    - [C# Codespaces ile Çalışma](#c-codespaces-ile-çalışma)  
-    - [Codespaces ile İşbirlikçi Geliştirme](#codespaces-ile-i̇şbirlikçi-geliştirme)  
-- [C# Codespaces İçin GitHub Actions Kullanımı](#c-codespaces-için-github-actions-kullanımı)  
-    - [Bir Codespace Yapılandırma Dosyası Oluşturma](#bir-codespace-yapılandırma-dosyası-oluşturma)  
-
 # GitHub'da C# Codespaces Kullanımı  
 
 GitHub Codespaces, geliştiricilerin doğrudan GitHub deposu içinde kod yazmalarını, derlemelerini, test etmelerini ve hata ayıklamalarını sağlayan bulut tabanlı bir geliştirme ortamıdır. Takım üyeleriyle işbirliği yapmayı ve projeler üzerinde çalışmayı, karmaşık kurulum veya yapılandırmaya ihtiyaç duymadan kolaylaştırır. Codespaces ile tarayıcınızdan tam yapılandırılmış bir geliştirme ortamına erişebilir, böylece kodunuz üzerinde her yerden çalışabilirsiniz.  

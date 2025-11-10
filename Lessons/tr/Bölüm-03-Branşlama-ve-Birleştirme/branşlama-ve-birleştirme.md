@@ -1,12 +1,6 @@
 # Branşlama ve Birleştirme
 
-- [Branşlara ve amaçlarına giriş](#branşlara-ve-amaçlarına-giriş)
-- [Branşlar oluşturma ve bunlar arasında geçiş yapma](#branşlar-oluşturma-ve-bunlar-arasında-geçiş-yapma)
-- [Branş geçmişini yönetme ve değişiklikleri birleştirme](#branş-geçmişini-yönetme-ve-değişiklikleri-birleştirme)
-- [Merge çakışmalarının işlenmesi](#merge-çakışmalarının-işlenmesi)
-- [Sonuç](#sonuç)
-
-# Branşlara ve amaçlarına giriş:
+## Branşlara ve amaçlarına giriş:
 
 Yazılım geliştirme alanında Git dalları, kod evrimini ve işbirliğini yönetmek için vazgeçilmez araçlardır. Git'teki bir dal, esasen bir deponun kayıt geçmişindeki belirli bir kayıt için hafif, taşınabilir bir işaretçidir. Geliştiriciler dalları kullanarak, bir projenin farklı yönleri üzerinde aynı anda çalışabilir, yeni özellikler veya düzeltmeler deneyebilir ve ana kod tabanını etkilemeden değişiklikleri izole edebilir. Bu makale, Git dallarının karmaşıklıklarını inceleyecek ve bunların oluşturulmasını, değiştirilmesini, geçmiş yönetimini ve birleştirme çatışmalarının işlenmesini kapsayacaktır.
 

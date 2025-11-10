@@ -1,11 +1,5 @@
 # Git'in Tarihçesi ve Temelleri
 
-- [Tanıtım](#tanıtım)
-- [Git'i Kim Oluşturdu](#giti-kim-oluşturdu)
-- [Git'in Oluşturulma Nedeni](#gitin-oluşturulma-nedeni)
-- [Git'e Alternatifler](#gite-alternatifler)
-- [Depolama alanlarınızı ücretsiz olarak nerede saklayabilirsiniz?](#depolama-alanlarınızı-ücretsiz-olarak-nerede-saklayabilirsiniz)
-
 # Tanıtım
 
 Git, Linus Torvalds tarafından 2005 yılında oluşturulan dağıtılmış bir sürüm kontrol sistemidir. Git, geçmişi Team Foundation Sürüm Kontrolü, Perforce veya Subversion gibi merkezi sürüm kontrol sistemlerinden (CVCS) temelde farklı bir şekilde temsil eder. Merkezi sistemler, bir depoda her dosya için ayrı bir geçmiş depolar. Git, geçmişi tüm deponun anlık görüntülerinden oluşan bir grafik olarak depolar. Git'te commits olarak adlandırılan bu anlık görüntülerin birden fazla üst öğesi olabilir ve düz bir çizgi yerine bir grafiğe benzeyen bir geçmiş oluşturur. Geçmişteki bu fark inanılmaz derecede önemlidir ve CVCS'ye aşina olan kullanıcıların Git'i kafa karıştırıcı bulmasının ana nedenidir.

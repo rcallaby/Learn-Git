@@ -1,10 +1,5 @@
 # Git'i Başlatma - Başlangıç  
 
-- [Temel Git İşlemleri](#temel-git-işlemleri)
-- [Linux'ta Bir Git Deposu Kurma](#linuxta-bir-git-deposu-kurma)  
-- [Windows'ta Bir Git Deposu Kurma](#windowsta-bir-git-deposu-kurma)  
-- [Mac'te Bir Git Deposu Kurma](#macte-bir-git-deposu-kurma)  
-
 ## Temel Git İşlemleri:  
 Git, sürüm kontrolü için geniş bir komut yelpazesi sunar, ancak işte en temel olanlardan bazıları:  
 
