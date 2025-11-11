@@ -1,15 +1,3 @@
-# 目次
-- [GitHubプロジェクトボードとノートを活用する](#maximizing-collaboration-with-github-project-boards-and-notes)
-- [GitHubプロジェクトボードの理解](#understanding-github-project-boards)
-  - [GitHubプロジェクトボードの作成](#creating-a-github-project-board)
-- [列のカスタマイズ](#customizing-columns)
-- [カードの追加と管理](#adding-and-managing-cards)
-  - [カードの作成](#creating-a-card)
-  - [カードの移動](#moving-cards)
-- [ノートの利用](#utilizing-notes)
-- [協力機能](#collaborative-features)
-- [結論](#conclusion)
-
 # GitHubプロジェクトボードとノートを活用する
 
 GitHubプロジェクト管理ツールには強力な機能が備わっており、その中でも最も汎用性の高いのはボードとノートを使った作業の整理です。この機能は、人気のあるカンバンスタイルのプロジェクト管理に似ており、チームが進捗状況を視覚的に追跡し、優先順位を管理し、プロジェクトの明確な概要を維持することができます。本記事では、GitHubプロジェクトボードとノートを最大限に活用する方法について詳しく探っていきます。

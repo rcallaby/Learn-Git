@@ -1,10 +1,3 @@
-Here is the translation of your text into Japanese:
-
-- [高度なGitHub Actions](#高度なgithub-actions)
-- [GitHub Actionsとは](#github-actionsとは)
-- [GitHub Actionsの高度な機能](#github-actionsの高度な機能)
-- [なぜGitHub Actionsをワークフローに追加するのか?](#なぜgithub-actionsをワークフローに追加するのか)
-
 # 高度なGitHub Actions
 
 GitHub Actionsは、開発者がさまざまなタスクやプロセスを自動化することで、開発ワークフローを効率化できる強力な自動化プラットフォームです。個人開発者であれチームの一員であれ、GitHub Actionsは生産性を大幅に向上させ、コードベースの品質を改善することができます。この記事では、GitHub Actionsの高度な機能、それらを使って達成できること、およびなぜ開発ワークフローに統合すべきかを探ります。

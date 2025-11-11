@@ -1,16 +1,3 @@
-# 目次
-- [GitHub での Django Codespaces](#github-での-django-codespaces)
-  - [セクション 1: GitHub Codespaces とは何ですか？](#セクション-1-github-codespaces-とは何ですか)
-  - [セクション 2: 必要なもの](#セクション-2-必要なもの)
-  - [セクション 3: Django 用の Codespace を作成する](#セクション-3-django-用の-codespace-を作成する)
-  - [セクション 4: Django Codespaces での開発](#セクション-4-django-codespaces-での開発)
-  - [セクション 5: オフラインでの作業](#セクション-5-オフラインでの作業)
-- [結論](#結論)
-- [Django Codespaces での GitHub Actions](#django-codespaces-での-github-actions)
-  - [継続的インテグレーション（CI）](#継続的インテグレーション-ci)
-  - [ステージングまたは本番へのデプロイ](#ステージングまたは本番へのデプロイ)
-  - [定期的なタスク](#定期的なタスク)
-
 # GitHub での Django Codespaces
 
 GitHub Codespaces は、開発者がブラウザ内で直接コードを記述し、アプリケーションを構築してテストできる強力なクラウドベースの開発環境です。ローカル開発環境のセットアップが不要になるため、効率的でシームレスなコーディング体験を提供します。この記事では、GitHub で Django Codespaces を設定して使用するプロセスを解説し、Django アプリケーションを簡単かつ便利に開発できるようにします。

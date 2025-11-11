@@ -1,12 +1,5 @@
 # ブランチとマージの基本
 
-## 目次
-- [ブランチとその目的の紹介](#introduction-to-branches-and-their-purpose)
-- [ブランチの作成と切り替え](#creating-and-switching-between-branches)
-- [ブランチの履歴の管理と変更のマージ](#managing-branch-history-and-merging-changes)
-- [マージの衝突の処理](#handling-merge-conflicts)
-- [結論](#conclusion)
-
 ## ブランチとその役割
 
 ソフトウェア開発において、Gitのブランチ機能は非常に重要です。ブランチは、リポジトリの特定のコミットを指す軽量なポインタです。これを使うことで、開発者たちは以下のことが可能になります
