@@ -1,15 +1,3 @@
-Sure, here is the translation of the provided text into Japanese:
-
-# 目次
-
-- [GitHubでのJupyter Codespacesの使用](#using-juypter-codespaces-in-github)<br>
-- [Jupyter Codespacesの開始](#getting-started-with-jupyter-codespaces)<br>
-- [Codespaces環境の理解](#understanding-the-codespaces-environment)<br>
-- [Jupyter Codespacesによるインタラクティブなデータ分析](#interactive-data-analysis-with-jupyter-codespaces)<br>
-- [Jupyter Codespacesでのコラボレーション](#collaborating-with-jupyter-codespaces)<br>
-- [デバッグとトラブルシューティング](#debugging-and-troubleshooting)<br>
-- [クリーンアップ](#cleaning-up)
-
 # GitHubでのJupyter Codespacesの使用
 
 GitHubはバージョン管理と共同ソフトウェア開発のための広く使用されているプラットフォームです。近年、GitHubは「Codespaces」という強力な機能を導入しました。これは、開発者やデータサイエンティストがブラウザ内で完全な開発環境を作成できるようにするものです。この機能を基に構築されたJupyter Codespacesは、インタラクティブなデータ分析、機械学習、コード開発のための優れた環境を提供します。この記事では、GitHubでJupyter Codespacesを設定して使用する手順を説明し、その利点を強調し、具体的な例を提供します。

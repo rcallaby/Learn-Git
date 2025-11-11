@@ -1,16 +1,6 @@
-Here is the translation of your document into Japanese:
-
 # Express Codespaces
 
-- [はじめに](#はじめに)
-- [セクション1: Express Codespacesのセットアップ](#セクション1-express-codespacesのセットアップ)
-- [セクション2: Express Codespaces環境の探索](#セクション2-express-codespaces環境の探索)
-- [セクション3: CodespacesでのExpressアプリケーション開発](#セクション3-codespacesでのexpressアプリケーション開発)
-- [セクション4: コラボレーションとバージョン管理](#セクション4-コラボレーションとバージョン管理)
-- [セクション5: 高度な機能とカスタマイズ](#セクション5-高度な機能とカスタマイズ)
-- [結論](#結論)
-
-# はじめに:
+## はじめに:
 
 GitHub Codespacesは、開発者がウェブブラウザ内で直接コードを書き、テストし、デバッグできる強力なクラウドベースの開発環境です。Express Codespacesは、人気のあるExpressフレームワークを使用したNode.jsアプリケーションのシームレスで効率的な開発体験を提供する特定の機能に焦点を当てています。この記事では、Express Codespacesの世界に入り込み、そのセットアップ方法、効果的な使用方法、および生産性を向上させるための活用方法を学びます。
 

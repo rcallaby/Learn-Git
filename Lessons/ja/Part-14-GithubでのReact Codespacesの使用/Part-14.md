@@ -1,18 +1,6 @@
 # React Codespaces
 
-## 目次
-- [はじめに](#introduction)
-- [React Codespacesとは何ですか？](#what-are-react-codespaces)
-  - [React Codespacesのセットアップ](#setting-up-react-codespaces)
-  - [React Codespacesの使用方法](#using-react-codespaces)
-- [結論](#conclusion)
-- [GitHub Actionsを使用したReact Codespacesの利用](#using-react-codespaces-with-github-actions)
-  - [テストを伴う継続的インテグレーション（CI）](#continuous-integration-ci-with-testing)
-  - [プルリクエストによるコードレビュー](#code-review-with-pull-requests)
-  - [自動バージョニングによるコード管理](#code-management-with-automated-versioning)
-  - [デバッグ](#debugging)
-
-# はじめに
+## はじめに
 
 ソフトウェア開発が進化し続ける中で、開発環境の作成とメンテナンスは現代のワークフローにおいて重要な要素となっています。バージョン管理とコラボレーションのための主要プラットフォームの1つであるGitHubは、「Codespaces」と呼ばれる強力な機能を導入しました。Codespacesを使用すると、開発者はGitHubリポジトリ内で完全に構成された開発環境を設定して使用できます。この記事では、GitHubでReact Codespacesを使用する方法を探究します。これにより、開発者はReactアプリケーションをより効率的に記述、構築、テスト、デバッグすることができます。
 
