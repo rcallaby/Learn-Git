@@ -1,16 +1,3 @@
-## Содержание
-- [Пространства кода Ruby on Rails](#ruby-on-rails-codespaces)
-  - [Предварительные требования](#prerequisites)
-    - [Начало работы с пространствами кода Ruby on Rails](#getting-started-with-ruby-on-rails-codespaces)
-    - [Пример: Создание простого приложения Rails в пространствах кода](#example-creating-a-simple-rails-app-in-codespaces)
-    - [Совместная работа с членами команды](#collaborating-with-team-members)
-    - [Для эффективного сотрудничества следуйте этим шагам](#to-collaborate-effectively-follow-these-steps)
-- [Заключение](#conclusion)
-  - [GitHub Actions для Ruby on Rails с использованием пространств кода](#github-actions-for-ruby-on-rails-using-codespaces)
-    - [Непрерывная интеграция (CI): Настройка рабочего процесса для запуска тестов и проверок при каждом пуше кода в ваш репозиторий.](#continuous-integration-ci-set-up-a-workflow-to-run-tests-and-checks-whenever-code-is-pushed-to-your-repository)
-    - [Автоматическое развертывание: Автоматическое развертывание вашего приложения Rails на хостинговую платформу при пуше изменений в основную ветку.](#automated-deployment-automatically-deploy-your-rails-application-to-a-hosting-platform-when-changes-are-pushed-to-the-main-branch)
-    - [Запланированные задачи: Запуск периодических задач, таких как резервное копирование базы данных, с использованием запланированных действий GitHub.](#scheduled-tasks-run-periodic-tasks-such-as-database-backups-using-scheduled-github-actions)
-
 # Ruby on Rails Codespaces
 
 Пространства кода GitHub - это мощная облачная среда разработки, которая позволяет разработчикам писать, собирать и тестировать свои проекты непосредственно в интерфейсе веб-сайта GitHub. Разработчики Ruby on Rails могут использовать пространства кода для оптимизации своего рабочего процесса, избавляясь от необходимости установки локальных сред разработки и обеспечивая однородную среду разработки для совместной работы в команде. В этой статье мы рассмотрим, как настроить и использовать пространства кода Ruby on Rails в GitHub, а также предоставим несколько примеров, чтобы помочь вам начать.
