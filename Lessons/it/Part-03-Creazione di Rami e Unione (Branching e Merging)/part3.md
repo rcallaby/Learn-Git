@@ -30,7 +30,15 @@ I branch servono come ambienti isolati in cui gli sviluppatori possono lavorare 
 
 Quando le modifiche su un branch sono complete e pronte per l'integrazione, entra in gioco il merge. Il merge è il processo di combinare le modifiche apportate in un branch in un altro. Per unire le modifiche da un branch (ad esempio, "feature-branch") nel branch principale, gli sviluppatori possono eseguire il comando git merge feature-branch mentre sono sul branch principale. Questa azione integra le modifiche da "feature-branch" nel branch principale, combinando le storie dei commit.
 
-<img alt="Infografica su branching e merging di Git" src="../../../images/Part-03/branching-and-merging.png" />
+```mermaid
+graph TD
+    A[Main Branch] -->|Commit 1| B
+    B -->|Commit 2| C[Feature Branch]
+    C -->|Commit 3| D
+    D -->|Commit 4| E
+    E -->|Merge| F
+    B -->|Merge| F
+```
 
 ### Gestione dei conflitti di merge:
 
