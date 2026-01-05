@@ -28,7 +28,15 @@ Branşlar, geliştiricilerin belirli özellikler veya hata düzeltmeleri üzerin
 
 Bir branştaki değişiklikler tamamlandığında ve entegrasyon için hazır olduğunda, birleştirme devreye girer. Birleştirme, bir branşta yapılan değişiklikleri başka bir branşa birleştirme işlemidir. Bir branşta (ör. “feature-branch”) yapılan değişiklikleri ana branşa birleştirmek için, geliştiriciler ana branşta iken git merge feature-branch komutunu çalıştırabilirler. Bu işlem, “feature-branch” branşındaki değişiklikleri ana branşa entegre ederek commit geçmişlerini birleştirir.
 
-<img alt="Git branching and merging infographic" src="../../../images/Part-03/branching-and-merging.png" />
+```mermaid
+graph TD
+    A[Main Branch] -->|Commit 1| B
+    B -->|Commit 2| C[Feature Branch]
+    C -->|Commit 3| D
+    D -->|Commit 4| E
+    E -->|Merge| F
+    B -->|Merge| F
+```
 
 ### Merge çakışmalarının işlenmesi:
 
