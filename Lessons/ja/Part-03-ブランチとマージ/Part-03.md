@@ -47,6 +47,16 @@ git checkout main
 git merge feature-branch
 ```
 
+```mermaid
+graph TD
+    A[Main Branch] -->|Commit 1| B
+    B -->|Commit 2| C[Feature Branch]
+    C -->|Commit 3| D
+    D -->|Commit 4| E
+    E -->|Merge| F
+    B -->|Merge| F
+```
+
 この操作により、「feature-branch」の変更がメインブランチに統合され、コミット履歴が結合されます。
 
 ## マージ時の衝突解決
@@ -56,11 +66,7 @@ git merge feature-branch
 衝突が起きたファイルを開くと、Gitが衝突箇所を次のようなマーカーで明示します
 
 ```
-<<<<<<< HEAD
 現在のブランチの内容
-=======
-マージしようとしているブランチの内容
->>>>>>> feature-branch
 ```
 
 開発者はこれを見て、どちらの変更を採用するか、または両方を組み合わせるかを決めます。
