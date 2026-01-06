@@ -36,7 +36,15 @@ Branch нь тодорхой функционалийн болон алдаа з
 
 Branch дээр өөрчлөлт хийж дуусаад нэгтгэхэд бэлэн болсон үед "merge" гэгч орж ирнэ. Merge гэдэг нь нэг branch дээр хийсэн өөрчлөлтүүдийг нөгөө рүү нэгтгэх үйл явцыг хэлнэ. Нэг branch(жишээ нь: "feature-branch")-н өөрчлөлтүүдийг main branch руу нэгтгэхдээ `git merge feature-branch` командыг main branch-аас өгнө. Ингэснээр "feature-branch"-н өөрчлөлтүүд main branch-тай нэгдэж хоёр branch-н commit түүх ч нэгдэнэ.
 
-<img alt="Git branching and merging infographic" src="../../../images/Part-03/branching-and-merging.png" />
+```mermaid
+graph TD
+    A[Main Branch] -->|Commit 1| B
+    B -->|Commit 2| C[Feature Branch]
+    C -->|Commit 3| D
+    D -->|Commit 4| E
+    E -->|Merge| F
+    B -->|Merge| F
+```
 
 ### Нэгтгэлийн зөрчилдөөнийг(merge conflicts) зохицуулах:
 
