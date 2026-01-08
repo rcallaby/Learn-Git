@@ -91,13 +91,48 @@ git push origin main
 ```
 This command pushes the changes from the local branch "main" to the remote repository named "origin."
 
-<img alt="Git branching and merging infographic" src="../../../images/Part-04/push.jpeg" />
+```mermaid
+graph LR
+    subgraph Before_Pushing ["Before Pushing"]
+        B_C1((" ")) --> B_C2((" ")) --> B_C3((" ")) --> B_C4((" "))
+        style B_C1 fill:#76C776,stroke:#333
+        style B_C2 fill:#76C776,stroke:#333
+        style B_C3 fill:#76C776,stroke:#333
+        style B_C4 fill:#F7DC6F,stroke:#333
+
+        B_OriginMain[("Origin/main")] --> B_C2
+        style B_OriginMain fill:#96E6D1,stroke:#333
+
+        B_Main[("Main")] --> B_C4
+        style B_Main fill:#96E6D1,stroke:#333
+
+        B_GitHub(GitHub) --- B_C4
+        style B_GitHub fill:#C4C4C4,stroke:#333,shape:cloud
+    end
+
+    subgraph After_Pushing ["After Pushing"]
+        A_C1((" ")) --> A_C2((" ")) --> A_C3((" ")) --> A_C4((" "))
+        style A_C1 fill:#76C776,stroke:#333
+        style A_C2 fill:#76C776,stroke:#333
+        style A_C3 fill:#76C776,stroke:#333
+        style A_C4 fill:#F7DC6F,stroke:#333
+
+        A_OriginMain[("Origin/main")] --> A_C4
+        style A_OriginMain fill:#96E6D1,stroke:#333
+
+        A_Main[("Main")] --> A_C4
+        style A_Main fill:#96E6D1,stroke:#333
+
+        A_GitHub(GitHub) --- A_C4
+        style A_GitHub fill:#C4C4C4,stroke:#333,shape:cloud
+    end
+```
 
 
-Pulling Changes from the Remote Repository
+#### Pulling Changes from the Remote Repository
 Pulling changes refers to the process of retrieving and integrating the latest changes from the remote repository into your local repository. This ensures that your local code is up-to-date with the most recent developments in the project.
 
-Follow these steps to pull changes:
+##### Follow these steps to pull changes:
 
 Step 1: Commit Local Changes
 Before pulling changes, it's best to commit your local changes to avoid conflicts during the pull process.
@@ -130,7 +165,26 @@ git merge origin/main
 
 ```
 
-<img alt="Git branching and merging infographic" src="../../../images/Part-04/fetch.jpeg" />
+```mermaid
+graph LR
+    %% Nodes
+    Remote[("Remote Repository")]
+    Local[("Local Repository")]
+    Working["Working Directory"]
+
+    %% Styling to match the image colors
+    style Remote fill:#0066FF,stroke:#333,color:#fff
+    style Local fill:#999999,stroke:#333,color:#000
+    style Working fill:#fff,stroke:#000,stroke-width:2px
+
+    %% Connections and Labels
+    Remote -- "git fetch" --> Local
+    Local -- "git merge" --> Working
+    Remote -- "git pull" --> Working
+
+    %% Adjusting layout for clarity
+    linkStyle 2 stroke-width:2px,stroke-dasharray: 5 5;
+```
 
 This command merges the changes from the remote branch "main" into your local branch.
 
@@ -214,7 +268,43 @@ This command pushes your local branch "feature/new-feature" to the remote reposi
 Step 4: Collaborate with Others
 Once your branch is on the remote repository, other developers can review your changes, provide feedback, or even collaborate with you on the same branch.
 
-<img alt="Git branching and merging infographic" src="../../../images/Part-04/push-branch.jpeg" />
+```mermaid
+
+graph TD
+    %% Central Repository
+    XYZ_Repo(["XYZ's Repo<br/>GitHub<br/>github.com/xyz/repo"])
+    style XYZ_Repo fill:#C4C4C4,stroke:#333
+
+    %% Rajiv's Workflow
+    subgraph Rajiv_Env ["Rajiv's Workflow"]
+        Rajiv_Fork["Rajiv (Fork)<br/>github.com/rajiv/repo"]
+        Rajiv_PC["Rajiv's PC"]
+        
+        style Rajiv_Fork fill:#FFF9C4,stroke:#333
+        style Rajiv_PC fill:#fff,stroke:#333
+    end
+
+    %% Divyam's Workflow
+    subgraph Divyam_Env ["Divyam's Workflow"]
+        Divyam_Fork["Divyam (Fork)<br/>github.com/divyam/repo"]
+        Divyam_PC["Divyam's PC"]
+        
+        style Divyam_Fork fill:#FFF9C4,stroke:#333
+        style Divyam_PC fill:#fff,stroke:#333
+    end
+
+    %% Relationships for Rajiv
+    XYZ_Repo -- "Fork" --> Rajiv_Fork
+    Rajiv_PC -- "Push<br/>'git push origin rajiv'" --> Rajiv_Fork
+    Rajiv_Fork -- "Pull Request" --> XYZ_Repo
+
+    %% Relationships for Divyam
+    XYZ_Repo -- "Fork" --> Divyam_Fork
+    Divyam_PC -- "Push<br/>'git push origin divm'" --> Divyam_Fork
+    Divyam_Fork -- "Pull Request" --> XYZ_Repo
+
+```
+
 
 ## Understanding Pull Requests
 A pull request (PR) is a feature commonly found in Git hosting platforms like GitHub and Bitbucket. It is a formal request to merge changes from one branch into another, typically from a feature branch into the main branch.
@@ -319,7 +409,31 @@ git push origin my-feature-branch
 Creating a Pull Request:
 Once the changes are pushed, visit the repository on GitHub and create a pull request from your "my-feature-branch" to the main branch (e.g., master). This allows your teammates to review your changes before merging them into the main codebase.
 
-<img alt="Git branching and merging infographic" src="../../../images/Part-04/PR.jpeg" />
+```mermaid
+graph LR
+    %% Main Path
+    Repo[(Developer's Repo)] --- Start(( ))
+    Start -- "Main Timeline" --> CreateBranch((Create Branch))
+    CreateBranch -- "Main Timeline" --> MergedBranch((Merged Branch))
+    MergedBranch --> End(( ))
+
+    %% Branch Path
+    CreateBranch -.-> FeatureBranch((Feature Branch))
+    FeatureBranch -.-> Review["Unapproved Feature"]
+    Review -.-> Approved["Approved Feature"]
+    Approved -.-> MergedBranch
+
+    %% Process Label
+    CreateBranch -- "Create Pull Request" --> MergedBranch
+
+    %% Styling
+    style Repo fill:#6FB1FC,stroke:#333
+    style CreateBranch fill:#007BFF,stroke:#333,color:#fff
+    style FeatureBranch fill:#007BFF,stroke:#333,color:#fff
+    style MergedBranch fill:#007BFF,stroke:#333,color:#fff
+    style Review fill:#00D4FF,stroke:#333
+    style Approved fill:#00D4FF,stroke:#333
+```
 
 Review and Merge:
 The pull request will show the changes you made, and your team members can review the modifications. If everything looks good, a team lead or maintainer can merge the pull request into the main branch.
