@@ -22,7 +22,7 @@ Click on the below button to fork the repository which lies on the upper right c
 
 Clone the forked repository: After forking the repository, you'll need to clone it to your local machine. Cloning creates a copy of the repository on your computer that you can work on. To clone the repository, open a terminal window and enter the following command:
 
-```
+```bash
 git clone https://github.com/your-username/repository-name.git
 ```
 Be sure to replace "your-username" and "repository-name" with your GitHub username and the name of the repository you forked.
@@ -33,7 +33,7 @@ Be sure to replace "your-username" and "repository-name" with your GitHub userna
 
 Make sure you create a uniquely named branch to reflect the changes you wish to make to the source code. To make a branch use the following syntax:
 
-```
+```bash
 git branch "branch-name"
 ```
 ### Reference Image
@@ -41,7 +41,7 @@ git branch "branch-name"
 
 
 To switch on that branch use the following syntax :
-```
+```bash
 git checkout "branch-name"
 ```
 ### Reference Image
@@ -53,7 +53,7 @@ Make changes to the code: Once you have the repository cloned to your local mach
 
 Commit the changes: After making changes to the code, you'll need to commit them to your local repository. To do this, open a terminal window and navigate to the root of the cloned repository. Use the following command to stage the changes:
 
-```
+```bash
 git add .
 ```
 
@@ -64,7 +64,7 @@ This will stage all changes made to the files in the repository.
 
 Next, commit the changes using the following command:
 
-```
+```bash
 git commit -m "A brief description of the changes made"
 ```
 
@@ -75,7 +75,7 @@ Be sure to include a brief, informative message describing the changes you made.
 
 Push the changes to GitHub: After committing the changes to your local repository, you'll need to push them to GitHub. This will update the copy of the repository in your GitHub account with the changes you made. To push the changes, use the following command:
 
-```
+```bash
 git push origin branch-name
 ```
 
@@ -112,7 +112,7 @@ To do this, navigate to your forked repository on GitHub and click on the "Fetch
 
 Then, run the following command in your local repository to update it:
 
-```
+```bash
 git pull
 ```
 
@@ -150,12 +150,12 @@ Please look at the [First-Contributions](https://github.com/rcallaby/Learn-Git/t
 #### Translations of this tutorial
 You can find translations of this tutorial in many different languages below. Please keep in mind that some of these translations are a work in progress and haven't been fully completed yet.
 
-- Chinese (Simplified)
+- [Chinese (Simplified)](https://github.com/rcallaby/Learn-Git/blob/main/README_zhCN.md)
 - French
-- German
-- Hindi
-- Italian
-- Japanese
+- [German](https://github.com/rcallaby/Learn-Git/blob/main/README_de.md)
+- [Hindi](https://github.com/rcallaby/Learn-Git/blob/main/README_hi.md)
+- [Italian](https://github.com/rcallaby/Learn-Git/blob/main/README_it.md)
+- [Japanese](https://github.com/rcallaby/Learn-Git/blob/main/README_ja.md)
 - Mongolian
 - Russian
 - Spanish

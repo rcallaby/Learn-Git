@@ -9,7 +9,7 @@ Pour commencer, ouvrez votre terminal préférée. Sur la plupart des systèmes 
 ## Navigation à travers les Répertoires:
 
 La commande `pwd` signifie "Print Working Directory" et affiche le chemin du répertoire de travail.
-```commandline
+```bash
 pwd
 ```
 Cette commande n'a pas d'arguments ou d'options.
@@ -17,19 +17,19 @@ Cette commande n'a pas d'arguments ou d'options.
 La commande `cd` (abrégée de "change directory") est fondamentale pour naviguer dans le système de fichiers. Voici quelques exemples d'utilisation courante de `cd` :
 
 Pour vous déplacer dans un répertoire, utilisez `cd <répertoire>` (remplacez `<répertoire>` par le nom du répertoire désiré), par exemple :
-```
+```bash
 cd Documents
 ```
 Pour revenir d'un niveau dans le répertoire, tapez `cd ..`, par exemple :
-```
+```bash
 cd ..
 ```
 Pour aller dans votre répertoire personnel, utilisez `cd` ou `cd ~`, par exemple :
-```
+```bash
 cd ~
 ```
 Pour revenir au répertoire précédent, utilisez `cd -`, par exemple :
-```
+```bash
 cd -
 ```
 
@@ -37,21 +37,21 @@ cd -
 La commande `ls` est utilisée pour lister le contenu d'un répertoire. Par défaut, elle affiche les fichiers et répertoires dans le répertoire actuel. Quelques indicateurs utiles pour améliorer la fonctionnalité de `ls` :
 
 `ls -l` affiche le contenu sous forme de liste détaillée.
-```commandline
+```bash
 ls -l
 ```
 `ls -a` montre les fichiers et répertoires cachés.
-```commandline
+```bash
 ls -a
 ```
 `ls -h` fournit des tailles de fichier lisibles par l'homme.
-```commandline
+```bash
 ls -h
 ```
 `ls -R` liste les répertoires et leurs contenus de manière récursive.
-```commandline
+```bash
 ls -R
-
+```
 
 ## Création et Déplacement de Répertoires:
 Vous pouvez créer des répertoires en utilisant la commande `mkdir` suivie du nom du répertoire souhaité :
@@ -83,31 +83,31 @@ mv vieuxdossier nouveaudossier
 
 ## Création et Suppression de Fichiers:
 Vous pouvez créer un nouveau fichier en utilisant la commande `touch`.
-```commandline
+```bash
 touch nouveau_nom_de_fichier
 ```
 Ou dans un répertoire, comme par exemple :
-```commandline
+```bash
 touch repertoire/nouveau_nom_de_fichier
 ```
 Maintenant, supprimons un fichier en utilisant la commande `rm`.
-```commandline
+```bash
 rm nom_de_fichier
 ```
 Pour supprimer des répertoires et leurs contenus de manière récursive
-```commandline
+```bash
 rm -r nom_de_fichier
 ```
 Pour ignorer les fichiers et les arguments qui n'existent pas, sans jamais demander.
-```commandline
+```bash
 rm -f nom_de_fichier
 ```
 Pour montrer en mode verbeux tous les fichiers supprimés
-```commandline
+```bash
 rm -v nom_de_fichier
 ```
 Pour supprimer tous les fichiers à l'intérieur d'un répertoire.
-```commandline
+```bash
 rm *
 ```
 # Conclusion:
