@@ -94,7 +94,43 @@ git push origin main
 
 Este comando envía los cambios de la rama local "main" al repositorio remoto llamado "origin."
 
-![Infografía de ramificación y fusión de Git](../../../images/Part-04/push.jpeg)
+```mermaid
+graph LR
+    subgraph Before_Pushing ["Before Pushing"]
+        B_C1((" ")) --> B_C2((" ")) --> B_C3((" ")) --> B_C4((" "))
+        style B_C1 fill:#76C776,stroke:#333
+        style B_C2 fill:#76C776,stroke:#333
+        style B_C3 fill:#76C776,stroke:#333
+        style B_C4 fill:#F7DC6F,stroke:#333
+
+        B_OriginMain[("Origin/main")] --> B_C2
+        style B_OriginMain fill:#96E6D1,stroke:#333
+
+        B_Main[("Main")] --> B_C4
+        style B_Main fill:#96E6D1,stroke:#333
+
+        B_GitHub(GitHub) --- B_C4
+        style B_GitHub fill:#C4C4C4,stroke:#333,shape:cloud
+    end
+
+    subgraph After_Pushing ["After Pushing"]
+        A_C1((" ")) --> A_C2((" ")) --> A_C3((" ")) --> A_C4((" "))
+        style A_C1 fill:#76C776,stroke:#333
+        style A_C2 fill:#76C776,stroke:#333
+        style A_C3 fill:#76C776,stroke:#333
+        style A_C4 fill:#F7DC6F,stroke:#333
+
+        A_OriginMain[("Origin/main")] --> A_C4
+        style A_OriginMain fill:#96E6D1,stroke:#333
+
+        A_Main[("Main")] --> A_C4
+        style A_Main fill:#96E6D1,stroke:#333
+
+        A_GitHub(GitHub) --- A_C4
+        style A_GitHub fill:#C4C4C4,stroke:#333,shape:cloud
+    end
+```
+
 
 Traer Cambios desde el Repositorio Remoto
 Traer cambios se refiere al proceso de recuperar e integrar los últimos cambios del repositorio remoto en tu repositorio local. Esto asegura que tu código local esté actualizado con los desarrollos más recientes en el proyecto.
@@ -134,7 +170,26 @@ git merge origin/main
 
 Este comando fusiona los cambios de la rama remota "main" en tu rama local.
 
-![Infografía de ramificación y fusión de Git](../../../images/Part-04/fetch.jpeg)
+```mermaid
+graph LR
+    %% Nodes
+    Remote[("Remote Repository")]
+    Local[("Local Repository")]
+    Working["Working Directory"]
+
+    %% Styling to match the image colors
+    style Remote fill:#0066FF,stroke:#333,color:#fff
+    style Local fill:#999999,stroke:#333,color:#000
+    style Working fill:#fff,stroke:#000,stroke-width:2px
+
+    %% Connections and Labels
+    Remote -- "git fetch" --> Local
+    Local -- "git merge" --> Working
+    Remote -- "git pull" --> Working
+
+    %% Adjusting layout for clarity
+    linkStyle 2 stroke-width:2px,stroke-dasharray: 5 5;
+```
 
 #### Manejo de Conflictos en Merges
 A veces, al traer cambios, Git puede encontrar conflictos si las mismas líneas de código fueron modificadas tanto en el repositorio remoto como en tu repositorio local. En tales casos, Git no puede resolver automáticamente las diferencias y requiere intervención manual.
@@ -203,4 +258,38 @@ Para colaborar con otros, envía tu rama al repositorio remoto:
 
 ```bash
 git push origin <nombre_rama>
+```
+```mermaid
+graph TD
+    %% Central Repository
+    XYZ_Repo(["XYZ's Repo<br/>GitHub<br/>github.com/xyz/repo"])
+    style XYZ_Repo fill:#C4C4C4,stroke:#333
+
+    %% Rajiv's Workflow
+    subgraph Rajiv_Env ["Rajiv's Workflow"]
+        Rajiv_Fork["Rajiv (Fork)<br/>github.com/rajiv/repo"]
+        Rajiv_PC["Rajiv's PC"]
+        
+        style Rajiv_Fork fill:#FFF9C4,stroke:#333
+        style Rajiv_PC fill:#fff,stroke:#333
+    end
+
+    %% Divyam's Workflow
+    subgraph Divyam_Env ["Divyam's Workflow"]
+        Divyam_Fork["Divyam (Fork)<br/>github.com/divyam/repo"]
+        Divyam_PC["Divyam's PC"]
+        
+        style Divyam_Fork fill:#FFF9C4,stroke:#333
+        style Divyam_PC fill:#fff,stroke:#333
+    end
+
+    %% Relationships for Rajiv
+    XYZ_Repo -- "Fork" --> Rajiv_Fork
+    Rajiv_PC -- "Push<br/>'git push origin rajiv'" --> Rajiv_Fork
+    Rajiv_Fork -- "Pull Request" --> XYZ_Repo
+
+    %% Relationships for Divyam
+    XYZ_Repo -- "Fork" --> Divyam_Fork
+    Divyam_PC -- "Push<br/>'git push origin divm'" --> Divyam_Fork
+    Divyam_Fork -- "Pull Request" --> XYZ_Repo
 ```
