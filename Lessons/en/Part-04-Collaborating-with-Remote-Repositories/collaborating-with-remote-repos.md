@@ -269,7 +269,6 @@ Step 4: Collaborate with Others
 Once your branch is on the remote repository, other developers can review your changes, provide feedback, or even collaborate with you on the same branch.
 
 ```mermaid
-
 graph TD
     %% Central Repository
     XYZ_Repo(["XYZ's Repo<br/>GitHub<br/>github.com/xyz/repo"])
@@ -302,7 +301,6 @@ graph TD
     XYZ_Repo -- "Fork" --> Divyam_Fork
     Divyam_PC -- "Push<br/>'git push origin divm'" --> Divyam_Fork
     Divyam_Fork -- "Pull Request" --> XYZ_Repo
-
 ```
 
 
