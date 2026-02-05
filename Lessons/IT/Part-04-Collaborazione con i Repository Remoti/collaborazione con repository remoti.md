@@ -93,9 +93,44 @@ git push origin main
 
 Questo comando effettua push delle modifiche dal branch locale "main" al repository remoto denominato "origin".
 
-![Infografica su Git branching e merging](../../../images/Part-04/push.jpeg)
+```mermaid
+graph LR
+    subgraph Before_Pushing ["Before Pushing"]
+        B_C1((" ")) --> B_C2((" ")) --> B_C3((" ")) --> B_C4((" "))
+        style B_C1 fill:#76C776,stroke:#333
+        style B_C2 fill:#76C776,stroke:#333
+        style B_C3 fill:#76C776,stroke:#333
+        style B_C4 fill:#F7DC6F,stroke:#333
 
-Estrazione delle Modifiche dal Repository Remoto
+        B_OriginMain[("Origin/main")] --> B_C2
+        style B_OriginMain fill:#96E6D1,stroke:#333
+
+        B_Main[("Main")] --> B_C4
+        style B_Main fill:#96E6D1,stroke:#333
+
+        B_GitHub(GitHub) --- B_C4
+        style B_GitHub fill:#C4C4C4,stroke:#333,shape:cloud
+    end
+
+    subgraph After_Pushing ["After Pushing"]
+        A_C1((" ")) --> A_C2((" ")) --> A_C3((" ")) --> A_C4((" "))
+        style A_C1 fill:#76C776,stroke:#333
+        style A_C2 fill:#76C776,stroke:#333
+        style A_C3 fill:#76C776,stroke:#333
+        style A_C4 fill:#F7DC6F,stroke:#333
+
+        A_OriginMain[("Origin/main")] --> A_C4
+        style A_OriginMain fill:#96E6D1,stroke:#333
+
+        A_Main[("Main")] --> A_C4
+        style A_Main fill:#96E6D1,stroke:#333
+
+        A_GitHub(GitHub) --- A_C4
+        style A_GitHub fill:#C4C4C4,stroke:#333,shape:cloud
+    end
+```
+
+**Estrazione delle Modifiche dal Repository Remoto**
 Estrarre le modifiche è il processo di recupero e integrazione delle ultime modifiche dal repository remoto nel repository locale. Ciò assicura che il codice locale sia aggiornato con gli sviluppi più recenti del progetto.
 
 Segui questi passaggi per estrarre le modifiche:
