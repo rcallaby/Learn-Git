@@ -1,4 +1,5 @@
 # Aprende Git
+
 Aquí encontrarás un repositorio de muestra para mi serie de tutoriales en YouTube sobre cómo aprender Git y GitHub.
 Si te ha resultado útil este repositorio, por favor considera darle una estrella ⭐, ya que esto hará que otros lo encuentren más fácilmente.
 
@@ -120,36 +121,35 @@ Por favor revisa el directorio [First-Contributions](https://github.com/rcallaby
 
 ### Tabla de contenidos
 
-- [Parte 00 - Historia y Fundación](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-00-History-and-Foundations/history-of-git.md)
-- [Parte 01 - Navegación Básica](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-01-Basic-Navigation/basic-navigation.md)
-- [Parte 02 - Inicializando Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-02-Initializing-Git/getting-started.md)
-- [Parte 03 - Ramas y Fusiones](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-03-Branching-and-Merging/branching-and-merging.md)
-- [Parte 04 - Colaborando con Repositorios Remotos](https://github.com/rcallaby/Learn-Git/tree/main/Lessons/en/Part-04-Collaborating-with-Remote-Repositories/collaborating-with-remote-repos.md)
-- [Parte 05 - Conceptos Avanzados de Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-05-Advanced-Git-Concepts/advanced-git.md)
-- [Parte 06 - CI-CD con Git y GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-06-CI-CD-with-Git-and-Github/ci-cd-git-github.md)
-- [Parte 07 - Mejores Prácticas y Consejos para Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-07-Git-Best-Practices-and-Tips/best-practices-tips.md)
-- [Parte 08 - Git y GitHub en el Desarrollo Ágil](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-08-Git-and-Github-in-Agile-Development/git-github-agile-dev.md)
-- [Parte 09 - GitHub y Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-09-Github-and-Codespaces/github-codespaces.md)
-- [Parte 10 - Acciones de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-10-Github-Actions/github-actions.md)
-- [Parte 11 - Acciones Avanzadas de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-11-Advanced-Github-Actions/advanced-github-actions.md)
-- [Parte 12 - Usando Jupyter Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-12-Using-Jupyter-Codespaces-in-Github/github-jupyter-codespace.md)
-- [Parte 13 - Usando C# Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-13-Using%20Csharp-Codespaces-in-Github/github-Csharp-codespace.md)
-- [Parte 14 - Usando React Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-14-Using-React-Codespaces-in-Github/github-react-codespace.md)
-- [Parte 15 - Usando Express Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-15-Using-Express-Codespaces-in-Github/github-express-codespace.md)
-- [Parte 16 - Usando Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-16-Using-Ruby-on-Rails-Codespaces/github-rubyrails-codespace.md)
-- [Parte 17 - Usando Django Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-17-Using%20Django%20Codespaces-in-Github/github-django-codespace.md)
-- [Parte 18 - Herramientas de Gestión de Proyectos de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-18-Github-Project-Management-Tools/github-project-management-tools.md)
-- [Parte 19 - Tableros de Proyectos y Notas en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/en/Part-19-Github-Project-Boards-and-Notes/github-project-boards-and-notes.md)
+- [Parte 00 - Historia y Fundación](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-00-Historia-y-Fundamentos-de-Git/historia-de-git.md)
+- [Parte 01 - Navegación Básica](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-01-Navegaci%C3%B3n-B%C3%A1sica/navegac-%C3%B3n-b%C3%A1sica.md)
+- [Parte 02 - Inicializando Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-02-Inicializando-Git/primeros-pasos.md)
+- [Parte 03 - Ramas y Fusiones](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-03-Ramificaci%C3%B3n-y-Fusi%C3%B3n/ramificaci%C3%B3n-y-fusi%C3%B3n.md)
+- [Parte 04 - Colaborando con Repositorios Remotos](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-04-Colaborando-con-Repositorios-Remotos/colaboraci%C3%B3n-con%20-epositorios-remotos.md)
+- [Parte 05 - Conceptos Avanzados de Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-05-Conceptos-Avanzados-de-Git/git-avanzado.md)
+- [Parte 06 - CI-CD con Git y GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-06-CI-CD-con-Git-y-GitHub/ci-cd-git-GitHub.md)
+- [Parte 07 - Mejores Prácticas y Consejos para Git](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-07-Pr%C3%A1cticas-y-Consejos-%C3%93ptimos-de-Git/mejores-pr%C3%A1cticas.md)
+- [Parte 08 - Git y GitHub en el Desarrollo Ágil](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-08-Git-y-GitHub-en-Desarrollo-%C3%81gil/git-GitHub-desarrollo-%C3%A1gil.md)
+- [Parte 09 - GitHub y Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-09-GitHub-y-Codespaces/GitHub-codespaces.md)
+- [Parte 10 - Acciones de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-10-Acciones-de-GitHub/GitHub-actions.md)
+- [Parte 11 - Acciones Avanzadas de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-11-Acciones-Avanzadas-GitHub/acciones-avanzadas-de-GitHub.md)
+- [Parte 12 - Usando Jupyter Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-12-Usando-Jupyter-Codespaces-en-GitHub/GitHub-jupyter-codespace.md)
+- [Parte 13 - Usando C# Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-13-Usando-C%23-Codespaces-en-GitHub/GitHub-CSharp-codespace.md)
+- [Parte 14 - Usando React Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-14%20-%20Uso%20de%20React%20Codespaces%20en%20GitHub/GitHub-react-codespace.md)
+- [Parte 15 - Usando Express Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-15%20-%20Uso%20de%20Express%20Codespaces%20en%20GitHub/GitHub-express-codespace.md)
+- [Parte 16 - Usando Ruby on Rails Codespaces](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-16%20-%20Uso%20de%20Ruby%20on%20Rails%20Codespaces/GitHub-ruby-on-rails-codespaces.md)
+- [Parte 17 - Usando Django Codespaces en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-17%20-%20Uso%20de%20Django%20Codespaces%20en%20GitHub/GitHub-Django-codespace.md)
+- [Parte 18 - Herramientas de Gestión de Proyectos de GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-18%20-%20Herramientas%20de%20Gesti%C3%B3n%20de%20Proyectos%20en%20GitHub/herramientas-de-gesti%C3%B3n-de-proyectos-de-GitHub.md)
+- [Parte 19 - Tableros de Proyectos y Notas en GitHub](https://github.com/rcallaby/Learn-Git/blob/main/Lessons/ES/Parte-19%20-%20Tableros%20y%20Notas%20de%20Proyectos%20en%20GitHub/tableros-de-proyecto-y-notas-de-GitHub.md)
 
 #### Traducciones de este tutorial
 Puedes encontrar traducciones de este tutorial en varios idiomas a continuación. Ten en cuenta que algunas de estas traducciones están en progreso y no se han completado totalmente aún.
 
-Chino (Simplificado)  
-Francés  
-Alemán  
-Ruso  
-Español  
-Hindi  
-Italiano  
-Mongol  
-Japonés
+- Chino (Simplificado)  
+- Francés  
+- Alemán  
+- Ruso    
+- Hindi  
+- Italiano  
+- Mongol  
+- Japonés
