@@ -164,3 +164,6 @@ You can find translations of this tutorial in many different languages below. Pl
 
 #### Future of Hacktoberfest Events
 This repository **will no longer participate** in any Hacktoberfest events from now on. The reasons for this are numerous and honestly hard to really encapsulate in a single paragraph or two. Needless to say I am grateful for those that did participate in the Hacktoberfest events in the past and for those that have contributed to this repository outside of those events. Any volunteer submission is of course welcomed as long as you're not insistent that your changes be incorporated, especially if the contributions are out of scope or just spam.
+
+#### Huge news
+Glob is deprecated now. We're screwed!
