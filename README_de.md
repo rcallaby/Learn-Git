@@ -142,13 +142,12 @@ Schauen Sie sich bitte das [First-Contributions](https://github.com/rcallaby/Lea
 ### Übersetzungen dieses Tutorials  
 Unten findest du Übersetzungen dieses Tutorials in vielen verschiedenen Sprachen. Bitte beachte, dass einige dieser Übersetzungen noch in Arbeit sind und noch nicht vollständig abgeschlossen wurden.  
 
-- Chinesisch (Vereinfacht)  
-- Französisch  
-- Deutsch  
-- Hindi  
-- Italienisch  
-- Japanisch   
+- [Chinesisch (Vereinfacht)](https://github.com/rcallaby/Learn-Git/blob/main/README_zhCN.md)  
+- [Französisch](https://github.com/rcallaby/Learn-Git/blob/main/README_fr.md)  
+- [Hindi](https://github.com/rcallaby/Learn-Git/blob/main/README_hi.md)  
+- [Italienisch](https://github.com/rcallaby/Learn-Git/blob/main/README_it.md)  
+- [Japanisch](https://github.com/rcallaby/Learn-Git/blob/main/README_ja.md)   
 - Mongolisch  
-- Russisch  
-- Spanisch  
+- [Russisch](https://github.com/rcallaby/Learn-Git/blob/main/README_ru.md)  
+- [Spanisch](https://github.com/rcallaby/Learn-Git/blob/main/README_es.md)  
 - Türkisch  
