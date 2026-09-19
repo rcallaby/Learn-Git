@@ -1,4 +1,4 @@
-]633;E;{ printf '%s\\n\\n' '# Changelog' 'Complete repository history, listed chronologically.'\x3b git log --all --reverse --date=short --pretty=format:'## %ad — %s%n%n- Commit: `%H`%n- Author: %an <%ae>%n%n### Changed files%n' --name-status\x3b } > changelog.md;87800c70-26c0-4313-8213-35b3f7b052e0]633;C# Changelog
+# Changelog
 
 Complete repository history, listed chronologically.
 
@@ -7093,3 +7093,86 @@ M	README_mn.md
 - Author: Richard Callaby <rcallaby@gmail.com>
 
 ### Changed files
+
+## 2026-09-16 — Add "Mongolian" to README and table of contents
+
+- Commit: `b85d4f8d4be2226d70f4fbe87bbf809f5171af7d`
+- Author: rcallaby <rcallaby@gmail.com>
+
+### Changed files
+
+M	README_mn.md
+M	README.md
+
+## 2026-09-16 — Merge pull request #952 from rcallaby/mn-readme
+
+- Commit: `08d4464d18a8d9baef12dd8a6008c601d03a3d05`
+- Author: Richard Callaby <rcallaby@gmail.com>
+
+### Changed files
+
+## 2026-09-16 — Add Mongolian translation for lesson 01
+
+- Commit: `3a7c3500d5a5f2adce4c7b60847714bf92f7e62c`
+- Author: rcallaby <rcallaby@gmail.com>
+
+### Changed files
+
+M	README_mn.md
+A	Lessons/mn/Part-01-Introduction-to-Git/Part-01.md
+
+## 2026-09-16 — Merge pull request #953 from rcallaby/mn-lesson-01
+
+- Commit: `cb4fddb4e006d6db55fd9c2ee870d4b827dd2ec7`
+- Author: Richard Callaby <rcallaby@gmail.com>
+
+### Changed files
+
+## 2026-09-16 — Add Mongolian translation for lesson 02
+
+- Commit: `e00b3b5d9df5f4b487ad31b07d32c79ef5d2142d`
+- Author: rcallaby <rcallaby@gmail.com>
+
+### Changed files
+
+A	Lessons/mn/Part-02-Working-with-Branches/Part-02.md
+
+## 2026-09-16 — Merge pull request #954 from rcallaby/mn-lesson-02
+
+- Commit: `02c8f9dc1f17d4f6d25d8f2f61e775ce6dad2b69`
+- Author: Richard Callaby <rcallaby@gmail.com>
+
+### Changed files
+
+## 2026-09-16 — Add Mongolian translation for lesson 03
+
+- Commit: `eefb5e51ad77b2aeb3d58b50475b8f6d13e7d2e3`
+- Author: rcallaby <rcallaby@gmail.com>
+
+### Changed files
+
+A	Lessons/mn/Part-03-Using-Git-through-the-Command-Line/Part-03.md
+
+## 2026-09-16 — Merge pull request #955 from rcallaby/mn-lesson-03
+
+- Commit: `d9d5d4a931a0c8c5b4e7603996df7c4a4de6eebd`
+- Author: Richard Callaby <rcallaby@gmail.com>
+
+### Changed files
+
+## 2026-09-16 — Add Mongolian translation for lesson 04
+
+- Commit: `d7f8a148f2d8de1d54c7396c7c1d6dbe7f6bcb42`
+- Author: rcallaby <rcallaby@gmail.com>
+
+### Changed files
+
+A	Lessons/mn/Part-04-Collaborating-with-Remote-Repositories/Part-04.md
+
+## 2026-09-16 — Merge pull request #956 from rcallaby/mn-lesson-04
+
+- Commit: `c4a9af9d60dce76d3d4f75292f4a5d65c2ddf1d6`
+- Author: Richard Callaby <rcallaby@gmail.com>
+
+### Changed files
+

@@ -1,6 +1,5 @@
 # Git Best Practices and Tips
 
----
 ## Managing a clean commit history
 
 Version control systems like Git and platforms like GitHub have revolutionized the way software development is managed and collaborated upon. One essential aspect of using Git and GitHub effectively is maintaining a clean and organized commit history. A well-maintained commit history not only helps developers better understand the project's evolution but also aids in debugging, code reviews, and collaboration. In this article, we will explore various practices and techniques to manage a clean commit history in Git and GitHub.
